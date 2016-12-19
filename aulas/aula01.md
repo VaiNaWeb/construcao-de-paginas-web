@@ -1,4 +1,4 @@
-Informação muda tudo.
+* Informação muda tudo.
 
 Nosso universo é feito de matéria, energia e informação. Ao olhar para o espaço e para a infinidade de estrelas em suas diversas grandezas, temos uma sensação de paz e de que tudo está em uma ordem infinita. Os dias nascem, as noites chegam, as estrelas nascem, brilham e se apagam, asteróides viajam por aí e planetas orbitam. Mas por quê, dentro da grandeza do universo que somos capazes de observar, mesmo com os telescópios e lentes mais potentes criadas pela mais competente engenharia humana, não fomos capazes de encontrar vida? Por quê, de certa maneira, somos capazes de explicar em um parágrafo o que somos capazes de observar?
 
@@ -18,4 +18,4 @@ Vamos fazer parte dessa jornada? Aprender como fazer parte desse espaço e criar
 
 <história pessoal>
 
-Os elementos da internet
+* Os elementos da internet
