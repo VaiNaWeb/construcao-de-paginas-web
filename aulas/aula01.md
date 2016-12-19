@@ -12,4 +12,10 @@ E se houvesse um lugar onde poderíamos ter acesso a maior parte dessa informaç
 
 Essa pergunta foi feita por um grande cientista, chamado Tim-Berns-Lee. Ele imaginou uma rede, onde poderíamos 'linkar' informaçes e torná-las disponíveis a qualquer tempo, em qualquer parte, a qualquer pessoa. Uma rede aberta, que funcionasse como um grande cérebro coletivo da humanidade. Um espaço de diversidade onde poderíamos aprender, ajudar e revelar nossos talentos. Onde empresas, organizações, pessoas, todos seriam parte dela. Todos seriam ela.
 
-Aí está a internet. Em 2014, 
+Aí está a internet. Em 2014, 40% do planeta está nela. Trabalhando, estudando, divertindo, comprando, vendendo, conversando. Vivendo.
+
+Vamos fazer parte dessa jornada? Aprender como fazer parte desse espaço e criar páginas que possam ser acessíveis a qualquer lugar do planeta? A colocar nossos conhecimentos, ver e ser visto e mostrar que sim, a informaço é capaz de mudar tudo. Nossos conhecimentos, nossas carreiras, nossas famílias, nossa comunidade e nossas vidas.
+
+<história pessoal>
+
+Os elementos da internet
