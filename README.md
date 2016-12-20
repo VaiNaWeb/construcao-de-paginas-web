@@ -40,3 +40,10 @@ Todo o conteúdo criado ao decorrer das aulas é aberto e pode ser acompanhado a
 
 ## Aulas
 
+### Aula 01 - Ola Web, meu espaço no mundo.
+
+Entendendo como a internet funciona, como foi criada, e sua importância.
+
+### Aula 03 - Github e hospedagem gratuita gh-pages.
+
+Conhecendo o sistema de versionamento Git, armazenando e hospedando páginas através do Github com o Github Pages.
