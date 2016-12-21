@@ -1,4 +1,4 @@
-#Desafio01: Versionando uma música!
+#Desafio01: Versionando uma música
 
 1. Crie uma pasta
 2. Crie um arquivo de texto chamado musica.txt
