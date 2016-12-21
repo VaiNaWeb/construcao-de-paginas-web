@@ -8,7 +8,7 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 - [Aula 01](aulas/aula01/aula.md) - Olá Web, meu espaço no mundo.
 - [Aula 02](aulas/aula02/aula.md) - Desenvolvimento pessoal e Mercado de Trabalho.
 - [Aula 03](aulas/aula03/aula.md) - Github e hospedagem gratuita gh-pages.
-- [Aula 04](aulas/aula04/aula.md) - HTTP e HTML, a história da rede. CSS, Javascript  e conteúdo multimedia.
+- [Aula 04](aulas/aula04/aula.md) - HTTP e HTML, a história da rede. CSS, Javascript  e conteúdo multimídia.
 - [Aula 05](aulas/aula05/aula.md) - Evoluindo minha página, criando links e adicionando conteúdo (playbuzz e medium).
 - [Aula 06](aulas/aula06/aula.md) - Os elementos do hipertexto e semântica HTML, prática 1.
 - [Aula 07](aulas/aula07/aula.md) - Cidadania e Empreendedorismo Social.
