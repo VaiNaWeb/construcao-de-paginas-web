@@ -15,16 +15,25 @@ Um serviço oferecido pelo Github, que permite a criação de páginas na web a 
 ## Principais comandos
 
 `git init` Inicializa a pasta como git
+
 `git add` Adiciona alterações
+
 `git commit -m "comentario"` Commita, ou seja, marca as alterações e adiciona a elas um comentário
+
 `git status` Confere se há alterações para dar commit
+
 `git log` Exibe o histórico de commits que já foram feitos na pasta
+
 `git remote add origin https://github.com/seunome/suapasta.git` Sincroniza a pasta que está no computador à pasta que está no Github
+
 `git push` Sobe a pasta para o github
+
 `git pull` Faz download da pasta que está no Github para a pasta no computador
+
 `git clone` Faz download da pasta que está no Github para uma pasta que ainda não estava no computador
 
 ## Vale a leitura!
 
 [Guia rápido de Git](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+
 [Criando páginas responsivas com Github Pages](https://tableless.com.br/criando-paginas-web-para-seus-repositorios-com-o-github-pages/)
