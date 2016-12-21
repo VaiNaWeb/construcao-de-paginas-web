@@ -25,4 +25,4 @@
 10. Ainda no terminal, digite o camando para subir as alterações do seu computador para o Github
 11. Acesse o endereço seunome.github.io pelo seu navegador
 
-Não lembra dos principais comandos do git? Sinta-se à vontade para ler novamente a [aula](../aula.md), e/ou o resumo dela. 
+Não lembra dos principais comandos do git? Sinta-se à vontade para ler novamente a [aula](../aula03/aula.md), e/ou o [resumo](../aula03/resumo.md) dela. 
