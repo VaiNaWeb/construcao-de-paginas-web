@@ -1,11 +1,11 @@
 # VaiNaWeb
 
 Projeto que tem como objetivo ensinar desenvolvimento Web em organizações de base comunitária.
-Todo o conteúdo criado ao decorrer das aulas é aberto e pode ser acompanhado aqui. 
+Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado aqui. 
 
 ## Calendário
 
-- [Aula 01](aulas/aula01/aula.md) - Ola Web, meu espaço no mundo.
+- [Aula 01](aulas/aula01/aula.md) - Olá Web, meu espaço no mundo.
 - [Aula 02](aulas/aula02/aula.md) - Desenvolvimento pessoal e Mercado de Trabalho.
 - [Aula 03](aulas/aula03/aula.md) - Github e hospedagem gratuita gh-pages.
 - [Aula 04](aulas/aula04/aula.md) - HTTP e HTML, a história da rede. CSS, Javascript  e conteúdo multimedia.
@@ -40,7 +40,7 @@ Todo o conteúdo criado ao decorrer das aulas é aberto e pode ser acompanhado a
 
 ## Aulas
 
-### Aula 01 - Ola Web, meu espaço no mundo.
+### Aula 01 - Olá Web, meu espaço no mundo.
 
 Entendendo como a internet funciona, como foi criada, e sua importância.
 
