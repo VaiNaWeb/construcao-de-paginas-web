@@ -38,7 +38,7 @@ Agora nossa pasta já existe no Github e queremos criar uma página dela usando 
 
 ### Ramificando páginas
 
-O Git tem um recurso maravilhoso chamado Branch, ramo em português. Vamos voltar a pensar no Git como um fotografo de alterações! Imagine agora que nossas fotografias agora são frutos de uma árvore, e que podem crescer por vários ramos diferentes. Podemos escolher quais ramos queremos que cresçam, e podemos dar nomes a eles.
+O Git tem um recurso maravilhoso chamado Branch, ramo em português. Vamos voltar a pensar no Git como um fotografo de alterações! Imagine agora que nossas fotografias são frutos de uma árvore, e que podem crescer por vários ramos diferentes. Podemos escolher quais ramos queremos que cresçam, e podemos dar nomes a eles.
 
 Vamos então criar um ramo chamado gh-pages onde crescerão nossos frutinhos, ops! nossas páginas. Usamos o comando `git checkout -b gh-pages` para criar um ramo e mudar para ele ao mesmo tempo, então criamos ou mudamos nossos arquivos como queremos, damos commit, depois damos push para subir ele ao Github.
 
