@@ -1,1 +1,1 @@
-#Evoluindo minha página, criando links e adicionando conteúdo (playbuzz e medium
+#Evoluindo minha página, criando links e adicionando conteúdo (playbuzz e medium)
