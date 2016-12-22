@@ -1,6 +1,6 @@
 # Github e hospedagem gratuita Github Pages
 
-Vamos colocar nossa primmeira página online, e para isso vamos usar o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que ele é e como funciona.
+Vamos colocar nossa primeira página online, e para isso vamos usar o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que ele é e como funciona.
 
 ## Git
 
