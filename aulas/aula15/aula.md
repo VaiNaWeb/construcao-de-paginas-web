@@ -1,0 +1,1 @@
+#Ajustando estilos responsivos
