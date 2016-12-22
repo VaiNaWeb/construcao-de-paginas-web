@@ -1,6 +1,6 @@
 #HTTP e HTML, a história da rede. CSS, Javascript e conteúdo multimídia
 
-##Como nos comunicamos através Internet
+##Como nos comunicamos através da Internet
 
 Quando dois computadores estão conectados à Internet eles podem conversar uns com os outros.
 
@@ -22,6 +22,6 @@ Em 1990 Tim sugeriu um padrão para construção de documentos com hipertextos, 
 
 A HTML é a linguagem base de uma página da Web. É ela quem cria a estrutura das nossas páginas, que podem conter textos, imagens, vídeos, e dar vida a tantos sites fantásticos que conhecemos hoje. Um documento em HTML é composto por uma estrutura formada por TAGS, que são marcações para identificar os diversos tipos de conteúdos e ainda organiza-los de forma semântica.
 
-Até então as páginas já tinham uma bacana, e podiam ser acessadas, mas as pessoas começaram a pensar em como torna-las mais amigáveis e estéticamente bonitas, e isso era muito difícil de fazer somente com HTML. Algum tempo depois, em 1996 nasceu a Folha de Estilos em Cascata, a CSS, que veio para deixar as nossas páginas literalmente cheias de estilo!
+Até então as páginas já tinham uma estrutura, e podiam ser acessadas, mas as pessoas começaram a pensar em como torna-las mais amigáveis e estéticamente bonitas, e isso era muito difícil de fazer somente com HTML. Algum tempo depois, em 1996 nasceu a Folha de Estilos em Cascata, a CSS, que veio para deixar as nossas páginas literalmente cheias de estilo!
 
 Tudo continuou evoluindo maravilhosamente rápido, e algum tempo depois foi criada a linguagem Javascript que serve para muitas coisas, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor por exemplo, e coisas bem mais complexas que vamos ver mais adiante no curso.
