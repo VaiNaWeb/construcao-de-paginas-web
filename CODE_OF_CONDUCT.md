@@ -3,7 +3,7 @@
 ## Nossa promessa
 
 Com o interesse de fomentar uma comunidade aberta e acolhedora,
-nós, como colaboradores e administradores deste projeto, comprometemo-nos
+nós, como colaboradores e administradores, comprometemo-nos
 a fazer a participação deste projeto uma experiência livre de assédio
 para todos, independentemente da aparência pessoal, classe social, deficiência,
 diferença corporal, etnia, gênero, idade, identidade ou expressão
