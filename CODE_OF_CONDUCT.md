@@ -8,7 +8,7 @@ a fazer a participação deste projeto uma experiência livre de assédio
 para todos, independentemente da aparência pessoal, classe social, deficiência,
 diferença corporal, etnia, gênero, idade, identidade ou expressão
 de gênero, identidade ou orientação sexual, nacionalidade, nível de
-experiência, raça ou religião.
+experiência, ou religião.
 
 ## Nossos padrões
 
