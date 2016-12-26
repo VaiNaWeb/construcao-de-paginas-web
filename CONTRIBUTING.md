@@ -10,7 +10,8 @@ O VaiNaWeb é um projeto inteiramente Open Source e aqui estão algumas diretriz
 
 O Vai na Web é um projeto de iniciativa do Precisa Ser em parceria com o Educap, para promover cursos de desenvolvimento web para jovens, em organizações de base comunitária.
 
-Sabemos que existe muito potencial expressivo, profissional e criativo a ser revelado em regiões de precariedade social. Em busca de descobrir e expandir talentos inexplorados, o Vai na Web procura despertar os jovens para as possibilidades trazidas pela tecnologia. 
+Sabemos que existe muito potencial expressivo, profissional e criativo a ser revelado em regiões de precariedade social.
+Em busca de descobrir e expandir talentos inexplorados, o Vai na Web procura despertar os jovens para as possibilidades trazidas pela tecnologia. 
 
 Com os avanços na área de tecnologia da informação, torna-se cada vez mais imprescindível o acesso e o aprendizado das técnicas para uso, contribuição e domínio das ferramentas em desenvolvimento web. Encontramos neste curso a oportunidade incentivar a auto descoberta desses jovens para uma jornada de desenvolvimento pessoal e sucesso profissional.
 
