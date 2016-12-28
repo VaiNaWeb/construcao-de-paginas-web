@@ -36,11 +36,11 @@ Tudo continuou evoluindo maravilhosamente rápido, e algum tempo depois foi cria
 
 Já aprendemos o que é e para que serve, agora vamos conhecer suas principais TAGs, que compõem a estrutura básica de um documento em HTML.
 
-```
+```html
 <html>
 
     <head>
-	<title></title>
+		<title></title>
     </head>
 
     <body>
@@ -54,7 +54,7 @@ Já aprendemos o que é e para que serve, agora vamos conhecer suas principais T
 
 A HTML usa um conjunto pré-definido de elementos para identificar os diversos tipos de conteúdo. Os elementos, contém uma ou mais tags que contém ou expressam um determinado conteúdo. 
 
-Cada tag funciona como uma etiqueta, que diz ao navegador qual elemento está escrito ali e como ele deve interpretar, por isso, cada tag tem seu significado e deve ser usado corretamente. A tag html indica que dentro dela haverá elementos em html, dentro dela temos head que significa cabeçalho, e body que significa corpo.
+Cada tag funciona como uma etiqueta, que diz ao navegador qual elemento está escrito ali e como ele deve interpretar, por isso, cada tag tem seu significado e deve ser usado corretamente. A tag <html> indica que dentro dela haverá elementos em html, dentro dela temos <head> que significa cabeçalho, e <body> que significa corpo.
 
 Uma tag começa com o sinal de menor ("<") e termina com o sinal de maior (">"). Certifique-se sempre de fechar cada tag, pois embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não são.
 
