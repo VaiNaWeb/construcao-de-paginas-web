@@ -1,39 +1,17 @@
-# Github e hospedagem gratuita Github Pages
+##Como nos comunicamos através da Internet
 
-## Git
+* Quando dois computadores estão conectados à Internet eles podem conversar uns com os outros.
 
-Um sistema de controle de versão e gerenciamento de código fonte.
+* O navegador pede os arquivos que contém os códigos do site - que estão armazenados no servidor - através do endereço. O servidor então envia os arquivos de volta para que o navegador possa interpretar seu código e exibir a página na tela.
 
-## Github
+* Um servidor é um computador especial que contém arquivos de páginas da web. Seu computador em casa ou na escola não é um servidor, porque ele não está conectado diretamente à Internet. Nós nos conectamos à Internet através de um Provedor de Serviços de Internet.
 
-Uma plataforma social, onde milhares de pessoas constroem códigos, e mais algumas coisas, de forma colaborativa, aberta e gratuita. O Github oferece um espaço para armazenar pastas e arquivos com seu conteúdo versionado através do Git.
+##Como páginas da Web são construídas
 
-## Github Pages
+* A HTML é a linguagem base de uma página da Web. É ela quem cria a estrutura das nossas páginas, que podem conter textos, imagens, vídeos, e dar vida a tantos sites fantásticos que conhecemos hoje.
 
-Um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
+* Um documento em HTML é composto por uma estrutura formada por TAGS, que são marcações para identificar os diversos tipos de conteúdos e ainda organiza-los de forma semântica.
 
-## Principais comandos
+* Até então as páginas já tinham uma estrutura, e podiam ser acessadas, mas as pessoas começaram a pensar em como torna-las mais amigáveis e estéticamente bonitas, e isso era muito difícil de fazer somente com HTML. Algum tempo depois, nasceu a Folha de Estilos em Cascata, a CSS, que veio para deixar as nossas páginas literalmente cheias de estilo.
 
-`git init` Inicializa a pasta como git
-
-`git add` Adiciona alterações
-
-`git commit -m "comentario"` Commita, ou seja, marca as alterações e adiciona a elas um comentário
-
-`git status` Confere se há alterações para dar commit
-
-`git log` Exibe o histórico de commits que já foram feitos na pasta
-
-`git remote add origin https://github.com/seunome/suapasta.git` Sincroniza a pasta que está no computador à pasta que está no Github
-
-`git push` Sobe a pasta para o github
-
-`git pull` Faz download da pasta que está no Github para a pasta no computador
-
-`git clone` Faz download da pasta que está no Github para uma pasta que ainda não estava no computador
-
-## Vale a leitura!
-
-[Guia rápido de Git](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
-
-[Criando páginas responsivas com Github Pages](https://tableless.com.br/criando-paginas-web-para-seus-repositorios-com-o-github-pages/)
+* Tudo continuou evoluindo maravilhosamente rápido, e algum tempo depois foi criada a linguagem Javascript que serve para muitas coisas, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor por exemplo, e coisas bem mais complexas.

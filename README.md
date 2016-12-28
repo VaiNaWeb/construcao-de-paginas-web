@@ -7,25 +7,25 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 - [Aula 01](aulas/aula01/aula.md) - Olá Web, meu espaço no mundo
 - [Aula 02](aulas/aula02/aula.md) - Desenvolvimento pessoal e mercado de Trabalho
-- [Aula 03](aulas/aula03/aula.md) - Github e hospedagem gratuita Github Pages
-- [Aula 04](aulas/aula04/aula.md) - HTTP e HTML, a história da rede. CSS, Javascript  e conteúdo multimídia
-- [Aula 05](aulas/aula05/aula.md) - Evoluindo minha página, criando links e adicionando conteúdo (playbuzz e medium)
-- [Aula 06](aulas/aula06/aula.md) - Os elementos do hipertexto e semântica HTML, prática 1
+- [Aula 03](aulas/aula03/aula.md) - Introdução ao HTML e CSS
+- [Aula 04](aulas/aula04/aula.md) - Evoluindo minha página com mais tags HTML
+- [Aula 05](aulas/aula05/aula.md) - Conhecendo os Seletores do CSS
+- [Aula 06](aulas/aula06/aula.md) - Criando páginas semânticas
 - [Aula 07](aulas/aula07/aula.md) - Cidadania e Empreendedorismo Social
-- [Aula 08](aulas/aula08/aula.md) - Os elementos do hipertexto e semântica HTML, prática 2
-- [Aula 09](aulas/aula09/aula.md) - O início dos estilos, principais propriedades CSS e seletores. Jogo 1
+- [Aula 08](aulas/aula08/aula.md) - Modelo de caixa com CSS
+- [Aula 09](aulas/aula09/aula.md) - Posicionamento de elementos com CSS
 - [Aula 10](aulas/aula10/aula.md) - Desenvolvimento pessoal e Mercado de Trabalho
-- [Aula 11](aulas/aula11/aula.md) - O início dos estilos, principais propriedades CSS e seletores (continuação)
-- [Aula 12](aulas/aula12/aula.md) - O modelo de caixa do CSS. Posicionamento 1
-- [Aula 13](aulas/aula13/aula.md) - O modelo de caixa do CSS. Posicionamento 2
-- [Aula 14](aulas/aula14/aula.md) - Múltiplas telas de resolução" Media Queries
-- [Aula 15](aulas/aula15/aula.md) - Ajustando estilos responsivos
+- [Aula 11](aulas/aula11/aula.md) - Formulários com HTML5
+- [Aula 12](aulas/aula12/aula.md) - Criando páginas para múltiplos dispositivos
+- [Aula 13](aulas/aula13/aula.md) - Introdução ao modelo flexível de caixas
+- [Aula 14](aulas/aula14/aula.md) - Conhecendo o pdoer do CSS3
+- [Aula 15](aulas/aula15/aula.md) - Revisando fundamentos principais do HTML E CSS
 - [Aula 16](aulas/aula16/aula.md) - Cidadania e Empreendedorismo Social
-- [Aula 17](aulas/aula17/aula.md) - Revisão 1 e projeto intermediário
-- [Aula 18](aulas/aula18/aula.md) - Revisão 1 e projeto intermediário (continuação)
+- [Aula 17](aulas/aula17/aula.md) - Conhecendo o terminal do Linux
+- [Aula 18](aulas/aula18/aula.md) - Planejamento e iniciando projeto intermediário
 - [Aula 19](aulas/aula19/aula.md) - Prevenção ao HIV e outras DSTs
-- [Aula 20](aulas/aula20/aula.md) - Modelo flexível de caixas. Jogo 1
-- [Aula 21](aulas/aula21/aula.md) - Modelo flexível de caixas. Jogo 2
+- [Aula 20](aulas/aula20/aula.md) - Desenvolvimento do projeto intermediário
+- [Aula 21](aulas/aula21/aula.md) - Github e hospedagem gratuita Github Pages
 - [Aula 22](aulas/aula22/aula.md) - Cidadania e Empreendedorismo Social
 - [Aula 23](aulas/aula23/aula.md) - Vai na Web, definição do Projeto
 - [Aula 24](aulas/aula24/aula.md) - Vai na Web, mapa do site e planejamento
@@ -42,8 +42,21 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 ### Aula 01 - Olá Web, meu espaço no mundo
 
-Entendendo como a internet funciona, como foi criada, e sua importância.
+**Objetivos:** Entendendo como a internet funciona, como foi criada, e sua importância.<br>
+**Tópicos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** <br>
 
-### Aula 03 - Github e hospedagem gratuita gh-pages
+### Aula 02 - Desenvolvimento pessoal e mercado de Trabalho
 
-Conhecendo o sistema de versionamento Git, armazenando e hospedando páginas através do Github com o Github Pages.
+**Objetivos:** <br>
+**Tópicos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** <br>
+
+### Aula 03 - Introdução ao HTML e CSS
+
+**Objetivos:** Entender como as ṕaginas na Web são criadas. Conhecer os principais fundamentos da HTML, sua sintaxe básica e compreender como a HTML e CSS funcionam juntas. Juntos vamos estruturar uma página em HTML, adicionar conteúdo, e estilizar alguns elementos com CSS.<br>
+**Tópicos:** <br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula03), [Resumo](aulas/aula03/resumo.md), [Desafios](aulas/aula03/desafios.md).<br>
