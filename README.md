@@ -56,7 +56,7 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 ### Aula 03 - Introdução ao HTML e CSS
 
-**Objetivos:** Entender como as ṕaginas na Web são criadas. Conhecer os principais fundamentos da HTML, sua sintaxe básica e compreender como a HTML e CSS funcionam juntas. Juntos vamos estruturar uma página em HTML, adicionar conteúdo, e estilizar alguns elementos com CSS.<br>
+**Objetivos:** Entender como as ṕaginas na Web são criadas. Conhecer os principais fundamentos da HTML, sua sintaxe básica e compreender como HTML e CSS funcionam. Juntos vamos estruturar uma página em HTML, adicionar conteúdo, e estilizar alguns elementos com CSS.<br>
 **Tópicos:** <br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula03), [Resumo](aulas/aula03/resumo.md), [Desafios](aulas/aula03/desafios.md).<br>
