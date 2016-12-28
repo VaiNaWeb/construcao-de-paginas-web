@@ -98,4 +98,4 @@ Exemplo:
 ```
 
 Há vários elementos diferentes, ontinue conhecendo mais alguns!<br>
-https://developer.mozilla.org/pt-R/docs/Web/HTML/Element
+https://developer.mozilla.org/pt-BR/docs/Aprender
