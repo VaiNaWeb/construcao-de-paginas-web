@@ -31,3 +31,48 @@ Até então as páginas já tinham uma estrutura, e podiam ser acessadas, mas as
 ###JS cria interações
 
 Tudo continuou evoluindo maravilhosamente rápido, e algum tempo depois foi criada a linguagem Javascript que serve para muitas coisas, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor por exemplo, e coisas bem mais complexas que vamos ver mais adiante no curso.
+
+##Estrutura básica HTML
+
+Já aprendemos o que é e para que serve, agora vamos conhecer suas principais TAGs, que compõem a estrutura básica de um documento em HTML.
+
+```
+<html>
+
+    <head>
+	<title></title>
+    </head>
+
+    <body>
+
+        <p>Olá mundo!</p>
+
+    </body>
+
+</html>
+```
+
+A HTML usa um conjunto pré-definido de elementos para identificar os diversos tipos de conteúdo. Os elementos, contém uma ou mais tags que contém ou expressam um determinado conteúdo. 
+
+Cada tag funciona como uma etiqueta, que diz ao navegador qual elemento está escrito ali e como ele deve interpretar, por isso, cada tag tem seu significado e deve ser usado corretamente. A tag html indica que dentro dela haverá elementos em html, dentro dela temos head que significa cabeçalho, e body que significa corpo.
+
+Uma tag começa com o sinal de menor ("<") e termina com o sinal de maior (">"). Certifique-se sempre de fechar cada tag, pois embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não são.
+
+Exemplo:
+
+```html
+<p>Olá eu sou um parágrafo.</p>
+```
+
+Nossa estrutura HTML contém vários elementos diferentes, e como vimos anteriormente, alguns elementos até estão dentro de outros elementos. Como se guardassemos uma caixa, dentro de outra caixa, e dentro dela colocássemos outra caixa, e outra caixa... Confuso, não é?
+
+Imaginar a cena das caixas já pode ter sido confuso para muita gente, e para o navegador poderia ser também. Para que isso não aconteça, nós aninhamos nossos elementos, ou seja, usamos esses espaçamentos nas linhas para indicar que um elemento está dentro de outro. Exemplo:
+
+```html
+<section>
+	<p>Olá eu sou um parágrafo.</p> 
+</section>
+```
+
+Há vários elementos diferentes, continue conhecendo mais alguns!<br>
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
