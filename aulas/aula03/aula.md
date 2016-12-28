@@ -52,7 +52,7 @@ Já aprendemos o que é e para que serve, agora vamos conhecer suas principais T
 </html>
 ```
 
-A HTML usa um conjunto pré-definido de elementos para identificar os diversos tipos de conteúdo. Os elementos, contém uma ou mais tags que contém ou expressam um determinado conteúdo. 
+A HTML usa um conjunto pré-definido de elementos para identificar os diversos tipos de conteúdo. Os elementos, contém uma ou mais tags que contém ou expressam um determinado conteúdo.
 
 Cada tag funciona como uma etiqueta, que diz ao navegador qual elemento está escrito ali e como ele deve interpretar, por isso, cada tag tem seu significado e deve ser usado corretamente. A tag <html> indica que dentro dela haverá elementos em html, dentro dela temos <head> que significa cabeçalho, e <body> que significa corpo.
 
@@ -74,5 +74,28 @@ Imaginar a cena das caixas já pode ter sido confuso para muita gente, e para o 
 </section>
 ```
 
-Há vários elementos diferentes, continue conhecendo mais alguns!<br>
-https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element
+Existem seis níveis diferentes de títulos, `H1` é o mais importante,` h6` é o menos importante. Em HTML, o texto para cabeçalhos é escrito dentro dos elementos de título: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` ou `<h6>`.
+
+Exemplo:
+
+```html
+<h1>Eu sou o título mais importante!</h1>
+<h2>Eu sou um pouco menos importante</h2>
+<h3>Eu sou um pouco menos importante</h3>
+<h4>Eu sou um pouco menos importante</h4>
+<h5>Eu sou um pouco menos importante</h5>
+<h6>Eu sou o menos importante</h6>
+```
+
+Para incluir imagens em nossa página, precisamos chamar-las através do elemento `<img>` e adicionar um caminho para a imagem que queremos. Dentro da tag de abertura deste elemento, adicionaremos um atributo que especifica onde obter a imagem que queremos incluir. Atributos são coisas que podemos acrescentar a elementos que ajudam a fazer coisas bem específicas, vamos aprender mais  sobre eles no decorrer do curso. 
+
+Um elemento `<img>` sempre terá um atributo src e um alt. Ah! Um elemento `<img>` é um daqueles elementos especiais que não precisam de tag de fechamento, ela já se auto fecha.
+
+Exemplo:
+
+```html
+<img src="http://www.vainaweb.com.br/img/vainaweb.svg"/>
+```
+
+Há vários elementos diferentes, ontinue conhecendo mais alguns!<br>
+https://developer.mozilla.org/pt-R/docs/Web/HTML/Element

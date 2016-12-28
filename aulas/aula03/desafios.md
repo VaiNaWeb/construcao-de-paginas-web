@@ -11,7 +11,6 @@
 2. Adicione um header com o título principal
 3. Adicione uma section
 4. Adicione dentro da section um parágrafo contando quem você
-5. Crie uma lista com 5 coisas que você gosta
 
 #Desafio03: Na caixinha do coração
 
