@@ -29,17 +29,18 @@
 * Exemplo de estrutura básica em html:
 
 ```html
+<!DOCTYPE html>
 <html>
 
-    <head>
-		<title></title>
-    </head>
+	<head>
+		<title> </title>
+	</head>
 
-    <body>
+	<body>
 
-        <p>Olá mundo!</p>
-
-    </body>
+		<p>Olá mundo!</p>
+		
+	</body>
 
 </html>
 ```

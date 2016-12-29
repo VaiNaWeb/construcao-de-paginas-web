@@ -39,17 +39,18 @@ Tudo continuou evoluindo maravilhosamente rápido, e algum tempo depois foi cria
 Já aprendemos o que é e para que serve, agora vamos conhecer suas principais TAGs, que compõem a estrutura básica de um documento em HTML.
 
 ```html
+<!DOCTYPE html>
 <html>
 
-    <head>
-		<title></title>
-    </head>
+	<head>
+		<title> </title>
+	</head>
 
-    <body>
+	<body>
 
-        <p>Olá mundo!</p>
-
-    </body>
+		<p>Olá mundo!</p>
+		
+	</body>
 
 </html>
 ```
