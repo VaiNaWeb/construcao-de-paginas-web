@@ -20,6 +20,8 @@ No final dos anos 80 um físico chamado Tim Berners-Lee, começou a idealizar co
 
 Em 1990 Tim sugeriu um padrão para construção de documentos com hipertextos, e assim logo nasceu a Linguagem de Marcação de Hipertexto, a HTML, que evoluiu muito até chegar na versão atual.
 
+Você pode imaginar um site como um grande livro, onde páginas e mais páginas são ligadas umas as outras, e durante os capítulos podemos colocar atalhos para outras páginas, diferente do livro, não precisamos folhear, tudo está ao alcance de um clique. Assim como o conteúdo de um livro, nossos sites contém textos, que são organizados com os elementos em HTML, que vamos aprender, e os nossos navegadores já conhecem muito bem.
+
 ###HTML estrutura páginas
 
 A HTML é a linguagem base de uma página da Web. É ela quem cria a estrutura das nossas páginas, que podem conter textos, imagens, vídeos, e dar vida a tantos sites fantásticos que conhecemos hoje. Um documento em HTML é composto por uma estrutura formada por TAGS, que são marcações para identificar os diversos tipos de conteúdos e ainda organiza-los de forma semântica.
