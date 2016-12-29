@@ -23,4 +23,16 @@ Vamos construir a biografia do nosso ídolo. Com o nome dele, uma foto, e alguns
 7. Adicione uma ou mais listas não ordenadas de coisas
 8. Adicione um footer, e dentro dele um paŕagrafo com seu nome
 
+#Desafio02: Meu álbum de figurinhas
+
+Agora, vamos criar um álbum de figurinhas. Sinta-se livre para escolher o tema do seu álbum, pokemon, futebol, harry potter, você escolhe!
+
+1. Crie uma página com a estrutura básica completa
+2. Adicione um header
+3. Adicione um título dentro do header
+4. Adicione um main com uma section
+5. Adicione uma tabela dentro da section
+6. Crie três colunas e três linhas
+7. Adicione nove imagens, uma em célula
+
 Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula04/aula.md), e/ou o [resumo](../aula04/resumo.md) dela. 
