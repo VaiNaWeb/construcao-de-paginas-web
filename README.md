@@ -8,7 +8,7 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 - [Aula 01](aulas/aula01/aula.md) - Olá Web, meu espaço no mundo
 - [Aula 02](aulas/aula02/aula.md) - Desenvolvimento pessoal e mercado de Trabalho
 - [Aula 03](aulas/aula03/aula.md) - Introdução ao HTML e CSS
-- [Aula 04](aulas/aula04/aula.md) - Evoluindo minha página com mais tags HTML
+- [Aula 04](aulas/aula04/aula.md) - Evoluindo minha página com mais HTML
 - [Aula 05](aulas/aula05/aula.md) - Conhecendo os Seletores do CSS
 - [Aula 06](aulas/aula06/aula.md) - Criando páginas semânticas
 - [Aula 07](aulas/aula07/aula.md) - Cidadania e Empreendedorismo Social
@@ -43,14 +43,12 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 ### Aula 01 - Olá Web, meu espaço no mundo
 
 **Objetivos:** Entendendo como a internet funciona, como foi criada, e sua importância.<br>
-**Tópicos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 
 ### Aula 02 - Desenvolvimento pessoal e mercado de Trabalho
 
 **Objetivos:** <br>
-**Tópicos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 
@@ -60,8 +58,8 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula03), [Resumo](aulas/aula03/resumo.md), [Desafios](aulas/aula03/desafios.md).<br>
 
-### Aula 04 - Evoluindo minha página com mais tags HTML
+### Aula 04 - Evoluindo minha página com mais HTML
 
-**Objetivos:** <br>
+**Objetivos:** Conhecer e aprender a como usar mais elementos HTML, incluindo hiperlinks, listas, tabelas e mais algumas coisas interessantes.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula03), [Resumo](aulas/aula04/resumo.md), [Desafios](aulas/aula04/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula04), [Resumo](aulas/aula04/resumo.md), [Desafios](aulas/aula04/desafios.md).<br>
