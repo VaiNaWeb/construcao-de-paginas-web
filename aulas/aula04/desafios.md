@@ -23,7 +23,7 @@ Vamos construir a biografia do nosso ídolo. Com o nome dele, uma foto, e alguns
 7. Adicione uma ou mais listas não ordenadas de coisas
 8. Adicione um footer, e dentro dele um paŕagrafo com seu nome
 
-#Desafio02: Meu álbum de figurinhas
+#Desafio03: Meu álbum de figurinhas
 
 Agora, vamos criar um álbum de figurinhas. Sinta-se livre para escolher o tema do seu álbum, pokemon, futebol, harry potter, você escolhe!
 
@@ -34,5 +34,15 @@ Agora, vamos criar um álbum de figurinhas. Sinta-se livre para escolher o tema 
 5. Adicione uma tabela dentro da section
 6. Crie três colunas e três linhas
 7. Adicione nove imagens, uma em célula
+
+#Desafio04: Guia turístico
+
+Já conhecemos a estrutura do HTML muito bem, e escrevemos ele de forma bem semântica. Agora vamos exercitar o que aprendemos sobre hiperlinks. Criaremos um guia turístico, escolha uma cidade de sua preferência e vamos começar a codificar!
+
+1. Crie uma página com a estrutura básica completa
+2. Adicione um header
+3. Adicione um título dentro do header
+4. Adicione um main com três sections
+5. Adicione uma imagem e um parágrafo dentro de cada section, com imagens da cidade que você escolheu e informações sobre ela.
 
 Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula04/aula.md), e/ou o [resumo](../aula04/resumo.md) dela. 
