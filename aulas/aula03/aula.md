@@ -76,6 +76,15 @@ Imaginar a cena das caixas já pode ter sido confuso para muita gente, e para o 
 	<p>Olá eu sou um parágrafo.</p> 
 </section>
 ```
+Construíamos essas caixas simplesmente com uma tag chamada `<div>`. Imagine que um menu era chamado de div, um rodapé era chamado de div, uma seção era chamada de div, isso era bastante confuso. Com a chegada do HTML5, que vamos estudar nesse curso, ganhamos algumas tags com significado semântico, o que foi bastante importante para os navegadores, usuários e facilitou claro a nossa vida de desenvolvedor também. Agora temos uma tag `<header>` para cabeçalho, uma tag `<footer>` para rodapé, e mais algumas:
+
+`<section>` Define uma seção<br>
+`<nav>` Define um menu com links de navegação<br>
+`<article>` Pode definir um artigo, um comentário enviado pelo usuário, etc<br>
+`<aside>` Define um conteúdo reservado dentro página.<br>
+`<header>` Define o cabeçalho de uma página ou seção.<br>
+`<footer>` Define o rodapé de uma página ou seção. <br>
+`<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.<br>
 
 Existem seis níveis diferentes de títulos, `H1` é o mais importante,` h6` é o menos importante. Em HTML, o texto para cabeçalhos é escrito dentro dos elementos de título: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` ou `<h6>`.
 
@@ -100,5 +109,6 @@ Exemplo:
 <img src="http://www.vainaweb.com.br/img/vainaweb.svg"/>
 ```
 
-Há vários elementos diferentes, ontinue conhecendo mais alguns!<br>
-https://developer.mozilla.org/pt-BR/docs/Aprender
+Há vários elementos diferentes, continue conhecendo mais alguns!<br>
+https://developer.mozilla.org/pt-BR/docs/Aprender<br>
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list
