@@ -106,7 +106,7 @@ Um elemento `<img>` sempre terá um atributo src e um alt. Ah! Um elemento `<img
 Exemplo:
 
 ```html
-<img src="http://www.vainaweb.com.br/img/vainaweb.svg"/>
+<img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo do vai na web"/>
 ```
 
 Há vários elementos diferentes, continue conhecendo mais alguns!<br>
