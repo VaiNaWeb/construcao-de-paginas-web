@@ -77,4 +77,5 @@ Exemplo:
 Leia mais!<br>
 https://developer.mozilla.org/pt-BR/docs/Aprender<br>
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list<br>
-http://jlcarvalho.github.io/guia-frontend/
+http://jlcarvalho.github.io/guia-frontend/<br>
+https://diveintohtml5.com.br/
