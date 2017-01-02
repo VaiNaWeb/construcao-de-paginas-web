@@ -43,7 +43,8 @@
 	</body>
 
 </html>
-``
+```
+
 ##Tags do html5
 
 `<section>` Define uma seção<br>
