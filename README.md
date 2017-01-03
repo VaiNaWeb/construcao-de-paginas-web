@@ -9,7 +9,7 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 - [Aula 02](aulas/aula02/aula.md) - Desenvolvimento pessoal e mercado de Trabalho
 - [Aula 03](aulas/aula03/aula.md) - Introdução ao HTML e CSS
 - [Aula 04](aulas/aula04/aula.md) - Evoluindo minha página com mais HTML
-- [Aula 05](aulas/aula05/aula.md) - Conhecendo os poderes da CSS
+- [Aula 05](aulas/aula05/aula.md) - Conhecendo CSS e seus poderes
 - [Aula 06](aulas/aula06/aula.md) - Criando páginas semânticas
 - [Aula 07](aulas/aula07/aula.md) - Cidadania e Empreendedorismo Social
 - [Aula 08](aulas/aula08/aula.md) - Modelo de caixa com CSS
@@ -63,3 +63,9 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 **Objetivos:** Conhecer e aprender a como usar mais elementos HTML, incluindo hiperlinks, listas, tabelas e mais algumas coisas interessantes.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text]() Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula04), [Resumo](aulas/aula04/resumo.md), [Desafios](aulas/aula04/desafios.md).<br>
+
+### Aula 05 - Conhecendo CSS e seus poderes
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** <br>
