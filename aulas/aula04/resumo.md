@@ -57,7 +57,7 @@
     <li>Papel</li>
 </ul>
 
-###Listas de definição: onde os itens são definidos.
+- Listas de definição: onde os itens são definidos.
 
 ```html
 <dl>
