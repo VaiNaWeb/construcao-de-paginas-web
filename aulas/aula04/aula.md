@@ -30,7 +30,6 @@ Existem três tipos de listas: as ordenadas, não ordenadas e de definições.
 
 Assim como o nome parece sugerir, são listas onde a ordem dos itens importam, e podem ser enumerados.
 
-
 ```html
 <ol>
     <li>Caneta</li>
@@ -40,6 +39,14 @@ Assim como o nome parece sugerir, são listas onde a ordem dos itens importam, e
     <li>Papel</li>
 </ol>
 ```
+
+<ol>
+    <li>Caneta</li>
+    <li>Lápis</li>
+    <li>Borracha</li>
+    <li>Tesoura</li>
+    <li>Papel</li>
+</ol>
 
 ###Não ordenadas
 
@@ -54,6 +61,13 @@ Nessa, os itens não são enumerados, e podem estar acompanhados apenas de um s�
     <li>Papel</li>
 </ul>
 ```
+<ul>
+    <li>Caneta</li>
+    <li>Lápis</li>
+    <li>Borracha</li>
+    <li>Tesoura</li>
+    <li>Papel</li>
+</ul>
 
 ###De definição
 
@@ -68,7 +82,16 @@ Temos também a de definição, onde os itens são definidos.
 </dl>
 ```
 
+<dl>
+    <dt>Caneta</dt>
+        <dd>Azul, com tinta</dd>
+    <dt>Lápis</dt>
+        <dd>De madeira</dd>
+</dl>
+
 ##Criando tabelas
+
+Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada célula de dados será uma Table Data, ou `<td> Podemos se nececessrio adicionar o atributo rowspan, que vai criar uma expansão de linha nas células. Podemos também usar o atributo colspan e teremos uma expansão de coluna nas células.
 
 ```html
 <table>
@@ -86,3 +109,17 @@ Temos também a de definição, onde os itens são definidos.
   </tr>
 </table>
 ```
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Sobre</th>
+  </tr>
+  <tr>
+    <td>Maria</td>
+    <td>Gosta de cachorros</td>
+  </tr>
+  <tr>
+    <td>Rosa</td>
+    <td>Solta pipa com os irmãos</td>
+  </tr>
+</table>
