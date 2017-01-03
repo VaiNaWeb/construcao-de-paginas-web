@@ -1,8 +1,8 @@
 #Evoluindo minha página com mais HTML
 
-##Listando coisas
+##Conectando páginas
 
-Existem três tipos de listas: as ordenadas, não ordenadas e de definições.
+Sabemos que nossos sites são um conjunto de páginas conectadas, ou linkadas, umas as outras, agora vamos compreender melhor como isso acontece. Quando vamos construir um site, precisamos organizar bem nossos arquivos, vamos fazer isso através de pastas.
 
 ##Criando links
 
@@ -21,5 +21,9 @@ Qualquer coisa mesmo, não somente textos, nós podemos deixar imagens clicávei
     <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo"/>
 </a>
 ```
+
+##Listando coisas
+
+Existem três tipos de listas: as ordenadas, não ordenadas e de definições.
 
 ##Criando tabelas
