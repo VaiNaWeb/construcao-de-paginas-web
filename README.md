@@ -10,33 +10,33 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 - [Aula 03](aulas/aula03/aula.md) - Introdução ao HTML e CSS
 - [Aula 04](aulas/aula04/aula.md) - Evoluindo minha página com mais HTML
 - [Aula 05](aulas/aula05/aula.md) - Conhecendo CSS e seus poderes
-- [Aula 06](aulas/aula06/aula.md) - Criando páginas semânticas
+- [Aula 06](aulas/aula06/aula.md) - Criando páginas acessíveis
 - [Aula 07](aulas/aula07/aula.md) - Cidadania e Empreendedorismo Social
 - [Aula 08](aulas/aula08/aula.md) - Modelo de caixa com CSS
 - [Aula 09](aulas/aula09/aula.md) - Posicionamento de elementos com CSS
 - [Aula 10](aulas/aula10/aula.md) - Desenvolvimento pessoal e Mercado de Trabalho
-- [Aula 11](aulas/aula11/aula.md) - Formulários com HTML5
-- [Aula 12](aulas/aula12/aula.md) - Conhecendo o terminal do Linux
-- [Aula 13](aulas/aula13/aula.md) - Criando páginas para múltiplos dispositivos
-- [Aula 14](aulas/aula14/aula.md) - Introdução ao modelo flexível de caixas
+- [Aula 11](aulas/aula11/aula.md) - Conhecendo o terminal do Linux (dia 03)
+- [Aula 12](aulas/aula12/aula.md) - Conhecendo as magias da CSS3
+- [Aula 13](aulas/aula13/aula.md) - Introdução ao modelo flexível de caixas
+- [Aula 14](aulas/aula14/aula.md) - Criando páginas para múltiplos dispositivos
 - [Aula 15](aulas/aula15/aula.md) - Revisando fundamentos principais do HTML E CSS
 - [Aula 16](aulas/aula16/aula.md) - Cidadania e Empreendedorismo Social
 - [Aula 17](aulas/aula17/aula.md) - Planejamento e iniciando projeto intermediário
 - [Aula 18](aulas/aula18/aula.md) - Desenvolvimento do projeto intermediário
 - [Aula 19](aulas/aula19/aula.md) - Prevenção ao HIV e outras DSTs
-- [Aula 20](aulas/aula20/aula.md) - Conhecendo as magias da CSS3
-- [Aula 21](aulas/aula21/aula.md) - Github e hospedagem gratuita Github Pages
+- [Aula 20](aulas/aula20/aula.md) - Desenvolvimento do projeto intermediário
+- [Aula 21](aulas/aula21/aula.md) - Github e hospedagem gratuita com Github Pages
 - [Aula 22](aulas/aula22/aula.md) - Cidadania e Empreendedorismo Social
-- [Aula 23](aulas/aula23/aula.md) - Vai na Web, definição do Projeto
-- [Aula 24](aulas/aula24/aula.md) - Vai na Web, mapa do site e planejamento
-- [Aula 25](aulas/aula25/aula.md) - Vai na Web, recebimento de telas e orientações de design
-- [Aula 26](aulas/aula26/aula.md) - Vai na Web, início da construção
-- [Aula 27](aulas/aula27/aula.md) - Vai na Web, construção 1
-- [Aula 28](aulas/aula28/aula.md) - Vai na Web, construção 2
-- [Aula 29](aulas/aula29/aula.md) - Vai na Web, construção 3
-- [Aula 30](aulas/aula30/aula.md) - Vai na Web, construção 4
-- [Aula 31](aulas/aula31/aula.md) - Vai na Web, construção 5 e finalização
-- [Aula 32](aulas/aula32/aula.md) - Vai na Web, apresentação e encerramento do curso
+- [Aula 23](aulas/aula23/aula.md) - Definindo o projeto final
+- [Aula 24](aulas/aula24/aula.md) - Planejando e criando o mapa do projeto final
+- [Aula 25](aulas/aula25/aula.md) - Entendendo sobre o design do projeto final 
+- [Aula 26](aulas/aula26/aula.md) - Iniciando o desenvolvimento do projeto final
+- [Aula 27](aulas/aula27/aula.md) - Continuando o desenvolvimento do projeto final
+- [Aula 28](aulas/aula28/aula.md) - Continuando o desenvolvimento do projeto final
+- [Aula 29](aulas/aula29/aula.md) - Continuando o desenvolvimento do projeto final
+- [Aula 30](aulas/aula30/aula.md) - Continuando o desenvolvimento do projeto final
+- [Aula 31](aulas/aula31/aula.md) - Correções e finalização do projeto final
+- [Aula 32](aulas/aula32/aula.md) - Apresentação do projeto final e encerramento do curso
 
 ## Aulas
 
@@ -66,6 +66,6 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 ### Aula 05 - Conhecendo CSS e seus poderes
 
-**Objetivos:** <br>
+**Objetivos:** <br> Conhecer
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
