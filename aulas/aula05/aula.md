@@ -48,3 +48,30 @@ p {
 
 ##Principais seletores
 
+Podemos dar estilo ao diretamente ao próprio elemento do HTML.
+
+###Elemento
+```css
+p {
+	color: #f05a20;
+}
+```
+
+Ou podemos adicionar um ID ao elemento. É legal de ser usado em elementos que não se repetem.
+
+###Id 
+```css
+#sobre {
+	color: #f05a20;
+}
+
+```
+
+Ou podemos ainda adicionar uma classe ao elemento. Muito útil em classes que se repetem ao longo dá página.
+
+###Classe
+```css
+.sobre {
+	color: #f05a20;
+}
+```

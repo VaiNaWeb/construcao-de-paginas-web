@@ -18,7 +18,7 @@ Qualquer coisa mesmo, não somente textos, nós podemos deixar imagens clicávei
 
 ```html
 <a href="http://www.vainaweb.com.br">
-    <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo"/>
+    <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo">
 </a>
 ```
 

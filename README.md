@@ -24,7 +24,7 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 - [Aula 17](aulas/aula17/aula.md) - Planejamento e iniciando projeto intermediário
 - [Aula 18](aulas/aula18/aula.md) - Desenvolvimento do projeto intermediário
 - [Aula 19](aulas/aula19/aula.md) - Prevenção ao HIV e outras DSTs
-- [Aula 20](aulas/aula20/aula.md) - Conhecendo o poder do CSS3
+- [Aula 20](aulas/aula20/aula.md) - Conhecendo as magias da CSS3
 - [Aula 21](aulas/aula21/aula.md) - Github e hospedagem gratuita Github Pages
 - [Aula 22](aulas/aula22/aula.md) - Cidadania e Empreendedorismo Social
 - [Aula 23](aulas/aula23/aula.md) - Vai na Web, definição do Projeto
