@@ -15,11 +15,11 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 - [Aula 08](aulas/aula08/aula.md) - Modelo de caixa com CSS
 - [Aula 09](aulas/aula09/aula.md) - Posicionamento de elementos com CSS
 - [Aula 10](aulas/aula10/aula.md) - Desenvolvimento pessoal e Mercado de Trabalho
-- [Aula 11](aulas/aula11/aula.md) - Conhecendo o terminal do Linux (dia 03)
+- [Aula 11](aulas/aula11/aula.md) - Conhecendo o terminal do Linux
 - [Aula 12](aulas/aula12/aula.md) - Conhecendo as magias da CSS3
 - [Aula 13](aulas/aula13/aula.md) - Introdução ao modelo flexível de caixas
 - [Aula 14](aulas/aula14/aula.md) - Criando páginas para múltiplos dispositivos
-- [Aula 15](aulas/aula15/aula.md) - Revisando fundamentos principais do HTML E CSS
+- [Aula 15](aulas/aula15/aula.md) - Revisando fundamentos principais do HTML e CSS
 - [Aula 16](aulas/aula16/aula.md) - Cidadania e Empreendedorismo Social
 - [Aula 17](aulas/aula17/aula.md) - Planejamento e iniciando projeto intermediário
 - [Aula 18](aulas/aula18/aula.md) - Desenvolvimento do projeto intermediário
