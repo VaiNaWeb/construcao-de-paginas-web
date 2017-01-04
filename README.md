@@ -66,6 +66,6 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 ### Aula 05 - Conhecendo CSS e seus poderes
 
-**Objetivos:** <br> Conhecer
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
+**Objetivos:** <br> Compreender como os estilos são adicionados ao HTML, como funcionam os seletores, e a sintaxe básica da linguagem.
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text]() Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula05), [Resumo](aulas/aula05/resumo.md), [Desafios](aulas/aula05/desafios.md).<br>
