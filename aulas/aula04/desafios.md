@@ -45,4 +45,4 @@ Já conhecemos a estrutura do HTML muito bem e o escrevemos de forma bem semânt
 4. Adicione um main com três sections
 5. Adicione uma imagem e um parágrafo dentro de cada section, com imagens da cidade que você escolheu e informações sobre ela.
 
-Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula04/aula.md), e/ou o [resumo](../aula04/resumo.md) dela. 
+Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula04/aula.md), e/ou o [resumo](../aula04/resumo.md) dela.

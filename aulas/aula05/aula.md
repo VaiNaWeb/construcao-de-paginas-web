@@ -1,11 +1,10 @@
 #Conhecendo CSS e seus poderes
 
-CSS tem o poder de deixar as páginas em HTML cheias de estilo. Funciona exatamente assim:
-selecionamos o que queremos estilizar, e então algum seletor CSS define como, onde, e até quando colocar esses estilos. 
+Com o CSS ganhamos o poder de deixar as páginas em HTML cheias de estilo. Funciona exatamente assim: selecionamos o que queremos estilizar, e então algum seletor CSS define como, onde, e até quando colocar esses estilos. 
 
 ##Adicionando ao documento
 
-Lembre-se! A CSS não trabalha sozinha, ela precisa ser adicionada ao HTML. Podemos adicionar a CSS em nossa página HTML de três formas:
+Podemos adicionar a CSS em nossa página HTML de três formas:
 
 ###Em linha usando o atributo style
 
@@ -28,12 +27,12 @@ Lembre-se! A CSS não trabalha sozinha, ela precisa ser adicionada ao HTML. Pode
 
 ###Externamente
 
-Dessa forma, criamos um arquivo chamado styles.css, e o chamamos no `<head>` do html.
+Dessa forma, criamos um arquivo chamado estilos.css, e o chamamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e chamo-lo ai, lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja .css no final.
 
 ```html
 <head>
 	<title>Vai na Web</title>
-	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
     <p>Vai na Web</p>
@@ -46,20 +45,37 @@ p {
 }
 ```
 
+##Sintaxe
+
+Precisamos compreender a sintaxe que a linguagem usa. Pensar na sintaxe de uma linguagem, significa pensar nas relações formais que unem as partes que constituem a sentença, criando uma estrutura. Ou seja, pensar na estrutura como ela é escrita.
+
+```css
+seletor {
+	propriedade: valor;
+}
+
+```
+
+Assim podemos fazer com que nossa página fique muito legal. Podemos alterar as cores, tamanhos, formas, e até adicionar animações! Nas próximas aulas vamos conhecer melhor mais propriedades e valores.
+
 ##Principais seletores
 
-Podemos dar estilo ao diretamente ao próprio elemento do HTML.
+Precisamos dizer ao CSS qual elemento queremos selecionar, e adicionar a ele os estilos que queremos. Mas para para isso, precisamos entender sobre os seletores.
 
 ###Elemento
+
+Podemos dar estilo diretamente ao próprio elemento do HTML.
+
 ```css
 p {
 	color: #f05a20;
 }
 ```
 
-Ou podemos adicionar um ID ao elemento. É legal de ser usado em elementos que não se repetem.
-
 ###Id 
+
+Ou podemos adicionar um ID ao elemento. É legal de ser usado em elementos que não se repetem na página.
+
 ```css
 #sobre {
 	color: #f05a20;
@@ -67,9 +83,10 @@ Ou podemos adicionar um ID ao elemento. É legal de ser usado em elementos que n
 
 ```
 
-Ou podemos ainda adicionar uma classe ao elemento. Muito útil em classes que se repetem ao longo dá página.
-
 ###Classe
+
+Podemos ainda adicionar uma classe ao elemento. Muito útil em classes que se repetem ao longo dá página.
+
 ```css
 .sobre {
 	color: #f05a20;
