@@ -67,11 +67,11 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 ### Aula 05 - Conhecendo CSS e seus poderes
 
 **Objetivos:** Compreender como os estilos são adicionados ao HTML, como funcionam os seletores, e a sintaxe básica da linguagem.<br>
-**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, jogos, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula05), [Resumo](aulas/aula05/resumo.md), [Desafios](aulas/aula05/desafios.md).<br>
 
 ### Aula 06 - Criando páginas acessíveis
 
-**Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.
+**Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula05), [Resumo](aulas/aula05/resumo.md), [Desafios](aulas/aula05/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula06), [Resumo](aulas/aula06/resumo.md), [Desafios](aulas/aula06/desafios.md).<br>

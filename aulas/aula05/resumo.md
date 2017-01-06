@@ -50,3 +50,4 @@ seletor {
 
 Leia mais!<br>
 https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list

@@ -92,7 +92,14 @@ Podemos ainda adicionar uma classe ao elemento. Muito útil em classes que se re
 	color: #f05a20;
 }
 ```
+
+## As cores na web
+
+## RGB
+
+## Hexadecimais
+
 Essa foi apenas uma introdução sobre como adicionamos os estilos. Vamos conhecer novas propriedades nas próximas aulas e entender como elas funcionam, até lá, não deixem de praticar.
 
 ##Leia mais!
-https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list
+https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
