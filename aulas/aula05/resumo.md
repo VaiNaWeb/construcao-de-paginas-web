@@ -1,8 +1,8 @@
-- Selecionamos o que queremos estilizar, e então algum seletor CSS define como, onde, e até quando colocar esses estilos.
+- Selecionamos o que queremos estilizar e, então, algum seletor CSS define como, onde, e até quando colocar esses estilos.
 
 - Podemos adicionar a CSS em nossa página HTML de três formas:
 
-- Adicionadno o CSS em linha usando o atributo style
+- Adicionadno o CSS em linha, usando o atributo style
 
 ```html
 <p style="color: #f05a20;">Vai na Web</p>
@@ -21,7 +21,7 @@
 </body>
 ```
 
-- Adicionando css externamente: criamos um arquivo chamado estilos.css, e o chamamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e chamo-lo ai, lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja .css no final.
+- Adicionando CSS externamente: criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e utilizá-lo. Lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja, .css, no final.
 
 ```html
 <head>
@@ -50,4 +50,7 @@ seletor {
 
 Leia mais!<br>
 https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+<<<<<<< HEAD
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list
+=======
+>>>>>>> 53b04bb7085b2c7a0a5613e605c53605edcf1cd2
