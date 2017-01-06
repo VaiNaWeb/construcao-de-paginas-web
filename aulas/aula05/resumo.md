@@ -49,8 +49,5 @@ seletor {
 ```
 
 Leia mais!<br>
-https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
-<<<<<<< HEAD
+https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048<br>
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list
-=======
->>>>>>> 53b04bb7085b2c7a0a5613e605c53605edcf1cd2

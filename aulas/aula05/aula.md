@@ -92,7 +92,6 @@ Podemos, ainda, adicionar uma classe ao elemento. Muito útil para as que se rep
 	color: #f05a20;
 }
 ```
-<<<<<<< HEAD
 
 ## As cores na web
 
@@ -101,9 +100,6 @@ Podemos, ainda, adicionar uma classe ao elemento. Muito útil para as que se rep
 ## Hexadecimais
 
 Essa foi apenas uma introdução sobre como adicionamos os estilos. Vamos conhecer novas propriedades nas próximas aulas e entender como elas funcionam, até lá, não deixem de praticar.
-=======
-Essa foi apenas uma introdução sobre como adicionarmos os estilos. Vamos conhecer novas propriedades nas próximas aulas e entender como elas funcionam. Até lá, não deixem de praticar.
->>>>>>> 53b04bb7085b2c7a0a5613e605c53605edcf1cd2
 
 ##Leia mais!
 https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
