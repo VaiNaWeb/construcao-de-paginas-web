@@ -1,7 +1,8 @@
 # VaiNaWeb
 
-Projeto que tem como objetivo ensinar desenvolvimento Web em organizações de base comunitária.
-Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado aqui. 
+Projeto que tem como objetivo ensinar desenvolvimento Web e revelar talentos em organizações de base comunitária.
+Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado aqui.
+:rocket:
 
 ## Calendário
 
@@ -43,8 +44,8 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 ### Aula 01 - Olá Web, meu espaço no mundo
 
 **Objetivos:** Entendendo como a internet funciona, como foi criada, e sua importância.<br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
+**Formato de apresentação:** Apresentação de slides, contação de histórias.<br> 
+**Ferramentas e materiais de apoio:** [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/igorcouto/vainaweb-aula01#/),  [Resumo](aulas/aula01/resumo.md).<br>
 
 ### Aula 02 - Desenvolvimento pessoal e mercado de Trabalho
 
