@@ -120,12 +120,12 @@ p {
 ```
 ## Ferramentas legais
 
-http://lokeshdhakar.com/projects/color-thief/
-http://moviesincolor.com/
-https://color.adobe.com/pt/create/color-wheel/
+http://lokeshdhakar.com/projects/color-thief/<br>
+http://moviesincolor.com/<br>
+https://color.adobe.com/pt/create/color-wheel/<br>
 
 Essa foi apenas uma introdução sobre como adicionamos os estilos. Vamos conhecer novas propriedades nas próximas aulas e entender como elas funcionam, até lá, não deixem de praticar.
 
 ##Leia mais!
-https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048<br>
 https://tableless.com.br/sobre-cor-e-webdesign/
