@@ -97,9 +97,35 @@ Podemos, ainda, adicionar uma classe ao elemento. Muito útil para as que se rep
 
 ## RGB
 
+Monitores são pretos e iluminados por vários pontinhos de luz. Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor.
+
+É formada por três pares de números, formados por três dígitos. Quanto mais alto o número mais clara é a cor. Em CSS, um quarto número representa o canal alpha.
+
+```css
+p {
+    color: rgb(0, 0, 255, 0.5);
+}
+```
+
 ## Hexadecimais
+
+Compostos por uma combinação de três conjuntos de pares formados a partir de número e letras de A a F. Quanto mais alto o número mais clara é a cor.
+
+Cada par é responsável por uma cor, assim como o RGB, Vermelho, verde e azul. Ou seja #ff0000 é o vermelho, e o #00ff00 é o verde e #0000ff é o azul.
+
+```css
+p {
+    color: #ff0000;
+}
+```
+## Ferramentas legais
+
+http://lokeshdhakar.com/projects/color-thief/
+http://moviesincolor.com/
+https://color.adobe.com/pt/create/color-wheel/
 
 Essa foi apenas uma introdução sobre como adicionamos os estilos. Vamos conhecer novas propriedades nas próximas aulas e entender como elas funcionam, até lá, não deixem de praticar.
 
 ##Leia mais!
 https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+https://tableless.com.br/sobre-cor-e-webdesign/
