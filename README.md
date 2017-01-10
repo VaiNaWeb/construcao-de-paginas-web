@@ -7,7 +7,7 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 ## Calendário
 
 - [Aula 01](aulas/aula01/aula.md) - Olá Web, meu espaço no mundo
-- [Aula 02](aulas/aula02/aula.md) - Como a web funciona
+- [Aula 02](aulas/aula02/aula.md) - Como nos comunicamos através da internet
 - [Aula 03](aulas/aula03/aula.md) - Introdução ao HTML e CSS
 - [Aula 04](aulas/aula04/aula.md) - Evoluindo minha página com mais HTML
 - [Aula 05](aulas/aula05/aula.md) - Conhecendo CSS e seus poderes
@@ -47,7 +47,7 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 **Formato de apresentação:** Apresentação de slides, contação de histórias.<br> 
 **Ferramentas e materiais de apoio:** [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/igorcouto/vainaweb-aula01#/),  [Resumo](aulas/aula01/resumo.md).<br>
 
-### Aula 02 - Como a web funciona
+### Aula 02 - Como nos comunicamos através da internet
 
 **Objetivos:** Entender como as ṕaginas na Web são criadas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações. <br>
