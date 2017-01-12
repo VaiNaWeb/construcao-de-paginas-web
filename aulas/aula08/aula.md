@@ -2,7 +2,7 @@
 
 Continuando as analogias sobre nossos elementos serem caixas, agora imaginem que eles são realmente caixinhas retangulares. Como se em cada um deles houvesse um retângulo invisível.
 
-Em nossas páginas nós podermos determinar o tamanho, altura, preenchimento, espaçamento, e até cores dessas caixas. Assim criamos interessantes e belíssimos layouts para sites.
+Em nossas páginas nós podermos determinar o tamanho, altura, preenchimento, espaçamento, e até cores dessas caixas. Assim criamos interessantes e belíssimas composições visuais para sites.
 
 Cada caixa tem uma largura e altura, que determinamos usando as propriedades width e height.
 
