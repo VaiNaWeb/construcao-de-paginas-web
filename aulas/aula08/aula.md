@@ -32,6 +32,8 @@ Temos também a propriedade border que pode servir para aplicar estilo às borda
   border: 5px solid black;
 }
 ```
+##Comportamento de bloco
+
 Há caixas que se comportam em forma de bloco, e há caixas que se comportam como em forma de linha. Cada elemento já tem esse comportamento definido por padrão, mas podemos altera-lo também, basta alterar os valores da propriedade display com inline, ou block.
 
 Elementos que se comportam como bloco, como h1, h2, h3, p, ul, li, ocupam toda a largura de uma página, assim sendo, se duas caixas que se comportam como bloco forem adicionadas, a primeira vai querer ocupar toda a largura, então a outra apacerá abaixo dela, ocupando também toda a largura da página.
