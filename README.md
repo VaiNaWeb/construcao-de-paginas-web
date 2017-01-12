@@ -6,39 +6,6 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 ## Calendário
 
-- [Aula 01](aulas/aula01/aula.md) - Olá Web, meu espaço no mundo
-- [Aula 02](aulas/aula02/aula.md) - Como nos comunicamos através da internet
-- [Aula 03](aulas/aula03/aula.md) - Introdução ao HTML e CSS
-- [Aula 04](aulas/aula04/aula.md) - Evoluindo minha página com mais HTML
-- [Aula 05](aulas/aula05/aula.md) - Conhecendo CSS e seus poderes
-- [Aula 06](aulas/aula06/aula.md) - Criando páginas acessíveis
-- [Aula 07](aulas/aula07/aula.md) - Cidadania e Empreendedorismo Social
-- [Aula 08](aulas/aula08/aula.md) - Modelo de caixa com CSS
-- [Aula 09](aulas/aula09/aula.md) - Posicionamento de elementos com CSS
-- [Aula 10](aulas/aula10/aula.md) - Desenvolvimento pessoal e Mercado de Trabalho
-- [Aula 11](aulas/aula11/aula.md) - Conhecendo o terminal do Linux
-- [Aula 12](aulas/aula12/aula.md) - Conhecendo as magias da CSS3
-- [Aula 13](aulas/aula13/aula.md) - Introdução ao modelo flexível de caixas
-- [Aula 14](aulas/aula14/aula.md) - Criando páginas para múltiplos dispositivos
-- [Aula 15](aulas/aula15/aula.md) - Revisando fundamentos principais do HTML e CSS
-- [Aula 16](aulas/aula16/aula.md) - Cidadania e Empreendedorismo Social
-- [Aula 17](aulas/aula17/aula.md) - Planejamento e iniciando projeto intermediário
-- [Aula 18](aulas/aula18/aula.md) - Desenvolvimento do projeto intermediário
-- [Aula 19](aulas/aula19/aula.md) - Prevenção ao HIV e outras DSTs
-- [Aula 20](aulas/aula20/aula.md) - Desenvolvimento do projeto intermediário
-- [Aula 21](aulas/aula21/aula.md) - Github e hospedagem gratuita com Github Pages
-- [Aula 22](aulas/aula22/aula.md) - Cidadania e Empreendedorismo Social
-- [Aula 23](aulas/aula23/aula.md) - Definindo o projeto final
-- [Aula 24](aulas/aula24/aula.md) - Planejando e criando o mapa do projeto final
-- [Aula 25](aulas/aula25/aula.md) - Entendendo sobre o design do projeto final 
-- [Aula 26](aulas/aula26/aula.md) - Iniciando o desenvolvimento do projeto final
-- [Aula 27](aulas/aula27/aula.md) - Continuando o desenvolvimento do projeto final
-- [Aula 28](aulas/aula28/aula.md) - Continuando o desenvolvimento do projeto final
-- [Aula 29](aulas/aula29/aula.md) - Continuando o desenvolvimento do projeto final
-- [Aula 30](aulas/aula30/aula.md) - Continuando o desenvolvimento do projeto final
-- [Aula 31](aulas/aula31/aula.md) - Correções e finalização do projeto final
-- [Aula 32](aulas/aula32/aula.md) - Apresentação do projeto final e encerramento do curso
-
 ## Aulas
 
 ### Aula 01 - [Olá Web, meu espaço no mundo](aulas/aula01/aula.md)
@@ -81,4 +48,126 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 **Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula06), [Resumo](aulas/aula06/resumo.md), [Desafios](aulas/aula06/desafios.md).<br>
+**Duração:** 3 horas.
+
+### Aula 07 - [Cidadania e Empreendedorismo Social](aulas/aula07/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 08 - [Modelo de caixa com CSS](aulas/aula08/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+
+### Aula 09 - [Posicionamento de elementos com CSS](aulas/aula09/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 10 - [Desenvolvimento pessoal e Mercado de Trabalho](aulas/aula10/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 11 - [Conhecendo o terminal do Linux](aulas/aula11/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+
+### Aula 12 - [Conhecendo as magias da CSS3](aulas/aula12/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 13 - [Introdução ao modelo flexível de caixas](aulas/aula13/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 14 - [Criando páginas para múltiplos dispositivos](aulas/aula14/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+
+### Aula 15 - [Revisando fundamentos](aulas/aula15/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 16 - [Cidadania e Empreendedorismo Social](aulas/aula16/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 17 - [Planejamento e iniciando projeto intermediário](aulas/aula17/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 18 - [Desenvolvimento do projeto intermediário](aulas/aula18/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 19 - [Prevenção ao HIV e outras DSTs](aulas/aula19/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 20 - [Desenvolvimento do projeto intermediário](aulas/aula20/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 21 - [Github e hospedagem gratuita com Github Pages](aulas/aula21/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 22 - [Cidadania e Empreendedorismo Social](aulas/aula22/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
+**Duração:** 3 horas.
+
+### Aula 23 - [Definindo o projeto final](aulas/aula23/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** 
 **Duração:** 3 horas.
