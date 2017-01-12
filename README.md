@@ -4,8 +4,6 @@ Projeto que tem como objetivo ensinar desenvolvimento Web e revelar talentos em 
 Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado aqui.
 :rocket:
 
-## Calendário
-
 ## Aulas
 
 ### Aula 01 - [Olá Web, meu espaço no mundo](aulas/aula01/aula.md)
