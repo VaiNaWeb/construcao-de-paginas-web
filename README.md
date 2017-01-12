@@ -52,14 +52,14 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 08 - [Modelo de caixa com CSS](aulas/aula08/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 
@@ -67,21 +67,21 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 10 - [Desenvolvimento pessoal e Mercado de Trabalho](aulas/aula10/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 11 - [Conhecendo o terminal do Linux](aulas/aula11/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 
@@ -89,21 +89,21 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 13 - [Introdução ao modelo flexível de caixas](aulas/aula13/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 14 - [Criando páginas para múltiplos dispositivos](aulas/aula14/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 
@@ -111,61 +111,61 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 16 - [Cidadania e Empreendedorismo Social](aulas/aula16/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 17 - [Planejamento e iniciando projeto intermediário](aulas/aula17/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 18 - [Desenvolvimento do projeto intermediário](aulas/aula18/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 19 - [Prevenção ao HIV e outras DSTs](aulas/aula19/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 20 - [Desenvolvimento do projeto intermediário](aulas/aula20/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 21 - [Github e hospedagem gratuita com Github Pages](aulas/aula21/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 22 - [Cidadania e Empreendedorismo Social](aulas/aula22/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
 ### Aula 23 - [Definindo o projeto final](aulas/aula23/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** 
+**Ferramentas e materiais de apoio:**<br>
 **Duração:** 3 horas.
