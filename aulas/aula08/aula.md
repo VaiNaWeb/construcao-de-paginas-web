@@ -12,7 +12,7 @@ Cada caixa tem uma largura e altura, que determinamos usando as propriedades wid
   height: 100px;
 }
 ```
-Além do width e height temos também o padding e margin, que servem para dar espaçamento. Padding pode aumentar o preenchimento de uma caixa, enquanto margin, pode aumentar seu espaçamento.
+Além do width e height temos também o padding e margin. Padding pode aumentar o preenchimento de uma caixa, enquanto margin, pode aumentar seu espaçamento.
 
 ```css
 .elemento {
