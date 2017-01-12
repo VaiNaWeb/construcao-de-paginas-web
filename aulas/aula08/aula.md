@@ -34,8 +34,16 @@ Temos também a propriedade border que pode servir para aplicar estilo às borda
 ```
 Há caixas que se comportam em forma de bloco, e há caixas que se comportam como em forma de linha. Cada elemento já tem esse comportamento definido por padrão, mas podemos altera-lo também, basta alterar os valores da propriedade display com inline, ou block.
 
-Elementos que se comportam como bloco, como h1, h2, h3, p, ul, li, ocupam toda a largura de uma página, assim sendo, se duas caixas que se comportam como bloco forem adicionadas, a primeira vai querer ocupar toda a largura, então a outra apacerá abaixo dela, ocupando tambm toda a largura da página. 
-
+Elementos que se comportam como bloco, como h1, h2, h3, p, ul, li, ocupam toda a largura de uma página, assim sendo, se duas caixas que se comportam como bloco forem adicionadas, a primeira vai querer ocupar toda a largura, então a outra apacerá abaixo dela, ocupando também toda a largura da página.
+```css
+p {
+  display: block;
+}
+```
 Alguns exemplos de elementos que se comportam em forma de linha são a, img, input, label, eles não tentam ocupar uma largura que não precisam, dessa forma conseguem ser alinhados visualmente em uma única linha.
-
-Na dúvida, testem, testem, e testem! Explorem todas as propriedades e valores que foram vistos hoje. Sintam-se à vontade para usar o inspetor do navegador para ter uma melhor visualização do comportamento dos seus estilos.
+```css
+a {
+  display: inline;
+}
+```
+Testem, testem, e testem! Explorem sem medo todas as propriedades e valores que foram vistos hoje. Aproveitem todas as possibilidades que eles podem criar. Na dúvida, sintam-se à vontade para usar o inspetor do navegador e ter uma melhor visualização do comportamento dos seus estilos.
