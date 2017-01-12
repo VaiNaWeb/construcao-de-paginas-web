@@ -31,7 +31,7 @@ Temos também a propriedade border que pode servir para aplicar estilo às borda
   margin: 50px;
   border-width: 5px;
   border-style: solid;
-  border-color: black
+  border-color: black;
 }
 ```
 ##Comportamento de bloco
