@@ -1,8 +1,7 @@
 # VaiNaWeb
 
 Projeto que tem como objetivo ensinar desenvolvimento Web e revelar talentos em organizações de base comunitária.
-Todo o conteúdo criado no decorrer das aulas, assim como o planejamento das mesmas é aberto e pode ser acompanhado aqui.
-:rocket:
+Todo o conteúdo criado no decorrer das aula é aberto e pode ser acompanhado aqui. :rocket:
 
 ## Sobre o curso
 
