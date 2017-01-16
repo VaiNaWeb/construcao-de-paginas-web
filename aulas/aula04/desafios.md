@@ -17,7 +17,7 @@ Ah! Se você não conhece ou não se lembra de como cozinhar nenhuma receita, po
 1. Crie uma página com a estrutura básica completa
 2. Adicione um header
 3. Adicione um título com o nome da sua receita
-4. Adicione um main e, dentro dela, uma section
+4. Adicione um main e, dentro dele, uma section
 5. Adicione, dentro da section, uma lista não ordenada com os ingredientes
 6. Adicione uma lista ordenada com o passo a passo da sua receita
 
