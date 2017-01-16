@@ -1,1 +1,1 @@
-#O início dos estilos, principais propriedades CSS e seletores (continuação)
+#Criando páginas para múltiplos dispositivos
