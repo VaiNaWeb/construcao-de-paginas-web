@@ -62,9 +62,9 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 ### Aula 08 - [Modelo de caixa com CSS](aulas/aula08/aula.md)
 
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
+**Objetivos:** Entender como funciona o modelo de caixa, e explorar algumas propriedades.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula08), [Resumo](aulas/aula08/resumo.md), [Desafios](aulas/aula08/desafios.md).<br>
 **Duração:** 3 horas.
 
 
