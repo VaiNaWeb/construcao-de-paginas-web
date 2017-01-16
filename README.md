@@ -34,7 +34,7 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 ### Aula 04 - [Evoluindo minha página com mais HTML](aulas/aula04/aula.md)
 
-**Objetivos:** Conhecer e aprender a como usar mais elementos HTML, incluindo hiperlinks, listas, tabelas e mais algumas coisas interessantes.<br>
+**Objetivos:** Conhecer e aprender mais elementos HTML, incluindo hiperlinks, listas, tabelas e mais algumas coisas interessantes.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula04), [Resumo](aulas/aula04/resumo.md), [Desafios](aulas/aula04/desafios.md).<br>
 **Duração:** 3 horas.
