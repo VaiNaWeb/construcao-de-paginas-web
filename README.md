@@ -60,98 +60,77 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 08 -[Criando páginas acessíveis](aulas/aula06/aula.md)
+### Aula 08 - [Criando páginas acessíveis](aulas/aula06/aula.md)
 
 **Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula06), [Resumo](aulas/aula06/resumo.md), [Desafios](aulas/aula06/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 09 - [Desenvolvimento pessoal e Mercado de Trabalho](aulas/aula10/aula.md)
+### Aula 09 - [Conhecendo o terminal do Linux](aulas/aula11/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 10 - [Conhecendo o terminal do Linux](aulas/aula11/aula.md)
+### Aula 10- [Introdução ao modelo flexível de caixas](aulas/aula13/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 11 - [Introdução ao modelo flexível de caixas](aulas/aula13/aula.md)
+### Aula 11 - [Criando páginas para múltiplos dispositivos](aulas/aula14/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 12 - [Criando páginas para múltiplos dispositivos](aulas/aula14/aula.md)
+### Aula 12 - [Criando magias com CSS3](aulas/aula12/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 13 - [Criando magias com CSS3](aulas/aula12/aula.md)
+### Aula 13 - [Revisando fundamentos](aulas/aula15/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 14 - [Revisando fundamentos](aulas/aula15/aula.md)
+### Aula 14 - [Planejamento e iniciando projeto intermediário](aulas/aula17/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 17 - [Planejamento e iniciando projeto intermediário](aulas/aula17/aula.md)
+### Aula 15 - [Desenvolvimento do projeto intermediário](aulas/aula18/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 18 - [Desenvolvimento do projeto intermediário](aulas/aula18/aula.md)
+### Aula 16 - [Desenvolvimento do projeto intermediário](aulas/aula20/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 19 - [Prevenção ao HIV e outras DSTs](aulas/aula19/aula.md)
+### Aula 17 - [Github e hospedagem gratuita com Github Pages](aulas/aula21/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 20 - [Desenvolvimento do projeto intermediário](aulas/aula20/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 21 - [Github e hospedagem gratuita com Github Pages](aulas/aula21/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 22 - [Cidadania e Empreendedorismo Social](aulas/aula22/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 23 - [Definindo o projeto final](aulas/aula23/aula.md)
+### Aula 18 - [Definindo o projeto final](aulas/aula23/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
