@@ -109,14 +109,14 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 15 - [Desenvolvimento do projeto intermediário](aulas/aula18/aula.md)
+### Aula 15 - [Desenvolvendo o projeto intermediário](aulas/aula18/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 16 - [Desenvolvimento do projeto intermediário](aulas/aula20/aula.md)
+### Aula 16 - [Desenvolvendo o projeto intermediário](aulas/aula20/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
