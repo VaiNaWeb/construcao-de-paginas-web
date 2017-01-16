@@ -46,80 +46,63 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 **Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula05), [Resumo](aulas/aula05/resumo.md), [Desafios](aulas/aula05/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 06 - [Criando páginas acessíveis](aulas/aula06/aula.md)
-
-**Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
-**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula06), [Resumo](aulas/aula06/resumo.md), [Desafios](aulas/aula06/desafios.md).<br>
-**Duração:** 3 horas.
-
-### Aula 07 - [Cidadania e Empreendedorismo Social](aulas/aula07/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 08 - [Modelo de caixa com CSS](aulas/aula08/aula.md)
+### Aula 06 - [Modelo de caixa com CSS](aulas/aula08/aula.md)
 
 **Objetivos:** Entender como funciona o modelo de caixa, e explorar algumas propriedades.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula08), [Resumo](aulas/aula08/resumo.md), [Desafios](aulas/aula08/desafios.md).<br>
 **Duração:** 3 horas.
 
-
-### Aula 09 - [Posicionamento de elementos com CSS](aulas/aula09/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 10 - [Desenvolvimento pessoal e Mercado de Trabalho](aulas/aula10/aula.md)
+### Aula 07 - [Posicionamento de elementos com CSS](aulas/aula09/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 11 - [Conhecendo o terminal do Linux](aulas/aula11/aula.md)
+### Aula 08 -[Criando páginas acessíveis](aulas/aula06/aula.md)
+
+**Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula06), [Resumo](aulas/aula06/resumo.md), [Desafios](aulas/aula06/desafios.md).<br>
+**Duração:** 3 horas.
+
+### Aula 09 - [Desenvolvimento pessoal e Mercado de Trabalho](aulas/aula10/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-
-### Aula 12 - [Conhecendo as magias da CSS3](aulas/aula12/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 13 - [Introdução ao modelo flexível de caixas](aulas/aula13/aula.md)
+### Aula 10 - [Conhecendo o terminal do Linux](aulas/aula11/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 14 - [Criando páginas para múltiplos dispositivos](aulas/aula14/aula.md)
+### Aula 11 - [Introdução ao modelo flexível de caixas](aulas/aula13/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-
-### Aula 15 - [Revisando fundamentos](aulas/aula15/aula.md)
+### Aula 12 - [Criando páginas para múltiplos dispositivos](aulas/aula14/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 16 - [Cidadania e Empreendedorismo Social](aulas/aula16/aula.md)
+### Aula 13 - [Criando magias com CSS3](aulas/aula12/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** <br>
+**Duração:** 3 horas.
+
+### Aula 14 - [Revisando fundamentos](aulas/aula15/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
