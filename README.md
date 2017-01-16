@@ -74,7 +74,7 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 10- [Introdução ao modelo flexível de caixas](aulas/aula13/aula.md)
+### Aula 10 - [Introdução ao modelo flexível de caixas](aulas/aula13/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
@@ -102,7 +102,7 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 14 - [Planejamento e iniciando projeto intermediário](aulas/aula17/aula.md)
+### Aula 14 - [Planejando e iniciando o projeto intermediário](aulas/aula17/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
