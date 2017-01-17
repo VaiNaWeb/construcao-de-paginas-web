@@ -1,6 +1,6 @@
-#Conhecendo CSS e seus poderes
+#Descobrindo o poder dos estilos com CSS
 
-Com o CSS, ganhamos o poder de deixar as páginas em HTML cheias de estilo. Funciona exatamente assim: selecionamos o que queremos estilizar e, então, algum seletor CSS define como, onde e até quando colocar esses estilos. 
+Vamos descobrir como deixar as páginas em HTML cheias de estilo usando CSS e seus poderes. Funciona exatamente assim: selecionamos o que queremos estilizar e, então, algum seletor CSS define como, onde e até quando colocar esses estilos.
 
 ##Adicionando ao documento
 
@@ -60,7 +60,7 @@ Assim podemos fazer com que nossa página fique muito legal. Podemos alterar as 
 
 ##Principais seletores
 
-Precisamos dizer ao CSS qual elemento queremos selecionar e adicionar a ele os estilos que desejamos. Mas, para isso, devemos entender sobre os seletores.
+Precisamos dizer ao CSS qual elemento queremos selecionar e adicionar a ele os estilos que desejamos. Mas, para isso, devemos entender sobre os [seletores](https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048).
 
 ###Elemento
 
@@ -95,6 +95,8 @@ Podemos, ainda, adicionar uma classe ao elemento. Muito útil para as que se rep
 
 ## As cores na web
 
+Aprenderemos como colocar cores na web. Há alguns [sistemas de cores](https://tableless.com.br/sobre-cor-e-webdesign/) que precisamos conhecer para entender como adiciona-las em nossas folhas de estilo.
+
 ## RGB
 
 Monitores são pretos e iluminados por vários pontinhos de luz. Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor.
@@ -125,7 +127,3 @@ http://moviesincolor.com/<br>
 https://color.adobe.com/pt/create/color-wheel/<br>
 
 Essa foi apenas uma introdução sobre como adicionamos os estilos. Vamos conhecer novas propriedades nas próximas aulas e entender como elas funcionam, até lá, não deixem de praticar.
-
-##Leia mais!
-https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048<br>
-https://tableless.com.br/sobre-cor-e-webdesign/

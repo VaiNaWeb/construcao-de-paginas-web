@@ -1,7 +1,7 @@
 # VaiNaWeb
 
 Projeto que tem como objetivo ensinar desenvolvimento Web e revelar talentos em organizações de base comunitária.
-Todo o conteúdo criado no decorrer das aula é aberto e pode ser acompanhado aqui. :rocket:
+Todo o conteúdo criado no decorrer das aula é aberto e pode ser acompanhado aqui. :sparkles:
 
 ## Sobre o curso
 
@@ -10,6 +10,8 @@ O Vai na Web é um curso de desenvolvimento web idealizado, planejado e executad
 Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gradativamente, com base em como os alunos de cada turma se sentem, de forma que cada aula, resumo, ou outro material seja realmente empático. O Vai na Web foi criado pelo compromisso de revelar as pessoas, ideias e dons incríveis que ficaram escondidos pelas barreiras da falta de oportunidade.
 
 ## Aulas
+
+As aulas dos Primeiros passos na Web, foram criadas para levar os jovens ao início da jornada na criação de páginas e aplicações para web. :rocket:
 
 ### Aula 01 - [Olá Web, meu espaço no mundo](aulas/aula01/aula.md)
 
@@ -39,7 +41,7 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 **Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula04), [Resumo](aulas/aula04/resumo.md), [Desafios](aulas/aula04/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 05 - [Conhecendo CSS e seus poderes](aulas/aula05/aula.md)
+### Aula 05 - [Descobrindo o poder dos estilos com CSS](aulas/aula05/aula.md)
 
 **Objetivos:** Compreender como os estilos são adicionados ao HTML, como funcionam os seletores, e a sintaxe básica da linguagem.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, jogos, exercícios de fixação com desafios.<br>
