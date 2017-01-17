@@ -11,7 +11,7 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 ## Aulas
 
-As aulas dos Primeiros passos na Web, foram criadas para levar os jovens ao início da jornada na criação de páginas e aplicações para web. :rocket:
+As aulas dos Primeiros passos na Web, foram criadas para levar jovens ao início de uma incrível jornada na criação de páginas e aplicações para web. :rocket:
 
 ### Aula 01 - [Olá Web, meu espaço no mundo](aulas/aula01/aula.md)
 
