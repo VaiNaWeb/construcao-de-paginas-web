@@ -9,9 +9,9 @@ O Vai na Web é um curso de desenvolvimento web idealizado, planejado e executad
 
 Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gradativamente, com base em como os alunos de cada turma se sentem, de forma que cada aula, resumo, ou outro material seja realmente empático. O Vai na Web foi criado pelo compromisso de revelar as pessoas, ideias e dons incríveis que ficaram escondidos pelas barreiras da falta de oportunidade.
 
-## Aulas
+## Sobre as aulas
 
-As aulas dos Primeiros passos na Web, foram criadas para levar jovens ao início de uma incrível jornada na criação de páginas e aplicações para web. :rocket:
+As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao início de uma incrível e alucinante jornada na criação de páginas e aplicações para web. :rocket:
 
 ### Aula 01 - [Olá Web, meu espaço no mundo](aulas/aula01/aula.md)
 
