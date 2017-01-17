@@ -17,42 +17,42 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** Entendendo como a internet funciona, como foi criada, e sua importância.<br>
 **Formato de apresentação:** Apresentação de slides, contação de histórias.<br> 
-**Ferramentas e materiais de apoio:** [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/igorcouto/vainaweb-aula01#/),  [Resumo](aulas/aula01/resumo.md).<br>
+**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/igorcouto/vainaweb-aula01#/),  [resumo](aulas/aula01/resumo.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 02 - [Como nos comunicamos através da internet](aulas/aula02/aula.md)
 
 **Objetivos:** Entender como as ṕaginas na Web são criadas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações. <br>
-**Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula02), [Resumo](aulas/aula02/resumo.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 03 - [Introdução ao HTML e CSS](aulas/aula03/aula.md)
 
-**Objetivos:** Entender como as ṕaginas na Web são criadas. Conhecer os principais fundamentos da HTML, sua sintaxe básica e compreender como HTML e CSS funcionam. Juntos vamos estruturar uma página em HTML, adicionar conteúdo, e estilizar alguns elementos com CSS.<br>
+**Objetivos:** Entender como as páginas na Web são criadas. Conhecer os principais fundamentos da HTML, sua sintaxe básica e compreender como HTML e CSS funcionam. Juntos vamos estruturar uma página em HTML, adicionar conteúdo, e estilizar alguns elementos com CSS.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula03), [Resumo](aulas/aula03/resumo.md), [Desafios](aulas/aula03/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula03), [resumo](aulas/aula03/resumo.md), [desafios](aulas/aula03/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 04 - [Evoluindo minha página com mais HTML](aulas/aula04/aula.md)
 
 **Objetivos:** Conhecer e aprender mais elementos HTML, incluindo hiperlinks, listas, tabelas e mais algumas coisas interessantes.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula04), [Resumo](aulas/aula04/resumo.md), [Desafios](aulas/aula04/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula04), [resumo](aulas/aula04/resumo.md), [desafios](aulas/aula04/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 05 - [Descobrindo o poder dos estilos com CSS](aulas/aula05/aula.md)
 
 **Objetivos:** Compreender como os estilos são adicionados ao HTML, como funcionam os seletores, e a sintaxe básica da linguagem.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, jogos, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [Scratchpad](http://scratchpad.io/vainaweb) editor online, [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula05), [Resumo](aulas/aula05/resumo.md), [Desafios](aulas/aula05/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [sublime Text](sublimetext.com) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula05), [resumo](aulas/aula05/resumo.md), [desafios](aulas/aula05/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 06 - [Modelo de caixa com CSS](aulas/aula06/aula.md)
 
 **Objetivos:** Entender como funciona o modelo de caixa, e explorar algumas propriedades.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula08), [Resumo](aulas/aula08/resumo.md), [Desafios](aulas/aula08/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [sublime Text](sublimetext.com) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula06), [resumo](aulas/aula06/resumo.md), [desafios](aulas/aula06/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 07 - [Posicionamento de elementos com CSS](aulas/aula07/aula.md)
@@ -66,7 +66,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [Sublime Text](sublimetext.com) Editor de texto para código instalado na máquina, [Gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [Slides](http://slides.com/dalivieira/vainaweb-aula06), [Resumo](aulas/aula06/resumo.md), [Desafios](aulas/aula06/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [sublime Text](sublimetext.com) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 09 - [Conhecendo o terminal do Linux](aulas/aula09/aula.md)
