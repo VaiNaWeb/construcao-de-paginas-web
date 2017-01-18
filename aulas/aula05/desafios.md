@@ -5,7 +5,7 @@ Recorde algumas lembranças boas de sua infância! O que você sente saudade? o 
 1. Crie uma página com a estrutura básica completa
 2. Adicione um header
 3. Adicione um título dentro do header
-4. Adicione um main com duas section
+4. Adicione um main com uma section
 5. Adicione dois parágrafos e dois subtítulos dentro da section 
 6. Cada parágrafo deve contar uma lembrança de sua infância
 7. Adicione uma classe à section
