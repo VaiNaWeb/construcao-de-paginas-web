@@ -5,12 +5,11 @@ Recorde algumas lembranças boas de sua infância! O que você sente saudade? o 
 1. Crie uma página com a estrutura básica completa
 2. Adicione um header
 3. Adicione um título dentro do header
-4. Adicione um main com uma section
+4. Adicione um main com duas section
 5. Adicione dois parágrafos e dois subtítulos dentro da section 
 6. Cada parágrafo deve contar uma lembrança de sua infância
 7. Adicione uma classe à section
-8. Adicione um ID em cada section
-9. Crie uma página de CSS e adicione o link em sua página HTML
+8. Crie uma página de CSS e adicione o link em sua página HTML
 9. Adicione estilos à classe, e outros estilos para cada ID em seu CSS.
 
 #Desafio 02: Reinventando o instagram
