@@ -1,41 +1,52 @@
-#Modelo de caixa com CSS
+#Posicionamento de elementos com CSS
 
-- Imaginem que elementos são realmente caixinhas retangulares. Como se em cada um deles houvesse um retângulo invisível.
+Já aprendemos sobre tamanho, preenchimento, espaçamento e mais algumas propriedades que influem em nossas caixas, agora vamos aprender como posiciona-las.
 
-- Em nossas páginas nós podermos determinar o tamanho, altura, preenchimento, espaçamento, e até cores dessas caixas. Assim criamos interessantes composições para sites.
+Em CSS temos a propriedade position, que pode receber alguns valores diferentes, cada um com seu comportamento. O valor padrão dessa propriedade, e que podemos mudar, é o static. Podemos usar os valores static, absolute, relative e fixed.
 
-- Cada caixa tem uma largura e altura, que determinamos usando as propriedades width e height.
+##Static
 
-- Temos também o padding e margin, padding pode aumentar o preenchimento de uma caixa, enquanto margin, pode aumentar seu espaçamento.
+O valor static não se posiciona de forma especial, ou seja, dizer que o elemento tem valor estático significa dizer que ele não tem ainda uma posição definida. 
 
-- A propriedade border pode servir para aplicar estilo às bordas de uma caixa.
 ```css
 .elemento {
-  width: 100px;
-  height: 100px;
-  padding: 50px;
-  margin: 50px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black;
+  position: static;
 }
 ```
-##Comportamento de bloco
+##Relative
 
-- Há caixas que se comportam em forma de bloco, e há caixas que se comportam como em forma de linha. 
+Você pode imaginar que no navegador, há um sistema de coordenadas, e temos que adicionar propriedades extras junto ao position para posicionar o elemento nesse sistema. As propriedades extras que usamos são: top, right, bottom, e left. O position com valor relative posiciona o elemento em relação a si mesmo, e faz esse cálculo a partir do seu canto superior esquerdo.
 
-- Cada elemento já tem esse comportamento definido por padrão, mas podemos altera-lo, basta alterar os valores da propriedade display com inline, ou block.
-
-- Elementos que se comportam como bloco, como h1, h2, h3, p, ul, li, ocupam toda a largura de uma página, assim sendo, se duas caixas que se comportam como bloco forem adicionadas, a primeira vai querer ocupar toda a largura, então a outra apacerá abaixo dela, ocupando também toda a largura da página.
 ```css
-p {
-  display: block;
+.elemento {
+  position: relative;
 }
 ```
-- Elementos que se comportam em forma de linha como a, img, input, label, não tentam ocupar uma largura que não precisam, dessa forma conseguem ser alinhados visualmente em uma única linha.
 ```css
-a {
-  display: inline;
+.elemento {
+  position: relative;
+  top: 20px;
+  left: 20px;
 }
 ```
-Testem, testem, e testem! Explorem sem medo todas as propriedades e valores que foram vistos hoje. Na dúvida, sintam-se à vontade para usar o inspetor do navegador e ter uma melhor visualização do comportamento dos seus estilos.
+
+##Absolute
+
+Assim como o valor relative, o absolute precisa dessas propriedades extras de coordenadas. Porém diferente do position relative, o elemento com valor absolute não se posiciona em relação a si mesmo, mas a outros elementos, como seu elemento pai, ou, se o elemento pai não tiver seu position definido, ele usa como referencia o próprio body da página.
+```css
+.elemento {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+```
+##Fixed
+
+O valor fixed, como o próprio nome sugere se posiciona de forma fixa na página, isso significa que ele sempre ficará no mesmo lugar ainda que rolemos a página. Assim como o relative, e absolute, as propriedades top, right, bottom e left também podem ser utilizadas.
+```css
+.elemento {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+```
