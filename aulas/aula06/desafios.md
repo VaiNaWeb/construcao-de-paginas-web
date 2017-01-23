@@ -9,3 +9,18 @@ Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e o
 6. Adicione um padding com o valor de sua preferência nas sections
 7. Adicione um margin com o valor de sua preferência no header 
 8. Adicione uma borda sólida, com uma largura, e cor de sua preferência em cada uma das sections
+
+#Desafio02: Criando um monstrinho
+Vamos criar um monstrinho com formas em CSS e movimenta-lo usando tambm CSS.
+
+1. Crie um documento HTML com a estrutura básica completa
+2. Crie um main com uma section
+3. Essa section vai ser a nossa tela de pintura
+4. Adicione uma altura, largura, cor no background, e position relative da section
+5. Dentro da section criem uma div com uma classe chamada monstro
+6. Adicione uma largura, altura, cor no background, e position absolute do monstro
+7. Adicione border-radius para arredondar o corpo do monstrinho e posicione ele com top, left, right ou bottom
+8. Adicione uma nova div com uma classe olho dentro da div monstro, ou seja, a div olho é filha da div monstro
+9. Adicione uma lagura, altura, cor no background, position absolute e posicione ele com top, left, right ou bottom
+10. Adicicione uma nova div com a classe iris dentro da div olho, ou seja, a div iris  filha da div olho
+11. Adicione uma largura, altura, cor no background, position, absolute, e posicione ele com top, left, right ou bottom
