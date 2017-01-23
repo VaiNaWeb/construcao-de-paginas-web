@@ -11,7 +11,7 @@ Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e o
 8. Adicione uma borda sólida, com uma largura, e cor de sua preferência em cada uma das sections
 
 #Desafio02: Criando um monstrinho
-Vamos criar um monstrinho com formas em CSS e movimenta-lo usando tambm CSS.
+Vamos criar um monstrinho com formas em CSS
 
 1. Crie um documento HTML com a estrutura básica completa
 2. Crie um main com uma section
