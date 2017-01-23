@@ -21,6 +21,6 @@ Vamos criar um monstrinho com formas em CSS
 6. Adicione uma largura, altura, cor no background, e position absolute do monstro
 7. Adicione border-radius para arredondar o corpo do monstrinho e posicione ele com top, left, right ou bottom
 8. Adicione uma nova div com uma classe olho dentro da div monstro, ou seja, a div olho é filha da div monstro
-9. Adicione uma lagura, altura, cor no background, position absolute e posicione ele com top, left, right ou bottom
+9. Adicione uma lagura, altura, cor no background, position absolute e posicione a div olho com top, left, right ou bottom
 10. Adicione uma nova div com a classe iris dentro da div olho, ou seja, a div iris  filha da div olho
-11. Adicione uma largura, altura, cor no background, position, absolute, e posicione ele com top, left, right ou bottom
+11. Adicione uma largura, altura, cor no background, position, absolute, e posicione a div iris com top, left, right ou bottom
