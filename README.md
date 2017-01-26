@@ -57,7 +57,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 ### Aula 07 - [Posicionamento de elementos com CSS](aulas/aula07/aula.md)
 
-**Objetivos:** Entender sobre as propriedades de posicionamento e como cada um influi na composição das ṕaginas.<br>
+**Objetivos:** Entender sobre as propriedades de posicionamento e como cada uma influi na composição das ṕaginas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstraçes, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula07), [resumo](aulas/aula07/resumo.md), [desafios](aulas/aula07/desafios.md).<br>
 **Duração:** 3 horas.
@@ -71,7 +71,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 ### Aula 09 - [Conhecendo o terminal do Linux](aulas/aula09/aula.md)
 
-**Objetivos:** <br>
+**Objetivos:** Dominar os principais comandos do terminal.<br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
