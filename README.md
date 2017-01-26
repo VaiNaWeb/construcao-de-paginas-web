@@ -22,7 +22,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 ### Aula 02 - [Como nos comunicamos através da internet](aulas/aula02/aula.md)
 
-**Objetivos:** Entender como as ṕaginas na Web são criadas.<br>
+**Objetivos:** Entender como as paginas na Web são criadas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações. <br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.
@@ -58,7 +58,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 ### Aula 07 - [Posicionamento de elementos com CSS](aulas/aula07/aula.md)
 
 **Objetivos:** Entender sobre as propriedades de posicionamento e como cada uma influi na composição das ṕaginas.<br>
-**Formato de apresentação:** Apresentação em slides, demonstraçes, exercícios de fixação com desafios.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula07), [resumo](aulas/aula07/resumo.md), [desafios](aulas/aula07/desafios.md).<br>
 **Duração:** 3 horas.
 
