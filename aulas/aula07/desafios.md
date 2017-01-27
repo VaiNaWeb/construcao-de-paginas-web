@@ -1,0 +1,26 @@
+#Desafio01: Organizando a malinha do coração
+Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e organizar com CSS.
+
+1. Crie um documento HTML com a estrutura básica completa
+2. Crie um header, com nav
+3. Crie uma lista no ordenada dentro da nav com 3 itens
+4. Adicione display inline em sua lista
+5. Adicione uma cor, um padding, e position fixed no topo
+6. Crie um main com quatro sections
+7. Em cada section adicione um parágrafo
+8. Adicione um background de sua preferência em cada section
+9. Adicione um padding com o valor de sua preferência nas sections 
+10. Adicione uma borda sólida, com uma largura, e cor de sua preferência em cada uma das sections
+
+#Desafio02: Criando uma casinha
+Vamos criar uma casinha para fixar o que estudamos com position.
+
+1. Crie um documento HTML com a estrutura básica completa
+2. Crie um main com uma section
+3. Essa section vai ser a nossa tela de pintura
+4. Adicione uma altura, largura, cor no background, e position relative da section
+5. Dentro da section crie uma div com uma classe chamada casa
+6. Adicione uma largura, altura, cor no background, e position absolute na casa
+7. Adicione novas formas com cores, tamanhos, formatos, classes diferentes para criar portas, janelas, o que vocês quiserem!
+8. Adicione uma forma com uma largura que ocupe a tela inteira, e uma altura menor, cores, em uma classe chamada rio
+9. Adicione position fixed em nosso rio e faça com com ele fique fixado ao bottom da nossa página.
