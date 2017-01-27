@@ -1,5 +1,5 @@
-#Desafio01: Organizando a malinha do coração
-Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e organizar com CSS.
+#Desafio01: Descrevendo um filme
+Nesse desafio vamos escolher um filme e criar todo o conteúdo da nossa página sobre ele. Sigam a seguinte estrutura:
 
 1. Crie um documento HTML com a estrutura básica completa
 2. Crie um header, com nav
