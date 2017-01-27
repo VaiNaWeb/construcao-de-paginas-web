@@ -18,9 +18,9 @@ Vamos criar uma casinha para fixar o que estudamos com position.
 1. Crie um documento HTML com a estrutura básica completa
 2. Crie um main com uma section
 3. Essa section vai ser a nossa tela de pintura
-4. Adicione uma altura, largura, cor no background, e position relative da section
+4. Adicione uma altura, largura, cor no background, e position relative na section
 5. Dentro da section crie uma div com uma classe chamada casa
 6. Adicione uma largura, altura, cor no background, e position absolute na casa
 7. Adicione novas formas com cores, tamanhos, formatos, classes diferentes para criar portas, janelas, o que vocês quiserem!
-8. Adicione uma forma com uma largura que ocupe a tela inteira, e uma altura menor, cores, em uma classe chamada rio
+8. Adicione uma forma com uma largura que ocupe a tela inteira, uma altura menor, e cores, em uma classe chamada rio
 9. Adicione position fixed em nosso rio e faça com com ele fique fixado ao bottom da nossa página
