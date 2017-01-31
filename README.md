@@ -62,28 +62,28 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula07), [resumo](aulas/aula07/resumo.md), [desafios](aulas/aula07/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 08 - [Criando páginas acessíveis](aulas/aula08/aula.md)
+### Aula 08 - [Introdução ao modelo flexível de caixas](aulas/aula08/aula.md)
 
-**Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
-**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 09 - [Conhecendo o terminal do Linux](aulas/aula09/aula.md)
+### Aula 09 - [Criando páginas para múltiplos dispositivos](aulas/aula09/aula.md)
 
 **Objetivos:** Dominar os principais comandos do terminal.<br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 10 - [Introdução ao modelo flexível de caixas](aulas/aula10/aula.md)
+### Aula 10 - [Conhecendo o terminal do Linux](aulas/aula10/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 11 - [Criando páginas para múltiplos dispositivos](aulas/aula11/aula.md)
+### Aula 11 - [Github e hospedagem gratuita com Github Pages](aulas/aula11/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
@@ -118,21 +118,14 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
 
-### Aula 16 - [Desenvolvendo o projeto intermediário](aulas/aula16/aula.md)
+### Aula 16 - [Criando páginas acessíveis](aulas/aula08/aula.md)
 
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
+**Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 17 - [Github e hospedagem gratuita com Github Pages](aulas/aula17/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 18 - [Definindo o projeto final](aulas/aula18/aula.md)
+### Aula 17 - [Definindo o projeto final](aulas/aula18/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
