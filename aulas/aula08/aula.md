@@ -110,7 +110,7 @@ Se quisermos mudar a ordem do item podemos adicionar a propriedade <code>order</
 
 ##Alinhando um item
 
-Quando necessário, se preciamos alterar o alinhamento de um item, podemos usar a propriedade <code>align-self</code> então ele pode mudar o comportamento de alinhamento dele mesmo. Assim como align-items, essa propriedade pode receber os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, e <code>stretch</code>.
+Quando necessário, se precisarmos alterar o alinhamento de um item, podemos usar a propriedade <code>align-self</code> então ele pode mudar o comportamento de alinhamento dele mesmo. Assim como align-items, essa propriedade pode receber os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, e <code>stretch</code>.
 
 <code>flex-start:</code> O item é alinhado na parte de cima do container.<br>
 <code>flex-end:</code> O item é alinhado na parte de baixo do container.<br>
