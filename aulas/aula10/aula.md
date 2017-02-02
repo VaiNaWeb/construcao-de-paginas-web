@@ -15,7 +15,7 @@ Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o compu
 <code>ls</code>: Lista os arquivos do diretório<br>
 <code>pwd</code>: Mostra o diretório atual<br>
 <code>cd</code>: Usado para mudar de diretório<br>
-<code>cp</code>: Copia arquivo ou diretório<br>
+<code>cp</code>: Copia um arquivo ou diretório<br>
 <code>mv</code>: Usado para mover um arquivo ou renomea-lo<br>
 <code>mkdir</code>: Cria uma nova pasta<br>
 <code>touch</code>: Cria um novo arquivo<br>

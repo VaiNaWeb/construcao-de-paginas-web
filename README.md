@@ -72,20 +72,22 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 ### Aula 09 - [Criando páginas para múltiplos dispositivos](aulas/aula09/aula.md)
 
 **Objetivos:** Compreender a importância do Design Responsivo. Aprender como usar CSS para criar layouts responsivos.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [codepen](codepen.io), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula09), [resumo](aulas/aula09/resumo.md), [desafios](aulas/aula09/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 10 - [Conhecendo o terminal do Linux](aulas/aula10/aula.md)
 
 **Objetivos:** Dominar os principais comandos do terminal.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Formato de apresentação:** [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula10), [resumo](aulas/aula10/resumo.md), [desafios](aulas/aula10/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 11 - [Github e hospedagem gratuita com Github Pages](aulas/aula11/aula.md)
 
 **Objetivos:** Compreender o que é o Git, Github, Open Source, e o que todos eles representam. Aprender como usar todas essas ferramentas e disponibilizar uma página simples usando o Github Pages.<br>
-**Formato de apresentação:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula11), [resumo](aulas/aula11/resumo.md), [desafios](aulas/aula11/desafios.md).<br>
-**Ferramentas e materiais de apoio:** <br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula11), [resumo](aulas/aula11/resumo.md), [desafios](aulas/aula11/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 12 - [Criando magias com CSS3](aulas/aula12/aula.md)
