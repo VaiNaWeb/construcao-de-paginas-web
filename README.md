@@ -66,14 +66,14 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** Aprender a criação de layouts usando os valores e propriedades do Flexbox.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [flexbox froggy](http://flexboxfroggy.com/#pt-br), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [flexbox froggy](http://flexboxfroggy.com/#pt-br), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
 ### Aula 09 - [Criando páginas para múltiplos dispositivos](aulas/aula09/aula.md)
 
 **Objetivos:** Compreender a importância do Design Responsivo. Aprender como usar CSS para criar layouts responsivos.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [codepen](codepen.io), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula09), [resumo](aulas/aula09/resumo.md), [desafios](aulas/aula09/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [codepen](http://codepen.io/), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula09), [resumo](aulas/aula09/resumo.md), [desafios](aulas/aula09/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 10 - [Conhecendo o terminal do Linux](aulas/aula10/aula.md)

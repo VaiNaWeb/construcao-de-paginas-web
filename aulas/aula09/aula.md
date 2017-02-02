@@ -1,8 +1,6 @@
 #Criando páginas para múltiplos dispositivos
 
-Muita coisa aconteceu desde o surgimento da internet, e nossa experiência com a tecnologia também se modificou muito com o passar dos anos. 
-
-A realidade que conhecemos hoje, é que estamos realmente conectados o tempo inteiro, e através de vários dispositivos diferentes.
+Muita coisa aconteceu desde o surgimento da internet, e nossa experiência com a tecnologia também se modificou muito com o passar dos anos. A realidade que conhecemos hoje, é que estamos realmente conectados o tempo inteiro, e através de vários dispositivos diferentes.
 
 Não somente no computador, hoje sabemos que é possível nos conectar usando uma infinidade de aparelhos diferentes, televisão, videogame, celular, etc. E estamos conectados também nos mais diferentes lugares, seja na padaria, na escola, ou em casa. A web está em todos os lugares!
 
