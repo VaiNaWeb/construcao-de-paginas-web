@@ -32,3 +32,15 @@ Usamos o comando git init para pedir ao git que comece a versionar nossa pasta. 
 Agora que já conhecemos os comandos mais básicos no Git queremos que nossos arquivos sejam armazenados não somente no nosso computador, mas também no Github!
 
 Nossa pasta já existe no computador, mas dentro do Github ainda não. Então vamos abrir o site, e criar um repositório vazio dentro dele. Ainda usando o git, precisamos dizer ao Github que nossa pasta e seus commits existem na nossa máquina e queremos que ela vá também para ele. Usamos o comando git remote add origin https://github.com/seunome/suapasta.git para dizer que é essa pasta que vai receber a pasta do nosso computador, depois usamos o comando git push para enviar nossos arquivos.
+
+##Alguns comandos
+
+<code>git init</code> Inicializa a pasta como git
+<code>git add</code> Adiciona alterações
+<code>git commit -m "comentario"</code> Commita, ou seja, marca as alterações e adiciona a elas um comentário
+<code>git status</code> Confere se há alterações para dar commit
+<code>git log</code> Exibe o histórico de commits que já foram feitos na pasta
+<code>git remote add origin https://github.com/seunome/suapasta.git</code> Sincroniza a pasta que está no computador à pasta que está no Github
+<code>git push</code> Sobe a pasta para o github
+<code>git pull</code> Faz download da pasta que está no Github para a pasta no computador
+<code>git clone</code> Faz download da pasta que está no Github para uma pasta que ainda não estava no computador
