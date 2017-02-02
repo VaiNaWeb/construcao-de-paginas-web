@@ -17,7 +17,7 @@ Antes de tudo, precisamos dizer ao navegador que a escala inicial da nossa pági
 ```html
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
-Nós já aprendemos Flexbox, então todo o resto acaba por ficar mais simples a partir daqui. Isso porque o Flexbox é muito legal para tornar nosso layout flexível, e flexibilidade e fluidez faz parte do que queremos atingir com o design responsivo. Ao invés de ficar usando pixels, nós também podemos usar unidades de medida flexíveis, você pode ler mais sobre isso nesse (link)[http://www.maujor.com/tutorial/unidades-de-medidas-css.php]. 
+Nós já aprendemos Flexbox, então todo o resto acaba por ficar mais simples a partir daqui. Isso porque o Flexbox é muito legal para tornar nosso layout flexível, e flexibilidade e fluidez faz parte do que queremos atingir com o design responsivo. Ao invés de ficar usando pixels, nós também podemos usar unidades de medida flexíveis, você pode ler mais sobre isso nesse [link](http://www.maujor.com/tutorial/unidades-de-medidas-css.php). 
 
 Também muito importantes para tornar nossas páginas responsivas são as media queries. Usamos elas basicamente para criar modificações na página para que ela se adapte de acordo com uma medida. Nós podemos dizer por exemplo que se uma página tem até 640px de largura o background dela deve mudar sua cor.
 
@@ -29,6 +29,6 @@ Também muito importantes para tornar nossas páginas responsivas são as media 
 }
 ```
 
-Mudar a cor de uma página de acordo com seu tamanho pode não ser muito interessante, mas podemos modificar outras coisas que são, como por exemplo modificar o tamanho de um container, o lugar de um botão, deixar uma letra maior ou menor... são muitas possibilidades que podem e devem ser aproveitadas. 
+Mudar a cor de uma página de acordo com seu tamanho pode não ser muito interessante, mas podemos modificar outras coisas que são, como por exemplo modificar o tamanho de um container, o lugar de um botão, deixar uma letra maior ou menor... são muitas [possibilidades](https://tableless.com.br/design-responsivo-na-pratica-do-rascunho-ao-digita/) que podem e devem ser aproveitadas. 
 
 De acordo com cada centário, podemos considerar muitas coisas, e pensando nessas coisas usar as melhores técnicas para criar a experiência de navegação que queremos.
