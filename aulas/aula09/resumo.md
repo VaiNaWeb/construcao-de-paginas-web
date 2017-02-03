@@ -1,8 +1,8 @@
 #Criando páginas para múltiplos dispositivos
 
-- Estamos realmente conectados o tempo inteiro, e através de vários dispositivos diferentes. Não somente no computador, sabemos que é possível nos conectar usando uma infinidade de aparelhos diferentes. Além disso estamos conectados também nos mais diferentes lugares, seja na padaria, na escola, ou em casa. A web está em todos os lugares!
+- Estamos realmente conectados o tempo inteiro, e através de vários dispositivos diferentes. A web está em todos os lugares!
 
-- É nosso dever e desafio enquanto desenvolvedores web, criar páginas que possibilitem que essas experiências aconteçam da melhor forma possível. Precisamos criar páginas que sejam exibidas de forma correta nos mais diferentes dispositivos, assim nasceu o conceito de [Design responsivo](https://brasil.uxdesign.cc/o-que-%C3%A9-responsive-web-design-ab292eb616b7#.oin348i9x).
+- Precisamos criar páginas que sejam exibidas de forma correta nos mais diferentes dispositivos, assim nasceu o conceito de [Design responsivo](https://brasil.uxdesign.cc/o-que-%C3%A9-responsive-web-design-ab292eb616b7#.oin348i9x).
 
 - Dizemos que uma página é responsiva, quando os elementos dela se adaptam automaticamente à tela do dispositivo no qual ela está sendo visualizada. Na prática, há algumas técnicas que usamos para que esse comportamento aconteça.
 
