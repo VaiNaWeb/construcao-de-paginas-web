@@ -10,10 +10,10 @@
 
 <code>git init</code> Inicializa a pasta como git<br>
 <code>git add</code> Adiciona alterações<br>
-<code>git commit -m "comentario"`</code> Commita, ou seja, marca as alterações e adiciona a elas um comentário<br>
+<code>git commit -m "comentario"</code> Commita, ou seja, marca as alterações e adiciona a elas um comentário<br>
 <code>git status</code> Confere se há alterações para dar commit<br>
 <code>git log</code> Exibe o histórico de commits que já foram feitos na pasta<br>
-<code>git remote add origin https://github.com/seunome/suapasta.git`</code> Sincroniza a pasta que está no computador à pasta que está no Github<br>
+<code>git remote add origin https://github.com/seunome/suapasta.git</code> Sincroniza a pasta que está no computador à pasta que está no Github<br>
 <code>git push`</code> Sobe a pasta para o github<br>
 <code>git pull`</code> Faz download da pasta que está no Github para a pasta no computador<br>
 <code>git clone</code> Faz download da pasta que está no Github para uma pasta que ainda não estava no computador<br>
