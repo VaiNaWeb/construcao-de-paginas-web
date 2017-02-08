@@ -26,7 +26,11 @@ Agora que já conhecemos o Git e o Github, vamos aprender na prática como eles 
 
 Para o sistema do Git, os dados dos nossos arquivos são como conjuntos de fotografias, como se seu sistema estivesse fotografando as alterações que acontecem dentro da nossa pasta, para criar versões de nossos arquivos. Mas como ele faz isso? Bom...
 
-Usamos o comando `git init` para pedir ao git que comece a versionar nossa pasta. Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. E pedimos que ele coloque um post-it em um um conjunto de mudanças para que possamos ler depois. Usamos o comando `git add` para que ele saiba que as alteraçõoes que fizemos importam para esse conjunto de dados. Ou seja, pedimos que ele fotografe, depois, que ele dê um nome a essa fotografia atual dos nossos arquivos - chamamos isso de commit. Para essa tarefa, usamos o comando git commit -m "oi! eu sou um comentário e vim te lembrar que você mudou esses arquivos aqui"
+Usamos o comando `git init` para pedir ao git que comece a versionar nossa pasta. Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. E pedimos que ele coloque um post-it em um um conjunto de mudanças para que possamos ler depois. 
+
+Usamos o comando `git add` para que ele saiba que as alteraçõoes que fizemos importam para esse conjunto de dados. Ou seja, pedimos que ele fotografe, depois, que ele dê um nome a essa fotografia atual dos nossos arquivos - chamamos isso de commit. Para essa tarefa, usamos o comando git commit -m "oi! eu sou um comentário e vim te lembrar que você mudou esses arquivos aqui"
+
+Quando necessário, se não quisermos commitar as alterações, se optarmos por desfaze-las, ao invés de usar `git add` podemos usasr git `checkout -- <nomedoarquivo>`. E então seguir fazendo novas alterações.
 
 ### Subindo nossos arquivos para o Github
 
