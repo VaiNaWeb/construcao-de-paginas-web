@@ -38,6 +38,10 @@ Agora que já conhecemos os comandos mais básicos no Git, queremos que nossos a
 
 Nossa pasta já existe no computador, mas dentro do Github ainda não. Então, vamos abrir o site e criar um repositório vazio dentro dele. Ainda usando o git, precisamos dizer ao Github que nossa pasta e seus commits existem na nossa máquina e queremos que ela vá também para ele. Usamos o comando `git remote add origin https://github.com/seunome/suapasta.git` para dizer que é essa pasta que vai receber a pasta do nosso computador, ou seja a pasta do github vai estar sincronizada à pasta do seu computador. Depois usamos o comando `git push` para enviar nossos arquivos.
 
+## Clonando um repositório do Github
+
+Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando `git clone https://github.com/seuusername/suapasta.git`. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permisso, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
+
 ### Criando páginas no Github
 
 Agora nossa pasta já existe no Github e queremos criar uma página dela usando o serviço do Github Pages. Como essa será nossa primeira página, podemos criá-la apenas dando a nossa pasta o nome de seunome.github.io
