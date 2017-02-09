@@ -90,44 +90,16 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula11), [resumo](aulas/aula11/resumo.md), [desafios](aulas/aula11/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 12 - [Criando magias com CSS3](aulas/aula12/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 13 - [Revisando fundamentos](aulas/aula13/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 14 - [Planejando e iniciando o projeto intermediário](aulas/aula14/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 15 - [Desenvolvendo o projeto intermediário](aulas/aula15/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula 16 - [Criando páginas acessíveis](aulas/aula08/aula.md)
+### Aula 12 - [Criando páginas acessíveis](aulas/aula12/aula.md)
 
 **Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula12), [resumo](aulas/aula12/resumo.md), [desafios](aulas/aula12/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 17 - [Definindo o projeto final](aulas/aula18/aula.md)
+### Aula 13 - [Criando magias com CSS3](aulas/aula12/aula.md)
 
 **Objetivos:** <br>
 **Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:**<br>
+**Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
