@@ -103,3 +103,17 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Formato de apresentação:** <br>
 **Ferramentas e materiais de apoio:** <br>
 **Duração:** 3 horas.
+
+### Aula Extra - [Pré-processadores CSS](aulas/aula12/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** <br>
+**Duração:** 3 horas.
+
+### Aula Extra - [Gerenciadores de tarefas](aulas/aula12/aula.md)
+
+**Objetivos:** <br>
+**Formato de apresentação:** <br>
+**Ferramentas e materiais de apoio:** <br>
+**Duração:** 3 horas.

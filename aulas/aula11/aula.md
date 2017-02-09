@@ -26,21 +26,23 @@ Agora que já conhecemos o Git e o Github, vamos aprender na prática como eles 
 
 Para o sistema do Git, os dados dos nossos arquivos são como conjuntos de fotografias, como se seu sistema estivesse fotografando as alterações que acontecem dentro da nossa pasta, para criar versões de nossos arquivos. Mas como ele faz isso? Bom...
 
-Usamos o comando `git init` para pedir ao git que comece a versionar nossa pasta. Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. E pedimos que ele coloque um post-it em um um conjunto de mudanças para que possamos ler depois. 
+Usamos o comando <code>git init</code> para pedir ao git que comece a versionar nossa pasta. Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. E pedimos que ele coloque um post-it em um um conjunto de mudanças para que possamos ler depois. 
 
-Usamos o comando `git add` para que ele saiba que as alteraçõoes que fizemos importam para esse conjunto de dados. Ou seja, pedimos que ele fotografe, depois, que ele dê um nome a essa fotografia atual dos nossos arquivos - chamamos isso de commit. Para essa tarefa, usamos o comando git commit -m "oi! eu sou um comentário e vim te lembrar que você mudou esses arquivos aqui"
+Usamos o comando <code>git add</code> para que ele saiba que as alteraçõoes que fizemos importam para esse conjunto de dados. Ou seja, pedimos que ele fotografe, depois, que ele dê um nome a essa fotografia atual dos nossos arquivos - chamamos isso de commit. Para essa tarefa, usamos o comando <code>git commit -m "oi! eu sou um comentário e vim te lembrar que você mudou esses arquivos aqui"</code>
 
-Quando necessário, se não quisermos commitar as alterações, se optarmos por desfaze-las, ao invés de usar `git add` podemos usasr git `checkout -- <nomedoarquivo>`. E então seguir fazendo novas alterações.
+Quando necessário, se não quisermos commitar as alterações, se optarmos por desfaze-las, ao invés de usar <code>git add</code> podemos usasr git <code>checkout -- nomedoarquivo</code>. E então seguir fazendo novas alterações.
 
 ### Subindo nossos arquivos para o Github
 
 Agora que já conhecemos os comandos mais básicos no Git, queremos que nossos arquivos sejam armazenados não somente no nosso computador, mas também no Github!
 
-Nossa pasta já existe no computador, mas dentro do Github ainda não. Então, vamos abrir o site e criar um repositório vazio dentro dele. Ainda usando o git, precisamos dizer ao Github que nossa pasta e seus commits existem na nossa máquina e queremos que ela vá também para ele. Usamos o comando `git remote add origin https://github.com/seunome/suapasta.git` para dizer que é essa pasta que vai receber a pasta do nosso computador, ou seja a pasta do github vai estar sincronizada à pasta do seu computador. Depois usamos o comando `git push` para enviar nossos arquivos.
+Nossa pasta já existe no computador, mas dentro do Github ainda não. Então, vamos abrir o site e criar um repositório vazio dentro dele. Ainda usando o git, precisamos dizer ao Github que nossa pasta e seus commits existem na nossa máquina e queremos que ela vá também para ele. Usamos o comando <code>git remote add origin https://github.com/seunome/suapasta.git</code> para dizer que é essa pasta que vai receber a pasta do nosso computador, ou seja a pasta do github vai estar sincronizada à pasta do seu computador. Depois usamos o comando <code>git push</code> para enviar nossos arquivos.
 
 ## Clonando um repositório do Github
 
-Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando `git clone https://github.com/seuusername/suapasta.git`. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permisso, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
+Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando <code>git clone https://github.com/seuusername/suapasta.git</code>. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permissão, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
+
+E se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos usar o comando </code>git pull</code>.
 
 ### Criando páginas no Github
 
