@@ -42,7 +42,7 @@ Nossa pasta já existe no computador, mas dentro do Github ainda não. Então, v
 
 Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando <code>git clone https://github.com/seuusername/suapasta.git</code>. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permissão, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
 
-E se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos usar o comando </code>git pull</code>.
+E se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos usar o comando <code>git pull</code>.
 
 ### Criando páginas no Github
 
