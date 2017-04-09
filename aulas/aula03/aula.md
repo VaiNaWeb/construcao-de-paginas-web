@@ -1,13 +1,12 @@
-#Introdução ao HTML e CSS
+# Introdução ao HTML e CSS
 
-##Estrutura básica HTML
+## Estrutura básica HTML
 
 Já aprendemos o que é e para que serve, agora vamos conhecer suas principais TAGs, que compõem a estrutura básica de um documento em HTML.
 
 ```html
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<title> </title>
 	</head>
@@ -32,6 +31,8 @@ Exemplo:
 ```html
 <p>Olá, eu sou um parágrafo.</p>
 ```
+
+Algo importantate sobre as tags HTML é que elas devem dizer exatamente o que é o conteúdo entre sua tag de abertura e fechamento. Devemos marcar com as tags quais partes do conteúdo são parágrafos, títulos, listas, etc, chamamos isso de Semântica.
 
 Nossa estrutura HTML contém vários elementos diferentes e, como vimos anteriormente, alguns elementos até estão dentro de outros elementos, como se guardássemos uma caixa dentro de outra caixa e dentro dela colocássemos outra caixa, e outra caixa... Confuso, não é?
 
