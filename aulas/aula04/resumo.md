@@ -1,4 +1,4 @@
-#Evoluindo minha página com mais HTML
+# Evoluindo minha página com mais HTML
 
 - Sites são um conjunto de páginas conectadas, ou linkadas, umas às outras. Quando vamos construir um site, precisamos organizar bem nossos arquivos. Vamos fazer isso através de pastas.
 
@@ -75,11 +75,7 @@
         <dd>De madeira</dd>
 </dl>
 
-<<<<<<< HEAD
 - Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada célula de dados será uma Table Data, ou `<td>` Podemos se nececessrio adicionar o atributo rowspan, que vai criar uma expansão de linha nas células. Podemos também usar o atributo colspan e teremos uma expansão de coluna nas células.
-=======
-- Criamos uma tabela com a tag `<table>`, uma linha de Table Row, ou `<tr>`. Cada célula de dados será uma Table Data, ou `<td> podemos, se nececessrio, adicionar o atributo rowspan, que vai criar uma expansão de linha nas células. Podemos também usar o atributo colspan e teremos uma expansão de coluna nas células.
->>>>>>> b091565a053dee9e127dc6fa3a5523cb3e857d5c
 
 ```html
 <table>

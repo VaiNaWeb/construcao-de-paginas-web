@@ -1,41 +1,19 @@
-#Modelo de caixa com CSS
+# Github e hospedagem gratuita Github Pages
 
-- Imaginem que elementos são realmente caixinhas retangulares, como se em cada um deles houvesse um retângulo invisível.
+- Git é m sistema de controle de versão e gerenciamento de código fonte.
 
-- Em nossas páginas, nós podermos determinar o tamanho, a altura, o preenchimento, o espaçamento, e até as cores dessas caixas. Assim criamos interessantes composições para sites.
+- Uma plataforma social, onde milhares de pessoas constroem códigos, e mais algumas coisas, de forma colaborativa, aberta e gratuita. O Github oferece um espaço para armazenar pastas e arquivos com seu conteúdo versionado através do Git.
 
-- Cada caixa tem uma largura e uma altura, que determinamos usando as propriedades width e height.
+- Github Pages é um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
 
-- Temos também padding e margin, padding pode aumentar o preenchimento de uma caixa, enquanto margin pode aumentar seu espaçamento.
+## Principais comandos
 
-- A propriedade border pode servir para aplicar estilo às bordas de uma caixa.
-```css
-.elemento {
-  width: 100px;
-  height: 100px;
-  padding: 50px;
-  margin: 50px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: black;
-}
-```
-##Comportamento de bloco
-
-- Há caixas que se comportam em forma de bloco e há caixas que se comportam em forma de linha. 
-
-- Cada elemento já tem esse comportamento definido por padrão, mas podemos alterá-lo, basta alterar os valores da propriedade display com inline, ou block.
-
-- Elementos que se comportam como bloco, como h1, h2, h3, p, ul, li, ocupam toda a largura de uma página. Assim sendo, se duas caixas que se comportam como bloco forem adicionadas, a primeira vai querer ocupar toda a largura, então a outra apacerá abaixo dela, ocupando também toda a largura da página.
-```css
-p {
-  display: block;
-}
-```
-- Elementos que se comportam em forma de linha como a, img, input, label, não tentam ocupar uma largura que não precisam. Dessa forma, conseguem ser alinhados visualmente em uma única linha.
-```css
-a {
-  display: inline;
-}
-```
-Testem, testem e testem! Explorem sem medo todas as propriedades e valores que foram vistos hoje. Na dúvida, sintam-se à vontade para usar o inspetor do navegador e ter uma melhor visualização do comportamento dos seus estilos.
+<code>git init</code> Inicializa a pasta como git<br>
+<code>git add</code> Adiciona alterações<br>
+<code>git commit -m "comentario"</code> Commita, ou seja, marca as alterações e adiciona a elas um comentário<br>
+<code>git status</code> Confere se há alterações para dar commit<br>
+<code>git log</code> Exibe o histórico de commits que já foram feitos na pasta<br>
+<code>git remote add origin https://github.com/seunome/suapasta.git</code> Sincroniza a pasta que está no computador à pasta que está no Github<br>
+<code>git push</code> Sobe a pasta para o github<br>
+<code>git pull</code> Faz download da pasta que está no Github para a pasta no computador<br>
+<code>git clone</code> Faz download da pasta que está no Github para uma pasta que ainda não estava no computador<br>

@@ -1,19 +1,28 @@
-# Github e hospedagem gratuita Github Pages
+#Criando páginas para múltiplos dispositivos
 
-- Git é m sistema de controle de versão e gerenciamento de código fonte.
+- Estamos realmente conectados o tempo inteiro, e através de vários dispositivos diferentes. A web está em todos os lugares!
 
-- Uma plataforma social, onde milhares de pessoas constroem códigos, e mais algumas coisas, de forma colaborativa, aberta e gratuita. O Github oferece um espaço para armazenar pastas e arquivos com seu conteúdo versionado através do Git.
+- Precisamos criar páginas que sejam exibidas de forma correta nos mais diferentes dispositivos, assim nasceu o conceito de [Design responsivo](https://brasil.uxdesign.cc/o-que-%C3%A9-responsive-web-design-ab292eb616b7#.oin348i9x).
 
-- Github Pages é um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
+- Dizemos que uma página é responsiva, quando os elementos dela se adaptam automaticamente à tela do dispositivo no qual ela está sendo visualizada. Na prática, há algumas técnicas que usamos para que esse comportamento aconteça.
 
-## Principais comandos
+- Precisamos dizer ao navegador que a escala inicial da nossa página é equivalente ao tamanho do dispositivo. Adicionamos a seguinte linha ao <code>head</code>:
 
-<code>git init</code> Inicializa a pasta como git<br>
-<code>git add</code> Adiciona alterações<br>
-<code>git commit -m "comentario"</code> Commita, ou seja, marca as alterações e adiciona a elas um comentário<br>
-<code>git status</code> Confere se há alterações para dar commit<br>
-<code>git log</code> Exibe o histórico de commits que já foram feitos na pasta<br>
-<code>git remote add origin https://github.com/seunome/suapasta.git</code> Sincroniza a pasta que está no computador à pasta que está no Github<br>
-<code>git push</code> Sobe a pasta para o github<br>
-<code>git pull</code> Faz download da pasta que está no Github para a pasta no computador<br>
-<code>git clone</code> Faz download da pasta que está no Github para uma pasta que ainda não estava no computador<br>
+```html
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+- Flexbox é muito legal para tornar nosso layout flexível, e flexibilidade e fluidez faz parte do que queremos atingir com o design responsivo. Ao invés de ficar usando pixels, nós também podemos usar unidades de medida flexíveis, você pode ler mais sobre isso nesse [link](http://www.maujor.com/tutorial/unidades-de-medidas-css.php). 
+
+- Usamos media queries para criar modificações na página para que ela se adapte de acordo com uma medida. Nós podemos dizer por exemplo que se uma página tem até 640px de largura o background dela deve mudar sua cor.
+
+```css
+@media (max-width: 640px) {
+	body {
+		background: tomato;
+	}
+}
+```
+
+- Mudar a cor de uma página de acordo com seu tamanho pode não ser muito interessante, mas podemos modificar outras coisas que são, como por exemplo modificar o tamanho de um container, o lugar de um botão, deixar uma letra maior ou menor... são muitas [possibilidades](https://tableless.com.br/design-responsivo-na-pratica-do-rascunho-ao-digita/) que podem e devem ser aproveitadas. 
+
+- De acordo com cada centário, podemos considerar muitas coisas, e pensando nessas coisas usar as melhores técnicas para criar a experiência de navegação que queremos.

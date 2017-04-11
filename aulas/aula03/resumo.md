@@ -1,4 +1,4 @@
-##Como páginas da Web são construídas
+## Como páginas da Web são construídas
 
 * Cada tag funciona como uma etiqueta, que diz ao navegador qual elemento está escrito ali e como ele deve interpretar.
 
@@ -27,7 +27,7 @@
 </html>
 ```
 
-##Tags do html5
+## Tags do html5
 
 `<section>` Define uma seção<br>
 `<nav>` Define um menu com links de navegação<br>
@@ -37,7 +37,7 @@
 `<footer>` Define o rodapé de uma página ou seção. <br>
 `<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.<br>
 
-##Títulos
+## Títulos
 
 ```html
 <h1>Eu sou o título mais importante!</h1>

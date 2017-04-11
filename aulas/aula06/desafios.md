@@ -1,26 +1,28 @@
-#Desafio01: Organizando a malinha do coração
-Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e organizar com CSS.
+# Desafio01: Versionando uma música!
 
-1. Crie um documento HTML com a estrutura básica completa
-2. Crie um header, com um título e uma imagem
-3. Crie um main com quatro sections
-4. Em cada section adicione uma imagem e um parágrafo 
-5. Adicione um background de sua preferência no header e em cada section
-6. Adicione um padding com o valor de sua preferência nas sections
-7. Adicione um margin com o valor de sua preferência no header 
-8. Adicione uma borda sólida, com uma largura, e cor de sua preferência em cada uma das sections
+1. Crie uma pasta
+2. Crie um arquivo de texto chamado musica.txt
+3. Abra sua pasta no terminal e peça ao git que comece a versiona-la
+4. Abra seu arquivo de texto e escreva uma frase da música que você mais gosta. Depois salve ele
+5. Volte ao terminal e o use o comando para avisar ao git que você quer mesmo que sua alteração seja salva
+6. Ainda no terminal, peça ao git que salve essa alteração, e deixe nela um comentário
+7. Abra novamente seu arquivo de texto e adicione mais uma frase da música
+8. Volte ao terminal e lembre ao git novamente de que você vai querer salvar essa alteração
+9. Ainda no terminal, peça ao git que salve essa alteração, e deixe nela mais um comentário
+10. Pergunte ao Git quais alterações foram gravadas
 
-#Desafio02: Criando um monstrinho
-Vamos criar um monstrinho com formas em CSS
+# Desafio02: Minha página na web
 
-1. Crie um documento HTML com a estrutura básica completa
-2. Crie um main com uma section
-3. Essa section vai ser a nossa tela de pintura
-4. Adicione uma altura, largura, cor no background, e position relative da section
-5. Dentro da section crie uma div com uma classe chamada monstro
-6. Adicione uma largura, altura, cor no background, e position absolute no monstro
-7. Adicione border-radius para arredondar o corpo do monstrinho e posicione ele com top, left, right ou bottom
-8. Adicione uma nova div com uma classe olho dentro da div monstro, ou seja, a div olho é filha da div monstro
-9. Adicione uma lagura, altura, cor no background, position absolute e posicione a div olho com top, left, right ou bottom
-10. Adicione uma nova div com a classe iris dentro da div olho, ou seja, a div iris  filha da div olho
-11. Adicione uma largura, altura, cor no background, position, absolute, e posicione a div iris com top, left, right ou bottom
+1. Crie uma conta no Github
+2. Crie uma pasta no seu computador chamada seunome.github.io
+3. Abra sua pasta ano terminal e peça ao git que comece a versiona-la
+4. Abra a pasta e crie dentro dela um arquivo chamado index.html
+5. Abra o arquivo, escreva seu nome, e um textinho contando quem é você e coisas que você gosta de fazer. Salve ele
+6. Volte ao terminal e o use o camando para avisar ao git que você quer mesmo que sua alteração seja salva
+7. Ainda no terminal, peça ao git que salve essa alteração, e deixe nela um comentário
+8. Vá ao Github e crie uma pasta também chamada seunome.github.io
+9. Volte ao terminal e digite o comando que sincroniza a pasta do github com a pasta do seu computador
+10. Ainda no terminal, digite o camando para subir as alterações do seu computador para o Github
+11. Acesse o endereço seunome.github.io pelo seu navegador
+
+Não lembra dos principais comandos do git? Sinta-se à vontade para ler novamente a aula, e/ou o resumo dela.

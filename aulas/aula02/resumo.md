@@ -1,4 +1,4 @@
-##Como nos comunicamos através da Internet
+## Como nos comunicamos através da Internet
 
 * Quando dois ou mais computadores estão conectados à internet, eles podem conversar uns com os outros.
 

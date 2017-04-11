@@ -1,42 +1,53 @@
-#Posicionamento de elementos com CSS
+- Selecionamos o que queremos estilizar e, então, algum seletor CSS define como, onde, e até quando colocar esses estilos.
 
-- Em CSS temos a propriedade position, que pode receber alguns valores diferentes, cada um com seu comportamento. O valor padrão dessa propriedade, e que podemos mudar, é o static. 
+- Podemos adicionar a CSS em nossa página HTML de três formas:
 
-- Podemos usar os valores static, absolute, relative e fixed.
+- Adicionadno o CSS em linha, usando o atributo style
 
-- O valor static não se posiciona de forma especial, ou seja, dizer que o elemento tem valor estático significa dizer que ele não tem ainda uma posição definida.
+```html
+<p style="color: #f05a20;">Vai na Web</p>
+```
+
+- Adicionando CSS direto no `<head>`
+
+```html
+<head>
+	<style>
+		p { color: #f05a20; }
+	</style>
+</head>
+<body>
+	<p>Vai na Web</p>
+</body>
+```
+
+- Adicionando CSS externamente: criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e utilizá-lo. Lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja, .css, no final.
+
+```html
+<head>
+	<title>Vai na Web</title>
+	<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+    <p>Vai na Web</p>
+</body>
+```
+
 ```css
-.elemento {
-  position: static;
+p {
+	color: #f05a20;
 }
 ```
-- Você pode imaginar que no navegador, há um sistema de coordenadas, e temos que adicionar propriedades extras junto ao position para posicionar o elemento nesse sistema. As propriedades extras que usamos são: top, right, bottom, e left.
 
-- O position com valor relative posiciona o elemento em relação a si mesmo, e faz esse cálculo a partir do seu canto superior esquerdo.
+- Sintaxe: A estrutura como ela é escrita.
+
 ```css
-.elemento {
-  position: relative;
+seletor {
+	propriedade: valor;
 }
 
-.elemento {
-  position: relative;
-  top: 20px;
-  left: 20px;
-}
 ```
-- Assim como o valor relative, o absolute precisa dessas propriedades extras de coordenadas. Porém diferente do position relative, o elemento com valor absolute não se posiciona em relação a si mesmo, mas a outros elementos, como seu elemento pai, ou, se o elemento pai não tiver seu position definido, ele usa como referencia o próprio body.
-```css
-.elemento {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-```
-- O valor fixed posiciona de forma fixa na página, isso significa que ele sempre ficará no mesmo lugar ainda que rolemos a página. Assim como o relative, e absolute, as propriedades top, right, bottom e left também podem ser utilizadas.
-```css
-.elemento {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-}
-```
+
+Leia mais!<br>
+https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048<br>
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list

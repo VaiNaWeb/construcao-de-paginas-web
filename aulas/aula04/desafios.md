@@ -1,4 +1,4 @@
-#Desafio01: Uma mini wiki
+# Desafio01: Uma mini wiki
 
 Vamos criar uma página de uma quase wikipedia, uma mini página, para compreender como funciona os hiperlinks.
 
@@ -9,7 +9,7 @@ Vamos criar uma página de uma quase wikipedia, uma mini página, para compreend
 5. Adicione um link ao seu título
 6. Adicione um ou mais links em uma ou mais palavras do seu parágrafo, apontando para uma página da web onde fala sobre o assunto
 
-#Desafio02: A receita mais saborosa
+# Desafio02: A receita mais saborosa
 
 Vamos criar uma página com uma receita de alguma comida de que gostamos muito.
 Ah! Se você não conhece ou não se lembra de como cozinhar nenhuma receita, pode pesquisar no Google.
@@ -21,7 +21,7 @@ Ah! Se você não conhece ou não se lembra de como cozinhar nenhuma receita, po
 5. Adicione, dentro da section, uma lista não ordenada com os ingredientes
 6. Adicione uma lista ordenada com o passo a passo da sua receita
 
-#Desafio03: Meu ídolo
+# Desafio03: Meu ídolo
 
 Vamos construir a biografia do nosso ídolo. Com o nome dele, uma foto, e alguns textos que dizem quem é ele ou o que fez, CDs que gravou, livros que escreveu, ou outras coisas que ele fez, vamos contar a história dele. Seguiremos os seguintes itens:
 
@@ -34,7 +34,7 @@ Vamos construir a biografia do nosso ídolo. Com o nome dele, uma foto, e alguns
 7. Adicione uma ou mais listas não ordenadas de coisas na segunda section
 8. Adicione um footer e, dentro dele, um paŕagrafo com seu nome
 
-#Desafio04: Guia turístico
+# Desafio04: Guia turístico
 
 Já conhecemos a estrutura do HTML muito bem e o escrevemos de forma bem semântica. Agora vamos exercitar o que aprendemos. Criaremos um guia turístico. Escolha uma cidade de sua preferência e vamos começar a codificar!
 
@@ -45,7 +45,7 @@ Já conhecemos a estrutura do HTML muito bem e o escrevemos de forma bem semânt
 5. Adicione uma imagem e um parágrafo dentro de cada section, com imagens da cidade que você escolheu e informações sobre ela
 6. Adicione um footer com um parágrafo contendo seu nome
 
-#Desafio05: Meu álbum de figurinhas
+# Desafio05: Meu álbum de figurinhas
 
 Agora, vamos criar um álbum de figurinhas. Sinta-se livre para escolher o tema do seu álbum - pokemon, futebol, harry potter, você escolhe!
 

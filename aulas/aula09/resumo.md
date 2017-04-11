@@ -1,28 +1,42 @@
-#Criando páginas para múltiplos dispositivos
+# Posicionamento de elementos com CSS
 
-- Estamos realmente conectados o tempo inteiro, e através de vários dispositivos diferentes. A web está em todos os lugares!
+- Em CSS temos a propriedade position, que pode receber alguns valores diferentes, cada um com seu comportamento. O valor padrão dessa propriedade, e que podemos mudar, é o static. 
 
-- Precisamos criar páginas que sejam exibidas de forma correta nos mais diferentes dispositivos, assim nasceu o conceito de [Design responsivo](https://brasil.uxdesign.cc/o-que-%C3%A9-responsive-web-design-ab292eb616b7#.oin348i9x).
+- Podemos usar os valores static, absolute, relative e fixed.
 
-- Dizemos que uma página é responsiva, quando os elementos dela se adaptam automaticamente à tela do dispositivo no qual ela está sendo visualizada. Na prática, há algumas técnicas que usamos para que esse comportamento aconteça.
-
-- Precisamos dizer ao navegador que a escala inicial da nossa página é equivalente ao tamanho do dispositivo. Adicionamos a seguinte linha ao <code>head</code>:
-
-```html
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-- Flexbox é muito legal para tornar nosso layout flexível, e flexibilidade e fluidez faz parte do que queremos atingir com o design responsivo. Ao invés de ficar usando pixels, nós também podemos usar unidades de medida flexíveis, você pode ler mais sobre isso nesse [link](http://www.maujor.com/tutorial/unidades-de-medidas-css.php). 
-
-- Usamos media queries para criar modificações na página para que ela se adapte de acordo com uma medida. Nós podemos dizer por exemplo que se uma página tem até 640px de largura o background dela deve mudar sua cor.
-
+- O valor static não se posiciona de forma especial, ou seja, dizer que o elemento tem valor estático significa dizer que ele não tem ainda uma posição definida.
 ```css
-@media (max-width: 640px) {
-	body {
-		background: tomato;
-	}
+.elemento {
+  position: static;
 }
 ```
+- Você pode imaginar que no navegador, há um sistema de coordenadas, e temos que adicionar propriedades extras junto ao position para posicionar o elemento nesse sistema. As propriedades extras que usamos são: top, right, bottom, e left.
 
-- Mudar a cor de uma página de acordo com seu tamanho pode não ser muito interessante, mas podemos modificar outras coisas que são, como por exemplo modificar o tamanho de um container, o lugar de um botão, deixar uma letra maior ou menor... são muitas [possibilidades](https://tableless.com.br/design-responsivo-na-pratica-do-rascunho-ao-digita/) que podem e devem ser aproveitadas. 
+- O position com valor relative posiciona o elemento em relação a si mesmo, e faz esse cálculo a partir do seu canto superior esquerdo.
+```css
+.elemento {
+  position: relative;
+}
 
-- De acordo com cada centário, podemos considerar muitas coisas, e pensando nessas coisas usar as melhores técnicas para criar a experiência de navegação que queremos.
+.elemento {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+```
+- Assim como o valor relative, o absolute precisa dessas propriedades extras de coordenadas. Porém diferente do position relative, o elemento com valor absolute não se posiciona em relação a si mesmo, mas a outros elementos, como seu elemento pai, ou, se o elemento pai não tiver seu position definido, ele usa como referencia o próprio body.
+```css
+.elemento {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+```
+- O valor fixed posiciona de forma fixa na página, isso significa que ele sempre ficará no mesmo lugar ainda que rolemos a página. Assim como o relative, e absolute, as propriedades top, right, bottom e left também podem ser utilizadas.
+```css
+.elemento {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+```

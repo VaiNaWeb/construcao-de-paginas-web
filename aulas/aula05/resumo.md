@@ -1,53 +1,23 @@
-- Selecionamos o que queremos estilizar e, então, algum seletor CSS define como, onde, e até quando colocar esses estilos.
+# Conhecendo o terminal do Linux
 
-- Podemos adicionar a CSS em nossa página HTML de três formas:
+- Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos filmes e séries.
 
-- Adicionadno o CSS em linha, usando o atributo style
+- Essa famosa telinha preta, que é chamada de linha de comando, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
 
-```html
-<p style="color: #f05a20;">Vai na Web</p>
-```
+- Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação.
 
-- Adicionando CSS direto no `<head>`
+## Primeiros comandos
 
-```html
-<head>
-	<style>
-		p { color: #f05a20; }
-	</style>
-</head>
-<body>
-	<p>Vai na Web</p>
-</body>
-```
-
-- Adicionando CSS externamente: criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e utilizá-lo. Lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja, .css, no final.
-
-```html
-<head>
-	<title>Vai na Web</title>
-	<link rel="stylesheet" href="estilos.css" />
-</head>
-<body>
-    <p>Vai na Web</p>
-</body>
-```
-
-```css
-p {
-	color: #f05a20;
-}
-```
-
-- Sintaxe: A estrutura como ela é escrita.
-
-```css
-seletor {
-	propriedade: valor;
-}
-
-```
-
-Leia mais!<br>
-https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048<br>
-https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list
+<code>man</code>: Usado para mostrar o manual de um outro comando<br>
+<code>sudo</code>: Deve ser usado com cuidado. Ele dá permissões de administrador<br>
+<code>ls</code>: Lista os arquivos do diretório<br>
+<code>pwd</code>: Mostra o diretório atual<br>
+<code>cd</code>: Usado para mudar de diretório<br>
+<code>cp</code>: Copia um arquivo ou diretório<br>
+<code>mv</code>: Usado para mover um arquivo ou renomea-lo<br>
+<code>mkdir</code>: Cria uma nova pasta<br>
+<code>touch</code>: Cria um novo arquivo<br>
+<code>more</code>: Lê um arquivo de texto<br>
+<code>grep</code>: Lê e faz uma busca por palavras dentro de um arquivo<br>
+<code>clear</code>: Limpa a tela<br>
+<code>exit</code>: Fecha o terminal<br>

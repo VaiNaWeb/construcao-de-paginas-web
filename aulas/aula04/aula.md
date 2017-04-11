@@ -1,10 +1,10 @@
-#Evoluindo minha página com mais HTML
+# Evoluindo minha página com mais HTML
 
-##Conectando páginas
+## Conectando páginas
 
 Sabemos que nossos sites são um conjunto de páginas conectadas, ou linkadas, umas às outras. Agora vamos compreender melhor como isso acontece. Quando vamos construir um site, precisamos organizar bem nossos arquivos; vamos fazer isso através de pastas.
 
-##Criando links
+## Criando links
 
 Na internet, temos várias e várias páginas conectadas umas às outras. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas. 
 
@@ -22,11 +22,11 @@ Qualquer coisa mesmo, não somente textos. Nós podemos deixar imagens clicávei
 </a>
 ```
 
-##Listando coisas
+## Listando coisas
 
 Existem três tipos de listas: as ordenadas, as não ordenadas e as de definições.
 
-###Ordenadas
+### Ordenadas
 
 Assim como o nome parece sugerir, são listas em que a ordem dos itens importa, e eles podem ser enumerados.
 
@@ -48,7 +48,7 @@ Assim como o nome parece sugerir, são listas em que a ordem dos itens importa, 
     <li>Papel</li>
 </ol>
 
-###Não ordenadas
+### Não ordenadas
 
 Nesta, os itens não são enumerados e podem estar acompanhados apenas de um símbolo.
 
@@ -69,7 +69,7 @@ Nesta, os itens não são enumerados e podem estar acompanhados apenas de um sí
     <li>Papel</li>
 </ul>
 
-###De definição
+### De definição
 
 Neste tipo de lista, os itens são definidos.
 
@@ -89,7 +89,7 @@ Neste tipo de lista, os itens são definidos.
         <dd>De madeira</dd>
 </dl>
 
-##Criando tabelas
+## Criando tabelas
 
 Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada célula de dados será uma Table Data, ou `<td>` podemos, se nececessário, adicionar o atributo rowspan, que vai criar uma expansão de linha nas células. Podemos também usar o atributo colspan e teremos uma expansão de coluna nas células.
 
