@@ -24,7 +24,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** Entender como as paginas na Web são criadas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações. <br>
-**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](https://slides.com/vainaweb/htmlcss-aula02), [resumo](aulas/aula02/resumo.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](https://slides.com/vainaweb/primeiros-passos-na-web-aula02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 03 - [Introdução ao HTML e CSS](aulas/aula03/aula.md)
