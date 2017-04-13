@@ -17,21 +17,21 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** Entendendo como a internet funciona, como foi criada, e sua importância.<br>
 **Formato de apresentação:** Apresentação de slides, contação de histórias.<br> 
-**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/igorcouto/vainaweb-aula01#/),  [resumo](aulas/aula01/resumo.md).<br>
+**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](https://slides.com/vainaweb/htmlcss-aula01), [resumo](aulas/aula01/resumo.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 02 - [Como nos comunicamos através da internet](aulas/aula02/aula.md)
 
 **Objetivos:** Entender como as paginas na Web são criadas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações. <br>
-**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula02), [resumo](aulas/aula02/resumo.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](https://slides.com/vainaweb/htmlcss-aula02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 03 - [Introdução ao HTML e CSS](aulas/aula03/aula.md)
 
 **Objetivos:** Entender como as páginas na Web são criadas. Conhecer os principais fundamentos da HTML, sua sintaxe básica e compreender como HTML e CSS funcionam. Juntos vamos estruturar uma página em HTML, adicionar conteúdo, e estilizar alguns elementos com CSS.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula03), [resumo](aulas/aula03/resumo.md), [desafios](aulas/aula03/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/vainaweb/primeiros-passos-na-web-aula03), [resumo](aulas/aula03/resumo.md), [desafios](aulas/aula03/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 04 - [Evoluindo minha página com mais HTML](aulas/aula04/aula.md)
