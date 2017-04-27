@@ -56,18 +56,18 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Duração:** 3 horas.
 
 
-### Aula 07 - [Descobrindo o poder dos estilos com CSS](aulas/07/aula.md)
+### Aula 07 - [Descobrindo o poder dos estilos com CSS](aulas/aula07/aula.md)
 
 **Objetivos:** Compreender como os estilos são adicionados ao HTML, como funcionam os seletores, e a sintaxe básica da linguagem.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, jogos, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-07), [resumo](aulas/07/resumo.md), [desafios](aulas/07/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/primeiros-passos-na-web-07), [resumo](aulas/aula07/resumo.md), [desafios](aulas/aula07/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 08 - [Modelo de caixa com CSS](aulas/aula08/aula.md)
 
 **Objetivos:** Entender como funciona o modelo de caixa, e explorar algumas propriedades.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md), [codepen](http://codepen.io/).<br>
+**Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/primeiros-passos-na-web-08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
 ### Aula 09 - [Posicionamento de elementos com CSS](aulas/aula09/aula.md)
