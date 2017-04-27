@@ -81,7 +81,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** Aprender a criação de layouts usando os valores e propriedades do Flexbox.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [flexbox froggy](http://flexboxfroggy.com/#pt-br), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/vainaweb/primeiros-passos-na-web-11), [resumo](aulas/aula10/resumo.md), [desafios](aulas/aula10/desafios.md), [codepen](http://codepen.io/).<br>
+**Ferramentas e materiais de apoio:** [flexbox froggy](http://flexboxfroggy.com/#pt-br), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/vainaweb/primeiros-passos-na-web-10), [resumo](aulas/aula10/resumo.md), [desafios](aulas/aula10/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
 ### Aula 11 - [Criando páginas para múltiplos dispositivos](aulas/aula11/aula.md)
