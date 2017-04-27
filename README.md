@@ -74,7 +74,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** Entender sobre as propriedades de posicionamento e como cada uma influi na composição das ṕaginas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula09), [resumo](aulas/aula09/resumo.md), [desafios](aulas/aula09/desafios.md), [codepen](http://codepen.io/).<br>
+**Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/primeiros-passos-na-web-09), [resumo](aulas/aula09/resumo.md), [desafios](aulas/aula09/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
 ### Aula 10 - [Introdução ao modelo flexível de caixas](aulas/aula10/aula.md)
