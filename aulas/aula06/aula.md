@@ -16,6 +16,17 @@ Depois precisamos armazenar nosso projeto no Github. Uma plataforma social atrav
 
 Então já podemos usar o [Github Pages](https://tableless.com.br/criando-paginas-web-para-seus-repositorios-com-o-github-pages/) para colocar nossa página online. Ele é um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
 
+## Configurando o git
+
+* Configurar o usename: git config --global user.name “nome do usuário”
+* Configurar o email: git config --global user.email “email do usuário”
+
+Para saber as informações que você colocou nas configurações:
+
+* git config user.name  (mostra username cadastrado)
+* git config user.email (mostra e-mail cadastrado)
+* git config --list (mostra tudo)
+
 ## Primeiros comandos
 
 Vimos anteriormente que nossos arquivos podem ser versionados com o Git, depois guardados no Github, e então hospedados no Github Pages para ter nossas páginas online.
@@ -52,6 +63,6 @@ Agora nossa pasta já existe no Github e queremos criar uma página dela usando 
 
 O Git tem um recurso maravilhoso chamado Branch, ramo em português. Vamos voltar a pensar no Git como um fotógrafo de alterações! Imagine, agora, que nossas fotografias são frutos de uma árvore e que podem crescer por vários ramos diferentes. Podemos escolher quais ramos queremos que cresçam e podemos dar nomes a eles.
 
-Vamos criar um ramo chamado gh-pages onde crescerão nossos frutinhos, ops! nossas páginas. Usamos o comando ``git checkout -b gh-pages` para criar um ramo e mudar para ele ao mesmo tempo, então criamos ou mudamos nossos arquivos como queremos, damos commit, depois damos push para subir ele ao Github.
+Vamos criar um ramo chamado gh-pages onde crescerão nossos frutinhos, ops! nossas páginas. Usamos o comando ``git checkout -b gh-pages`` para criar um ramo e mudar para ele ao mesmo tempo, então criamos ou mudamos nossos arquivos como queremos, damos commit, depois damos push para subir ele ao Github.
 
 Agora podemos acessar no navegador seunome.github.io/suapasta e tchanrann! nossa página já está online!
