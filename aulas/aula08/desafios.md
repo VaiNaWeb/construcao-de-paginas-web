@@ -1,4 +1,4 @@
-#Desafio01: Organizando a malinha do coração
+# Desafio01: Organizando a malinha do coração
 Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e organizar com CSS.
 
 1. Crie um documento HTML com a estrutura básica completa
@@ -10,7 +10,7 @@ Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e o
 7. Adicione um margin com o valor de sua preferência no header 
 8. Adicione uma borda sólida, com uma largura, e cor de sua preferência em cada uma das sections
 
-#Desafio02: Criando um monstrinho
+# Desafio02: Criando um monstrinho
 Vamos criar um monstrinho com formas em CSS
 
 1. Crie um documento HTML com a estrutura básica completa
