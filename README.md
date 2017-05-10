@@ -74,13 +74,13 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** Aprender a criação de layouts usando os valores e propriedades do Flexbox.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [flexbox froggy](http://flexboxfroggy.com/#pt-br), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/vainaweb/primeiros-passos-na-web-09), [resumo](aulas/aula09/resumo.md), [desafios](aulas/aula09/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
 ### Aula 10 - [Posicionamento de elementos com CSS](aulas/aula10/aula.md)
 
 **Objetivos:** Entender sobre as propriedades de posicionamento e como cada uma influi na composição das ṕaginas.<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/vainaweb/primeiros-passos-na-web-10), [resumo](aulas/aula10/resumo.md), [desafios](aulas/aula10/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
