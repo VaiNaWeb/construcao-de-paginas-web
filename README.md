@@ -20,9 +20,9 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](https://slides.com/vainaweb/primeiros-passos-na-web-01), [resumo](aulas/aula01/resumo.md).<br>
 **Duração:** 3 horas.
 
-### Aula 02 - [Como nos comunicamos através da internet](aulas/aula02/aula.md)
+### Aula 02 - [Como a web funciona](aulas/aula02/aula.md)
 
-**Objetivos:** Como as paginas na Web são criadas.<br>
+**Objetivos:** Como as paginas na Web são criadas e como funcionam.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações. <br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb) editor online, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](https://slides.com/vainaweb/primeiros-passos-na-web-02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.
