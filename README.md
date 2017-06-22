@@ -55,7 +55,6 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/vainaweb/primeiros-passos-na-web-06), [resumo](aulas/aula06/resumo.md), [desafios](aulas/aula06/desafios.md).<br>
 **Duração:** 3 horas.
 
-
 ### Aula 07 - [Descobrindo o poder dos estilos com CSS](aulas/aula07/aula.md)
 
 **Objetivos:** Compreender como os estilos são adicionados ao HTML, como funcionam os seletores, e a sintaxe básica da linguagem.<br>
