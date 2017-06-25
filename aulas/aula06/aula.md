@@ -1,18 +1,12 @@
-# Github e hospedagem gratuita Github Pages
+# Git e Github
 
 Vamos colocar nossa primeira página online, e para isso vamos usar o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que ele é e como funciona.
 
-## Git
-
 Antes de tudo, precisamos [versionar](http://rogerdudler.github.io/git-guide/index.pt_BR.html) nossos arquivos com o Git. Um sistema de controle de versão e gerenciamento de código fonte. Foi desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje muito usado em diferentes projetos digitais no mundo inteiro.
-
-## Github
 
 Depois precisamos armazenar nosso projeto no Github. Uma plataforma social através da qual milhares de pessoas constroem códigos, entre outras coisas, de forma colaborativa, aberta e gratuita. O Github oferece um espaço para armazenar pastas e arquivos com seu conteúdo versionado através do Git.
 
 >"O Github, é na verdade uma rede social ou uma fábrica social de software, que desenvolve e promove milhares de códigos fontes pré armazenados, para as mais diversas finalidades." Wikipedia
-
-## Github Pages
 
 Então já podemos usar o [Github Pages](https://tableless.com.br/criando-paginas-web-para-seus-repositorios-com-o-github-pages/) para colocar nossa página online. Ele é um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
 
