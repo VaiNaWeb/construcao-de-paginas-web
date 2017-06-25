@@ -48,7 +48,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Formato de apresentação:** [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/vainaweb/primeiros-passos-na-web-05), [resumo](aulas/aula05/resumo.md), [desafios](aulas/aula05/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 06 - [Github e hospedagem gratuita com Github Pages](aulas/aula06/aula.md)
+### Aula 06 - [Git e Github](aulas/aula06/aula.md)
 
 **Objetivos:** Git, Github, Open Source, e o que todos eles representam. Como usar todas essas ferramentas e disponibilizar uma página simples usando o Github Pages.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
