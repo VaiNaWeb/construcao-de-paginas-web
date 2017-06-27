@@ -29,4 +29,17 @@ Mudar a cor de uma página de acordo com seu tamanho pode não ser muito interes
 
 Para escolher que parâmetros usar na media query popdemos usar várias propriedades, como o width, height, orientation, aspect-ratio, color, monochrome, resolution, etc. Há duas propriedades principais que as pessoas preferem usar, são a max-width e a min-width.
 
+No exemplo que usamos anteriormente usamos o conceito de desktop-first, onde assumimos que todo o CSS que já escrevemos foi feito para o desktop, e então adicionamos algumas media querys para tamanhos menores de tela. Quando usamos max-width 640px estamos dizendo que essas modificações do bloco de dentro da media query serão usadas em dispositivos com até 640px de largura.
+
+Se optarmos por seguir o conceito de mobile-first, assumimos que o CSS atual foi pensado em medidas menores, perfeitas para o mobile, temos agora que adicionar algumas media querys para tamanhos maiores de tela. Exemplo:
+
+```css
+@media (min-width: 640px) {
+	body {
+		background: tomato;
+	}
+}
+```
+Nesse exemplo, a tela só ficará vermelha em dispositivos com telas a partir de 640px de largura. Basicamente, enquanto no desktop-first pensamos em modificações para telas menores, no mobile-first pensamos em maiores.
+
 De acordo com cada centário, podemos considerar muitas coisas, e pensando nessas coisas usar as melhores técnicas para criar a experiência de navegação que queremos.
