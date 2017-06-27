@@ -87,7 +87,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 **Objetivos:** A importância do Design Responsivo. Como usar CSS para criar layouts responsivos.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [codepen](http://codepen.io/), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/dalivieira/vainaweb-aula11), [resumo](aulas/aula11/resumo.md), [desafios](aulas/aula11/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [codepen](http://codepen.io/), [sublime text](http://www.sublimetext.com/) editor de texto para código instalado na máquina, [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/) livro online, [slides](http://slides.com/vainaweb/primeiros-passos-na-web-11), [resumo](aulas/aula11/resumo.md), [desafios](aulas/aula11/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 12 - [Criando páginas acessíveis](aulas/aula12/aula.md)
