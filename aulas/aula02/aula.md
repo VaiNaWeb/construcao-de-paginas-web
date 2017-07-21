@@ -20,6 +20,8 @@ Em 1990 Tim sugeriu um padrão para construção de documentos com hipertextos e
 
 Você pode imaginar um site como um grande livro, em que páginas e mais páginas são ligadas umas às outras, e, no decorrer dos capítulos, podemos colocar atalhos para outras páginas. Diferentemente do exemplo do livro, não precisamos folhear um site, já que tudo está ao alcance de um clique. Assim como o conteúdo de um livro, nossos sites contém textos, mas eles são organizados através de elementos em HTML, que vamos aprender e que os nossos navegadores já conhecem muito bem.
 
+![olavue](assets/01.png)
+
 ### HTML estrutura páginas
 
 A HTML é a linguagem base de uma página da web. É ela quem determina a estrutura das nossas páginas, que podem conter textos, imagens, vídeos, e dar vida a tantos sites fantásticos que conhecemos hoje. Um documento em HTML é composto por uma estrutura formada de TAGS, que são marcações para identificar os diversos tipos de conteúdos e ainda organizá-los de forma semântica.
@@ -31,3 +33,5 @@ Até então, as páginas já tinham uma estrutura e podiam ser acessadas, mas as
 ### JS cria interações
 
 Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi criada a linguagem Javascript, que tem variadas funções, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor, por exemplo, e atividades bem mais complexas que vamos ver mais adiante no curso.
+
+![olavue](assets/02.png)
