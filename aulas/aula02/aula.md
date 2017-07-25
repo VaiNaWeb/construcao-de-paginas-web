@@ -34,4 +34,4 @@ Até então, as páginas já tinham uma estrutura e podiam ser acessadas, mas as
 
 Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi criada a linguagem Javascript, que tem variadas funções, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor, por exemplo, e atividades bem mais complexas que vamos ver mais adiante no curso.
 
-![asset](assets/02.png)
+![asset](assets/03.png)
