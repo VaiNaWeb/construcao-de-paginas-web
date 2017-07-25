@@ -1,7 +1,5 @@
 # Introdução ao HTML e CSS
 
-## Estrutura básica HTML
-
 Já aprendemos o que é e para que serve, agora vamos conhecer suas principais TAGs, que compõem a estrutura básica de um documento em HTML.
 
 ```html
@@ -52,6 +50,8 @@ Antes, construíamos essas caixas simplesmente com uma tag chamada `<div>`. Imag
 `<header>` Define o cabeçalho de uma página ou seção.<br>
 `<footer>` Define o rodapé de uma página ou seção. <br>
 `<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.<br>
+
+![asset](assets/01.png)
 
 Existem seis níveis diferentes de títulos: `H1` é o mais importante,` h6` é o menos importante. Em HTML, o texto para cabeçalhos é escrito dentro dos elementos de título: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` ou `<h6>`.
 
