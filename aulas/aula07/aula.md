@@ -125,5 +125,6 @@ p {
 http://lokeshdhakar.com/projects/color-thief/<br>
 http://moviesincolor.com/<br>
 https://color.adobe.com/pt/create/color-wheel/<br>
+https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF<br>
 
 Essa foi apenas uma introdução sobre como adicionamos os estilos. Vamos conhecer novas propriedades nas próximas aulas e entender como elas funcionam, até lá, não deixem de praticar.
