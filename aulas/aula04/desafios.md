@@ -1,6 +1,7 @@
+<!-- Aula 04 - Evoluindo minha página com mais HTML -->
 # Desafio01: Uma mini wiki
 
-Vamos criar uma página de uma quase wikipedia, uma mini página, para compreender como funciona os hiperlinks.
+Vamos criar uma página de uma quase wikipédia, uma mini página, para compreender como funciona os hiperlinks.
 
 1. Crie uma página com a estrutura básica completa
 2. Adicione um main e dentro dele uma section
@@ -55,6 +56,6 @@ Agora, vamos criar um álbum de figurinhas. Sinta-se livre para escolher o tema 
 4. Adicione um main com uma section
 5. Adicione uma tabela dentro da section
 6. Crie três colunas e três linhas
-7. Adicione nove imagens, uma em célula
+7. Adicione nove imagens, uma em cada célula
 
 Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula04/aula.md), e/ou o [resumo](../aula04/resumo.md) dela.

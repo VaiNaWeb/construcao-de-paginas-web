@@ -1,5 +1,5 @@
+<!-- Aula 07 - Descobrindo o poder dos estilos com CSS -->
 # Desafio 01: Relembrando molecagem
-
 Recorde algumas lembranças boas de sua infância! O que você sente saudade? o que gostava de fazer? Do que mais você gostava de brincar? Vamos construir uma página para contar essas histórias e iniciar nosso aprendizado com CSS.
 
 1. Crie uma página com a estrutura básica completa
@@ -14,7 +14,6 @@ Recorde algumas lembranças boas de sua infância! O que você sente saudade? o 
 10. Adicione estilos à classe, e outros estilos para cada ID em seu CSS.
 
 # Desafio 02: Reinventando o instagram
-
 Vamos construir nosso próprio mini instagram
 
 1. Crie uma página com a estrutura básica completa
