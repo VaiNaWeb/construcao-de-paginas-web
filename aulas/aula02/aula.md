@@ -8,7 +8,7 @@ Podemos usar o Github Pages para que nossas páginas fiquem disponíveis e possa
 
 Explicando de forma mais clara, o navegador pede os arquivos que contém os códigos do site - que estão armazenados no servidor - através do endereço. O servidor, então, envia os arquivos de volta para que o navegador possa interpretar seu código e exibir a página na tela.
 
-Um servidor é um computador especial que contém arquivos de páginas da web. Seu computador em casa ou na escola não é um servidor, porque ele não está conectado diretamente à internet. Nós nos conectamos à internet através de um provedor de serviços de internet.
+Um servidor é um computador especial que contém arquivos de páginas da web. Seu computador em casa ou na escola não é um servidor, porque ele não está conectado diretamente à [internet](https://super.abril.com.br/historia/tim-berners-lee/). Nós nos conectamos à internet através de um provedor de serviços de internet.
 
 Por isso, um site que você escreve no seu computador não pode ser visto por outras pessoas em um computador diferente até que você o hospede em um servidor.
 
