@@ -1,6 +1,8 @@
 # Introdução ao HTML e CSS
 
-Já aprendemos o que é e para que serve, agora vamos conhecer suas principais TAGs, que compõem a estrutura básica de um documento em HTML.
+O HTML usa um conjunto predefinido de elementos para identificar os diversos tipos de conteúdo. Os elementos contém uma ou mais tags que abrangem ou expressam um determinado conteúdo.
+
+Cada tag funciona como uma etiqueta que diz ao navegador qual elemento está escrito ali e como ele deve interpretá-lo. Por isso, cada tag tem seu significado e deve ser usada corretamente. A tag <html> indica elementos em html, dentro dela temos <head>, que significa cabeçalho, e <body>, que significa corpo.
 
 ```html
 <!DOCTYPE html>
@@ -17,10 +19,6 @@ Já aprendemos o que é e para que serve, agora vamos conhecer suas principais T
 
 </html>
 ```
-
-A HTML usa um conjunto predefinido de elementos para identificar os diversos tipos de conteúdo. Os elementos contém uma ou mais tags que abrangem ou expressam um determinado conteúdo.
-
-Cada tag funciona como uma etiqueta que diz ao navegador qual elemento está escrito ali e como ele deve interpretá-lo. Por isso, cada tag tem seu significado e deve ser usada corretamente. A tag <html> indica elementos em html, dentro dela temos <head>, que significa cabeçalho, e <body>, que significa corpo.
 
 Uma tag começa com o sinal de menor ("<") e termina com o sinal de maior (">"). Certifique-se de sempre fechar cada tag, pois, embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não é.
 
