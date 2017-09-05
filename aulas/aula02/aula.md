@@ -12,6 +12,8 @@ Um servidor é um computador especial que contém arquivos de páginas da web. S
 
 Por isso, um site que você escreve no seu computador não pode ser visto por outras pessoas em um computador diferente até que você o hospede em um servidor.
 
+![asset](assets/02.png)
+
 ## Como páginas da web são construídas
 
 No final dos anos 80 um físico chamado Tim Berners-Lee, começou a idealizar como cientistas poderiam compartilhar documentos através da rede.
