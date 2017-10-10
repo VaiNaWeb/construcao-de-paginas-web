@@ -26,4 +26,45 @@
 10. Ainda no terminal, digite o camando para subir as alterações do seu computador para o Github
 11. Acesse o endereço seunome.github.io pelo seu navegador
 
+# Desafio03: Minha página web ramificada.
+
+1. Crie um novo branch na pasta do projeto em seu computador
+```
+git checkout -b meu-novo-ramo
+```
+2. Abra o arquivo index.html
+2. Acrescente algum conteúdo que gostaria de ver em seu site, uma foto, uma lista de músicas.
+```
+<ul>
+  <li>Zezé de Camargo e Luciano - Evidências</li>
+  <li>The Lumineers - Ophelia</li>
+  <li>Imagine Dragons - Thunder</li>
+  <li>Tom Rosenthal - Go Solo</li>
+</ul>
+```
+3. Abra o terminal e peça para o git preparar as mudanças no seu arquivo
+```
+git add index.html
+```
+4. Ainda no terminal peça para o git salvar suas alterações
+```
+git commit -m "Adicionei uma lista de músicas"
+```
+5. Volte para o ramo (_branch_) **master** digitando o seguinte comando
+```
+git checkout master
+```
+6. Peça para o git mesclar os dois ramos _master_ e _meu-novo-ramo_ utilizando o seguinte comando
+```
+git merge meu-novo-ramo
+```
+7. Acesse o endereço seunome.github.io para verificar as alterações.
+
+---
+Podemos utilizar as ramificações quando queremos trabalhar com algum colega e não queremos alterar código juntos.
+Existem alguns problemas em trabalhar em ramificações, quando utilizar o comando _git merge_ podemos ter alguns conflitos,
+
+---
+
+
 Não lembra dos principais comandos do git? Sinta-se à vontade para ler novamente a aula, e/ou o resumo dela.
