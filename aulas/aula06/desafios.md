@@ -147,20 +147,25 @@ git merge letra-musica-colega
 
 Para apresentar o conflito o git inseri no arquivo que contém o conflito os
 seguintes caracteres.
- - <<<<
- - 'trecho de música do branch _letra-musica_
- - ====
- - 'trecho de música do branch _letra-musica-colega_
- - >>>>
+```
+<<<<
+'trecho de música do branch _letra-musica_
+====
+'trecho de música do branch _letra-musica-colega_
+>>>>
+```
 
 1. Abra o arquivo index.html
 2. Navegue até o trecho de código conflitante.
 3. Encontre os caracteres inseridos pelo git para identificar o conflito.
 4. Resolva o conflito, escolha o trecho do seu colega e apague
-  - <<<<
-  - O seu trecho
-  - ====
-  - >>>>
+```
+<<<<
+O seu trecho
+====
+>>>>
+```
+
 5. Após remover os caracteres de conflito, peça para o git preparar as
    mudanças.
 ```
@@ -174,5 +179,9 @@ git commit -m "Conflito resolvido, trecho de música do colega escolhido"
 ```
 git push -u origin master
 ```
+8. Entre na página seu-projeto.github.io para vizualizar as mudanças.
+
+
+---
 
 Não lembra dos principais comandos do git? Sinta-se à vontade para ler novamente a aula, e/ou o resumo dela.
