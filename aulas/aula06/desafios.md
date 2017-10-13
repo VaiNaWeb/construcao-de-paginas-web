@@ -58,7 +58,11 @@ git checkout master
 ```
 git merge meu-novo-ramo
 ```
-7. Acesse o endereço seunome.github.io para verificar as alterações.
+7. Peça para o git subir suas alterações para o GitHub
+```
+git pull -u origin master
+```
+8. Acesse o endereço seunome.github.io para verificar as alterações.
 
 ---
 Podemos utilizar as ramificações quando queremos trabalhar com algum colega e não queremos alterar código juntos.
