@@ -58,7 +58,11 @@ git checkout master
 ```
 git merge meu-novo-ramo
 ```
-7. Acesse o endereço seunome.github.io para verificar as alterações.
+7. Peça para o git subir suas alterações para o GitHub
+```
+git pull -u origin master
+```
+8. Acesse o endereço seunome.github.io para verificar as alterações.
 
 ---
 Podemos utilizar as ramificações quando queremos trabalhar com algum colega e não queremos alterar código juntos.
@@ -66,5 +70,118 @@ Existem alguns problemas em trabalhar em ramificações, quando utilizar o coman
 
 ---
 
+# Desafio04: Trabalhando com colega, resolvendo conflitos
+
+  Não temos nenhum complexo de identidade, mas aqui iremos nos passar por duas
+  pessoas, a primeira é você e a segunda é seu colega lhe ajudando com o código
+  da sua página.
+
+Vamos começar sendo você mesmo.
+
+1. Crie um novo branch chamado letra-musica
+```
+git checkout -b letra-musica
+```
+2. Abra o arquivo index.html
+3. Insira no arquivo a letra de uma música, como por exemplo __Ophelia__
+```
+<h2>Trecho da Música Ophelia</h2>
+<p>
+  Oh, oh, when I was younger, oh, oh, should have known better
+  And I can't feel no remorse, and you don't feel nothing back
+</p>
+```
+4. Peça para que o git se prepare as modificações no arquivo index.html
+```
+git add index.html
+```
+5. Faça com que o git persista as alterações no código
+```
+git commit -m "Trecho da música Ophelia da banda Luminners"
+```
+6. Volte para o ramo (branch) **master**
+```
+git checkout master
+```
+
+Agora iremos se passar pelo seu colega.
+
+1. Na pasta do projeto do seu computador, crie um novo branch
+```
+git checkout -b letra-musica-do-colega
+```
+2. Abra o arquivo index.html
+3. Insira no arquivo a letra de uma música, como por exemplo __Ophelia__
+```
+<h2>Trecho da Música Ophelia</h2>
+<p>
+  Oh, oh, got a new girlfriend, he feels like he's on top
+  And I don't feel no remorse, and you can't see past my blinders
+</p>
+```
+4. Peça para que o git se prepare as modificações no arquivo index.html
+```
+git add index.html
+```
+5. Faça com que o git persista as alterações no código
+```
+git commit -m "Trecho da música Ophelia da banda Luminners"
+```
+6. Volte para o ramo (branch) **master**
+```
+git checkout -b master
+```
+
+
+Agora podemos atualizar o branch master em relação as branchs criados
+anteriormente.
+
+1. Sincronize o branch _master_ com o branch _letra-musica_
+```
+git merge letra-musica
+```
+2. Sincronize o branch _master_ com o branch _letra-musica-colega_
+```
+git merge letra-musica-colega
+```
+
+Para apresentar o conflito o git inseri no arquivo que contém o conflito os
+seguintes caracteres.
+```
+<<<<
+'trecho de música do branch _letra-musica_
+====
+'trecho de música do branch _letra-musica-colega_
+>>>>
+```
+
+1. Abra o arquivo index.html
+2. Navegue até o trecho de código conflitante.
+3. Encontre os caracteres inseridos pelo git para identificar o conflito.
+4. Resolva o conflito, escolha o trecho do seu colega e apague
+```
+<<<<
+O seu trecho
+====
+>>>>
+```
+
+5. Após remover os caracteres de conflito, peça para o git preparar as
+   mudanças.
+```
+git add index.html
+```
+6. Faça o git persistir as mudanças.
+```
+git commit -m "Conflito resolvido, trecho de música do colega escolhido"
+```
+7. Envie o código para o github
+```
+git push -u origin master
+```
+8. Entre na página seu-projeto.github.io para vizualizar as mudanças.
+
+
+---
 
 Não lembra dos principais comandos do git? Sinta-se à vontade para ler novamente a aula, e/ou o resumo dela.
