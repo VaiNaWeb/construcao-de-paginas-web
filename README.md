@@ -6,7 +6,7 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 ## Sobre as aulas
 
-São idealizadas, planejadas e executadas por pessoas que sabem que a informação precisa ser acessível. Vamos fortalecer a autonomia de criação e a capacidade profissional juntos, através de aulas que transmitem técnica e cidadania.
+São idealizadas, planejadas e executadas por pessoas que sabem que a informação precisa ser acessível. Vamos fortalecer a autonomia de criação e a capacidade profissional juntos, através de aulas que transmitem técnica e desenvolvimento socioemocional.
 
 Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gradativamente, com base em como os alunos de cada turma se sentem, de forma que cada aula, resumo, ou outro material seja realmente empático. O Vai na Web foi criado pelo compromisso de revelar as pessoas, ideias e dons incríveis que ficaram escondidos pelas barreiras da falta de oportunidade.
 
