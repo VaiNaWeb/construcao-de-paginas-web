@@ -21,7 +21,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 ### Aula 02 - [Como a web funciona](aulas/aula02/aula.md)
 
-**Objetivos:** Como as paginas na Web são criadas e como funcionam.<br>
+**Objetivos:** Como as páginas na Web são criadas e como funcionam.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações. <br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.
