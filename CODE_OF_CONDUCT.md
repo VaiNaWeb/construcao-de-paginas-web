@@ -22,7 +22,7 @@ Exemplos de comportamentos inaceitáveis por parte dos participantes incluem:
 * Publicar informação pessoal de outros sem permissão explícita, como, por exemplo, um endereço eletrônico ou residencial
 * Qualquer outra forma de conduta que seja considerada naturalmente inapropriada para um ambiente profissional
 
-## Nossas responsibilidades
+## Nossas responsabilidades
 
 Os administradores do projeto são responsáveis por esclarecer os padrões de comportamento e deverão tomar providência corretiva apropriada e justa em resposta a qualquer qualquer tipo de comportamento inaceitável.
 
@@ -34,7 +34,7 @@ Este Código de Conduta aplica-se dentro dos espaços do projeto ou qualquer esp
 
 ## Aplicação
 
-Comportamento abusivo, assedioso ou de outras formas de conduta reprováveis pode ser comunicados contatando a equipe responsável pelo projeto. Todas as queixas serão revistas e investigadas e resultarão em resposta necessária e apropriada à situação. A equipe deve manter a confidencialidade quanto à autoria da denúncia. Demais detalhes de políticas de aplicação podem ser postadas separadamente.
+Comportamentos abusivos, assedioso ou outras formas de condutas reprováveis podem ser comunicadas contatando a equipe responsável pelo projeto. Todas as queixas serão revistas e investigadas e resultarão em resposta necessária e apropriada à situação. A equipe deve manter a confidencialidade quanto à autoria da denúncia. Demais detalhes de políticas de aplicação podem ser postadas separadamente.
 
 Administradores do projeto que não sigam ou venham a romper o Código de Conduta podem enfrentar repercussões temporárias ou permanentes determinadas por outros membros da liderança do projeto.
 
