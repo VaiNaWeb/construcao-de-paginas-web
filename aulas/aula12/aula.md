@@ -1,6 +1,6 @@
 # Criando páginas acessíveis
 
-Quando geralmente criamos um site não pensamos em detalhes pequenos que são mega importante. Ter uma página web acessível siginifica fornecer oportunidades iguais para pessoas com necessidades especiais, além de incluir-las na sociedade.
+Geralmente quando criamos um site não pensamos em detalhes pequenos que são mega importante. Ter uma página web acessível siginifica fornecer oportunidades iguais para pessoas com necessidades especiais, além de incluir-las na sociedade.
 
 Atualmente a acessibilidade web é obrigatória por lei ou regulamentos. A W3C criou o WAI (Web Accessibility Initiative) em 1997, e tem como grande objetivo padronizar os componentes para que seja lidos pelos softwares e promover a acessibilidade na Web.
 
