@@ -6,3 +6,4 @@
 3. Adicione uma tabela acessível.
 4. Adicione uma descrição em todas as imagens.
 5. Faça um Formulário acessível.
+6. Passe o seu HTML em um validador de Acessibilidade.
