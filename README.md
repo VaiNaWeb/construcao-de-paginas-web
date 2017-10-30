@@ -1,4 +1,6 @@
 # VaiNaWeb
+<img src="http://www.vainaweb.com.br/assets/logo.svg" width="20%">
+
 
 O Vai Na Web é um programa de educação em tecnologias digitais avançadas que busca democratizar o ensino e aprendizado de tecnologia e ajudar na emancipação dos nossos jovens nos desafios da nova era digital.
 
@@ -6,11 +8,11 @@ Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado a
 
 ## Sobre as aulas
 
-São idealizadas, planejadas e executadas por pessoas que sabem que a informação precisa ser acessível. Vamos fortalecer a autonomia de criação e a capacidade profissional juntos, através de aulas que transmitem técnica e cidadania.
+São idealizadas, planejadas e executadas por pessoas que sabem que a informação precisa ser acessível. Vamos fortalecer a autonomia de criação e a capacidade profissional juntos, através de aulas que transmitem técnica e desenvolvimento socioemocional.
 
 Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gradativamente, com base em como os alunos de cada turma se sentem, de forma que cada aula, resumo, ou outro material seja realmente empático. O Vai na Web foi criado pelo compromisso de revelar as pessoas, ideias e dons incríveis que ficaram escondidos pelas barreiras da falta de oportunidade.
 
-As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao início de uma incrível e alucinante jornada na criação de páginas e aplicações para web. :rocket:
+As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao início de uma incrível aventura na criação de páginas e aplicações para web. :rocket:
 
 ### Aula 01 - [Olá Web, meu espaço no mundo](aulas/aula01/aula.md)
 
@@ -21,7 +23,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 ### Aula 02 - [Como a web funciona](aulas/aula02/aula.md)
 
-**Objetivos:** Como as paginas na Web são criadas e como funcionam.<br>
+**Objetivos:** Como as páginas na Web são criadas e como funcionam.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações. <br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-02), [resumo](aulas/aula02/resumo.md).<br>
 **Duração:** 3 horas.

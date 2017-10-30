@@ -181,6 +181,14 @@ git push -u origin master
 ```
 8. Entre na página seu-projeto.github.io para vizualizar as mudanças.
 
+# Desafio05: Começando uma nova linha de trabalho
+
+A ideia deste desafio é utilizar o comando "cherry-pick", que permite você trabalhar a partir de um determinado commit específico de seu ambiente local. Para auxiliá-lo no entendimento, você pode realizar um breve estudo vendo este conteúdo aqui: https://www.youtube.com/watch?v=CUpk6F2eNs0
+
+1. Realize 4 novos commits em seu projeto
+2. Crie uma nova branch com o nome "new_work_branch"
+3. Na nova branch, especifique que você deseja trabalhar a partir do conteúdo do seu terceiro commit realizado (criado no passo 1)
+4. Verifique no log do GIT como está seu ambiente de trabalho, para o completo entendimento do comando cherry-pick
 
 ---
 
