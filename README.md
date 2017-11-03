@@ -1,8 +1,8 @@
-# VaiNaWeb
-<img src="http://www.vainaweb.com.br/assets/logo.svg" width="20%">
+<p align="center">
+  <img src="http://www.vainaweb.com.br/assets/logo.svg" width="20%" alt="VaiNaWeb">
+</p>
 
-
-O Vai Na Web é um programa de educação em tecnologias digitais avançadas que busca democratizar o ensino e aprendizado de tecnologia e ajudar na emancipação dos nossos jovens nos desafios da nova era digital.
+O **Vai Na Web** é um programa de educação em tecnologias digitais avançadas que busca democratizar o ensino e aprendizado de tecnologia e ajudar na emancipação dos nossos jovens nos desafios da nova era digital.
 
 Todo o conteúdo criado no decorrer das aulas é aberto e pode ser acompanhado aqui. :sparkles:
 
