@@ -190,6 +190,31 @@ A ideia deste desafio é utilizar o comando "cherry-pick", que permite você tra
 3. Na nova branch, especifique que você deseja trabalhar a partir do conteúdo do seu terceiro commit realizado (criado no passo 1)
 4. Verifique no log do GIT como está seu ambiente de trabalho, para o completo entendimento do comando cherry-pick
 
+
+# Desafio06: Entregando seu código com tag
+
+No git e no Github é possível criar marcos em seu código com as Tags, assim podemos sinalizar para os desenvolvedores, usuários e para o github uma entregda de nosso software.
+Revise seu código veja se tudo que você fez até o momento você considera finalizadoe pronto para ser uma entrega, um marco.
+
+1. Crie uma tag, defina uma versão para sua tag e uma mensagem.
+```
+git tag -a v0.1 -m "Meus primeiros passos com git e github estão finalizados"
+```
+2. Vizualiza a tag criada
+```
+git tag show
+```
+3. Envie está tag para o github
+```
+git push oirigin --tags
+```
+4. Verifique no site do github na aba entregas ou releases se sua tag foi recebida.
+5. Compartilhe com seus amigos o seu conhecimento em git e github.
+
+
+[Refẽncia tag](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+
+
 ---
 
 Não lembra dos principais comandos do git? Sinta-se à vontade para ler novamente a aula, e/ou o resumo dela.
