@@ -97,24 +97,3 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](http://slides.com/dalivieira/vainaweb-aula12), [resumo](aulas/aula12/resumo.md), [desafios](aulas/aula12/desafios.md).<br>
 **Duração:** 3 horas.
-
-### Aula 13 - [Criando magias com CSS3](aulas/aula12/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula Extra - [Pré-processadores CSS](aulas/aula12/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
-
-### Aula Extra - [Gerenciadores de tarefas](aulas/aula12/aula.md)
-
-**Objetivos:** <br>
-**Formato de apresentação:** <br>
-**Ferramentas e materiais de apoio:** <br>
-**Duração:** 3 horas.
