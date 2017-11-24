@@ -93,7 +93,7 @@ As aulas do módulo Primeiros passos na Web foram criadas para levar jovens ao i
 
 ### Aula 12 - [Criando páginas acessíveis](aulas/aula12/aula.md)
 
-**Objetivos:** Entender a importância de manter a acessibilidade em páginas na web, e também aprender a como fazer isso.<br>
+**Objetivos:** Entender a importância e manter acessibilidade em páginas na web.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](http://slides.com/dalivieira/vainaweb-aula12), [resumo](aulas/aula12/resumo.md), [desafios](aulas/aula12/desafios.md).<br>
 **Duração:** 3 horas.
