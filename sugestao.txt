@@ -1,0 +1,3 @@
+Sugestão: Se os textos tanto introdutórios às aulas como os das próprias aulas fossem em formato justificado, a interface ficaria mais agradável aos olhos do leitor!
+
+Obs: Adorei esse repósitório, com certeza vou seguir as aulas pra aprender sobre programação web!
