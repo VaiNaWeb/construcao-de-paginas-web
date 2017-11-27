@@ -1,4 +1,4 @@
-# Introdução ao HTML e CSS
+# Introdução HTML
 
 O HTML usa um conjunto predefinido de elementos para identificar os diversos tipos de conteúdo. Os elementos contém uma ou mais tags que abrangem ou expressam um determinado conteúdo.
 

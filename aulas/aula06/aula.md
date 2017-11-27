@@ -1,62 +1,145 @@
-# Git e Github
+# Introdução CSS
 
-Vamos colocar nossa primeira página online, e para isso vamos usar o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que ele é e como funciona.
+Vamos descobrir como deixar as páginas cheias de estilo usando CSS e seus poderes. Funciona exatamente assim: selecionamos o que queremos estilizar e, então, algum seletor CSS define como, onde e até quando colocar esses estilos.
 
-Antes de tudo, precisamos [versionar](http://rogerdudler.github.io/git-guide/index.pt_BR.html) nossos arquivos com o Git. Um sistema de controle de versão e gerenciamento de código fonte. Foi desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje muito usado em diferentes projetos digitais no mundo inteiro.
+## Adicionando ao documento
 
-Depois precisamos armazenar nosso projeto no Github. Uma plataforma social através da qual milhares de pessoas constroem códigos, entre outras coisas, de forma colaborativa, aberta e gratuita. O Github oferece um espaço para armazenar pastas e arquivos com seu conteúdo versionado através do Git.
+Podemos adicionar a CSS em nossa página HTML de três formas:
 
->"O Github, é na verdade uma rede social ou uma fábrica social de software, que desenvolve e promove milhares de códigos fontes pré armazenados, para as mais diversas finalidades." Wikipedia
+### Em linha, usando o atributo style
 
-Então já podemos usar o [Github Pages](https://tableless.com.br/criando-paginas-web-para-seus-repositorios-com-o-github-pages/) para colocar nossa página online. Ele é um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
+```html
+<p style="color: #f05a20;">Vai na Web</p>
+```
 
-## Configurando o git
+### Direto no `<head>`
 
-* Configurar o usename: git config --global user.name “nome do usuário”
-* Configurar o email: git config --global user.email “email do usuário”
+```html
+<head>
+	<style>
+		p { color: #f05a20; }
+	</style>
+</head>
+<body>
+	<p>Vai na Web</p>
+</body>
+```
 
-Para saber as informações que você colocou nas configurações:
+### Externamente
 
-* git config user.name  (mostra username cadastrado)
-* git config user.email (mostra e-mail cadastrado)
-* git config --list (mostra tudo)
+Dessa forma, criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e utilizá-lo. Lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja, .css, no final.
 
-## Primeiros comandos
+```html
+<head>
+	<title>Vai na Web</title>
+	<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+    <p>Vai na Web</p>
+</body>
+```
 
-Vimos anteriormente que nossos arquivos podem ser versionados com o Git, depois guardados no Github, e então hospedados no Github Pages para ter nossas páginas online.
+```css
+p {
+	color: #f05a20;
+}
+```
 
-Agora que já conhecemos o Git e o Github, vamos aprender na prática como eles funcionam!
+## Sintaxe
 
-### Versionando nossos arquivos
+Precisamos compreender a sintaxe que a linguagem usa. Pensar na sintaxe de uma linguagem significa pensar nas relações formais que unem as partes constituintes da sentença, criando uma estrutura. Ou seja, trata-se de pensar na estrutura através da qual ela é escrita.
 
-Para o sistema do Git, os dados dos nossos arquivos são como conjuntos de fotografias, como se seu sistema estivesse fotografando as alterações que acontecem dentro da nossa pasta, para criar versões de nossos arquivos. Mas como ele faz isso? Bom...
+```css
+seletor {
+	propriedade: valor;
+}
+```
 
-Usamos o comando <code>git init</code> para pedir ao git que comece a versionar nossa pasta. Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. E pedimos que ele coloque um post-it em um um conjunto de mudanças para que possamos ler depois. 
+Assim podemos fazer com que nossa página fique muito legal. Podemos alterar as cores, tamanhos, formas e até adicionar animações! Nas próximas aulas, vamos conhecer melhor essas e outras propriedades e valores.
 
-Usamos o comando <code>git add</code> para que ele saiba que as alteraçõoes que fizemos importam para esse conjunto de dados. Ou seja, pedimos que ele fotografe, depois, que ele dê um nome a essa fotografia atual dos nossos arquivos - chamamos isso de commit. Para essa tarefa, usamos o comando <code>git commit -m "oi! eu sou um comentário e vim te lembrar que você mudou esses arquivos aqui"</code>
+## Principais seletores
 
-Quando necessário, se não quisermos commitar as alterações, se optarmos por desfaze-las, ao invés de usar <code>git add</code> podemos usasr git <code>checkout -- nomedoarquivo</code>. E então seguir fazendo novas alterações.
+Precisamos dizer ao CSS qual elemento queremos selecionar e adicionar a ele os estilos que desejamos. Mas, para isso, devemos entender sobre os [seletores](https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048).
 
-### Subindo nossos arquivos para o Github
+### Elemento
 
-Agora que já conhecemos os comandos mais básicos no Git, queremos que nossos arquivos sejam armazenados não somente no nosso computador, mas também no Github!
+Podemos dar estilo diretamente ao próprio elemento do HTML.
 
-Nossa pasta já existe no computador, mas dentro do Github ainda não. Então, vamos abrir o site e criar um repositório vazio dentro dele. Ainda usando o git, precisamos dizer ao Github que nossa pasta e seus commits existem na nossa máquina e queremos que ela vá também para ele. Usamos o comando <code>git remote add origin https://github.com/seunome/suapasta.git</code> para dizer que é essa pasta que vai receber a pasta do nosso computador, ou seja a pasta do github vai estar sincronizada à pasta do seu computador. Depois usamos o comando <code>git push</code> para enviar nossos arquivos.
+```css
+p {
+	color: #f05a20;
+}
+```
 
-## Clonando um repositório do Github
+### Id 
 
-Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando <code>git clone https://github.com/seuusername/suapasta.git</code>. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permissão, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
+Ou podemos adicionar um ID ao elemento. É legal de ser usado em elementos que não se repetem na página.
 
-E se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos usar o comando <code>git pull</code>.
+```css
+#sobre {
+	color: #f05a20;
+}
+```
 
-### Criando páginas no Github
+### Classe
 
-Agora nossa pasta já existe no Github e queremos criar uma página dela usando o serviço do Github Pages. Como essa será nossa primeira página, podemos criá-la apenas dando a nossa pasta o nome de seunome.github.io
+Podemos, ainda, adicionar uma classe ao elemento. Muito útil para as que se repetem ao longo da página.
 
-### Ramificando páginas
+```css
+.sobre {
+	color: #f05a20;
+}
+```
+# Modelo de caixa com CSS
 
-O Git tem um recurso maravilhoso chamado Branch, ramo em português. Vamos voltar a pensar no Git como um fotógrafo de alterações! Imagine, agora, que nossas fotografias são frutos de uma árvore e que podem crescer por vários ramos diferentes. Podemos escolher quais ramos queremos que cresçam e podemos dar nomes a eles.
+Continuando as analogias sobre nossos elementos serem caixas, agora imaginem que eles são realmente caixinhas retangulares. Como se em cada um deles houvesse um retângulo invisível.
 
-Vamos criar um ramo chamado gh-pages onde crescerão nossos frutinhos, ops! nossas páginas. Usamos o comando ``git checkout -b gh-pages`` para criar um ramo e mudar para ele ao mesmo tempo, então criamos ou mudamos nossos arquivos como queremos, damos commit, depois damos push para subir ele ao Github.
+Em nossas páginas, nós podemos determinar o tamanho, a altura, o preenchimento, o espaçamento, e até as cores dessas caixas. Assim criamos interessantes e belíssimas composições visuais para sites.
 
-Agora podemos acessar no navegador seunome.github.io/suapasta e tchanrann! nossa página já está online!
+Cada caixa tem uma largura e uma altura, que determinamos usando as propriedades <code>width</code> e <code>height</code>.
+
+```css
+.elemento {
+    width: 100px;
+    height: 100px;
+}
+```
+Além de <code>width</code> e <code>height</code> temos também o <code>padding</code> e o <code>margin</code>. <code>Padding</code> pode aumentar o preenchimento de uma caixa, enquanto <code>margin</code> pode aumentar seu espaçamento.
+
+```css
+.elemento {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 50px;
+}
+```
+Temos também a propriedade <code>border</code>, que pode servir para aplicar estilo às bordas de uma caixa.
+```css
+.elemento {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+```
+## Comportamento de bloco
+
+Há caixas que se comportam em forma de bloco e há caixas que se comportam em forma de linha. Cada elemento já tem esse comportamento definido por padrão, mas podemos alterá-lo também. Basta alterar os valores da propriedade display com <code>inline</code>, ou <code>block</code>.
+
+Elementos que se comportam como bloco, como <code>h1</code>, <code>h2</code>, <code>h3</code>, <code>p</code>, <code>ul</code>, <code>li</code>, ocupam toda a largura de uma página. Assim sendo, se duas caixas que se comportam como bloco forem adicionadas, a primeira vai querer ocupar toda a largura, então a outra aparecerá abaixo dela, ocupando também toda a largura da página.
+```css
+p {
+    display: block;
+}
+```
+Alguns exemplos de elementos que se comportam em forma de linha são a, <code>img</code>, <code>input</code>, <code>label</code>. Eles não tentam ocupar uma largura que não precisam, dessa forma conseguem ser alinhados visualmente em uma única linha.
+```css
+a {
+    display: inline;
+}
+```
+Testem, testem e testem! Explorem sem medo todas as propriedades e valores que foram vistos hoje. Aproveitem todas as possibilidades que eles podem criar. Na dúvida, sintam-se à vontade para usar o inspetor do navegador e ter uma melhor visualização do comportamento dos seus estilos.

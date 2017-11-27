@@ -107,6 +107,14 @@ Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada c
     <td>Rosa</td>
     <td>Solta pipa com os irmãos</td>
   </tr>
+  <tr>
+    <td>João</td>
+    <td>Adora gatos</td>
+  </tr>
+  <tr>
+    <td>Ana</td>
+    <td>Gosta de árvores</td>
+  </tr>    
 </table>
 ```
 <table>
@@ -122,4 +130,12 @@ Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada c
     <td>Rosa</td>
     <td>Solta pipa com os irmãos</td>
   </tr>
+  <tr>
+    <td>João</td>
+    <td>Adora gatos</td>
+  </tr>
+  <tr>
+    <td>Ana</td>
+    <td>Gosta de árvores</td>
+  </tr>    
 </table>
