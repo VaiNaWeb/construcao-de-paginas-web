@@ -68,7 +68,7 @@ Todo o conteúdo sobre tecnologia criado no decorrer das aulas é aberto e pode 
 **Duração:** 3 horas.
 
 
-### Aula 08 - [Linha de comando, Git, Github e GH Pages](aulas/aula05/aula.md)
+### Aula 08 - [Linha de comando, Git, Github e GH Pages](aulas/aula08/aula.md)
 
 **Objetivos:** Os principais comandos do terminal. Git, Github, Open Source, e o que todos eles representam. Como usar todas essas ferramentas e disponibilizar uma página simples usando o Github Pages.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
