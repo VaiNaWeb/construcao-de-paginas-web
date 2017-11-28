@@ -1,4 +1,4 @@
-#Modelo de caixa com CSS
+# Modelo de caixa com CSS
 
 Continuando as analogias sobre nossos elementos serem caixas, agora imaginem que eles são realmente caixinhas retangulares. Como se em cada um deles houvesse um retângulo invisível.
 
