@@ -1,3 +1,5 @@
+# HTML Semântico
+
 Antes, construíamos essas caixas simplesmente com uma tag chamada `<div>`. Imagine que um menu era chamado de div, um rodapé era chamado de div, uma seção era chamada de div... isso era bastante confuso. Com a chegada do HTML5, que vamos estudar neste curso, ganhamos algumas tags com significado semântico, o que foi bastante importante para os navegadores e usuários e facilitou, claro, a nossa vida de desenvolvedor também. Agora temos uma tag `<header>` para cabeçalho, uma tag `<footer>` para rodapé e mais algumas:
 
 `<section>` Define uma seção<br>
