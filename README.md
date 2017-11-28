@@ -46,7 +46,7 @@ Todo o conteúdo sobre tecnologia criado no decorrer das aulas é aberto e pode 
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [sublime text](http://www.sublimetext.com/), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-04), [resumo](aulas/aula04/resumo.md), [desafios](aulas/aula04/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 05 - [HTML Semântico](aulas/aula04/aula.md)
+### Aula 05 - [HTML Semântico](aulas/aula05/aula.md)
 
 **Objetivos:** Mais elementos HTML, incluindo hiperlinks, listas, tabelas e mais algumas coisas interessantes.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
