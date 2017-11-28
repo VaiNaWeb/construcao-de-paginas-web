@@ -16,8 +16,6 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 Neste módulo nossos estudantes são capacitados para a criação de páginas semânticas, reponsivas, e acessíveis, usando as tecnologias mais modernas do mercado e melhores práticas no **desenvolvimento web**. :rocket:
 
-## Aulas
-
 Todo o conteúdo sobre tecnologia criado no decorrer das aulas é aberto e pode ser acompanhado aqui. :sparkles:
 
 ### Aula 01 - [Olá Web, meu espaço no mundo](aulas/aula01/aula.md)
