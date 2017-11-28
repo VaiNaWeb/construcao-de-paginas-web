@@ -16,12 +16,6 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 Neste módulo nossos estudantes são capacitados para a criação de páginas semânticas, reponsivas, e acessíveis, usando as tecnologias mais modernas do mercado e melhores práticas no **desenvolvimento web**. :rocket:
 
-|   |   |   |
-| --- | --- | --- |
-| Semana01 <br><br> **Introdução Web e HTML** <br><br> Página biográfica sobre um artista, banda, time de futebol ou religião. | Semana02 <br><br> **HTML Semântico**<br><br> Uma mini wikipedia contando sobre onde mora | Semana03 <br><br> **Introdução CSS**<br><br> Um mini guia turístico com cores e imagens
- | Semana04 <br><br> **Cor e tipografia**<br><br>Página pessoal de apresentação | Semana05<br><br> **Linha de comando, Git, Github e GH Pages**<br><br> Publicação de página pessoal online | Semana06<br><br> **Flexbox**<br><br>Página de portfólio com projetos em miniatura
- | Semana07 <br><br> **Position**<br><br> Um desenho ou animação com CSS | Semana08 <br><br> **Páginas responsivas**<br><br> Tornar a página pessoal com portfólio responsiva |
-
 ## Aulas
 
 Todo o conteúdo sobre tecnologia criado no decorrer das aulas é aberto e pode ser acompanhado aqui. :sparkles:
