@@ -34,7 +34,7 @@ Todo o conteúdo sobre tecnologia criado ao decorrer das aulas é aberto e pode 
 
 ### Aula 03 - [Introdução HTML](aulas/aula03/aula.md)
 
-**Objetivos:** Principais fundamentos da HTML, sua sintaxe básica e como HTML e CSS funcionam. Juntos vamos estruturar uma página em HTML, adicionar conteúdo, e estilizar alguns elementos com CSS.<br>
+**Objetivos:** Principais fundamentos da HTML, sua sintaxe básica e como HTML e CSS funcionam. Juntos vamos criar nossa primeira página.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-03), [resumo](aulas/aula03/resumo.md), [desafios](aulas/aula03/desafios.md).<br>
 **Duração:** 3 horas.
