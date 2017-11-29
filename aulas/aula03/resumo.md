@@ -4,9 +4,9 @@
 
 * A tag <html> indica que dentro dela haverá elementos em html, dentro dela temos <head> que significa cabeçalho e <body> que significa corpo.
 
-* Uma tag começa com o sinal de menor ("<") e termina com o sinal de maior (">"). Certifique-se de sempre fechar cada tag, pois, embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não é.
+* Uma tag começa com o sinal de menor ("<") e termina com o sinal de maior (">"). Há algumas raras exceções.
 
-* Como se guardássemos uma caixa dentro de outra caixa, e dentro dela colocássemos outra caixa e outra caixa... Assim, criamos elementos dentro de elementos, e, para não confundir o navegador, aninhamos nossos elementos. Aninhar significa dar espaços. 
+* Como se guardássemos uma caixa dentro de outra caixa, e dentro dela colocássemos outra caixa e outra caixa... Assim, criamos elementos dentro de elementos, e, para não confundir o navegador, aninhamos nossos elementos.
 
 * Exemplo de estrutura básica em html:
 

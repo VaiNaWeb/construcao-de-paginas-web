@@ -67,18 +67,18 @@ Todo o conteúdo sobre tecnologia criado ao decorrer das aulas é aberto e pode 
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-07), [resumo](aulas/aula07/resumo.md), [desafios](aulas/aula07/desafios.md).<br>
 **Duração:** 3 horas.
 
-Aula 08 - Modelo de Caixa
+### Aula 08 - [Modelo de Caixa](aulas/aula08/aula.md)
 
 **Objetivos:** Compreender sobre padding, margin, border, etc.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 09 - [Cor e Tipografia](aulas/aula10/aula.md)
+### Aula 09 - [Cor e Tipografia](aulas/aula09/aula.md)
 
 **Objetivos:** Compreender e saber como usar cores, propriedades de fonte e texto.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
-**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md).<br>
+**Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-09), [resumo](aulas/aula09/resumo.md), [desafios](aulas/aula09/desafios.md).<br>
 **Duração:** 3 horas.
 
 ### Aula 10 - [Linha de comando, Git, Github e GH Pages](aulas/aula10/aula.md)
