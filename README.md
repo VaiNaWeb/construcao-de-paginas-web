@@ -39,28 +39,28 @@ Todo o conteúdo sobre tecnologia criado ao decorrer das aulas é aberto e pode 
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-03), [resumo](aulas/aula03/resumo.md), [desafios](aulas/aula03/desafios.md).<br>
 **Duração:** 3 horas.
 
-Aula 04 - HTML Semântico
+### Aula 04 - [HTML Semântico](aulas/aula04/aula.md)
 
 **Objetivos:** Entender a estrutura semântica do HTML5.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-04), [resumo](aulas/aula04/resumo.md), [desafios](aulas/aula04/desafios.md).<br>
 **Duração:** 3 horas.
 
-Aula 05 - Construindo formulários
+### Aula 05 - [Construindo formulários](aulas/aula05/aula.md)
 
 **Objetivos:** Conhecer os elementos para criação de formulários.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-05), [resumo](aulas/aula05/resumo.md), [desafios](aulas/aula05/desafios.md).<br>
 **Duração:** 3 horas.
 
-Aula 06 - Adicionado Áudio, Imagens, Vídeos
+### Aula 06 - [Adicionado Áudio, Imagens, Vídeos](aulas/aula06/aula.md)
 
 **Objetivos:** Conhecer os elmentos para inserção de hipermídia.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-06), [resumo](aulas/aula06/resumo.md), [desafios](aulas/aula06/desafios.md).<br>
 **Duração:** 3 horas.
 
-Aula 07 - Introdução CSS
+### Aula 07 - [Introdução CSS](aulas/aula07/aula.md)
 
 **Objetivos:** Compreender os principais fundamentos e entender como usar os seletores.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
@@ -74,7 +74,7 @@ Aula 08 - Modelo de Caixa
 **Ferramentas e materiais de apoio:** [scratchpad](http://scratchpad.io/vainaweb), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](https://slides.com/vainaweb/primeiros-passos-na-web-08), [resumo](aulas/aula08/resumo.md), [desafios](aulas/aula08/desafios.md).<br>
 **Duração:** 3 horas.
 
-Aula 09 - Cor e Tipografia
+### Aula 09 - [Cor e Tipografia](aulas/aula10/aula.md)
 
 **Objetivos:** Compreender e saber como usar cores, propriedades de fonte e texto.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
