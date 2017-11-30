@@ -39,16 +39,6 @@ Imaginar a cena das caixas já pode ter sido confuso para muita gente, assim com
 	<p>Olá, eu sou um parágrafo.</p> 
 </section>
 ```
-Para incluir imagens em nossa página, precisamos mencioná-las através do elemento `<img>` e adicionar um caminho para a imagem que queremos. Dentro da tag de abertura deste elemento, adicionaremos um atributo que especifica onde obter a imagem que queremos incluir. Atributos são informações que podemos acrescentar a elementos que ajudam a realizar atividades específicas; vamos aprender mais  sobre eles no decorrer do curso.
-
-Um elemento `<img>` sempre terá um atributo src e um alt. Ah! Um elemento `<img>` é um daqueles elementos especiais que não precisam de tag de fechamento.
-
-Exemplo:
-
-```html
-<img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo do vai na web">
-```
-
 Há vários elementos diferentes, continue conhecendo mais alguns!<br>
 https://developer.mozilla.org/pt-BR/docs/Aprender<br>
 https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list
