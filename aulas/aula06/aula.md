@@ -39,8 +39,7 @@ Por padrão, o elemento `<audio>` não é exibido em uma página. Se o atributo 
 Um outro atributo booleano que pode ser usado também é o download, veja um exemplo usando ele em um link:
 
 ```html
-<audio controls>
-  <source src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3">
+<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls>
   <a href="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" download>Baixar</a> arquivo de áudio.
 </audio>
 ```
@@ -56,10 +55,17 @@ Como os vídeos ocupam espaço na página, não faz mal especificar suas dimens�
 Uma propriedade também interessante de colocar é o type, que indica qual o tipo do arquivo que você está querendo mostrar, ele funciona no áudio e também no vídeo.
 
 ```html
-<video autoplay loop width="426" height="240">
-  <source src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4">
+<video src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4" autoplay loop width="426" height="240">
 </video>
 ```
+Em muitas páginas, como no Youtube, as pesssoas preferem mostrar uma imagem de fundo ao vídeo, podemos adicionar essa imagem usando o atributo poster e como valor a URL da imagem que queremos mostrar.
+
+```html
+<video src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4" poster="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/imgfallback.jpg
+" width="426" height="240" controls>
+</video>
+```
+
 ## Adicionando iframes
 
 ## Figuras e legendas
