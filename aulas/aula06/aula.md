@@ -26,6 +26,17 @@ Para adicionar arquivos de áudio usamos o elemento <audio>. Assim como acontece
 <audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls="controls"></audio>
 ```
 
+Vários outros atributos podem acompanhar o atributo src no elemento <audio>. Os mais populares incluem reprodução automática, controles, loop e pré-carregamento.
+
+Os atributos de reprodução automática, controles e loop são atributos booleanos. Booleanos retornam true ou false, em HTML, se um atributo booleano estiver presente ele já significa true e retorna a funcionalidade. Logo, não precisamos atribuir valores, basta adiciona-lo. 
+
+Por padrão, o elemento <audio> não é exibido em uma página. Se o atributo de reprodução automática estiver presente no elemento <audio>, nada aparecerá na página, mas o arquivo de áudio será executado automaticamente após o carregamento. Exemplo:
+    
+```html
+<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls="controls" autoplay></audio>
+```
+
+
 ## Adicionando vídeo
 
 ## Adicionando iframes
