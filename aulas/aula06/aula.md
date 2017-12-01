@@ -68,4 +68,28 @@ Em muitas páginas, como no Youtube, as pesssoas preferem mostrar uma imagem de 
 
 ## Adicionando iframes
 
+Podemos incorporar outra página HTML em nossa página. Isso é feito usando o elemento `<iframe>`. O elemento `<iframe>` aceita o URL de outra página HTML dentro do valor do atributo src.
+    
+Muitas páginas usam o elemento `<iframe>` para incorporar mídia em uma página de um site externo, como Google Maps, YouTube e alguns outros. Exemplo usando o Google Maps:
+    
+```html 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4405739120457!2d-43.287196449289794!3d-22.860177841883633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c7b48e047c7%3A0x75e759ff43f554c9!2sEDUCAP!5e0!3m2!1spt-BR!2sbr!4v1480440475641" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+```
+
 ## Figuras e legendas
+
+Usamos o elemento `<figure>` para envolver algum conteúdo autônomo, muitas vezes na forma de mídia, como imagens, vídeos, ilustrações, etc. Mais de um item de conteúdo, como imagens múltiplas ou vídeos, pode estar contido no elemento `<figure>` de cada vez.
+
+```html 
+<figure>
+  <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="Logo do Programa VaiNaWeb">
+</figure>
+```
+É possvel adicionar uma legenda ao elemento `<figure>`, com o elemento `<figcaption>`. O `<figcaption>` pode aparecer na parte superior, inferior ou em qualquer lugar dentro do elemento `<figure>` mas deve aparecer somente uma vez. Quando é usado, o elemento `<figcaption>` servirá como legenda para todo o conteúdo no elemento `<figure>`. Exemplo:
+    
+```html     
+<figure>
+  <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="Logo do Programa VaiNaWeb">
+  <figcaption>Logo do Programa VaiNaWeb.</figcaption>
+</figure>
+```
