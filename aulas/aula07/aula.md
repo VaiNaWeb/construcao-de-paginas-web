@@ -90,4 +90,53 @@ Usando important! > Em linha > Direto na Head > Externamente
 
 Explicando melhor, em algum momento vamos estudar o que esse important faz, por agora, entendam somente que se um estilo estiver usando ele, ele tem maior prioridade, depois dele o estilo que está em linha tem uma prioridade maior, e assim por diante.
 
-Dependendo da posição dentro de um arquivo essa prioridade muda também.
+Dependendo da posição dentro de um arquivo essa prioridade muda também. O navegador lê nossa página de baixo para cima, no exemplo a seguir, ambos elementos estão sendo selecionados usando mesmo recurso, nesse caso as classes, mas o que está em baixo tem maior prioridade que o de cima. 
+
+Logo, quando houver a mesma propriedade, o valor da que tem maior prioridade é exibido, sobrescrevendo a de cima.
+```css
+.paragrafo {
+  background-color: red;
+}
+
+.paragrafo {
+  background-color: gray;
+}
+```
+
+Quando as propriedades forem diferentes, elas simplesmente ficam combinadas. Ambas são mostradas. Exemplo:
+```css
+.paragrafo {
+  background-color: red;
+}
+
+.paragrafo {
+  padding: 20px;
+  margin: 20px;
+}
+```
+O navegador entende assim:
+```css
+.paragrafo {
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+}
+```
+Os seletores também têm prioridades diferentes. A clase que tiver important! tem maior prioridade, seguida dela, o ID tem maior prioridade, depois a classe, e por último o próprio elemento. Exemplo:
+
+```css
+#vermelho {
+  background-color: red;
+}
+
+.cinza {
+  background-color: gray; 
+}
+
+p {
+  background-color: blue !important;
+  color: white;
+  padding: 5px;
+}
+```
+Faça alguns testes! O que acontece se você apagar o !important do elemento parágrafo?
