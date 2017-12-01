@@ -1,6 +1,10 @@
 # Introdução CSS
 
-Vamos descobrir como deixar as páginas cheias de estilo usando CSS e seus poderes. Funciona exatamente assim: selecionamos o que queremos estilizar e, então, algum seletor CSS define como, onde e até quando colocar esses estilos.
+Vamos descobrir como deixar as páginas cheias de estilo. CSS significa folhas de estilo em cascasta. Imaginem uma cachoeira enorme, cheia de pedras, e muita água linda e refrescante caindo em cascata. Assim acontece em nosso navegador, nossos códigos estão em cascata. 
+
+Dependendo da posição em que o CSS esteja sendo chamado na página o código tem uma certa prioridade na hora de ser exibido pelo navegador, e dependendo da posição dentro de um arquivo ou documento também. Como nas pedras da cachoeira, a água flui  melhor em alguns lugares do que em outros.
+
+Funciona exatamente assim: selecionamos o que queremos estilizar e, então, algum seletor CSS define como, onde e quando colocar esses estilos.
 
 ## Adicionando ao documento
 
