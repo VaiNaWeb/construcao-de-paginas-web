@@ -2,7 +2,11 @@
 
 Vamos descobrir como deixar as páginas cheias de estilo. CSS significa folhas de estilo em cascasta. Imaginem uma cachoeira enorme, cheia de pedras, e muita água linda e refrescante caindo em cascata. Assim acontece em nosso navegador, nossos códigos estão em cascata. 
 
-Dependendo da posição em que o CSS esteja sendo chamado na página o código tem uma certa prioridade na hora de ser exibido pelo navegador, e dependendo da posição dentro de um arquivo ou documento também. Como nas pedras da cachoeira, a água flui  melhor em alguns lugares do que em outros.
+Dependendo da posição em que o CSS esteja sendo chamado na página o código tem uma certa prioridade na hora de ser exibido pelo navegador. Como nas pedras da cachoeira, a água flui  melhor em alguns lugares do que em outros. A prioridade na cascata de acordo com a forma que chamamos o código na página é seguinte: 
+
+Usando important! > Em linha > Direto na Head > Externamente
+
+Dependendo da posição dentro de um arquivo essa prioridade muda também.
 
 É importante saber que o CSS não trabalha sozinho, precisamos usa-lo com o HTML. Funciona exatamente assim: selecionamos os elementos do HTML que queremos estilizar e, então, algum seletor CSS define como, onde e quando colocar esses estilos.
 
@@ -16,7 +20,7 @@ Podemos adicionar a CSS em nossa página HTML de três formas:
 <p style="color: #f05a20;">Vai na Web</p>
 ```
 
-### Direto no `<head>`
+### Direto na Head
 
 ```html
 <head>
@@ -33,6 +37,7 @@ Podemos adicionar a CSS em nossa página HTML de três formas:
 
 Dessa forma, criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e utilizá-lo. Lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja, .css, no final.
 
+Arquivo HTML:
 ```html
 <head>
 	<title>Vai na Web</title>
@@ -42,7 +47,7 @@ Dessa forma, criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` d
     <p>Vai na Web</p>
 </body>
 ```
-
+Arquivo CSS:
 ```css
 p {
 	color: #f05a20;
