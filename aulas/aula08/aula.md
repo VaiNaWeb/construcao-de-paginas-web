@@ -40,14 +40,37 @@ Há caixas que se comportam em forma de bloco e há caixas que se comportam em f
 
 Elementos que se comportam como bloco, como <code>h1</code>, <code>h2</code>, <code>h3</code>, <code>p</code>, <code>ul</code>, <code>li</code>, ocupam toda a largura de uma página. Assim sendo, se duas caixas que se comportam como bloco forem adicionadas, a primeira vai querer ocupar toda a largura, então a outra aparecerá abaixo dela, ocupando também toda a largura da página.
 ```css
-p {
+div {
     display: block;
 }
 ```
 Alguns exemplos de elementos que se comportam em forma de linha são a, <code>img</code>, <code>input</code>, <code>label</code>. Eles não tentam ocupar uma largura que não precisam, dessa forma conseguem ser alinhados visualmente em uma única linha.
 ```css
-a {
+div {
     display: inline;
 }
 ```
+Com o valor none, o elemento simplesmente não é mostrado.
+
+```css
+div {
+    display: none;
+}
+```
+## Box-model
+
+O valor do box-model é o valor padrão, isso quer dizer que se não alterarmos, ele é o valor padrão para todos os elementos. O tamanho de um elemento começa com as propriedades de largura e altura e, em seguida, quaisquer valores de preenchimento, borda ou margem são somados a partir daí.
+
+div {
+    box-sizing: content-box;
+}
+
+O box-model costuma deixar alguns desenvolvedores confusos, por isso comumente preferimos usar o border-box. Ao usar o valor border-box, se um elemento tiver uma largura de 400 pixels, um preenchimento de 20 pixels ao redor de cada lado e uma borda de 10 pixels ao redor de cada lado, a largura real permanecerá em 400 pixels.
+
+div {
+    box-sizing: border-box;
+}
+
+Se adicionarmos uma margem, esses valores precisarão ser adicionados para calcular o tamanho total da caixa. Não importa qual valor de propriedade de dimensionamento de caixa seja usado, quaisquer valores de margem precisarão ser adicionados para calcular o tamanho completo do elemento.
+
 Testem, testem e testem! Explorem sem medo todas as propriedades e valores que foram vistos hoje. Aproveitem todas as possibilidades que eles podem criar. Na dúvida, sintam-se à vontade para usar o inspetor do navegador e ter uma melhor visualização do comportamento dos seus estilos.
