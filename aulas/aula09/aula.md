@@ -6,16 +6,18 @@ Aprenderemos como colocar cores na web. Há alguns [sistemas de cores](https://t
 
 ## RGB
 
-Monitores são pretos e iluminados por vários pontinhos de luz. Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor.
-
-É formada por três pares de números, formados por três dígitos. Quanto mais alto o número mais clara é a cor. Em CSS, um quarto número representa o canal alpha.
-
+Monitores são pretos e iluminados por vários pontinhos de luz. Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor. A cor RGB É formada por três pares de números, vermelho, verde e azul, formados por três dígitos. Quanto mais alto o número mais clara é a cor.
+```css
+p {
+    color: rgb(0, 0, 255);
+}
+```
+Eventualmente podemos precisar alterar a opacidade da cor, deixando ela mais transparente ou mais opaca. Para isso, podemos usar um quarto número, que representa o canal alpha da cor.
 ```css
 p {
     color: rgb(0, 0, 255, 0.5);
 }
 ```
-
 ## Hexadecimais
 
 Compostos por uma combinação de três conjuntos de pares formados a partir de número e letras de A a F. Quanto mais alto o número mais clara é a cor.
@@ -34,4 +36,17 @@ http://moviesincolor.com/<br>
 https://color.adobe.com/pt/create/color-wheel/<br>
 https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF<br>
 
-Essa foi apenas uma introdução sobre como adicionamos os estilos. Vamos conhecer novas propriedades nas próximas aulas e entender como elas funcionam, até lá, não deixem de praticar.
+# Tipografia
+
+Temos muitas propriedades oferecidas pelo CSS para trabalhar com as palavras, elas se encaixam em duas categorias: propriedades baseadas em fontes e propriedades baseadas em texto. A maioria dessas propriedades será precedida com fonte, entenda a fonte como o arquivo da letra, e texto que são as palavras de fato. 
+
+## Família de fontes
+
+A propriedade font-family é usada para declarar qual tipo de letra devem ser usadas para exibir texto. O valor da propriedade font-family pode conter vários nomes de fontes, todos separados por vírgulas.
+
+A primeira fonte declarada, a partir da esquerda, é a escolha principal da fonte. Caso a primeira fonte não esteja disponível, as fontes alternativas são declaradas depois dela em ordem de preferência da esquerda para a direita.
+```html
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+```
