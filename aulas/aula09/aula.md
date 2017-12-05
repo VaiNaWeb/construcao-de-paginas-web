@@ -65,9 +65,14 @@ body {
   font-style: italic;
 }
 ```
-
 ## Font Variant
 
+A propriedade font-variant aceita três valores:  normal, small-caps,e inherit. Os valores mais comuns são normal e small-caps. Exemplo:
+```css
+body {
+  font-variant: small-caps;
+}
+```
 ## Font Weight 
 
 ## Line Height 
@@ -77,6 +82,8 @@ body {
 ## Text Align
 
 ## Text Decoration 
+
+## Text Transform
 
 ## Text Indent
 
