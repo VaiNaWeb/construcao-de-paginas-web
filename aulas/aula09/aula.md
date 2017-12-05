@@ -38,7 +38,7 @@ https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF<br>
 
 Temos muitas propriedades oferecidas pelo CSS para trabalhar com as palavras, elas se encaixam em duas categorias: propriedades baseadas em fontes e propriedades baseadas em texto. A maioria dessas propriedades será precedida com fonte, entenda a fonte como o arquivo da letra, e texto que são as palavras de fato. 
 
-## Família de fontes
+## Font-family 
 
 A propriedade font-family é usada para declarar qual tipo de letra devem ser usadas para exibir texto. O valor da propriedade font-family pode conter vários nomes de fontes, todos separados por vírgulas.
 
@@ -75,6 +75,14 @@ body {
 ```
 ## Font Weight 
 
+Podemos definir um texto em negrito ou alterar o peso específico de um tipo de letra. Para esses casos, usaremos a propriedade font-weight. A propriedade font-weight aceita valores de palavra-chave ou numéricos.
+
+Os valores mais usados são o normal e o bold para mudar o texto do normal para o negrito. Podemos usar também um valor numérico para mais variações. Exemplo:
+```css
+body {
+  font-weight: bold;
+}
+```
 ## Line Height 
 
 ## Shorthand Font Properties
