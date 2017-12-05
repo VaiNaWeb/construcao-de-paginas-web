@@ -48,3 +48,34 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 ```
+## Font Properties
+
+### Font Size
+
+### Font Style
+
+### Font Variant
+
+### Font Weight 
+
+### Line Height 
+
+### Shorthand Font Properties
+
+## Text Properties
+
+### Text Align
+
+### Text Decoration 
+
+### Text Indent
+
+### Text Shadow
+
+### Letter Spacing
+
+### Word Spacing
+
+## Using Web-Safe Fonts
+
+## Embedding Web Fonts
