@@ -147,16 +147,14 @@ Podemos importar através do HTML:
 Ou podemos importar através do CSS
 
 ```css
-<style>
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
-</style> 
 ```
 Depois basta selecionarmos a fonte onde queremos usa-la:
 
 ```css
-<style>
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
 body {
   font-family: 'Abril Fatface', cursive;
 }
-</style> 
 ```
