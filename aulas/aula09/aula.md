@@ -158,3 +158,33 @@ body {
   font-family: 'Abril Fatface', cursive;
 }
 ```
+Uma outra forma um pouco mais complexa mas eventualmente necessária é carregando uma fonte adicionado o próprio arquivo em nosso projeto. 
+
+Usamos o @font-face para identificar o nome da nossa fonte, através da propriedade font-family, bem como a fonte de nossa fonte através do arquivo, usando a propriedade src. A partir daí, podemos usar essa fonte incluindo seu nome dentro como valor em uma font-family, como já aprendemos anteriormente.
+
+```css
+@font-face {
+  font-family: 'Exemplo';
+  src: url('Exemplo') format("woff");
+}
+
+body {
+  font-family: 'Exemplo';
+}
+```
+É recomendável nesse caso, adicionarmos vários formatos diferentes de fontes, pois há navegadores que suportam uns e outros não, isso pode trazer uma dor de cabeça. Existem algumas ferramentas que nos ajudam nessa conversão, como a [transfonter](https://transfonter.org/) por exemplo.
+
+```css
+@font-face {
+	font-family: 'Exemplo';
+	src: url('Exemplo.eot');
+	src: url('Exemplo.eot?#iefix') format('embedded-opentype'),
+		 url('Exemplo.woff2') format('woff2'),
+		 url('Exemplo.woff') format('woff'),
+		 url('Exemplo.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Exemplo';
+}
+```
