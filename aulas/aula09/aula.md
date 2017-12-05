@@ -91,7 +91,12 @@ body {
 ```
 ## Line Height
 
-## Shorthand Font Properties
+A propriedade line-height é responsável por modificar a distância entre duas linhas de texto declaramos usando a propriedade de altura da linha. Exemplo:
+
+body {
+  height: 26px;
+  line-height: 26px;
+}
 
 ## Text Align
 
