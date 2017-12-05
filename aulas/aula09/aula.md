@@ -67,7 +67,7 @@ body {
 ```
 ## Font Variant
 
-A propriedade font-variant aceita três valores:  normal, small-caps,e inherit. Os valores mais comuns são normal e small-caps. Exemplo:
+A propriedade font-variant aceita três valores:  normal, small-caps, e inherit. Os valores mais comuns são normal e small-caps. Exemplo:
 ```css
 body {
   font-variant: small-caps;
@@ -83,7 +83,13 @@ body {
   font-weight: bold;
 }
 ```
-## Line Height 
+Exemplo usando valor numérico:
+```css
+body {
+  font-weight: 800;
+}
+```
+## Line Height
 
 ## Shorthand Font Properties
 
