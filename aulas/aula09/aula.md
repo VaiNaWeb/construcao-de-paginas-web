@@ -117,6 +117,18 @@ p {
 }
 ```
 
-## Using Web-Safe Fonts
+## Usando fontes seguras
 
-## Embedding Web Fonts
+Existem algumas fontes que são comuns em todos os computadores, tablets, smartphones e outros dispositivos compatíveis com os navegadores na web. Como eles foram instalados em todos os dispositivos, podemos usar essas fontes livremente em nossos sites, sabendo que não importa qual dispositivo esteja navegando em nosso site, a fonte irá aparecer corretamente. Exemplos de fontes seguras:
+
+- Arial
+- Courier New, Courier
+- Garamond
+- Georgia
+- Lucida Sans Lucida Grande, Lucida
+- Palatino Linotype
+- Tahoma
+- Times New Roman
+- Verdana
+
+## Carregando novas fontes
