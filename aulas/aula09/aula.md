@@ -35,7 +35,7 @@ https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF<br>
 
 # Tipografia
 
-Temos muitas propriedades oferecidas pelo CSS para trabalhar com as palavras, elas se encaixam em duas categorias: propriedades baseadas em fontes e propriedades baseadas em texto. A maioria dessas propriedades será precedida com fonte, entenda a fonte como o arquivo da letra, e texto que são as palavras de fato. 
+Temos muitas propriedades oferecidas pelo CSS para trabalhar com as palavras, elas se encaixam em duas categorias: propriedades baseadas em fontes e propriedades baseadas em texto. A maioria dessas propriedades será precedida com fonte, entenda a fonte como o arquivo da letra, e texto que são as palavras de fato. Vamos conhecer algumas!
 
 ## Font Family 
 
@@ -106,13 +106,16 @@ p {
 }
 ```
 
-## Text Decoration 
-
 ## Text Transform
 
-## Letter Spacing
-  
-## Word Spacing
+Enquanto a propriedade font-variant procura uma variante alternativa de um tipo de letra, a propriedade text-transform alterará o texto. A propriedade text-transform aceita cinco valores: none, capitalize, uppercase, lowercase, e inherit. 
+
+Um caso de uso muito comum: se um texto precisa escrito em letras maiúsculas não é recomendando sempre escreve-lo no HTML assim,  melhor usar o CSS para isso. Exemplo:
+```css
+p {
+  text-transform: uppercase;
+}
+```
 
 ## Using Web-Safe Fonts
 
