@@ -132,3 +132,31 @@ Existem algumas fontes que são comuns em todos os computadores, tablets, smartp
 - Verdana
 
 ## Carregando novas fontes
+
+Quando não queremos usar as fontes que vêm por padrão em todos os computadores, podemos também carregar novas fontes e usa-las em nossa página. Existem dois caminhos mais conhecidos para fazer isso, o mais simples, é usando recursos como o [Google Fonts](https://fonts.google.com/).
+
+O Google Fonts é uma biblioteca de fontes licenciadas livres, que nos permite escolher e usar convenientemente as fontes por meio do CSS. Basta escolher a fonte, e o próprio Google Fonts já nos sugere um link com instruções para que possamos importar essa fonte e depois basta selecionar a fonte CSS. 
+
+Podemos importar através do HTML:
+
+```html
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+</head>
+```
+Ou podemos importar através do CSS
+
+```css
+<style>
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+</style> 
+```
+Depois basta selecionarmos a fonte onde queremos usa-la:
+
+```css
+<style>
+body {
+  font-family: 'Abril Fatface', cursive;
+}
+</style> 
+```
