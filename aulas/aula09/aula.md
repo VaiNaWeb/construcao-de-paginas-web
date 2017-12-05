@@ -43,38 +43,48 @@ Temos muitas propriedades oferecidas pelo CSS para trabalhar com as palavras, el
 A propriedade font-family é usada para declarar qual tipo de letra devem ser usadas para exibir texto. O valor da propriedade font-family pode conter vários nomes de fontes, todos separados por vírgulas.
 
 Funciona assim, primeira fonte declarada, a partir da esquerda, é a escolha principal da fonte. Caso a primeira fonte não esteja disponível, as fontes alternativas são declaradas depois dela em ordem de preferência da esquerda para a direita.
-```html
+```css
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
 ```
-## Font Properties
+## Font Size
 
-### Font Size
+A propriedade font-size nos permite definir o tamanho do texto usando alguns valores. Assim como quando falamos em dinheiro precisamos citar a moeda, quando definimos o valor de um font-size usamos algumas unidades de medida, por exemplo: pixels, em, porcentagens, pontos, etc. Exemplo com pixel:
+```css
+body {
+  font-size: 16px;
+}
+```
 
-### Font Style
+## Font Style
 
-### Font Variant
+A propriedade font-style aceita quatro valores de palavras-chave: normal, italic, oblique e inherit. Destes quatro, os mais utilizados são o itálico, que define o texto para o itálico, e o normal que como o próprio nome sugere, retorna o texto ao seu estilo normal. Exemplo:
+```css
+body {
+  font-style: italic;
+}
+```
 
-### Font Weight 
+## Font Variant
 
-### Line Height 
+## Font Weight 
 
-### Shorthand Font Properties
+## Line Height 
 
-## Text Properties
+## Shorthand Font Properties
 
-### Text Align
+## Text Align
 
-### Text Decoration 
+## Text Decoration 
 
-### Text Indent
+## Text Indent
 
-### Text Shadow
+## Text Shadow
 
-### Letter Spacing
-
-### Word Spacing
+## Letter Spacing
+  
+## Word Spacing
 
 ## Using Web-Safe Fonts
 
