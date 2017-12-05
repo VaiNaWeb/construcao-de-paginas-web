@@ -43,7 +43,7 @@ A propriedade font-family é usada para declarar qual tipo de letra devem ser us
 
 Funciona assim, primeira fonte declarada, a partir da esquerda, é a escolha principal da fonte. Caso a primeira fonte não esteja disponível, as fontes alternativas são declaradas depois dela em ordem de preferência da esquerda para a direita.
 ```css
-body {
+p {
   font-family: Helvetica, Arial, sans-serif;
 }
 ```
@@ -51,7 +51,7 @@ body {
 
 A propriedade font-size nos permite definir o tamanho do texto usando alguns valores. Assim como quando falamos em dinheiro precisamos citar a moeda, quando definimos o valor de um font-size usamos algumas unidades de medida, por exemplo: pixels, em, porcentagens, pontos, etc. Exemplo com pixel:
 ```css
-body {
+p {
   font-size: 16px;
 }
 ```
@@ -60,7 +60,7 @@ body {
 
 A propriedade font-style aceita quatro valores de palavras-chave: normal, italic, oblique e inherit. Destes quatro, os mais utilizados são o itálico, que define o texto para o itálico, e o normal que como o próprio nome sugere, retorna o texto ao seu estilo normal. Exemplo:
 ```css
-body {
+p {
   font-style: italic;
 }
 ```
@@ -68,7 +68,7 @@ body {
 
 A propriedade font-variant aceita três valores:  normal, small-caps, e inherit. Os valores mais comuns são normal e small-caps. Exemplo:
 ```css
-body {
+p {
   font-variant: small-caps;
 }
 ```
@@ -78,13 +78,13 @@ Podemos definir um texto em negrito ou alterar o peso específico de um tipo de 
 
 Os valores mais usados são o normal e o bold para mudar o texto do normal para o negrito. Podemos usar também um valor numérico para mais variações. Exemplo:
 ```css
-body {
+p {
   font-weight: bold;
 }
 ```
 Exemplo usando valor numérico:
 ```css
-body {
+p {
   font-weight: 800;
 }
 ```
@@ -92,12 +92,19 @@ body {
 
 A propriedade line-height é responsável por modificar a distância entre duas linhas de texto declaramos usando a propriedade de altura da linha. Exemplo:
 ```css
-body {
+p {
   height: 26px;
   line-height: 26px;
 }
 ```
 ## Text Align
+
+Essa propriedade modifica o alinhamento de uma frase em relação a uma página. Ela aceita os valores left, right, center, e justify. Exemplo:
+```css
+p {
+  text-align: center;
+}
+```
 
 ## Text Decoration 
 
