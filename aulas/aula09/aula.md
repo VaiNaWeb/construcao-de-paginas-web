@@ -21,7 +21,6 @@ p {
 Compostos por uma combinação de três conjuntos de pares formados a partir de número e letras de A a F. Quanto mais alto o número mais clara é a cor.
 
 Cada par é responsável por uma cor, assim como o RGB, Vermelho, verde e azul. Ou seja #ff0000 é o vermelho, e o #00ff00 é o verde e #0000ff é o azul.
-
 ```css
 p {
     color: #ff0000;
@@ -92,21 +91,17 @@ body {
 ## Line Height
 
 A propriedade line-height é responsável por modificar a distância entre duas linhas de texto declaramos usando a propriedade de altura da linha. Exemplo:
-
+```css
 body {
   height: 26px;
   line-height: 26px;
 }
-
+```
 ## Text Align
 
 ## Text Decoration 
 
 ## Text Transform
-
-## Text Indent
-
-## Text Shadow
 
 ## Letter Spacing
   
