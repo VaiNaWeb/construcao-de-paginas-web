@@ -58,3 +58,28 @@ Com botões de rádio, um usuário faz uma seleção de múltipla escolha. Assim
 <input type="radio" name="dia" value="Sábado"> Sábado
 <input type="radio" name="dia" value="Domingo"> Domingo
 ```
+## Check Boxes
+
+Usam os mesmos atributos e padrões do radio buttons, mas para usa-lo mudamos o valor do type para checkbox. Com o checkbox, os usuários podem selecionar vários valores.
+```html
+<input type="checkbox" name="dia" value="Segunda" checked> Segunda
+<input type="checkbox" name="dia" value="Sábado"> Sábado
+<input type="checkbox" name="dia" value="Domingo"> Domingo
+```
+## Drop-Down Lists
+
+Uma maneira ótima para pertmir aos usuários selecionar uma opção em uma lista. Para cria-la usaramos os elementos select e option. O elemento select envolve todas as opções, e cada opção é marcada usando o elemento option.
+
+Usamos o atributo name dentro de selected, e o atributo value em cada option que estão dentro de select. O atributo value em cada elemento option corresponde ao atributo name no elemento <select>.
+
+Cada elemento da lista fica em um option. Ao invés de checked, para pré-selecionar uma opção usamos o selected como atributo na opção que queremos fazer isso.
+
+```html
+<select name="dia">
+  <option value="Segunda" selected>Segunda</option>
+  <option value="Sábado">Sábado</option>
+  <option value="Domingo">Domingo</option>
+</select>
+```
+
+
