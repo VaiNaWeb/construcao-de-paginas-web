@@ -1,6 +1,6 @@
 # Construindo formulários
 
-Os formulários são uma parte essencial da Internet, usamos formulários para capturar informações dos usuários e processar solicitações. Através de controles ou campos, os formulários podem solicitar uma pequena quantidade de informações, como um campo de buscas do Google faz, por exemplo.
+Usamos formulários para capturar informações dos usuários e processar solicitações. Através de controles ou campos, os formulários podem solicitar uma pequena quantidade de informações, como um campo de buscas do Google faz, por exemplo.
 
 Precisamos saber como criar formulários para adquirir a entrada do usuário. Por enquanto, vamos discutir como usar o HTML para marcar um formulário, quais elementos usar para capturar diferentes tipos de dados. 
 
@@ -47,3 +47,15 @@ Outro elemento que é usado para capturar texto é o elemento textarea. Diferent
 
 ## Radio Buttons
 
+Permitem que os usurios façam uma escolha rápida de uma pequena lista de opções. Os botões de rádio permitem aos usuários selecionar apenas uma opção.
+
+Parar cria-lo, usamos o input, e adicionamos o type radio. É necessário que todos os botões do conjunto tenham o mesmo name, assim sabemos que todos fazem parte do mesmo.
+
+Com botões de rádio, um usuário faz uma seleção de múltipla escolha. Assim, temos que definir o valor de entrada. Usando o atributo de value, podemos definir um valor específico para cada elemento input.
+
+É possível também pré-selecionar um botão de opção para o usuário, podemos usar o atributo checked.
+```html
+<input type="radio" name="day" value="Friday" checked> Friday
+<input type="radio" name="day" value="Saturday"> Saturday
+<input type="radio" name="day" value="Sunday"> Sunday
+```
