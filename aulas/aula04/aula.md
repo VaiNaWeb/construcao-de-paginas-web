@@ -27,7 +27,12 @@ Exemplo:
 <h6>Eu sou o menos importante</h6>
 ```
 
-
+<h1>Eu sou o título mais importante!</h1>
+<h2>Eu sou um pouco menos importante</h2>
+<h3>Eu sou um pouco menos importante</h3>
+<h4>Eu sou um pouco menos importante</h4>
+<h5>Eu sou um pouco menos importante</h5>
+<h6>Eu sou o menos importante</h6>
 
 # Evoluindo minha página com mais HTML
 
