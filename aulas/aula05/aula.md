@@ -40,7 +40,10 @@ Além do text podemos usar os seguintes types:
 
 ## Textarea
 
-Outro elemento que é usado para capturar texto é o elemento textarea. Diferente de input, esse elemento pode aceitar textos maiores, ideal para quando queremos receber um texto com mais de uma linha. Ele aceita apenas um tipo de valor, o atributo name.
+Outro elemento que é usado para capturar texto é o elemento textarea. Diferente do input, esse elemento pode aceitar textos maiores, ideal para quando queremos receber um texto com mais de uma linha. Ele aceita apenas um tipo de valor, o atributo name.
 ```html
 <textarea name="comentario">Deixe aqui seu comentário</textarea>
 ```
+
+## Radio Buttons
+
