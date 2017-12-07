@@ -24,7 +24,6 @@ Além do atributo type, é a melhor prática dar um elemento de <input> também 
 <input type="text" name="cidade">
 ```
 Além do text podemos usar os seguintes types:
-
 - color
 - date
 - datetime
@@ -55,7 +54,7 @@ Com botões de rádio, um usuário faz uma seleção de múltipla escolha. Assim
 
 É possível também pré-selecionar um botão de opção para o usuário, podemos usar o atributo checked.
 ```html
-<input type="radio" name="day" value="Friday" checked> Friday
-<input type="radio" name="day" value="Saturday"> Saturday
-<input type="radio" name="day" value="Sunday"> Sunday
+<input type="radio" name="dia" value="Segunda" checked> Segunda
+<input type="radio" name="dia" value="Sábado"> Sábado
+<input type="radio" name="dia" value="Domingo"> Domingo
 ```
