@@ -75,7 +75,6 @@ Uma maneira ótima para pertmir aos usuários selecionar uma opção em uma list
 Usamos o atributo name dentro de selected, e o atributo value em cada option que estão dentro de select. O atributo value em cada elemento option corresponde ao atributo name no elemento select.
 
 Cada elemento da lista fica em um option. Ao invés de checked, para pré-selecionar uma opção usamos o selected como atributo na opção que queremos fazer isso.
-
 ```html
 <select name="dia">
   <option value="Segunda" selected>Segunda</option>
@@ -83,13 +82,35 @@ Cada elemento da lista fica em um option. Ao invés de checked, para pré-seleci
   <option value="Domingo">Domingo</option>
 </select>
 ```
+
 ## Form Buttons
+
+Os usuários clicam no botão enviar para processar dados depois de preencher um formulário. O botão enviar é criado usando o elemento input com um valor de atributo de tipo de envio. O atributo de valor é usado para especificar o texto que aparece no botão.
+```html
+<input type="submit" name="enviar" value="Enviar">
+```
+
+O elemento button executa da mesma maneira que o elemento input com o valor de atributo de tipo de submit; mas ele também inclui tags de abertura e fechamento, que podem conter outros elementos. Por padrão, o elemento button atua como se tivesse um valor de atributo de tipo de envio.
+
+Em vez de usar o atributo value para controlar o texto dentro do botão submit, o texto que aparece entre as tags de abertura e de fechamento do elemento button aparecerá.
+```html
+<button name="enviar">
+  <strong>Enviar mensagem</strong>
+</button>
+```
+
 ## File Input
+
+
 ## Label
+
+
 ## Fieldset
+
+
 ## Legend
+
+
 ## Form & Input Attributes
-
-
 
 
