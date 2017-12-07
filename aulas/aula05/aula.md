@@ -160,7 +160,7 @@ Legend funciona como um título para o fieldset, ele pode envolver uma descriç�
 </fieldset>
 ```
 
-## Form & Input Attributes
+## Mais alguns atributos
 
 Há ainda muitos atributos úteis que não vimos ainda, por agora, veremos mais alguns dos mais usados.
 
