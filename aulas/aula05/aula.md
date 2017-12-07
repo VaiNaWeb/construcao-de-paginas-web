@@ -100,7 +100,10 @@ Em vez de usar o atributo value para controlar o texto dentro do botão submit, 
 ```
 
 ## File Input
-
+Para permitir que os usuários adicionem um arquivo a um formulário, como anexar um documento a um e-mail, por exemplo, usamos o valor do arquivo para o atributo type.
+```html
+<input type="file" name="file">
+```
 
 ## Label
 
