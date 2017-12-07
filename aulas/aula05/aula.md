@@ -145,4 +145,20 @@ Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seç�
 ```
 ## Legend
 
+Legend funciona como um título para o fieldset, ele pode envolver uma descrição dos controles do fieldset.
+
+```
+<fieldset>
+  <legend>Login</legend>
+  <label>
+    Username
+    <input type="text" name="username">
+  </label>
+  <label>
+    Password
+    <input type="text" name="password">
+  </label>
+</fieldset>
+```
+
 ## Form & Input Attributes
