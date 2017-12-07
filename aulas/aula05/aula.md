@@ -15,3 +15,27 @@ Para adicionar um formulário a uma página, usaremos o elemento form:
 </form>
 ```
 
+## Input
+
+Um dos elementos principais usados para obter uma entrada do usuário é o elemento input. Esse elemento usa o atributo type para definir qual tipo de informação deve ser capturada pelo input. O valor de atributo de tipo mais popular é o texto.
+
+Além do atributo type, é a melhor prática dar um elemento de <input> também um atributo name, que serve para dar o nome desse controle, isso é útil, pois assim enviamos junto com o dado o lugar de onde veio esse dado para o servidor.
+```html
+<input type="text" name="cidade">
+```
+Além do text podemos usar os seguintes types:
+
+- color
+- date
+- datetime
+- email
+- month
+- number
+- range
+- search
+- tel
+- time
+- url
+- week
+
+# Textarea
