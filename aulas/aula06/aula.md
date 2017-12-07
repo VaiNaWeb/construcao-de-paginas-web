@@ -1,4 +1,4 @@
-# Adicionado Áudio, Imagens, Vídeos
+# Adicionando Áudio, Imagens, Vídeos
     
 Quando tudo começou a web era formada principalmente por textos simples, mas essa não é mais a nossa realidade. Navegando na internet encontramos muitos tipos de conteúdo diferentes, além de textos, incluimos em nossas páginas imagens, músicas, vídeos, e até mesmo conteúdo de outras páginas da web.
 
