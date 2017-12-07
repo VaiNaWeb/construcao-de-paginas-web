@@ -100,6 +100,7 @@ Em vez de usar o atributo value para controlar o texto dentro do botão submit, 
 ```
 
 ## File Input
+
 Para permitir que os usuários adicionem um arquivo a um formulário, como anexar um documento a um e-mail, por exemplo, usamos o valor do arquivo para o atributo type.
 ```html
 <input type="file" name="file">
@@ -107,6 +108,13 @@ Para permitir que os usuários adicionem um arquivo a um formulário, como anexa
 
 ## Label
 
+Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acessível para todos os usuários e tecnologias assistivas, muito úteis para garantir acessibilidade. Criado usando o elemento label, os labels devem incluir um texto que descreva as entradas ou controles aos quais eles pertencem.
+
+Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento <label> para trazer foco para o controle de formulário apropriado.
+```html
+<label for="usuario">Username</label>
+<input type="text" name="username" id="usuario">
+```
 
 ## Fieldset
 
