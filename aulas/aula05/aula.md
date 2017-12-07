@@ -113,15 +113,36 @@ Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acess
 Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento <label> para trazer foco para o controle de formulário apropriado.
 ```html
 <label for="usuario">Username</label>
-<input type="text" name="username" id="usuario">
+<input type="text" name="usuario" id="usuario">
 ```
-
+O elemento <label> também pode envolver controles de formulário, como botões de opção ou caixas de seleção. Nesse caso não precisamos usar os atributos for e id.
+```html
+<label>
+  <input type="radio" name="dia" value="Segunda" checked> Segunda
+</label>
+<label>
+  <input type="radio" name="dia" value="Sábado"> Sábado
+</label>
+<label>
+  <input type="radio" name="dia" value="Domingo"> Domingo
+</label>
+```
+  
 ## Fieldset
 
-
+Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seções organizadas. Assim como uma section, fieldset é um elemento de nível de bloco que envolve elementos relacionados dentro de um form, para melhor organização.
+```html
+<fieldset>
+  <label>
+    Usuário
+    <input type="text" name="usuario">
+  </label>
+  <label>
+    Senha
+    <input type="text" name="senha">
+  </label>
+</fieldset>
+```
 ## Legend
 
-
 ## Form & Input Attributes
-
-
