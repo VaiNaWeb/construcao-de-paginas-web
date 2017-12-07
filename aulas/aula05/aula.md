@@ -83,5 +83,13 @@ Cada elemento da lista fica em um option. Ao invés de checked, para pré-seleci
   <option value="Domingo">Domingo</option>
 </select>
 ```
+## Form Buttons
+## File Input
+## Label
+## Fieldset
+## Legend
+## Form & Input Attributes
+
+
 
 
