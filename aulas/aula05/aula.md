@@ -146,8 +146,7 @@ Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seç�
 ## Legend
 
 Legend funciona como um título para o fieldset, ele pode envolver uma descrição dos controles do fieldset.
-
-```
+```html
 <fieldset>
   <legend>Login</legend>
   <label>
@@ -162,3 +161,45 @@ Legend funciona como um título para o fieldset, ele pode envolver uma descriç�
 ```
 
 ## Form & Input Attributes
+
+Há ainda muitos atributos úteis que não vimos ainda, por agora, veremos mais alguns dos mais usados.
+
+Para desabilitar um campo por exemplo, usamos o atributo disabled:
+
+```html
+<label>
+  Username
+  <input type="text" name="usuario" disabled>
+</label>
+```
+Para mostrar uma descrição do controle dentro do próprio campo input usamos o placeholder:
+```html
+<label>
+  Email
+  <input type="email" name="email" placeholder="nome@exemplo.com">
+</label>
+```
+
+Para tornar o preenchimento do campo como obrigatório usamos o required:
+```html
+<label>
+  Email
+  <input type="email" name="email" required>
+</label>
+```
+Outros atributos interessantes que você deveria pesquisar e ler mais sobre:
+- accept
+- autocomplete
+- autofocus
+- formaction
+- formenctype
+- formmethod
+- formnovalidate
+- formtarget
+- max
+- maxlength
+- min
+- pattern
+- readonly
+- selectionDirection
+- step
