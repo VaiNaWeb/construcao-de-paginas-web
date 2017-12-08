@@ -88,28 +88,35 @@ Todo o conteúdo sobre tecnologia criado ao decorrer das aulas é aberto e pode 
 **Formato de apresentação:** [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](http://slides.com/vainaweb/primeiros-passos-na-web-10), [resumo](aulas/aula10/resumo.md), [desafios](aulas/aula10/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 11 - [Flexbox](aulas/aula09/aula.md)
+### Aula 11 - [Flexbox](aulas/aula11/aula.md)
 
 **Objetivos:** Criação de layouts usando os valores e propriedades do Flexbox.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [flexbox froggy](http://flexboxfroggy.com/#pt-br), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](http://slides.com/vainaweb/primeiros-passos-na-web-11), [resumo](aulas/aula11/resumo.md), [desafios](aulas/aula11/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
-### Aula 13 - [Posicionamento de elementos](aulas/aula10/aula.md)
+### Aula 12 - Revisão
+
+**Objetivos:** Revisão de aulas passadas<br>
+**Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
+**Ferramentas e materiais de apoio:** [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](http://slides.com/vainaweb/), [resumo](aulas), [desafios](aulas), [codepen](http://codepen.io/).<br>
+**Duração:** 3 horas.
+
+### Aula 13 - [Posicionamento de elementos](aulas/aula13/aula.md)
 
 **Objetivos:** Propriedades de posicionamento e como cada uma influi na composição das ṕaginas.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [sublime text](http://www.sublimetext.com/), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](http://slides.com/vainaweb/primeiros-passos-na-web-13), [resumo](aulas/aula13/resumo.md), [desafios](aulas/aula13/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
-### Aula 14 - [Criando páginas para múltiplos dispositivos](aulas/aula11/aula.md)
+### Aula 14 - [Criando páginas para múltiplos dispositivos](aulas/aula14/aula.md)
 
 **Objetivos:** A importância do Design Responsivo. Como usar CSS para criar layouts responsivos.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
 **Ferramentas e materiais de apoio:** [codepen](http://codepen.io/), [sublime text](http://www.sublimetext.com/), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](http://slides.com/vainaweb/primeiros-passos-na-web-14), [resumo](aulas/aula14/resumo.md), [desafios](aulas/aula14/desafios.md).<br>
 **Duração:** 3 horas.
 
-### Aula 15 - [Criando páginas acessíveis](aulas/aula12/aula.md)
+### Aula 15 - [Criando páginas acessíveis](aulas/aula15/aula.md)
 
 **Objetivos:** Entender a importância e manter acessibilidade em páginas na web.<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
