@@ -24,18 +24,14 @@ Imaginar a cena das caixas já pode ter sido confuso para muita gente, assim com
 Para construir uma página, marcamos todos os conteúdos com as tags. Há algumas tags principais que compõem uma página padrão. Toda página na web tem uma tag html, head e body. A tag `html` indica elementos em html, dentro dela temos `<head>`, que significa cabeçalho, e `<body>`, que significa corpo.
 
 ```html
-<!DOCTYPE html>
 <html>
 	<head>
-		<title> </title>
+		<title>Título</title>
 	</head>
-
 	<body>
-
 		<p>Olá mundo!</p>
-		
 	</body>
-
 </html>
 ```
+
 Há vários [elementos](https://developer.mozilla.org/pt-BR/docs/Aprender) diferentes, continue conhecendo mais alguns!
