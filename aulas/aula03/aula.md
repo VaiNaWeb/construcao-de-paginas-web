@@ -1,6 +1,6 @@
 # Introdução HTML
 
-O HTML usa um conjunto predefinido de elementos para identificar os diversos tipos de conteúdo. Os elementos contém uma ou mais tags que abrangem ou expressam um determinado conteúdo.
+O HTML usa um conjunto predefinido de elementos para identificar os diversos tipos de conteúdo. Os elementos contém uma ou mais tags que abrangem ou expressam um determinado conteúdo. Cada tag funciona como uma etiqueta que diz ao navegador qual elemento está escrito ali e como ele deve interpretá-lo. Por isso, cada tag tem seu significado e deve ser usada corretamente.
 
 Uma tag começa com o sinal de menor < e termina com o sinal de maior >. Certifique-se de sempre fechar cada tag, pois, embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não é.
 
@@ -21,7 +21,7 @@ Imaginar a cena das caixas já pode ter sido confuso para muita gente, assim com
 </section>
 ```
 
-Cada tag funciona como uma etiqueta que diz ao navegador qual elemento está escrito ali e como ele deve interpretá-lo. Por isso, cada tag tem seu significado e deve ser usada corretamente. A tag <html> indica elementos em html, dentro dela temos <head>, que significa cabeçalho, e <body>, que significa corpo.
+Para construir uma página, marcamos todos os conteúdos com as tags. Há algumas tags principais que compõem uma página padrão. Toda página na web tem uma tag html, head e body. A tag `html` indica elementos em html, dentro dela temos `<head>`, que significa cabeçalho, e `<body>`, que significa corpo.
 
 ```html
 <!DOCTYPE html>
@@ -38,6 +38,4 @@ Cada tag funciona como uma etiqueta que diz ao navegador qual elemento está esc
 
 </html>
 ```
-Há vários elementos diferentes, continue conhecendo mais alguns!<br>
-https://developer.mozilla.org/pt-BR/docs/Aprender<br>
-https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5/HTML5_element_list
+Há vários [elementos](https://developer.mozilla.org/pt-BR/docs/Aprender) diferentes, continue conhecendo mais alguns!
