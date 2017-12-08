@@ -1,5 +1,7 @@
 # Como nos comunicamos através da internet
 
+> "Aprender sem pensar é trabalho perdido." Confúcio
+
 Quando dois ou mais computadores estão conectados à internet, eles podem conversar uns com os outros.
 
 O conteúdo de um site é organizado dentro de um conjunto especial de regras que os computadores entendem; Funciona como falar em uma linguagem secreta, codificada.
