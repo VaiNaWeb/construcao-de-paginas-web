@@ -12,7 +12,7 @@ Com a chegada do HTML5, ganhamos algumas tags com significado semântico, e pass
 `<footer>` Define o rodapé de uma página ou seção. <br>
 `<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.<br>
 
-![asset](assets/01.png)
+![asset](01.png)
 
 Existem seis níveis diferentes de títulos: `H1` é o mais importante,` h6` é o menos importante. Em HTML, o texto para cabeçalhos é escrito dentro dos elementos de título: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` ou `<h6>`.
 
