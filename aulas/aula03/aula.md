@@ -29,6 +29,8 @@ Fazendo uma analogia ao corpo humano, na cabeça temos as coisas que não vemos,
 
 Um exemplo de elemento importante mas não precisa ser visto diretamente na página é o `title`. Veremos outros no decorrer deste módulo.
 
+![Assets](assets/01.png)
+
 ```html
 <html>
 	<head>
