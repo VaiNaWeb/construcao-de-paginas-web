@@ -1,4 +1,5 @@
-<!-- Aula 03 - Introdução ao HTML e CSS -->
+<!-- Aula 03 - Introdução HTML -->
+
 # Desafio 01: Minha primeira página
 1. Crie uma página com a estrutura básica completa
 2. Adicione um header

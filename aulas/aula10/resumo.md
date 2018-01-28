@@ -1,42 +1,23 @@
-# Posicionamento de elementos com CSS
+# Conhecendo o terminal do Linux
 
-- Em CSS temos a propriedade position, que pode receber alguns valores diferentes, cada um com seu comportamento. O valor padrão dessa propriedade, e que podemos mudar, é o static. 
+- Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos filmes e séries.
 
-- Podemos usar os valores static, absolute, relative e fixed.
+- Essa famosa telinha preta, que é chamada de linha de comando, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
 
-- O valor static não se posiciona de forma especial, ou seja, dizer que o elemento tem valor estático significa dizer que ele não tem ainda uma posição definida.
-```css
-.elemento {
-  position: static;
-}
-```
-- Você pode imaginar que no navegador, há um sistema de coordenadas, e temos que adicionar propriedades extras junto ao position para posicionar o elemento nesse sistema. As propriedades extras que usamos são: top, right, bottom, e left.
+- Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação.
 
-- O position com valor relative posiciona o elemento em relação a si mesmo, e faz esse cálculo a partir do seu canto superior esquerdo.
-```css
-.elemento {
-  position: relative;
-}
+## Primeiros comandos
 
-.elemento {
-  position: relative;
-  top: 20px;
-  left: 20px;
-}
-```
-- Assim como o valor relative, o absolute precisa dessas propriedades extras de coordenadas. Porém diferente do position relative, o elemento com valor absolute não se posiciona em relação a si mesmo, mas a outros elementos, como seu elemento pai, ou, se o elemento pai não tiver seu position definido, ele usa como referencia o próprio body.
-```css
-.elemento {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-```
-- O valor fixed posiciona de forma fixa na página, isso significa que ele sempre ficará no mesmo lugar ainda que rolemos a página. Assim como o relative, e absolute, as propriedades top, right, bottom e left também podem ser utilizadas.
-```css
-.elemento {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-}
-```
+<code>man</code>: Usado para mostrar o manual de um outro comando<br>
+<code>sudo</code>: Deve ser usado com cuidado. Ele dá permissões de administrador<br>
+<code>ls</code>: Lista os arquivos do diretório<br>
+<code>pwd</code>: Mostra o diretório atual<br>
+<code>cd</code>: Usado para mudar de diretório<br>
+<code>cp</code>: Copia um arquivo ou diretório<br>
+<code>mv</code>: Usado para mover um arquivo ou renomea-lo<br>
+<code>mkdir</code>: Cria uma nova pasta<br>
+<code>touch</code>: Cria um novo arquivo<br>
+<code>more</code>: Lê um arquivo de texto<br>
+<code>grep</code>: Lê e faz uma busca por palavras dentro de um arquivo<br>
+<code>clear</code>: Limpa a tela<br>
+<code>exit</code>: Fecha o terminal<br>

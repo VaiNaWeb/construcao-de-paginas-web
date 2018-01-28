@@ -1,28 +1,120 @@
-#Criando páginas para múltiplos dispositivos
+# Introdução ao modelo flexível de caixas
 
-- Estamos realmente conectados o tempo inteiro, e através de vários dispositivos diferentes. A web está em todos os lugares!
+- Conhecido com Flexbox
 
-- Precisamos criar páginas que sejam exibidas de forma correta nos mais diferentes dispositivos, assim nasceu o conceito de [Design responsivo](https://brasil.uxdesign.cc/o-que-%C3%A9-responsive-web-design-ab292eb616b7#.oin348i9x).
+- Para entendermos o Flexbox, precisamos compreender alguns elementos como containers e outros como itens desses containers.
 
-- Dizemos que uma página é responsiva, quando os elementos dela se adaptam automaticamente à tela do dispositivo no qual ela está sendo visualizada. Na prática, há algumas técnicas que usamos para que esse comportamento aconteça.
-
-- Precisamos dizer ao navegador que a escala inicial da nossa página é equivalente ao tamanho do dispositivo. Adicionamos a seguinte linha ao <code>head</code>:
-
-```html
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
-- Flexbox é muito legal para tornar nosso layout flexível, e flexibilidade e fluidez faz parte do que queremos atingir com o design responsivo. Ao invés de ficar usando pixels, nós também podemos usar unidades de medida flexíveis, você pode ler mais sobre isso nesse [link](http://www.maujor.com/tutorial/unidades-de-medidas-css.php). 
-
-- Usamos media queries para criar modificações na página para que ela se adapte de acordo com uma medida. Nós podemos dizer por exemplo que se uma página tem até 640px de largura o background dela deve mudar sua cor.
+- Começamos a usar o Flexbox inserindo  a propriedade <code>display</code> com o valor <code>flex</code> no container.
 
 ```css
-@media (max-width: 640px) {
-	body {
-		background: tomato;
-	}
+.container {
+  display: flex;
+}
+```
+- Existem propriedades específicas que usamos para container e  outras para os itens. Vejamos:
+
+## Propriedades do container
+
+### <code>flexp-direction</code>
+- Valores atribuídos ao <code>flexp-direction</code>:<br> 
+  <code>row <i>(padrão)</i></code>: Os itens são posicionados na mesma direção padrão da página.<br>
+  <code>row-reverse</code>: Os itens são posicionados na direção inversa ao padrão da página.<br>
+  <code>column</code>: Os itens são posicionados de cima para baixo.<br>
+  <code>column-reverse</code>: Os itens são posicionados de baixo para cima.<br>
+
+```css
+.container {
+  display: flex;
+  flex-direction: row;
 }
 ```
 
-- Mudar a cor de uma página de acordo com seu tamanho pode não ser muito interessante, mas podemos modificar outras coisas que são, como por exemplo modificar o tamanho de um container, o lugar de um botão, deixar uma letra maior ou menor... são muitas [possibilidades](https://tableless.com.br/design-responsivo-na-pratica-do-rascunho-ao-digita/) que podem e devem ser aproveitadas. 
+### <code>justify-content</code>
+- Valores atribuídos ao <code>justify-content</code>:<br> 
+<code>flex-start <i>(padrão)</i></code>: Os itens são alinhados à esquerda do container.<br>
+<code>flex-end</code>: Os itens são alinhados à direita do container.<br>
+<code>center</code>: Os itens são alinhados no centro do container.<br>
+<code>space-between</code>: Os itens são alinhados com distância igual entre eles.<br>
+<code>space-around</code>: Os itens são alinhados com distância igual em torno deles.<br>
 
-- De acordo com cada centário, podemos considerar muitas coisas, e pensando nessas coisas usar as melhores técnicas para criar a experiência de navegação que queremos.
+```css
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+```
+
+### <code>flex-wrap</code>
+- Valores atribuídos ao <code>flex-wrap</code>:<br> 
+<code>nowrap <i>(padrão)</i></code>: Todos os itens são apertados em uma única linha.<br>
+<code>wrap</code>: Os itens são separados em linhas adicionais.<br>
+<code>wrap-reverse</code>: Os itens são separados em linhas adicionais em reverso.<br>
+
+```css
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
+
+### <code>align-items</code>
+- Valores atribuídos ao <code>align-items</code>:<br>
+<code>flex-start</code>: Os itens são alinhados na parte de cima do container.<br>
+<code>flex-end</code>: Os itens são alinhados na parte de baixo do container.<br>
+<code>center</code>: Os itens são alinhados no centro vertical do container.<br>
+<code>baseline</code>: Os itens são alinhados na linha da base do container.<br>
+<code>stretch <i>(padrão)</i></code>: Os itens são alinhados para preencher o container.<br>
+
+```css
+.container {
+  display: flex;
+  align-items: center;
+}
+```
+
+### <code>align-content</code>
+- Valores atribuídos ao <code>align-content</code>:<br>
+<code>flex-start</code>: As linhas são agrupadas no topo do container.<br>
+<code>flex-end</code>: As linhas são agrupadas no fundo do container.<br>
+<code>center</code>: As linhas são agrupadas no centro vertical do container.<br>
+<code>space-between</code>: As linhas são posicionadas com espaço igual entre elas.<br>
+<code>space-around</code>: As linhas são posicionadas com espaço igual em torno delas.<br>
+<code>stretch <i>(padrão)</i></code>: As linhas são esticadas para preencher o container.<br>
+
+```css
+.container {
+  display: flex;
+  align-content: center;
+}
+```
+
+## Propriedades dos itens
+
+### <code>order</code>
+- Os valores atibuídos ao <code>order</code> são números positivos ou negativos.
+
+```css
+.container{
+  display:flex;
+}
+.item {
+  order: 1;
+}
+```
+
+### <code>align-self</code>
+- Valores atribuídos ao <code>align-self</code>:<br>
+<code>flex-start</code>: O item é alinhado na parte de cima do container.<br>
+<code>flex-end</code>: O item é alinhado na parte de baixo do container.<br>
+<code>center</code>: O item é alinhado no centro vertical do container.<br>
+<code>baseline</code>: O item é alinhado na linha da base do container.<br>
+<code>stretch</code>: O item é alinhado para preencher o container.<br>
+
+```css
+.container{
+  display:flex;
+}
+.item {
+  align-self: center;
+}
+```

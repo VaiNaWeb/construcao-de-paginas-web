@@ -1,4 +1,5 @@
-<!-- Aula 04 - Evoluindo minha página com mais HTML -->
+<!-- Aula 04 - HTML Semântico -->
+
 # Desafio01: Uma mini wiki
 
 Vamos criar uma página de uma quase wikipédia, uma mini página, para compreender como funciona os hiperlinks.
