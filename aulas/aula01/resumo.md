@@ -1,4 +1,4 @@
-#Informação muda tudo
+# Informação muda tudo
 
 Nosso universo é feito de matéria, energia e informação. Ao olhar para o espaço e para a infinidade de estrelas em suas diversas grandezas, temos uma sensação de paz e de que tudo está em uma ordem infinita.
 

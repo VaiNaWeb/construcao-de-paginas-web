@@ -1,4 +1,4 @@
-## Como páginas da Web são construídas
+# Como páginas da Web são construídas
 
 * Cada tag funciona como uma etiqueta, que diz ao navegador qual elemento está escrito ali e como ele deve interpretar.
 
