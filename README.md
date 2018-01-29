@@ -95,7 +95,7 @@ Todo o conteúdo sobre tecnologia criado ao decorrer das aulas é aberto e pode 
 **Ferramentas e materiais de apoio:** [flexbox froggy](http://flexboxfroggy.com/#pt-br), [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web/), [slides](http://slides.com/vainaweb/primeiros-passos-na-web-11), [resumo](aulas/aula11/resumo.md), [desafios](aulas/aula11/desafios.md), [codepen](http://codepen.io/).<br>
 **Duração:** 3 horas.
 
-### Aula 12 - Revisão
+### Aula 12 - [Revisão](aulas/aula12/aula.md)
 
 **Objetivos:** Revisão de aulas passadas<br>
 **Formato de apresentação:** Apresentação em slides, demonstrações, exercícios de fixação com desafios.<br>
