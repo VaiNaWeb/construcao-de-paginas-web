@@ -14,7 +14,7 @@ São idealizadas, planejadas e executadas por pessoas que sabem que a informaç�
 
 Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gradativamente, com base em como os alunos de cada turma se sentem, de forma que cada aula, resumo, ou outro material seja realmente empático.
 
-## Cronograma
+## Material de apoio
 
 Neste módulo nossos estudantes são capacitados para a criação de páginas semânticas, reponsivas, e acessíveis, usando as tecnologias mais modernas do mercado e melhores práticas no **desenvolvimento web**. :rocket:
 
