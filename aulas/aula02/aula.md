@@ -1,12 +1,12 @@
 # Como nos comunicamos através da internet
 
-> "Aprender sem pensar é trabalho perdido." Confúcio
-
-Quando dois ou mais computadores estão conectados à internet, eles podem conversar uns com os outros.
-
 O conteúdo de um site é organizado dentro de um conjunto especial de regras que os computadores entendem; Funciona como falar em uma linguagem secreta, codificada.
 
-Podemos usar o Github Pages para que nossas páginas fiquem disponíveis e possam ser acessadas de qualquer computador; isso é possível porque nossas páginas ficam armazenadas nos servidores do Github. Toda vez que pedimos ao navegador para acessar nossa página, o servidor do Github nos envia rapidamente uma cópia dos arquivos dessa página para que ela possa ser interpretada através do navegador.
+Quando dois ou mais computadores estão conectados à internet, eles podem conversar uns com os outros. Há uma forma de comunicação envolvida que os computadores entendem muito bem.
+
+Você já se perguntou o que acontece quando você digita um endereço de uma página em um navegador?
+
+Quando queremos visitar um site, pedimos ao navegador para acessar nossa página, o servidor nos envia uma cópia dos arquivos dessa página para que ela possa ser interpretada através do navegador.
 
 Explicando de forma mais clara, o navegador pede os arquivos que contém os códigos do site - que estão armazenados no servidor - através do endereço. O servidor, então, envia os arquivos de volta para que o navegador possa interpretar seu código e exibir a página na tela.
 
