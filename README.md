@@ -4,6 +4,8 @@
 
 # VaiNaWeb
 
+////////// estamos em reforma
+
 O **Vai Na Web** é um programa de educação em tecnologias digitais avançadas que busca democratizar o ensino e aprendizado de tecnologia e ajudar na emancipação dos nossos jovens nos desafios da nova era digital.
 
 ## Sobre as aulas
