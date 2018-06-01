@@ -4,8 +4,6 @@
 
 # VaiNaWeb
 
-////////// estamos em reforma //////////////////
-
 O **Vai Na Web** é um programa de educação em tecnologias digitais avançadas que busca democratizar o ensino e aprendizado de tecnologia e ajudar na emancipação dos nossos jovens nos desafios da nova era digital.
 
 ## Sobre as aulas
@@ -20,42 +18,40 @@ Neste módulo nossos estudantes são capacitados para a criação de páginas se
 
 Todo o conteúdo de apoio criado ao decorrer das aulas é aberto e pode ser acompanhado aqui. Esse é apenas o mapa de conteúdos de apoio. Se você é estudante matriculado no programa, confira o [cronograma oficial das aulas](https://docs.google.com/document/d/105rl_wwvvyoIO2EDXPLd5T1HeKxWszM4iZIN91lvt5g/edit?usp=sharing). :sparkles:
 
-### 01 - Informação muda tudo
+### [01 - Informação muda tudo](aulas/01/aula.md)
 
-### 02 - Conheça a história do primeiro computador
+### [02 - Conheça a história do primeiro computador](aulas/02/aula.md)
 
-### 03 - Entenda nos comunicamos através da internet
+### [03 - Entenda como nos comunicamos através da internet](aulas/03/aula.md)
 
-### 04 - Introdução HTML
+### [04 - Introdução HTML](aulas/04/aula.md)
 
-### 05 - Conheça e entenda como usar a linha de comando
+### [05 - Conheça e entenda como usar a linha de comando](aulas/05/aula.md)
 
-### 06 - Introdução aos comandos do Git
+### [06 - Introdução aos comandos do Git](aulas/06/aula.md)
 
-### 07 - Publique uma página usando o Github Pages
+### [07 - Publique uma página usando o Github Pages](aulas/07/aula.md)
 
-### 08 - HTML Semântico
+### [08 - HTML Semântico](aulas/08/aula.md)
 
-### 09 - Construindo formulários
+### [09 - Construindo formulários](aulas/09/aula.md)
 
-### 10 - Adicionado Áudio, Imagens, Vídeos
+### [10 - Adicionado Áudio, Imagens, Vídeos](aulas/10/aula.md)
 
-### 11 - Introdução CSS
+### [11 - Introdução CSS](aulas/11/aula.md)
 
-### 12 - Unidades de medida no CSS
+### [12 - Unidades de medida no CSS](aulas/12/aula.md)
 
-### 13 - Modelo de Caixa
+### [13 - Modelo de Caixa](aulas/13/aula.md)
 
-### 14 - Cor e Tipografia
+### [14 - Cor e Tipografia](aulas/14/aula.md)
 
-### 15 - Flexbox
+### [15 - Flexbox](aulas/15/aula.md)
 
-### 16 - Posicionamento de elementos
+### [16 - Posicionamento de elementos](aulas/16/aula.md)
 
-### 17 - Criando páginas para múltiplos dispositivos
+### [17 - Criando páginas para múltiplos dispositivos](aulas/17/aula.md)
 
-### 18 - Transições e Animações com CSS
+### [18 - Transições e Animações com CSS](aulas/18/aula.md)
 
-### 19 - Uso de seletores avançados
-
-### 20 - Criando páginas acessíveis
+### [19 - Criando páginas acessíveis](aulas/19/aula.md)
