@@ -1,22 +1,29 @@
-<!-- Aula 11 - Introdução ao modelo flexível de caixas -->
+<!-- Aula 07 - Descobrindo o poder dos estilos com CSS -->
+# Desafio 01: Relembrando molecagem
+Recorde algumas lembranças boas de sua infância! O que você sente saudade? o que gostava de fazer? Do que mais você gostava de brincar? Vamos construir uma página para contar essas histórias e iniciar nosso aprendizado com CSS.
 
-# Desafio01: Descrevendo um filme
-Nesse desafio vamos escolher um filme e criar todo o conteúdo da nossa página sobre ele. Sigam a seguinte estrutura:
+1. Crie uma página com a estrutura básica completa
+2. Adicione um header
+3. Adicione um título dentro do header
+4. Adicione um main com uma section
+5. Adicione dois parágrafos e dois subtítulos dentro da section 
+6. Cada parágrafo deve contar uma lembrança de sua infância
+7. Adicione id à section
+8. Adicione uma classe a cada paragrafo
+9. Crie uma página de CSS e adicione o link em sua página HTML
+10. Adicione estilos à classe, e outros estilos para cada ID em seu CSS.
 
-1. Crie um documento HTML com a estrutura básica completa
-2. Crie um header, com um nav
-3. Crie uma lista não ordenada dentro da nav com 3 itens
-4. Adicione as propriedades do Flexbox para centralizar os elementos e deixar a lista em linha
-5. Adicione uma cor, um padding, e position fixed no topo
-6. Crie um main com quatro sections
-7. Em cada section adicione um parágrafo
-8. Adicione um background de sua preferência em cada section
-9. Adicione um padding com o valor de sua preferência nas sections
-10. Adicione uma borda sólida, com uma largura, e cor de sua preferência em cada uma das sections
+# Desafio 02: Reinventando o instagram
+Vamos construir nosso próprio mini instagram
 
-# Desafio02: Evoluindo minha página
+1. Crie uma página com a estrutura básica completa
+2. Adicione um header com um título, uma imagem, e um parágrafo
+3. Adicione um main com uma section
+4. Adicione cinco imagens dentro da section
+5. Adicione um footer com um parágrafo com seu nome
+6. Altere o tamanho e largura de todas as imagens
+7. Adicione uma cor ao background da sua página
+8. Adicione uma cor ao header da página
+9. Adicione uma cor em sua section
 
-1. Clone seu projeto em sua máquina novamente
-2. Adicione uma nova section
-3. Adicione a essa section um título de nível dois e seis divs com uma altura, cor e largura
-4. Use as propriedades do Flexbox para estilizar a página
+Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula05/aula.md), e/ou o [resumo](../aula05/resumo.md) dela.

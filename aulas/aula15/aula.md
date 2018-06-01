@@ -1,109 +1,126 @@
-# Criando páginas acessíveis
+# Introdução ao modelo flexível de caixas
 
-Geralmente quando criamos um site não pensamos em detalhes pequenos que são mega importante. Ter uma página web acessível siginifica fornecer oportunidades iguais para pessoas com necessidades especiais, além de incluir-las na sociedade.
+Existe um conjunto de propriedades em CSS criado com o objetivo de tornar mais flexível o alinhamento e espaçamento de caixas, chamamos esse conjunto de Flexbox.
 
-Atualmente a acessibilidade web é obrigatória por lei ou regulamentos. A W3C criou o WAI (Web Accessibility Initiative) em 1997, e tem como grande objetivo padronizar os componentes para que seja lidos pelos softwares e promover a acessibilidade na Web.
+O Flexbox nos dá o poder de determinar melhor a altura das nossas seções, centralizar nosso conteúdo, dividir nossas colunas, ou seja, nos permite montar layouts de forma mais flexível, e claro, mais prática.
 
-Para tornar o sua página web acessível basta seguir as seguintes regras:
+## Ahh as caixas...
 
-- Respeite os Elementos do HTML.
+Desde o início das nossas aulas, estamos nos referindo aos elementos como caixas dentro de caixas. Para entender Flexbox, precisamos compreender que alguns elementos podem ser vistos como caixas, ou containers, e outros como itens desses containers.
 
-    Um site com uma boa estruturação, ou seja, com uma boa semântica é lido perfeitamente pelos os softwares de acessibilidade. Você pode adicionar atributos aos elementos para ajudar o usuário a saber o que está acontecendo ali.
+Para começar a usar essas propriedades, adicionamos ao elemento container a propriedade <code>display</code> e atribuimos a ela o valor <code>flex</code>.
 
-    ##### Exemplos:
+```css
+.container {
+	display: flex;
+}
+```
+## Linhas e colunas
 
-    - Para navegar pela página com o botão Tab:
+Com o flexbox é fácil criar linhas ou colunas, usamos a propriedade <code>flex-direction</code>. Como valor podemos usar <code>row</code>, <code>row-reverse</code>, <code>column</code>, e <code>column-reverse</code>. Row alinha os elementos de forma horizontal, ou seja, em linha. 
 
-        ```html
-        <div tabindex="0">Div 1</div>
-        <div tabindex="1">Div 2</div>
-        <div tabindex="2">Div 3</div>
-        <div tabindex="-1">Div Não-Acessível</div>
-        ```
+<code>row</code>: Os itens são posicionados na mesma direção padrão da página.<br>
+<code>row-reverse</code>: Os itens são posicionados na direção inversa ao padrão da página.<br>
+<code>column</code>: Os itens são posicionados de cima para baixo.<br>
+<code>column-reverse</code>: Os itens são posicionados de baixo para cima.<br>
 
-        A função do tabindex é definir como um elemento deve se comportar durante a navegação através do teclado. Ele pode receber os seguintes valores.
+```css
+.container {
+	display: flex;
+	flex-direction: row;
+}
+```
+## Distribuição de espaço
 
-        Caso ele receba um valor **negativo**  (ex: -1) ele não poderá ser acessado pela a tecla Tab.
+Podemos definir também a distribuição de espaços entre um elemento e outro. Para isso usamos a propriedade <code>justify-content</code>. Essa propriedade aceita os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>space-between</code>, <code>space-around</code>. 
 
-        Caso ele receba um número **inteiro** e **ordenado** (ex: 1,2) essa será a ordem o qual ele seguirá, e por final a última forma de utilização é atribuindo o valor **zero**, neste caso o ordem a ser selecionada será definida pelo o DOM.
+<code>flex-start:</code> Os itens são alinhados à esquerda do container.<br>
+<code>flex-end:</code> Os itens são alinhados à direita do container.<br>
+<code>center:</code> Os itens são alinhados no centro do container.<br>
+<code>space-between</code>: Os itens são alinhados com distância igual entre eles.<br>
+<code>space-around</code>: Os itens são alinhados com distância igual em torno deles.<br>
 
-        Lembrando que para um elemento ser considerado focalizável deve satisfazer todas as seguintes condições:
-        1. Possuir a propriedade tabindex definida.
-        2. Estar renderizado na página.
-        3. Não ser um elemento inerte.
-        4. Não estar desabilitado (propriedade disabled).
+```css
+.container {
+	display: flex;
+	justify-content: flex-start;
+}
+```
 
-    - Tabelas acessíveis:
+## Espalhando elementos em linhas
 
-        ```html
-        <table>
-            <caption>Quantidade de Dias em no Mês</caption>
-            <thead>
-                <tr>
-                    <th scope="col">Mês</th>
-                    <th scope="col">Quantidade de Dias</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">Janeiro</th>
-                    <td>31</td>
-                </tr>
-                <tr>
-                    <th scope="row">Fevereiro</th>
-                    <td>28</td>
-                </tr>
-            </tbody>
-        </table>
-        ```
-        O **Caption** tem como objetivo dizer sobre o que a tabela se trata. Quando você atribui ao scope um **row** ou **col**, você indica o que é Coluna e o que é Linha.
+Eventualmente nossos elementos podem ocupar uma única linha em um container. Outras vezes podemos achar melhor que os elementos possam ser espalhados em linhas adicionais. Definimos esse comportamento usando a propriedade <code>flex-wrap</code>. Podemos usar os valores <code>nowrap</code>, <code>wrap</code>, ou <code>wrap-reverse</code>.
 
-    - Imagens acessíveis:
+<code>nowrap</code>: Todos os itens são apertados em uma única linha.<br>
+<code>wrap:</code> Os itens são separados em linhas adicionais.<br>
+<code>wrap-reverse:</code> Os itens são separados em linhas adicionais em reverso.<br>
 
-        ```html
-        <img src="coelho.png" alt="Imagem de Coelho, sentado comendo uma Cenoura">
-        ```
-        A função do alt é transcrever a imagem para o usuário.
+```css
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+```
 
-    - Indicando os campos em um Formulário:
+## Alinhando itens
 
-        ```html
-        <div>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" placeholder="Nome">
-        </div>
-        ```
+Podemos definir o alinhamento dos elementos em relação à altura da página ou container. Usamos a propriedade <code>align-items</code>, que pode receber os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, e <code>stretch</code>.
 
-        O label é associado ao input, então fica fácil de indicar o que é solicitado no campo.
+<code>flex-start:</code> Os itens são alinhados na parte de cima do container.<br>
+<code>flex-end:</code> Os itens são alinhados na parte de baixo do container.<br>
+<code>center:</code> Os itens são alinhados no centro vertical do container.<br>
+<code>baseline:</code> Os itens são alinhados na linha da base do container.<br>
+<code>stretch:</code> Os itens são alinhados para preencher o container.<br>
 
-    - Deixe os Links descritivos para o destino remetido:
+```css
+.container {
+	display: flex;
+	align-items: center;
+}
+```
 
-    ```html
-    <a href="paginainicial.html" title="Ir para Página inicial">Página Inicial</a>
-    ```
+## Alinhando multiplas linhas
 
-    O atributo title é ótimo para dar uma descrição ao seu link. Essa descrição é lida pelos os softwares, e aparece um popover quando se passa o cursor em cima.
+Em containers com múltiplas linhas podemos usar o <code>align-content</code>. Enquanto align-items determina como as linhas são alinhadas dentro do container como um todo, align-content determina como múltiplas linhas devem ser espaçadas uma das outras. Essa propriedade pode receber os seguintes valores:
 
-    Perceba que tudo que foi apresentado acima, são apenas boas práticas e um HTML bem estruturado. Para saber se seu HTML está acessível basta usar um [Validador de HTML](https://achecker.ca/checker/index.php).
+<code>flex-start</code>: As linhas são agrupadas no topo do container.<br>
+<code>flex-end</code>: As linhas são agrupadas no fundo do container.<br>
+<code>center</code>: As linhas são agrupadas no centro vertical do container.<br>
+<code>space-between</code>: As linhas são posicionadas com espaço igual entre elas.<br>
+<code>space-around</code>: As linhas são posicionadas com espaço igual em torno delas.<br>
+<code>stretch</code>: As linhas são esticadas para preencher o container.<br>
 
-- Manipulando o CSS de forma correta.
+```css
+.container {
+	display: flex;
+	align-content: center;
+}
+```
 
-    É possível mudar o tamanho das fontes e das cores de um site utilizando o CSS. Um dos cuidados especiais que temos que ter com o css é o  **Espaçamento entre as letras** e os constrates de cores.
+## Mudando a ordem dos itens
 
-    Devemos tomar alguns cuidados ao criar o design de um site, temos que pensar muito bem nas animações, e o contraste entre os planos.
+Se quisermos mudar a ordem do item podemos adicionar a propriedade <code>order</code> no item. 
 
-    Você pode testar se as cores do seu site estão com os contrates condizentes com as regras do W3C. A [**ferramenta**](http://www.checkmycolours.com/) para realizar essa verificação é apenas para sites que já estejam publicados.
+```css
+.item {
+	display: flex;
+	order: 1;
+}
+```
 
-- Não utilizar captchas.
+## Alinhando um item
 
-    Nem todos os CAPTCHAS possuem acessibilidade, então crie formas de verificar se o usuário não é um bot, quem sabe uma conta matemática?
+Quando necessário, se precisarmos alterar o alinhamento de um item, podemos usar a propriedade <code>align-self</code> então ele pode mudar o comportamento de alinhamento dele mesmo. Assim como align-items, essa propriedade pode receber os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, e <code>stretch</code>.
 
-- Adicione uma Ferramente de Libras ao seu Site.
+<code>flex-start:</code> O item é alinhado na parte de cima do container.<br>
+<code>flex-end:</code> O item é alinhado na parte de baixo do container.<br>
+<code>center:</code> O item é alinhado no centro vertical do container.<br>
+<code>baseline:</code> O item é alinhado na linha da base do container.<br>
+<code>stretch:</code> O item é alinhado para preencher o container.<br>
 
-    A seguinte [**ferramenta**](http://www.prodeaf.net) é capaz de traduzir os textos e áudio (apenas em portugês) do seu site para Libras.
-
-- Valide a sua Página Web.
-
-    Você pode validar a sua página web com uma [**Extensão**](https://goo.gl/Y2bEwC) ou com programas automatizados como o [*CynthiaSays*](http://www.cynthiasays.com/) ou o [*Wave*](http://wave.webaim.org/).
-
-Para saber mais sobre essas convenções da W3C basta acessar a [*Documentação da WCAG*](https://www.w3.org/Translations/WCAG20-pt-br/).
+```css
+.item {
+	display: flex;
+	align-self: center;
+}
+```

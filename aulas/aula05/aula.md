@@ -1,205 +1,88 @@
-# Construindo formulários
+# Conhecendo o terminal do Linux
 
-Usamos formulários para capturar informações dos usuários e processar solicitações. Através de controles ou campos, os formulários podem solicitar uma pequena quantidade de informações, como um campo de buscas do Google faz, por exemplo.
+Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos filmes e séries. Algo que o cinema não mostra, é que elas são bem simples, e podem ser usadas para diversas coisas, desde criar um novo arquivo na área de trabalho, e até mesmo colocar um site ou aplicação online.
 
-Precisamos saber como criar formulários para adquirir a entrada do usuário. Por enquanto, vamos discutir como usar o HTML para marcar um formulário, quais elementos usar para capturar diferentes tipos de dados. 
+Essa famosa telinha preta, que é chamada de linha de comando, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
 
-Não nos aprofundaremos em como as informações de um formulário são processadas e tratadas ainda. O processamento de formulários é um tópico mais profundo, vamos aprender sobre isso nos próximos módulos.
+Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los!
 
-## Criando um Formulário
+## Primeiros comandos
 
-Para adicionar um formulário a uma página, usaremos o elemento form:
-```html
-<form>
-  ...
-</form>
-```
+Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o computador, criar arquivos, remover arquivos, e mais um monte de outras coisas. Há alguns bem básicos que podem nos ajudar muito em nossas tarefas enquanto desenvolvedor. Vamos conhecer alguns:
 
-## Input
+<code>man</code>: Usado para mostrar o manual de um outro comando<br>
+<code>sudo</code>: Deve ser usado com cuidado. Ele dá permissões de administrador<br>
+<code>ls</code>: Lista os arquivos do diretório<br>
+<code>pwd</code>: Mostra o diretório atual<br>
+<code>cd</code>: Usado para mudar de diretório<br>
+<code>cp</code>: Copia um arquivo ou diretório<br>
+<code>mv</code>: Usado para mover um arquivo ou renomea-lo<br>
+<code>mkdir</code>: Cria uma nova pasta<br>
+<code>touch</code>: Cria um novo arquivo<br>
+<code>more</code>: Lê um arquivo de texto<br>
+<code>grep</code>: Lê e faz uma busca por palavras dentro de um arquivo<br>
+<code>clear</code>: Limpa a tela<br>
+<code>exit</code>: Fecha o terminal<br>
 
-Um dos elementos principais usados para obter uma entrada do usuário é o elemento input. Esse elemento usa o atributo type para definir qual tipo de informação deve ser capturada pelo input. O valor de atributo de tipo mais popular é o texto.
+# Git e Github
 
-Além do atributo type, é a melhor prática dar um elemento de <input> também um atributo name, que serve para dar o nome desse controle, isso é útil, pois assim enviamos junto com o dado o lugar de onde veio esse dado para o servidor.
-```html
-<input type="text" name="cidade">
-```
-Além do text podemos usar os seguintes types:
-- color
-- date
-- datetime
-- email
-- month
-- number
-- range
-- search
-- tel
-- time
-- url
-- week
+Vamos colocar nossa primeira página online, e para isso vamos usar o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que ele é e como funciona.
 
-## Textarea
+Antes de tudo, precisamos [versionar](http://rogerdudler.github.io/git-guide/index.pt_BR.html) nossos arquivos com o Git. Um sistema de controle de versão e gerenciamento de código fonte. Foi desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje muito usado em diferentes projetos digitais no mundo inteiro.
 
-Outro elemento que é usado para capturar texto é o elemento textarea. Diferente do input, esse elemento pode aceitar textos maiores, ideal para quando queremos receber um texto com mais de uma linha. Ele aceita apenas um tipo de valor, o atributo name.
-```html
-<textarea name="comentario">Deixe aqui seu comentário</textarea>
-```
+Depois precisamos armazenar nosso projeto no Github. Uma plataforma social através da qual milhares de pessoas constroem códigos, entre outras coisas, de forma colaborativa, aberta e gratuita. O Github oferece um espaço para armazenar pastas e arquivos com seu conteúdo versionado através do Git.
 
-## Radio Buttons
+>"O Github, é na verdade uma rede social ou uma fábrica social de software, que desenvolve e promove milhares de códigos fontes pré armazenados, para as mais diversas finalidades." Wikipedia
 
-Permitem que os usurios façam uma escolha rápida de uma pequena lista de opções. Os botões de rádio permitem aos usuários selecionar apenas uma opção.
+Então já podemos usar o [Github Pages](https://tableless.com.br/criando-paginas-web-para-seus-repositorios-com-o-github-pages/) para colocar nossa página online. Ele é um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
 
-Parar cria-lo, usamos o input, e adicionamos o type radio. É necessário que todos os botões do conjunto tenham o mesmo name, assim sabemos que todos fazem parte do mesmo.
+## Configurando o git
 
-Com botões de rádio, um usuário faz uma seleção de múltipla escolha. Assim, temos que definir o valor de entrada. Usando o atributo de value, podemos definir um valor específico para cada elemento input.
+* Configurar o usename: git config --global user.name “nome do usuário”
+* Configurar o email: git config --global user.email “email do usuário”
 
-É possível também pré-selecionar um botão de opção para o usuário, podemos usar o atributo checked.
-```html
-<input type="radio" name="dia" value="Segunda" checked> Segunda
-<input type="radio" name="dia" value="Sábado"> Sábado
-<input type="radio" name="dia" value="Domingo"> Domingo
-```
+Para saber as informações que você colocou nas configurações:
 
-## Check Boxes
+* git config user.name  (mostra username cadastrado)
+* git config user.email (mostra e-mail cadastrado)
+* git config --list (mostra tudo)
 
-Usam os mesmos atributos e padrões do radio buttons, mas para usa-lo mudamos o valor do type para checkbox. Com o checkbox, os usuários podem selecionar vários valores.
-```html
-<input type="checkbox" name="dia" value="Segunda" checked> Segunda
-<input type="checkbox" name="dia" value="Sábado"> Sábado
-<input type="checkbox" name="dia" value="Domingo"> Domingo
-```
+## Primeiros comandos
 
-## Drop-Down Lists
+Vimos anteriormente que nossos arquivos podem ser versionados com o Git, depois guardados no Github, e então hospedados no Github Pages para ter nossas páginas online.
 
-Uma maneira ótima para pertmir aos usuários selecionar uma opção em uma lista. Para cria-la usaramos os elementos select e option. O elemento select envolve todas as opções, e cada opção é marcada usando o elemento option.
+Agora que já conhecemos o Git e o Github, vamos aprender na prática como eles funcionam!
 
-Usamos o atributo name dentro de selected, e o atributo value em cada option que estão dentro de select. O atributo value em cada elemento option corresponde ao atributo name no elemento select.
+### Versionando nossos arquivos
 
-Cada elemento da lista fica em um option. Ao invés de checked, para pré-selecionar uma opção usamos o selected como atributo na opção que queremos fazer isso.
-```html
-<select name="dia">
-  <option value="Segunda" selected>Segunda</option>
-  <option value="Sábado">Sábado</option>
-  <option value="Domingo">Domingo</option>
-</select>
-```
+Para o sistema do Git, os dados dos nossos arquivos são como conjuntos de fotografias, como se seu sistema estivesse fotografando as alterações que acontecem dentro da nossa pasta, para criar versões de nossos arquivos. Mas como ele faz isso? Bom...
 
-## Form Buttons
+Usamos o comando <code>git init</code> para pedir ao git que comece a versionar nossa pasta. Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. E pedimos que ele coloque um post-it em um um conjunto de mudanças para que possamos ler depois. 
 
-Os usuários clicam no botão enviar para processar dados depois de preencher um formulário. O botão enviar é criado usando o elemento input com um valor de atributo de tipo de envio. O atributo de valor é usado para especificar o texto que aparece no botão.
-```html
-<input type="submit" name="enviar" value="Enviar">
-```
+Usamos o comando <code>git add</code> para que ele saiba que as alteraçõoes que fizemos importam para esse conjunto de dados. Ou seja, pedimos que ele fotografe, depois, que ele dê um nome a essa fotografia atual dos nossos arquivos - chamamos isso de commit. Para essa tarefa, usamos o comando <code>git commit -m "oi! eu sou um comentário e vim te lembrar que você mudou esses arquivos aqui"</code>
 
-O elemento button executa da mesma maneira que o elemento input com o valor de atributo de tipo de submit; mas ele também inclui tags de abertura e fechamento, que podem conter outros elementos. Por padrão, o elemento button atua como se tivesse um valor de atributo de tipo de envio.
+Quando necessário, se não quisermos commitar as alterações, se optarmos por desfaze-las, ao invés de usar <code>git add</code> podemos usasr git <code>checkout -- nomedoarquivo</code>. E então seguir fazendo novas alterações.
 
-Em vez de usar o atributo value para controlar o texto dentro do botão submit, o texto que aparece entre as tags de abertura e de fechamento do elemento button aparecerá.
-```html
-<button name="enviar">
-  <strong>Enviar mensagem</strong>
-</button>
-```
+### Subindo nossos arquivos para o Github
 
-## File Input
+Agora que já conhecemos os comandos mais básicos no Git, queremos que nossos arquivos sejam armazenados não somente no nosso computador, mas também no Github!
 
-Para permitir que os usuários adicionem um arquivo a um formulário, como anexar um documento a um e-mail, por exemplo, usamos o valor do arquivo para o atributo type.
-```html
-<input type="file" name="file">
-```
+Nossa pasta já existe no computador, mas dentro do Github ainda não. Então, vamos abrir o site e criar um repositório vazio dentro dele. Ainda usando o git, precisamos dizer ao Github que nossa pasta e seus commits existem na nossa máquina e queremos que ela vá também para ele. Usamos o comando <code>git remote add origin https://github.com/seunome/suapasta.git</code> para dizer que é essa pasta que vai receber a pasta do nosso computador, ou seja a pasta do github vai estar sincronizada à pasta do seu computador. Depois usamos o comando <code>git push</code> para enviar nossos arquivos.
 
-## Label
+## Clonando um repositório do Github
 
-Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acessível para todos os usuários e tecnologias assistivas, muito úteis para garantir acessibilidade. Criado usando o elemento label, os labels devem incluir um texto que descreva as entradas ou controles aos quais eles pertencem.
+Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando <code>git clone https://github.com/seuusername/suapasta.git</code>. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permissão, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
 
-Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento <label> para trazer foco para o controle de formulário apropriado.
-```html
-<label for="usuario">Username</label>
-<input type="text" name="usuario" id="usuario">
-```
-O elemento <label> também pode envolver controles de formulário, como botões de opção ou caixas de seleção. Nesse caso não precisamos usar os atributos for e id.
-```html
-<label>
-  <input type="radio" name="dia" value="Segunda" checked> Segunda
-</label>
-<label>
-  <input type="radio" name="dia" value="Sábado"> Sábado
-</label>
-<label>
-  <input type="radio" name="dia" value="Domingo"> Domingo
-</label>
-```
-  
-## Fieldset
+E se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos usar o comando <code>git pull</code>.
 
-Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seções organizadas. Assim como uma section, fieldset é um elemento de nível de bloco que envolve elementos relacionados dentro de um form, para melhor organização.
-```html
-<fieldset>
-  <label>
-    Usuário
-    <input type="text" name="usuario">
-  </label>
-  <label>
-    Senha
-    <input type="text" name="senha">
-  </label>
-</fieldset>
-```
-## Legend
+### Criando páginas no Github
 
-Legend funciona como um título para o fieldset, ele pode envolver uma descrição dos controles do fieldset.
-```html
-<fieldset>
-  <legend>Login</legend>
-  <label>
-    Username
-    <input type="text" name="username">
-  </label>
-  <label>
-    Password
-    <input type="text" name="password">
-  </label>
-</fieldset>
-```
+Agora nossa pasta já existe no Github e queremos criar uma página dela usando o serviço do Github Pages. Como essa será nossa primeira página, podemos criá-la apenas dando a nossa pasta o nome de seunome.github.io
 
-## Mais alguns atributos
+### Ramificando páginas
 
-Há ainda muitos atributos úteis que não vimos ainda, por agora, veremos mais alguns dos mais usados.
+O Git tem um recurso maravilhoso chamado Branch, ramo em português. Vamos voltar a pensar no Git como um fotógrafo de alterações! Imagine, agora, que nossas fotografias são frutos de uma árvore e que podem crescer por vários ramos diferentes. Podemos escolher quais ramos queremos que cresçam e podemos dar nomes a eles.
 
-Para desabilitar um campo por exemplo, usamos o atributo disabled:
+Vamos criar um ramo chamado gh-pages onde crescerão nossos frutinhos, ops! nossas páginas. Usamos o comando ``git checkout -b gh-pages`` para criar um ramo e mudar para ele ao mesmo tempo, então criamos ou mudamos nossos arquivos como queremos, damos commit, depois damos push para subir ele ao Github.
 
-```html
-<label>
-  Username
-  <input type="text" name="usuario" disabled>
-</label>
-```
-Para mostrar uma descrição do controle dentro do próprio campo input usamos o placeholder:
-```html
-<label>
-  Email
-  <input type="email" name="email" placeholder="nome@exemplo.com">
-</label>
-```
-
-Para tornar o preenchimento do campo como obrigatório usamos o required:
-```html
-<label>
-  Email
-  <input type="email" name="email" required>
-</label>
-```
-Outros atributos interessantes que você deveria pesquisar e ler mais sobre:
-- accept
-- autocomplete
-- autofocus
-- formaction
-- formenctype
-- formmethod
-- formnovalidate
-- formtarget
-- max
-- maxlength
-- min
-- pattern
-- readonly
-- selectionDirection
-- step
+Agora podemos acessar no navegador seunome.github.io/suapasta e tchanrann! nossa página já está online!

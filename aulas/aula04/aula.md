@@ -1,177 +1,43 @@
-# HTML Semântico
+# Introdução HTML
 
-Há elementos no HTML que conhecemos como elementos de caixa, ou containers. Usamos elas normalmente para agrupar nossos elementos. Houve uma época em que construíamos essas caixas simplesmente com uma tag chamada `<div>`, e ainda usamos ela eventualmente.
+O HTML usa um conjunto predefinido de elementos para identificar os diversos tipos de conteúdo. Os elementos contém uma ou mais tags que abrangem ou expressam um determinado conteúdo. Cada tag funciona como uma etiqueta que diz ao navegador qual elemento está escrito ali e como ele deve interpretá-lo. Por isso, cada tag tem seu significado e deve ser usada corretamente.
 
-Com a chegada do HTML5, ganhamos algumas tags com significado semântico, e passamos a usar no somente `div`. Isso foi muito  importante para os navegadores e usuários, consequentemente isso facilitou também a nossa vida enquanto desenvolvedor. Agora temos uma tag `<header>` para cabeçalho, uma tag `<footer>` para rodapé e mais algumas:
-
-`<section>` Define uma seção<br>
-`<nav>` Define um menu com links de navegação<br>
-`<article>` Pode definir um artigo, um comentário enviado pelo usuário etc<br>
-`<aside>` Define um conteúdo reservado dentro página.<br>
-`<header>` Define o cabeçalho de uma página ou seção.<br>
-`<footer>` Define o rodapé de uma página ou seção. <br>
-`<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.<br>
-
-![asset](01.png)
-
-Existem seis níveis diferentes de títulos: `H1` é o mais importante,` h6` é o menos importante. Em HTML, o texto para cabeçalhos é escrito dentro dos elementos de título: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` ou `<h6>`.
+Uma tag começa com o sinal de menor < e termina com o sinal de maior >. Certifique-se de sempre fechar cada tag, pois, embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não é.
 
 Exemplo:
 
 ```html
-<h1>Eu sou o título mais importante!</h1>
-<h2>Eu sou um pouco menos importante</h2>
-<h3>Eu sou um pouco menos importante</h3>
-<h4>Eu sou um pouco menos importante</h4>
-<h5>Eu sou um pouco menos importante</h5>
-<h6>Eu sou o menos importante</h6>
+<p>Olá, eu sou um parágrafo.</p>
 ```
 
-<h1>Eu sou o título mais importante!</h1>
-<h2>Eu sou um pouco menos importante</h2>
-<h3>Eu sou um pouco menos importante</h3>
-<h4>Eu sou um pouco menos importante</h4>
-<h5>Eu sou um pouco menos importante</h5>
-<h6>Eu sou o menos importante</h6>
+Algo importantate sobre as tags HTML é que elas devem dizer exatamente o que é o conteúdo entre sua tag de abertura e fechamento. Devemos marcar com as tags quais partes do conteúdo são parágrafos, títulos, listas, etc, chamamos isso de Semântica.
 
-# Evoluindo minha página com mais HTML
+Nossa estrutura HTML contém vários elementos diferentes e, como vimos anteriormente, alguns elementos até estão dentro de outros elementos, como se guardássemos uma caixa dentro de outra caixa e dentro dela colocássemos outra caixa, e outra caixa... Confuso, não é?
 
-## Conectando páginas
+Imaginar a cena das caixas já pode ter sido confuso para muita gente, assim como para o navegador diante de elementos dispostos dessa forma. Para que isso não aconteça, nós aninhamos nossos elementos, ou seja, usamos esses espaçamentos nas linhas para indicar que um elemento está dentro de outro. Exemplo:
+```html
+<section>
+	<p>Olá, eu sou um parágrafo.</p> 
+</section>
+```
 
-Sabemos que nossos sites são um conjunto de páginas conectadas, ou linkadas, umas às outras. Agora vamos compreender melhor como isso acontece. Quando vamos construir um site, precisamos organizar bem nossos arquivos; vamos fazer isso através de pastas.
+Para construir uma página, marcamos todos os conteúdos com as tags. Há algumas tags principais que compõem uma página padrão. Toda página na web tem uma tag html, head e body. A tag `html` indica elementos em html, dentro dela temos `<head>`, que significa cabeça, e `<body>`, que significa corpo.
 
-## Criando links
+![Assets](assets/04.png)
 
-Na internet, temos várias e várias páginas conectadas umas às outras. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas. 
+Fazendo uma analogia ao corpo humano, na cabeça temos as coisas que não vemos, coisas que pensamos e que são importantes para nosso funcionamento. Mas as coisas do nosso corpo são as partes de nós que podem ser vistas. Assim é no HTML, as coisas que ficam na `head` são importantes, mas não são vistas diretamente no navegador, o nosso conteúdo precisa ser visto, então ele deve ficar na `body`.
 
-Criar links em nossa página pode ser muito útil, vamos agora aprender a criá-los. Qualquer elemento que aparece entre a abertura e o fechamento de tags <a> é a parte que será um link clicável na página. Exemplo:
+Um exemplo de elemento importante mas não precisa ser visto diretamente na página é o `title`. Veremos outros no decorrer deste módulo.
 
 ```html
-<p>Esse é um exemplo de palavra <a href="http://www.vainaweb.com.br"> clicável </a>.</p>
+<html>
+	<head>
+		<title>Título</title>
+	</head>
+	<body>
+		<p>Olá mundo!</p>
+	</body>
+</html>
 ```
 
-Qualquer coisa mesmo, não somente textos. Nós podemos deixar imagens clicáveis também!
-
-```html
-<a href="http://www.vainaweb.com.br">
-    <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo">
-</a>
-```
-
-## Listando coisas
-
-Existem três tipos de listas: as ordenadas, as não ordenadas e as de definições.
-
-### Ordenadas
-
-Assim como o nome parece sugerir, são listas em que a ordem dos itens importa, e eles podem ser enumerados.
-
-```html
-<ol>
-    <li>Caneta</li>
-    <li>Lápis</li>
-    <li>Borracha</li>
-    <li>Tesoura</li>
-    <li>Papel</li>
-</ol>
-```
-
-<ol>
-    <li>Caneta</li>
-    <li>Lápis</li>
-    <li>Borracha</li>
-    <li>Tesoura</li>
-    <li>Papel</li>
-</ol>
-
-### Não ordenadas
-
-Nesta, os itens não são enumerados e podem estar acompanhados apenas de um símbolo.
-
-```html
-<ul>
-    <li>Caneta</li>
-    <li>Lápis</li>
-    <li>Borracha</li>
-    <li>Tesoura</li>
-    <li>Papel</li>
-</ul>
-```
-<ul>
-    <li>Caneta</li>
-    <li>Lápis</li>
-    <li>Borracha</li>
-    <li>Tesoura</li>
-    <li>Papel</li>
-</ul>
-
-### De definição
-
-Neste tipo de lista, os itens são definidos.
-
-```html
-<dl>
-    <dt>Caneta</dt>
-        <dd>Azul, com tinta</dd>
-    <dt>Lápis</dt>
-        <dd>De madeira</dd>
-</dl>
-```
-
-<dl>
-    <dt>Caneta</dt>
-        <dd>Azul, com tinta</dd>
-    <dt>Lápis</dt>
-        <dd>De madeira</dd>
-</dl>
-
-## Criando tabelas
-
-Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada célula de dados será uma Table Data, ou `<td>` podemos, se nececessário, adicionar o atributo rowspan, que vai criar uma expansão de linha nas células. Podemos também usar o atributo colspan e teremos uma expansão de coluna nas células.
-
-```html
-<table>
-  <tr>
-    <th>Nome</th>
-    <th>Sobre</th>
-  </tr>
-  <tr>
-    <td>Maria</td>
-    <td>Gosta de cachorros</td>
-  </tr>
-  <tr>
-    <td>Rosa</td>
-    <td>Solta pipa com os irmãos</td>
-  </tr>
-  <tr>
-    <td>João</td>
-    <td>Adora gatos</td>
-  </tr>
-  <tr>
-    <td>Ana</td>
-    <td>Gosta de árvores</td>
-  </tr>    
-</table>
-```
-<table>
-  <tr>
-    <th>Nome</th>
-    <th>Sobre</th>
-  </tr>
-  <tr>
-    <td>Maria</td>
-    <td>Gosta de cachorros</td>
-  </tr>
-  <tr>
-    <td>Rosa</td>
-    <td>Solta pipa com os irmãos</td>
-  </tr>
-  <tr>
-    <td>João</td>
-    <td>Adora gatos</td>
-  </tr>
-  <tr>
-    <td>Ana</td>
-    <td>Gosta de árvores</td>
-  </tr>    
-</table>
+Há vários [elementos](https://developer.mozilla.org/pt-BR/docs/Aprender) diferentes, continue conhecendo mais alguns!

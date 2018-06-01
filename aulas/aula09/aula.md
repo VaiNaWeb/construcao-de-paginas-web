@@ -1,190 +1,205 @@
-# As cores na web
+# Construindo formulários
 
-Aprenderemos como colocar cores na web. Há alguns [sistemas de cores](https://tableless.com.br/sobre-cor-e-webdesign/) que precisamos conhecer para entender como adiciona-las em nossas folhas de estilo.
+Usamos formulários para capturar informações dos usuários e processar solicitações. Através de controles ou campos, os formulários podem solicitar uma pequena quantidade de informações, como um campo de buscas do Google faz, por exemplo.
 
-## RGB
+Precisamos saber como criar formulários para adquirir a entrada do usuário. Por enquanto, vamos discutir como usar o HTML para marcar um formulário, quais elementos usar para capturar diferentes tipos de dados. 
 
-Monitores são pretos e iluminados por vários pontinhos de luz. Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor. A cor RGB É formada por três pares de números, vermelho, verde e azul, formados por três dígitos. Quanto mais alto o número mais clara é a cor.
-```css
-p {
-    color: rgb(0, 0, 255);
-}
-```
-Eventualmente podemos precisar alterar a opacidade da cor, deixando ela mais transparente ou mais opaca. Para isso, podemos usar um quarto número, que representa o canal alpha da cor.
-```css
-p {
-    color: rgb(0, 0, 255, 0.5);
-}
-```
-## Hexadecimais
+Não nos aprofundaremos em como as informações de um formulário são processadas e tratadas ainda. O processamento de formulários é um tópico mais profundo, vamos aprender sobre isso nos próximos módulos.
 
-Compostos por uma combinação de três conjuntos de pares formados a partir de número e letras de A a F. Quanto mais alto o número mais clara é a cor.
+## Criando um Formulário
 
-Cada par é responsável por uma cor, assim como o RGB, Vermelho, verde e azul. Ou seja #ff0000 é o vermelho, e o #00ff00 é o verde e #0000ff é o azul.
-```css
-p {
-    color: #ff0000;
-}
-```
-## Ferramentas legais
-
-http://lokeshdhakar.com/projects/color-thief/<br>
-http://moviesincolor.com/<br>
-https://color.adobe.com/pt/create/color-wheel/<br>
-https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF<br>
-
-# Tipografia
-
-Temos muitas propriedades oferecidas pelo CSS para trabalhar com as palavras, elas se encaixam em duas categorias: propriedades baseadas em fontes e propriedades baseadas em texto. A maioria dessas propriedades será precedida com fonte, entenda a fonte como o arquivo da letra, e texto que são as palavras de fato. Vamos conhecer algumas!
-
-## Font Family 
-
-A propriedade font-family é usada para declarar qual tipo de letra devem ser usadas para exibir texto. O valor da propriedade font-family pode conter vários nomes de fontes, todos separados por vírgulas.
-
-Funciona assim, primeira fonte declarada, a partir da esquerda, é a escolha principal da fonte. Caso a primeira fonte não esteja disponível, as fontes alternativas são declaradas depois dela em ordem de preferência da esquerda para a direita.
-```css
-p {
-  font-family: Helvetica, Arial, sans-serif;
-}
-```
-## Font Size
-
-A propriedade font-size nos permite definir o tamanho do texto usando alguns valores. Assim como quando falamos em dinheiro precisamos citar a moeda, quando definimos o valor de um font-size usamos algumas unidades de medida, por exemplo: pixels, em, porcentagens, pontos, etc. Exemplo com pixel:
-```css
-p {
-  font-size: 16px;
-}
+Para adicionar um formulário a uma página, usaremos o elemento form:
+```html
+<form>
+  ...
+</form>
 ```
 
-## Font Style
+## Input
 
-A propriedade font-style aceita quatro valores de palavras-chave: normal, italic, oblique e inherit. Destes quatro, os mais utilizados são o itálico, que define o texto para o itálico, e o normal que como o próprio nome sugere, retorna o texto ao seu estilo normal. Exemplo:
-```css
-p {
-  font-style: italic;
-}
+Um dos elementos principais usados para obter uma entrada do usuário é o elemento input. Esse elemento usa o atributo type para definir qual tipo de informação deve ser capturada pelo input. O valor de atributo de tipo mais popular é o texto.
+
+Além do atributo type, é a melhor prática dar um elemento de <input> também um atributo name, que serve para dar o nome desse controle, isso é útil, pois assim enviamos junto com o dado o lugar de onde veio esse dado para o servidor.
+```html
+<input type="text" name="cidade">
 ```
-## Font Variant
+Além do text podemos usar os seguintes types:
+- color
+- date
+- datetime
+- email
+- month
+- number
+- range
+- search
+- tel
+- time
+- url
+- week
 
-A propriedade font-variant aceita três valores:  normal, small-caps, e inherit. Os valores mais comuns são normal e small-caps. Exemplo:
-```css
-p {
-  font-variant: small-caps;
-}
-```
-## Font Weight 
+## Textarea
 
-Podemos definir um texto em negrito ou alterar o peso específico de um tipo de letra. Para esses casos, usaremos a propriedade font-weight. A propriedade font-weight aceita valores de palavra-chave ou numéricos.
-
-Os valores mais usados são o normal e o bold para mudar o texto do normal para o negrito. Podemos usar também um valor numérico para mais variações. Exemplo:
-```css
-p {
-  font-weight: bold;
-}
-```
-Exemplo usando valor numérico:
-```css
-p {
-  font-weight: 800;
-}
-```
-## Line Height
-
-A propriedade line-height é responsável por modificar a distância entre duas linhas de texto declaramos usando a propriedade de altura da linha. Exemplo:
-```css
-p {
-  height: 26px;
-  line-height: 26px;
-}
-```
-## Text Align
-
-Essa propriedade modifica o alinhamento de uma frase em relação a uma página. Ela aceita os valores left, right, center, e justify. Exemplo:
-```css
-p {
-  text-align: center;
-}
+Outro elemento que é usado para capturar texto é o elemento textarea. Diferente do input, esse elemento pode aceitar textos maiores, ideal para quando queremos receber um texto com mais de uma linha. Ele aceita apenas um tipo de valor, o atributo name.
+```html
+<textarea name="comentario">Deixe aqui seu comentário</textarea>
 ```
 
-## Text Transform
+## Radio Buttons
 
-Enquanto a propriedade font-variant procura uma variante alternativa de um tipo de letra, a propriedade text-transform alterará o texto. A propriedade text-transform aceita cinco valores: none, capitalize, uppercase, lowercase, e inherit. 
+Permitem que os usurios façam uma escolha rápida de uma pequena lista de opções. Os botões de rádio permitem aos usuários selecionar apenas uma opção.
 
-Um caso de uso muito comum: se um texto precisa escrito em letras maiúsculas não é recomendando sempre escreve-lo no HTML assim,  melhor usar o CSS para isso. Exemplo:
-```css
-p {
-  text-transform: uppercase;
-}
+Parar cria-lo, usamos o input, e adicionamos o type radio. É necessário que todos os botões do conjunto tenham o mesmo name, assim sabemos que todos fazem parte do mesmo.
+
+Com botões de rádio, um usuário faz uma seleção de múltipla escolha. Assim, temos que definir o valor de entrada. Usando o atributo de value, podemos definir um valor específico para cada elemento input.
+
+É possível também pré-selecionar um botão de opção para o usuário, podemos usar o atributo checked.
+```html
+<input type="radio" name="dia" value="Segunda" checked> Segunda
+<input type="radio" name="dia" value="Sábado"> Sábado
+<input type="radio" name="dia" value="Domingo"> Domingo
 ```
 
-## Usando fontes seguras
+## Check Boxes
 
-Existem algumas fontes que são comuns em todos os computadores, tablets, smartphones e outros dispositivos compatíveis com os navegadores na web. Como eles foram instalados em todos os dispositivos, podemos usar essas fontes livremente em nossos sites, sabendo que não importa qual dispositivo esteja navegando em nosso site, a fonte irá aparecer corretamente. Exemplos de fontes seguras:
+Usam os mesmos atributos e padrões do radio buttons, mas para usa-lo mudamos o valor do type para checkbox. Com o checkbox, os usuários podem selecionar vários valores.
+```html
+<input type="checkbox" name="dia" value="Segunda" checked> Segunda
+<input type="checkbox" name="dia" value="Sábado"> Sábado
+<input type="checkbox" name="dia" value="Domingo"> Domingo
+```
 
-- Arial
-- Courier New, Courier
-- Garamond
-- Georgia
-- Lucida Sans Lucida Grande, Lucida
-- Palatino Linotype
-- Tahoma
-- Times New Roman
-- Verdana
+## Drop-Down Lists
 
-## Carregando novas fontes
+Uma maneira ótima para pertmir aos usuários selecionar uma opção em uma lista. Para cria-la usaramos os elementos select e option. O elemento select envolve todas as opções, e cada opção é marcada usando o elemento option.
 
-Quando não queremos usar as fontes que vêm por padrão em todos os computadores, podemos também carregar novas fontes e usa-las em nossa página. Existem dois caminhos mais conhecidos para fazer isso, o mais simples, é usando recursos como o [Google Fonts](https://fonts.google.com/).
+Usamos o atributo name dentro de selected, e o atributo value em cada option que estão dentro de select. O atributo value em cada elemento option corresponde ao atributo name no elemento select.
 
-O Google Fonts é uma biblioteca de fontes licenciadas livres, que nos permite escolher e usar convenientemente as fontes por meio do CSS. Basta escolher a fonte, e o próprio Google Fonts já nos sugere um link com instruções para que possamos importar essa fonte e depois basta selecionar a fonte CSS. 
+Cada elemento da lista fica em um option. Ao invés de checked, para pré-selecionar uma opção usamos o selected como atributo na opção que queremos fazer isso.
+```html
+<select name="dia">
+  <option value="Segunda" selected>Segunda</option>
+  <option value="Sábado">Sábado</option>
+  <option value="Domingo">Domingo</option>
+</select>
+```
 
-Podemos importar através do HTML:
+## Form Buttons
+
+Os usuários clicam no botão enviar para processar dados depois de preencher um formulário. O botão enviar é criado usando o elemento input com um valor de atributo de tipo de envio. O atributo de valor é usado para especificar o texto que aparece no botão.
+```html
+<input type="submit" name="enviar" value="Enviar">
+```
+
+O elemento button executa da mesma maneira que o elemento input com o valor de atributo de tipo de submit; mas ele também inclui tags de abertura e fechamento, que podem conter outros elementos. Por padrão, o elemento button atua como se tivesse um valor de atributo de tipo de envio.
+
+Em vez de usar o atributo value para controlar o texto dentro do botão submit, o texto que aparece entre as tags de abertura e de fechamento do elemento button aparecerá.
+```html
+<button name="enviar">
+  <strong>Enviar mensagem</strong>
+</button>
+```
+
+## File Input
+
+Para permitir que os usuários adicionem um arquivo a um formulário, como anexar um documento a um e-mail, por exemplo, usamos o valor do arquivo para o atributo type.
+```html
+<input type="file" name="file">
+```
+
+## Label
+
+Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acessível para todos os usuários e tecnologias assistivas, muito úteis para garantir acessibilidade. Criado usando o elemento label, os labels devem incluir um texto que descreva as entradas ou controles aos quais eles pertencem.
+
+Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento <label> para trazer foco para o controle de formulário apropriado.
+```html
+<label for="usuario">Username</label>
+<input type="text" name="usuario" id="usuario">
+```
+O elemento <label> também pode envolver controles de formulário, como botões de opção ou caixas de seleção. Nesse caso não precisamos usar os atributos for e id.
+```html
+<label>
+  <input type="radio" name="dia" value="Segunda" checked> Segunda
+</label>
+<label>
+  <input type="radio" name="dia" value="Sábado"> Sábado
+</label>
+<label>
+  <input type="radio" name="dia" value="Domingo"> Domingo
+</label>
+```
+  
+## Fieldset
+
+Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seções organizadas. Assim como uma section, fieldset é um elemento de nível de bloco que envolve elementos relacionados dentro de um form, para melhor organização.
+```html
+<fieldset>
+  <label>
+    Usuário
+    <input type="text" name="usuario">
+  </label>
+  <label>
+    Senha
+    <input type="text" name="senha">
+  </label>
+</fieldset>
+```
+## Legend
+
+Legend funciona como um título para o fieldset, ele pode envolver uma descrição dos controles do fieldset.
+```html
+<fieldset>
+  <legend>Login</legend>
+  <label>
+    Username
+    <input type="text" name="username">
+  </label>
+  <label>
+    Password
+    <input type="text" name="password">
+  </label>
+</fieldset>
+```
+
+## Mais alguns atributos
+
+Há ainda muitos atributos úteis que não vimos ainda, por agora, veremos mais alguns dos mais usados.
+
+Para desabilitar um campo por exemplo, usamos o atributo disabled:
 
 ```html
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-</head>
+<label>
+  Username
+  <input type="text" name="usuario" disabled>
+</label>
 ```
-Ou podemos importar através do CSS
-
-```css
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+Para mostrar uma descrição do controle dentro do próprio campo input usamos o placeholder:
+```html
+<label>
+  Email
+  <input type="email" name="email" placeholder="nome@exemplo.com">
+</label>
 ```
-Depois basta selecionarmos a fonte onde queremos usa-la:
 
-```css
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
-
-body {
-  font-family: 'Abril Fatface', cursive;
-}
+Para tornar o preenchimento do campo como obrigatório usamos o required:
+```html
+<label>
+  Email
+  <input type="email" name="email" required>
+</label>
 ```
-Uma outra forma um pouco mais complexa mas eventualmente necessária é carregando uma fonte adicionado o próprio arquivo em nosso projeto. 
-
-Usamos o @font-face para identificar o nome da nossa fonte, através da propriedade font-family, bem como a fonte de nossa fonte através do arquivo, usando a propriedade src. A partir daí, podemos usar essa fonte incluindo seu nome dentro como valor em uma font-family, como já aprendemos anteriormente.
-
-```css
-@font-face {
-  font-family: 'Exemplo';
-  src: url('Exemplo') format("woff");
-}
-
-body {
-  font-family: 'Exemplo';
-}
-```
-É recomendável nesse caso, adicionarmos vários formatos diferentes de fontes, pois há navegadores que suportam uns e outros não, isso pode trazer uma dor de cabeça. Existem algumas ferramentas que nos ajudam nessa conversão, como a [transfonter](https://transfonter.org/) por exemplo.
-
-```css
-@font-face {
-	font-family: 'Exemplo';
-	src: url('Exemplo.eot');
-	src: url('Exemplo.eot?#iefix') format('embedded-opentype'),
-		 url('Exemplo.woff2') format('woff2'),
-		 url('Exemplo.woff') format('woff'),
-		 url('Exemplo.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Exemplo';
-}
-```
+Outros atributos interessantes que você deveria pesquisar e ler mais sobre:
+- accept
+- autocomplete
+- autofocus
+- formaction
+- formenctype
+- formmethod
+- formnovalidate
+- formtarget
+- max
+- maxlength
+- min
+- pattern
+- readonly
+- selectionDirection
+- step

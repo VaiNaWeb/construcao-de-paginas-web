@@ -1,126 +1,142 @@
-# Introdução ao modelo flexível de caixas
+# Introdução CSS
 
-Existe um conjunto de propriedades em CSS criado com o objetivo de tornar mais flexível o alinhamento e espaçamento de caixas, chamamos esse conjunto de Flexbox.
+Vamos descobrir como deixar as páginas cheias de estilo. CSS significa folhas de estilo em cascasta. Imaginem uma cachoeira enorme, cheia de pedras, e muita água linda e refrescante caindo em cascata. Assim acontece em nosso navegador, nossos códigos estão em cascata.
 
-O Flexbox nos dá o poder de determinar melhor a altura das nossas seções, centralizar nosso conteúdo, dividir nossas colunas, ou seja, nos permite montar layouts de forma mais flexível, e claro, mais prática.
+É importante saber que o CSS não trabalha sozinho, precisamos usa-lo com o HTML. Funciona exatamente assim: selecionamos os elementos do HTML que queremos estilizar e, então, algum seletor CSS define como, onde e quando colocar esses estilos.
 
-## Ahh as caixas...
+## Adicionando ao documento
 
-Desde o início das nossas aulas, estamos nos referindo aos elementos como caixas dentro de caixas. Para entender Flexbox, precisamos compreender que alguns elementos podem ser vistos como caixas, ou containers, e outros como itens desses containers.
+Podemos adicionar a CSS em nossa página HTML de três formas:
 
-Para começar a usar essas propriedades, adicionamos ao elemento container a propriedade <code>display</code> e atribuimos a ela o valor <code>flex</code>.
-
-```css
-.container {
-	display: flex;
-}
-```
-## Linhas e colunas
-
-Com o flexbox é fácil criar linhas ou colunas, usamos a propriedade <code>flex-direction</code>. Como valor podemos usar <code>row</code>, <code>row-reverse</code>, <code>column</code>, e <code>column-reverse</code>. Row alinha os elementos de forma horizontal, ou seja, em linha. 
-
-<code>row</code>: Os itens são posicionados na mesma direção padrão da página.<br>
-<code>row-reverse</code>: Os itens são posicionados na direção inversa ao padrão da página.<br>
-<code>column</code>: Os itens são posicionados de cima para baixo.<br>
-<code>column-reverse</code>: Os itens são posicionados de baixo para cima.<br>
-
-```css
-.container {
-	display: flex;
-	flex-direction: row;
-}
-```
-## Distribuição de espaço
-
-Podemos definir também a distribuição de espaços entre um elemento e outro. Para isso usamos a propriedade <code>justify-content</code>. Essa propriedade aceita os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>space-between</code>, <code>space-around</code>. 
-
-<code>flex-start:</code> Os itens são alinhados à esquerda do container.<br>
-<code>flex-end:</code> Os itens são alinhados à direita do container.<br>
-<code>center:</code> Os itens são alinhados no centro do container.<br>
-<code>space-between</code>: Os itens são alinhados com distância igual entre eles.<br>
-<code>space-around</code>: Os itens são alinhados com distância igual em torno deles.<br>
-
-```css
-.container {
-	display: flex;
-	justify-content: flex-start;
-}
+### Em linha, usando o atributo style
+```html
+<p style="color: #f05a20;">Vai na Web</p>
 ```
 
-## Espalhando elementos em linhas
+### Direto na Head
+```html
+<head>
+	<style>
+		p { color: #f05a20; }
+	</style>
+</head>
+<body>
+	<p>Vai na Web</p>
+</body>
+```
 
-Eventualmente nossos elementos podem ocupar uma única linha em um container. Outras vezes podemos achar melhor que os elementos possam ser espalhados em linhas adicionais. Definimos esse comportamento usando a propriedade <code>flex-wrap</code>. Podemos usar os valores <code>nowrap</code>, <code>wrap</code>, ou <code>wrap-reverse</code>.
+### Externamente
 
-<code>nowrap</code>: Todos os itens são apertados em uma única linha.<br>
-<code>wrap:</code> Os itens são separados em linhas adicionais.<br>
-<code>wrap-reverse:</code> Os itens são separados em linhas adicionais em reverso.<br>
+Dessa forma, criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e utilizá-lo. Lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja, .css, no final.
+```html
+<head>
+	<title>Vai na Web</title>
+	<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+    <p>Vai na Web</p>
+</body>
+```
 
+## Sintaxe
+
+Precisamos compreender a sintaxe que a linguagem usa. Pensar na sintaxe de uma linguagem significa pensar nas relações formais que unem as partes constituintes da sentença, criando uma estrutura. Ou seja, trata-se de pensar na estrutura através da qual ela é escrita.
 ```css
-.container {
-	display: flex;
-	flex-wrap: wrap;
+seletor {
+	propriedade: valor;
 }
 ```
 
-## Alinhando itens
+Assim podemos fazer com que nossa página fique muito legal. Podemos alterar as cores, tamanhos, formas e até adicionar animações! Nas próximas aulas, vamos conhecer melhor essas e outras propriedades e valores.
 
-Podemos definir o alinhamento dos elementos em relação à altura da página ou container. Usamos a propriedade <code>align-items</code>, que pode receber os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, e <code>stretch</code>.
+## Principais seletores
 
-<code>flex-start:</code> Os itens são alinhados na parte de cima do container.<br>
-<code>flex-end:</code> Os itens são alinhados na parte de baixo do container.<br>
-<code>center:</code> Os itens são alinhados no centro vertical do container.<br>
-<code>baseline:</code> Os itens são alinhados na linha da base do container.<br>
-<code>stretch:</code> Os itens são alinhados para preencher o container.<br>
+Precisamos dizer ao CSS qual elemento queremos selecionar e adicionar a ele os estilos que desejamos. Mas, para isso, devemos entender sobre os [seletores](https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048).
 
+### Elemento
+
+Podemos dar estilo diretamente ao próprio elemento do HTML.
 ```css
-.container {
-	display: flex;
-	align-items: center;
+p {
+	color: #f05a20;
 }
 ```
 
-## Alinhando multiplas linhas
+### Id 
 
-Em containers com múltiplas linhas podemos usar o <code>align-content</code>. Enquanto align-items determina como as linhas são alinhadas dentro do container como um todo, align-content determina como múltiplas linhas devem ser espaçadas uma das outras. Essa propriedade pode receber os seguintes valores:
-
-<code>flex-start</code>: As linhas são agrupadas no topo do container.<br>
-<code>flex-end</code>: As linhas são agrupadas no fundo do container.<br>
-<code>center</code>: As linhas são agrupadas no centro vertical do container.<br>
-<code>space-between</code>: As linhas são posicionadas com espaço igual entre elas.<br>
-<code>space-around</code>: As linhas são posicionadas com espaço igual em torno delas.<br>
-<code>stretch</code>: As linhas são esticadas para preencher o container.<br>
-
+Ou podemos adicionar um ID ao elemento. É legal de ser usado em elementos que não se repetem na página.
 ```css
-.container {
-	display: flex;
-	align-content: center;
+#sobre {
+	color: #f05a20;
 }
 ```
 
-## Mudando a ordem dos itens
+### Classe
 
-Se quisermos mudar a ordem do item podemos adicionar a propriedade <code>order</code> no item. 
-
+Podemos, ainda, adicionar uma classe ao elemento. Muito útil para as que se repetem ao longo da página.
 ```css
-.item {
-	display: flex;
-	order: 1;
+.sobre {
+	color: #f05a20;
 }
 ```
 
-## Alinhando um item
+## Fluindo na Cascata
 
-Quando necessário, se precisarmos alterar o alinhamento de um item, podemos usar a propriedade <code>align-self</code> então ele pode mudar o comportamento de alinhamento dele mesmo. Assim como align-items, essa propriedade pode receber os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, e <code>stretch</code>.
+Dependendo da posição em que o CSS esteja sendo chamado na página o código tem uma certa prioridade na hora de ser exibido pelo navegador. Como nas pedras da cachoeira, a água flui  melhor em alguns lugares do que em outros. Esse é um conceito que vai ser muito importante futuramente.
 
-<code>flex-start:</code> O item é alinhado na parte de cima do container.<br>
-<code>flex-end:</code> O item é alinhado na parte de baixo do container.<br>
-<code>center:</code> O item é alinhado no centro vertical do container.<br>
-<code>baseline:</code> O item é alinhado na linha da base do container.<br>
-<code>stretch:</code> O item é alinhado para preencher o container.<br>
+Quem tem maior prioridade sobrescreve que tem menor. A prioridade na cascata de acordo com a forma que chamamos o código na página é a seguinte:
 
+Usando important! > Em linha > Direto na Head > Externamente
+
+Explicando melhor, em algum momento vamos estudar o que esse important faz, por agora, entendam somente que se um estilo estiver usando ele, ele tem maior prioridade, depois dele o estilo que está em linha tem uma prioridade maior, e assim por diante.
+
+Dependendo da posição dentro de um arquivo essa prioridade muda também. O navegador lê nossa página de baixo para cima, no exemplo a seguir, ambos elementos estão sendo selecionados usando mesmo recurso, nesse caso as classes, mas o que está em baixo tem maior prioridade que o de cima. 
+
+Logo, quando houver a mesma propriedade, o valor da que tem maior prioridade é exibido, sobrescrevendo a de cima.
 ```css
-.item {
-	display: flex;
-	align-self: center;
+.paragrafo {
+  background-color: red;
+}
+
+.paragrafo {
+  background-color: gray;
 }
 ```
+
+Quando as propriedades forem diferentes, elas simplesmente ficam combinadas. Ambas são mostradas. Exemplo:
+```css
+.paragrafo {
+  background-color: red;
+}
+
+.paragrafo {
+  padding: 20px;
+  margin: 20px;
+}
+```
+O navegador entende assim:
+```css
+.paragrafo {
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+}
+```
+Os seletores também têm prioridades diferentes. A clase que tiver important! tem maior prioridade, seguida dela, o ID tem maior prioridade, depois a classe, e por último o próprio elemento. Exemplo:
+
+```css
+#vermelho {
+  background-color: red;
+}
+
+.cinza {
+  background-color: gray; 
+}
+
+p {
+  background-color: blue !important;
+  color: white;
+  padding: 5px;
+}
+```
+Faça alguns testes! O que acontece se você apagar o !important do elemento parágrafo?

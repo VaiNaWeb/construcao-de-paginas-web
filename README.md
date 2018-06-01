@@ -20,42 +20,42 @@ Neste módulo nossos estudantes são capacitados para a criação de páginas se
 
 Todo o conteúdo de apoio criado ao decorrer das aulas é aberto e pode ser acompanhado aqui. Esse é apenas o mapa de conteúdos de apoio. Se você é estudante matriculado no programa, confira o [cronograma oficial das aulas](https://docs.google.com/document/d/105rl_wwvvyoIO2EDXPLd5T1HeKxWszM4iZIN91lvt5g/edit?usp=sharing). :sparkles:
 
-### Informação muda tudo
+### 01 - Informação muda tudo
 
-### Conheça a história do primeiro computador
+### 02 - Conheça a história do primeiro computador
 
-### Entenda como a internet funciona
+### 03 - Entenda nos comunicamos através da internet
 
-### Introdução HTML
+### 04 - Introdução HTML
 
-### Conheça e entenda como usar a linha de comando
+### 05 - Conheça e entenda como usar a linha de comando
 
-### Introdução aos comandos do Git
+### 06 - Introdução aos comandos do Git
 
-### Publique uma página usando o Github Pages
+### 07 - Publique uma página usando o Github Pages
 
-### HTML Semântico
+### 08 - HTML Semântico
 
-### Construindo formulários
+### 09 - Construindo formulários
 
-### Adicionado Áudio, Imagens, Vídeos
+### 10 - Adicionado Áudio, Imagens, Vídeos
 
-### Introdução CSS
+### 11 - Introdução CSS
 
-### Unidades de medida no CSS
+### 12 - Unidades de medida no CSS
 
-### Modelo de Caixa
+### 13 - Modelo de Caixa
 
-### Cor e Tipografia
+### 14 - Cor e Tipografia
 
-### Flexbox
+### 15 - Flexbox
 
-### Posicionamento de elementos
+### 16 - Posicionamento de elementos
 
-### Criando páginas para múltiplos dispositivos
+### 17 - Criando páginas para múltiplos dispositivos
 
-### Transições e Animações com CSS
+### 18 - Transições e Animações com CSS
 
-### Uso de seletores avançados
+### 19 - Uso de seletores avançados
 
-### Criando páginas acessíveis
+### 20 - Criando páginas acessíveis

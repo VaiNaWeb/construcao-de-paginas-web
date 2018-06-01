@@ -1,45 +1,190 @@
-# Criando páginas para múltiplos dispositivos
+# As cores na web
 
-Muita coisa aconteceu desde o surgimento da internet, e nossa experiência com a tecnologia também se modificou muito com o passar dos anos. A realidade que conhecemos hoje, é que estamos realmente conectados o tempo inteiro, e através de vários dispositivos diferentes.
+Aprenderemos como colocar cores na web. Há alguns [sistemas de cores](https://tableless.com.br/sobre-cor-e-webdesign/) que precisamos conhecer para entender como adiciona-las em nossas folhas de estilo.
 
-Não somente no computador, hoje sabemos que é possível nos conectar usando uma infinidade de aparelhos diferentes, televisão, videogame, celular, etc. E estamos conectados também nos mais diferentes lugares, seja na padaria, na escola, ou em casa. A web está em todos os lugares!
+## RGB
 
-É nosso dever e desafio enquanto desenvolvedores web, criar páginas que possibilitem que essas experiências aconteçam da melhor forma possível. Há muitas coisas que podemos fazer para garantir que isso aconteça, uma delas, é criar páginas que sejam exibidas de forma correta nos mais diferentes dispositivos, assim nasceu o conceito de [Design responsivo](https://brasil.uxdesign.cc/o-que-%C3%A9-responsive-web-design-ab292eb616b7#.oin348i9x).
+Monitores são pretos e iluminados por vários pontinhos de luz. Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor. A cor RGB É formada por três pares de números, vermelho, verde e azul, formados por três dígitos. Quanto mais alto o número mais clara é a cor.
+```css
+p {
+    color: rgb(0, 0, 255);
+}
+```
+Eventualmente podemos precisar alterar a opacidade da cor, deixando ela mais transparente ou mais opaca. Para isso, podemos usar um quarto número, que representa o canal alpha da cor.
+```css
+p {
+    color: rgb(0, 0, 255, 0.5);
+}
+```
+## Hexadecimais
 
-Dizemos que uma página é responsiva, quando os elementos dela se adaptam automaticamente à tela do dispositivo no qual ela está sendo visualizada. Na prática, há algumas técnicas que usamos para que esse comportamento aconteça.
+Compostos por uma combinação de três conjuntos de pares formados a partir de número e letras de A a F. Quanto mais alto o número mais clara é a cor.
 
-Antes de tudo, precisamos dizer ao navegador que a escala inicial da nossa página é equivalente ao tamanho do dispositivo. Adicionamos a seguinte linha ao <code>head</code>:
+Cada par é responsável por uma cor, assim como o RGB, Vermelho, verde e azul. Ou seja #ff0000 é o vermelho, e o #00ff00 é o verde e #0000ff é o azul.
+```css
+p {
+    color: #ff0000;
+}
+```
+## Ferramentas legais
+
+http://lokeshdhakar.com/projects/color-thief/<br>
+http://moviesincolor.com/<br>
+https://color.adobe.com/pt/create/color-wheel/<br>
+https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF<br>
+
+# Tipografia
+
+Temos muitas propriedades oferecidas pelo CSS para trabalhar com as palavras, elas se encaixam em duas categorias: propriedades baseadas em fontes e propriedades baseadas em texto. A maioria dessas propriedades será precedida com fonte, entenda a fonte como o arquivo da letra, e texto que são as palavras de fato. Vamos conhecer algumas!
+
+## Font Family 
+
+A propriedade font-family é usada para declarar qual tipo de letra devem ser usadas para exibir texto. O valor da propriedade font-family pode conter vários nomes de fontes, todos separados por vírgulas.
+
+Funciona assim, primeira fonte declarada, a partir da esquerda, é a escolha principal da fonte. Caso a primeira fonte não esteja disponível, as fontes alternativas são declaradas depois dela em ordem de preferência da esquerda para a direita.
+```css
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+```
+## Font Size
+
+A propriedade font-size nos permite definir o tamanho do texto usando alguns valores. Assim como quando falamos em dinheiro precisamos citar a moeda, quando definimos o valor de um font-size usamos algumas unidades de medida, por exemplo: pixels, em, porcentagens, pontos, etc. Exemplo com pixel:
+```css
+p {
+  font-size: 16px;
+}
+```
+
+## Font Style
+
+A propriedade font-style aceita quatro valores de palavras-chave: normal, italic, oblique e inherit. Destes quatro, os mais utilizados são o itálico, que define o texto para o itálico, e o normal que como o próprio nome sugere, retorna o texto ao seu estilo normal. Exemplo:
+```css
+p {
+  font-style: italic;
+}
+```
+## Font Variant
+
+A propriedade font-variant aceita três valores:  normal, small-caps, e inherit. Os valores mais comuns são normal e small-caps. Exemplo:
+```css
+p {
+  font-variant: small-caps;
+}
+```
+## Font Weight 
+
+Podemos definir um texto em negrito ou alterar o peso específico de um tipo de letra. Para esses casos, usaremos a propriedade font-weight. A propriedade font-weight aceita valores de palavra-chave ou numéricos.
+
+Os valores mais usados são o normal e o bold para mudar o texto do normal para o negrito. Podemos usar também um valor numérico para mais variações. Exemplo:
+```css
+p {
+  font-weight: bold;
+}
+```
+Exemplo usando valor numérico:
+```css
+p {
+  font-weight: 800;
+}
+```
+## Line Height
+
+A propriedade line-height é responsável por modificar a distância entre duas linhas de texto declaramos usando a propriedade de altura da linha. Exemplo:
+```css
+p {
+  height: 26px;
+  line-height: 26px;
+}
+```
+## Text Align
+
+Essa propriedade modifica o alinhamento de uma frase em relação a uma página. Ela aceita os valores left, right, center, e justify. Exemplo:
+```css
+p {
+  text-align: center;
+}
+```
+
+## Text Transform
+
+Enquanto a propriedade font-variant procura uma variante alternativa de um tipo de letra, a propriedade text-transform alterará o texto. A propriedade text-transform aceita cinco valores: none, capitalize, uppercase, lowercase, e inherit. 
+
+Um caso de uso muito comum: se um texto precisa escrito em letras maiúsculas não é recomendando sempre escreve-lo no HTML assim,  melhor usar o CSS para isso. Exemplo:
+```css
+p {
+  text-transform: uppercase;
+}
+```
+
+## Usando fontes seguras
+
+Existem algumas fontes que são comuns em todos os computadores, tablets, smartphones e outros dispositivos compatíveis com os navegadores na web. Como eles foram instalados em todos os dispositivos, podemos usar essas fontes livremente em nossos sites, sabendo que não importa qual dispositivo esteja navegando em nosso site, a fonte irá aparecer corretamente. Exemplos de fontes seguras:
+
+- Arial
+- Courier New, Courier
+- Garamond
+- Georgia
+- Lucida Sans Lucida Grande, Lucida
+- Palatino Linotype
+- Tahoma
+- Times New Roman
+- Verdana
+
+## Carregando novas fontes
+
+Quando não queremos usar as fontes que vêm por padrão em todos os computadores, podemos também carregar novas fontes e usa-las em nossa página. Existem dois caminhos mais conhecidos para fazer isso, o mais simples, é usando recursos como o [Google Fonts](https://fonts.google.com/).
+
+O Google Fonts é uma biblioteca de fontes licenciadas livres, que nos permite escolher e usar convenientemente as fontes por meio do CSS. Basta escolher a fonte, e o próprio Google Fonts já nos sugere um link com instruções para que possamos importar essa fonte e depois basta selecionar a fonte CSS. 
+
+Podemos importar através do HTML:
 
 ```html
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+</head>
 ```
-Nós já aprendemos Flexbox, então todo o resto acaba por ficar mais simples a partir daqui. Isso porque o Flexbox é muito legal para tornar nosso layout flexível, isso porque flexibilidade e fluidez fazem parte do que queremos atingir com o design responsivo. Ao invés de ficar usando pixels, nós também podemos usar unidades de medida flexíveis, você pode ler mais sobre isso nesse [link](http://www.maujor.com/tutorial/unidades-de-medidas-css.php). 
-
-Também muito importantes para tornar nossas páginas responsivas são as media queries. Usamos elas basicamente para criar modificações na página para que ela se adapte de acordo com uma medida. Nós podemos dizer por exemplo que se uma página tem até 640px de largura o background dela deve mudar sua cor.
+Ou podemos importar através do CSS
 
 ```css
-@media (max-width: 640px) {
-	body {
-		background: tomato;
-	}
-}
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 ```
-
-Mudar a cor de uma página de acordo com seu tamanho pode não ser muito interessante, mas podemos modificar outras coisas que são, como por exemplo modificar o tamanho de um container, o lugar de um botão, deixar uma letra maior ou menor... são muitas [possibilidades](https://tableless.com.br/design-responsivo-na-pratica-do-rascunho-ao-digita/) que podem e devem ser aproveitadas.
-
-Para escolher que parâmetros usar na media query popdemos usar várias propriedades, como o width, height, orientation, aspect-ratio, color, monochrome, resolution, etc. Há duas propriedades principais que as pessoas preferem usar, são a max-width e a min-width.
-
-No exemplo que usamos anteriormente usamos o conceito de desktop-first, onde assumimos que todo o CSS que já escrevemos foi feito para o desktop, e então adicionamos algumas media querys para tamanhos menores de tela. Quando usamos max-width 640px estamos dizendo que essas modificações do bloco de dentro da media query serão usadas em dispositivos com até 640px de largura.
-
-Se optarmos por seguir o conceito de mobile-first, assumimos que o CSS atual foi pensado em medidas menores, perfeitas para o mobile, temos agora que adicionar algumas media querys para tamanhos maiores de tela. Exemplo:
+Depois basta selecionarmos a fonte onde queremos usa-la:
 
 ```css
-@media (min-width: 640px) {
-	body {
-		background: tomato;
-	}
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body {
+  font-family: 'Abril Fatface', cursive;
 }
 ```
-Nesse exemplo, a tela só ficará vermelha em dispositivos com telas a partir de 640px de largura. Basicamente, enquanto no desktop-first pensamos em modificações para telas menores, no mobile-first pensamos em maiores.
+Uma outra forma um pouco mais complexa mas eventualmente necessária é carregando uma fonte adicionado o próprio arquivo em nosso projeto. 
 
-De acordo com cada centário, podemos considerar muitas coisas, e pensando nessas coisas usar as melhores técnicas para criar a experiência de navegação que queremos.
+Usamos o @font-face para identificar o nome da nossa fonte, através da propriedade font-family, bem como a fonte de nossa fonte através do arquivo, usando a propriedade src. A partir daí, podemos usar essa fonte incluindo seu nome dentro como valor em uma font-family, como já aprendemos anteriormente.
+
+```css
+@font-face {
+  font-family: 'Exemplo';
+  src: url('Exemplo') format("woff");
+}
+
+body {
+  font-family: 'Exemplo';
+}
+```
+É recomendável nesse caso, adicionarmos vários formatos diferentes de fontes, pois há navegadores que suportam uns e outros não, isso pode trazer uma dor de cabeça. Existem algumas ferramentas que nos ajudam nessa conversão, como a [transfonter](https://transfonter.org/) por exemplo.
+
+```css
+@font-face {
+	font-family: 'Exemplo';
+	src: url('Exemplo.eot');
+	src: url('Exemplo.eot?#iefix') format('embedded-opentype'),
+		 url('Exemplo.woff2') format('woff2'),
+		 url('Exemplo.woff') format('woff'),
+		 url('Exemplo.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Exemplo';
+}
+```

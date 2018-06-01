@@ -1,41 +1,25 @@
-# Como nos comunicamos através da internet
+# Conheça a história do primeiro computador
 
-O conteúdo de um site é organizado dentro de um conjunto especial de regras que os computadores entendem; Funciona como falar em uma linguagem secreta, codificada.
+Por definição, um computador é basicamente uma máquina capaz de efetuar cálculos com um grupo de números e ainda adaptável para efetuar novos cálculos com um outro grupo de números.
 
-Quando dois ou mais computadores estão conectados à internet, eles podem conversar uns com os outros. Há uma forma de comunicação envolvida que os computadores entendem muito bem.
+Aproximadamente 2000 a.C existia o Ábaco, um tipo de computador em que se pode ver claramente a soma nos fios.
 
-Você já se perguntou o que acontece quando você digita um endereço de uma página em um navegador?
+Em 1642 Blaise Pascal inventou a primeira calculadora mecânica. A calculadora transferia os números da coluna de unidades para a coluna de dezenas por um dispositivo. Pascal chamou sua invenção dae Pascalina.
 
-Quando queremos visitar um site, pedimos ao navegador para acessar nossa página, o servidor nos envia uma cópia dos arquivos dessa página para que ela possa ser interpretada através do navegador.
+Mais tarde, em 1822, Charles Babbage apresentou o primeiro modelo de uma máquina capaz de fazer cálculos necessários para elaborar uma tabela de logaritmos. Algum tempo depois Babbage e Ada Lovelace, iniciaram um projeto mais ambicioso para construir uma máquina analítica. Essa máquina foi projetada para calcular valores de funções matemáticas bem mais complexas.
 
-Explicando de forma mais clara, o navegador pede os arquivos que contém os códigos do site - que estão armazenados no servidor - através do endereço. O servidor, então, envia os arquivos de volta para que o navegador possa interpretar seu código e exibir a página na tela.
+Ada sugeriu um plano para a máquina que a faria capaz não só de calcular, mas de gerar números específicos. Ela descreveu um algoritmo para a máquina analítica computar. Esse é considerado o primeiro algoritmo especificamente criado para ser implementado num computador, por isso, é considerada a primeira pessoa programadora. Ela também sugeriu que esse tipo de máquina poderia ser usado para criar complexas partituras musicais e executar trabalhos gráficos, tornando-se uma ferramenta de pesquisa indispensável. 
 
-Um servidor é um computador especial que contém arquivos de páginas da web. Seu computador em casa ou na escola não é um servidor, porque ele não está conectado diretamente à internet. Nós nos conectamos à internet através de um provedor de serviços de internet.
+Algum tempo depois, por volta de 1936, um jovem matemático chamado Alan Turing verificou os tipos de problemas que uma máquina poderia resolver seguindo regras lógicas, e tentou fazer uma lista de todos eles. Turing liderou uma equipe de pesquisa e desenvolveu a mais secreta invenção da Segunda Guerra Mundial, o Colossus, o primeiro computador eletromecânico do mundo, que pode decifrar os códigos alemães de mensagens durante a guerra. 
 
-Por isso, um site que você escreve no seu computador não pode ser visto por outras pessoas em um computador diferente até que você o hospede em um servidor.
+Turing também deixou outra contribuição valiosa, a chamada Máquina de Turing, um modelo abstrato de um computador, que devia manipular símbolos em uma fita de acordo com uma série de regras para guardar informações. Essa contribuição foi tão importante que Turing é considerado hoje o pai da computação.
 
-![asset](assets/02.png)
+Naquela época, ser um computador era um trabalho, não uma máquina. Durante a Segunda Guerra Mundial, mulheres formadas em faculdades foram recrutadas para fazer cálculos complexos necessários para as trajetórias das armas dos militares. Nessa época, elas precisavam fazer coisas como os cálculos detalhados para determinar como iniciar uma reação nuclear e o que aconteceria, quando eles queriam construir uma bomba atômica, por exemplo.
 
-## Como páginas da web são construídas
+Algum tempo depois, em 1946, na Universidade da Pensilvânia, finalmente foi construído o primeiro computador digital eletrônico, o ENIAC. Existia nessa universidade um grupo de 80 matemáticas, desse grupo, Kathleen McNulty, Mauchly Antonelli, Jean Jennings Bartik, Frances Synder Holber, Marlyn Wescoff Meltzer, Frances Bilas Spence e Ruth Lichterman Teitelbaum, foram selecionadas para participarem de um projeto secreto para automatizar processos, criar um algoritmo e implementa-lo em um computador eletrônico. Elas foram selecionadas para trabalhar no ENIAC, aprenderam como ele funcionava e o programaram.
 
-No final dos anos 80 um físico chamado Tim Berners-Lee, começou a idealizar como cientistas poderiam compartilhar documentos através da rede.
+O ENIAC pesava 27 toneladas, ocupava praticamente uma sala inteira, e era programado através de milhares de interruptores, podendo cada um deles assumir o valor 1 ou 0, o interruptor estava ligado ou desligado, e para programa-lo era necessário uma grande quantidade de pessoas que percorriam as longas filas de interruptores dando ao ENIAC as instruções necessárias para computar, ou seja, fazer cálculos.
 
-Em 1990 Tim sugeriu um padrão para construção de documentos com hipertextos e logo nasceu a Linguagem de Marcação de Hipertexto, a HTML, que evoluiu muito até chegar na versão atual.
+Imaginem como seria voltar no tempo, e contar para as pessoas que hoje nós carregamos no bolso um computador? Você pode não pensar no celular como um computador, mas a funcionalidade dele é ativada por vários computadores trabalhando juntos. Certamente ao ouvir sobre isso as pessoas daquela época em que você pensou ficariam no mínimo impressionadas.
 
-Você pode imaginar um site como um grande livro, em que páginas e mais páginas são ligadas umas às outras, e, no decorrer dos capítulos, podemos colocar atalhos para outras páginas. Diferentemente do exemplo do livro, não precisamos folhear um site, já que tudo está ao alcance de um clique. Assim como o conteúdo de um livro, nossos sites contém textos, mas eles são organizados através de elementos em HTML, que vamos aprender e que os nossos navegadores já conhecem muito bem.
-
-![asset](assets/01.png)
-
-### HTML estrutura páginas
-
-A HTML é a linguagem base de uma página da web. É ela quem determina a estrutura das nossas páginas, que podem conter textos, imagens, vídeos, e dar vida a tantos sites fantásticos que conhecemos hoje. Um documento em HTML é composto por uma estrutura formada de TAGS, que são marcações para identificar os diversos tipos de conteúdos e ainda organizá-los de forma semântica.
-
-### CSS estiliza
-
-Até então, as páginas já tinham uma estrutura e podiam ser acessadas, mas as pessoas começaram a pensar em como torná-las mais amigáveis e estéticamente harmôniosas e isso era muito difícil de se fazer somente com HTML. Algum tempo depois, em 1996, nasceu a Folha de Estilos em Cascata, a CSS, que veio para deixar as nossas páginas literalmente cheias de estilo!
-
-### JS cria interações
-
-Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi criada a linguagem Javascript, que tem variadas funções, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor, por exemplo, e atividades bem mais complexas que vamos conhecer em breve.
-
-![asset](assets/03.png)
+Cada contribuição dessas pessoas conhecemos nessa aula e também de outras que não foram citadas foi importante para que as tecnologias digitais avançassem e tenham se tornado populares como as que conhecemos hoje.

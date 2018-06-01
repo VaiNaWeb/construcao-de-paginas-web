@@ -1,88 +1,95 @@
-# Conhecendo o terminal do Linux
+# Adicionando Áudio, Imagens, Vídeos
+    
+Quando tudo começou a web era formada principalmente por textos simples, mas essa não é mais a nossa realidade. Navegando na internet encontramos muitos tipos de conteúdo diferentes, além de textos, incluimos em nossas páginas imagens, músicas, vídeos, e até mesmo conteúdo de outras páginas da web.
 
-Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos filmes e séries. Algo que o cinema não mostra, é que elas são bem simples, e podem ser usadas para diversas coisas, desde criar um novo arquivo na área de trabalho, e até mesmo colocar um site ou aplicação online.
+Hoje, podemos usar livremente imagens, áudio, vídeo e iframes sabendo que esse conteúdo, nossos navegadores modernos oferecem suporte a todas essas coisas muito bem.
 
-Essa famosa telinha preta, que é chamada de linha de comando, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
+## Adicionando imagens
 
-Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los!
+Para incluir imagens em nossa página, precisamos mencioná-las através do elemento `<img>` e adicionar um caminho para a imagem que queremos. Dentro da tag de abertura deste elemento, adicionaremos um atributo que especifica onde obter a imagem que queremos incluir. 
 
-## Primeiros comandos
+Atributos são informações que podemos acrescentar a elementos que ajudam a realizar atividades específicas; vamos aprender mais  sobre eles no decorrer do curso.
 
-Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o computador, criar arquivos, remover arquivos, e mais um monte de outras coisas. Há alguns bem básicos que podem nos ajudar muito em nossas tarefas enquanto desenvolvedor. Vamos conhecer alguns:
+Um elemento `<img>` sempre terá um atributo src e um alt. Note, nesse exemplo usamos uma URL com a imagem que queremos mostrar dentro do src. O atributo alt é serve para mostrar uma descrição da imagem, isso é importante para manter acessibilidade.
 
-<code>man</code>: Usado para mostrar o manual de um outro comando<br>
-<code>sudo</code>: Deve ser usado com cuidado. Ele dá permissões de administrador<br>
-<code>ls</code>: Lista os arquivos do diretório<br>
-<code>pwd</code>: Mostra o diretório atual<br>
-<code>cd</code>: Usado para mudar de diretório<br>
-<code>cp</code>: Copia um arquivo ou diretório<br>
-<code>mv</code>: Usado para mover um arquivo ou renomea-lo<br>
-<code>mkdir</code>: Cria uma nova pasta<br>
-<code>touch</code>: Cria um novo arquivo<br>
-<code>more</code>: Lê um arquivo de texto<br>
-<code>grep</code>: Lê e faz uma busca por palavras dentro de um arquivo<br>
-<code>clear</code>: Limpa a tela<br>
-<code>exit</code>: Fecha o terminal<br>
+Ah! Um elemento `<img>` é um daqueles elementos especiais que não precisam de tag de fechamento. Exemplo:
 
-# Git e Github
+```html
+<img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo do vai na web">
+```
 
-Vamos colocar nossa primeira página online, e para isso vamos usar o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que ele é e como funciona.
+## Adicionando áudio
 
-Antes de tudo, precisamos [versionar](http://rogerdudler.github.io/git-guide/index.pt_BR.html) nossos arquivos com o Git. Um sistema de controle de versão e gerenciamento de código fonte. Foi desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje muito usado em diferentes projetos digitais no mundo inteiro.
+Para adicionar arquivos de áudio usamos o elemento `<audio>`. Assim como acontece com o elemento `<img>`, o elemento `<audio>` aceita um URL de origem especificado pelo atributo src. Ao contrário do elemento `<img>`, o elemento `<audio>` precisa das tags de abertura e de fechamento.
 
-Depois precisamos armazenar nosso projeto no Github. Uma plataforma social através da qual milhares de pessoas constroem códigos, entre outras coisas, de forma colaborativa, aberta e gratuita. O Github oferece um espaço para armazenar pastas e arquivos com seu conteúdo versionado através do Git.
+```html
+<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls="controls"></audio>
+```
 
->"O Github, é na verdade uma rede social ou uma fábrica social de software, que desenvolve e promove milhares de códigos fontes pré armazenados, para as mais diversas finalidades." Wikipedia
+Vários outros atributos podem acompanhar o atributo src no elemento `<audio>`. Os mais populares incluem reprodução automática, controles, loop e pré-carregamento.
 
-Então já podemos usar o [Github Pages](https://tableless.com.br/criando-paginas-web-para-seus-repositorios-com-o-github-pages/) para colocar nossa página online. Ele é um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
+Os atributos de reprodução automática, controles e loop são atributos booleanos. Booleanos retornam true ou false, em HTML, se um atributo booleano estiver presente ele já significa true e retorna a funcionalidade. Logo, não precisamos atribuir valores, basta adiciona-lo. 
 
-## Configurando o git
+Por padrão, o elemento `<audio>` não é exibido em uma página. Se o atributo de reprodução automática estiver presente no elemento `<audio>`, nada aparecerá na página, mas o arquivo de áudio será executado automaticamente após o carregamento. Exemplo:
+    
+```html
+<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls="controls" autoplay></audio>
+```
 
-* Configurar o usename: git config --global user.name “nome do usuário”
-* Configurar o email: git config --global user.email “email do usuário”
+Um outro atributo booleano que pode ser usado também é o download, veja um exemplo usando ele em um link:
 
-Para saber as informações que você colocou nas configurações:
+```html
+<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls>
+  <a href="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" download>Baixar</a> arquivo de áudio.
+</audio>
+```
 
-* git config user.name  (mostra username cadastrado)
-* git config user.email (mostra e-mail cadastrado)
-* git config --list (mostra tudo)
+## Adicionando vídeo
 
-## Primeiros comandos
+Para adicionar vídeo usamos o elemento `<video>`. Os mesmos atributos src, reprodução automática, controles, loop, que funcionam no áudio funcionam no vídeo também.
 
-Vimos anteriormente que nossos arquivos podem ser versionados com o Git, depois guardados no Github, e então hospedados no Github Pages para ter nossas páginas online.
+É recomendado incluir sempre o atributo booleano dos controles, a menos que haja uma boa razão para não permitir que os usuários comecem, parem ou reproduzam o vídeo.
 
-Agora que já conhecemos o Git e o Github, vamos aprender na prática como eles funcionam!
+Como os vídeos ocupam espaço na página, não faz mal especificar suas dimensões, o que é mais comumente feito com propriedades de largura e altura em CSS. Especificar um tamanho, como as imagens, ajuda o navegador a renderizar vídeos mais rapidamente e permite usar o espaço certo para que o vídeo seja exibido.
 
-### Versionando nossos arquivos
+Uma propriedade também interessante de colocar é o type, que indica qual o tipo do arquivo que você está querendo mostrar, ele funciona no áudio e também no vídeo.
 
-Para o sistema do Git, os dados dos nossos arquivos são como conjuntos de fotografias, como se seu sistema estivesse fotografando as alterações que acontecem dentro da nossa pasta, para criar versões de nossos arquivos. Mas como ele faz isso? Bom...
+```html
+<video src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4" autoplay loop width="426" height="240">
+</video>
+```
+Em muitas páginas, como no Youtube, as pesssoas preferem mostrar uma imagem de fundo ao vídeo, podemos adicionar essa imagem usando o atributo poster e como valor a URL da imagem que queremos mostrar.
 
-Usamos o comando <code>git init</code> para pedir ao git que comece a versionar nossa pasta. Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. E pedimos que ele coloque um post-it em um um conjunto de mudanças para que possamos ler depois. 
+```html
+<video src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4" poster="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/imgfallback.jpg
+" width="426" height="240" controls>
+</video>
+```
 
-Usamos o comando <code>git add</code> para que ele saiba que as alteraçõoes que fizemos importam para esse conjunto de dados. Ou seja, pedimos que ele fotografe, depois, que ele dê um nome a essa fotografia atual dos nossos arquivos - chamamos isso de commit. Para essa tarefa, usamos o comando <code>git commit -m "oi! eu sou um comentário e vim te lembrar que você mudou esses arquivos aqui"</code>
+## Adicionando iframes
 
-Quando necessário, se não quisermos commitar as alterações, se optarmos por desfaze-las, ao invés de usar <code>git add</code> podemos usasr git <code>checkout -- nomedoarquivo</code>. E então seguir fazendo novas alterações.
+Podemos incorporar outra página HTML em nossa página. Isso é feito usando o elemento `<iframe>`. O elemento `<iframe>` aceita o URL de outra página HTML dentro do valor do atributo src.
+    
+Muitas páginas usam o elemento `<iframe>` para incorporar mídia em uma página de um site externo, como Google Maps, YouTube e alguns outros. Exemplo usando o Google Maps:
+    
+```html 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4405739120457!2d-43.287196449289794!3d-22.860177841883633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c7b48e047c7%3A0x75e759ff43f554c9!2sEDUCAP!5e0!3m2!1spt-BR!2sbr!4v1480440475641" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+```
 
-### Subindo nossos arquivos para o Github
+## Figuras e legendas
 
-Agora que já conhecemos os comandos mais básicos no Git, queremos que nossos arquivos sejam armazenados não somente no nosso computador, mas também no Github!
+Usamos o elemento `<figure>` para envolver algum conteúdo autônomo, muitas vezes na forma de mídia, como imagens, vídeos, ilustrações, etc. Mais de um item de conteúdo, como imagens múltiplas ou vídeos, pode estar contido no elemento `<figure>` de cada vez.
 
-Nossa pasta já existe no computador, mas dentro do Github ainda não. Então, vamos abrir o site e criar um repositório vazio dentro dele. Ainda usando o git, precisamos dizer ao Github que nossa pasta e seus commits existem na nossa máquina e queremos que ela vá também para ele. Usamos o comando <code>git remote add origin https://github.com/seunome/suapasta.git</code> para dizer que é essa pasta que vai receber a pasta do nosso computador, ou seja a pasta do github vai estar sincronizada à pasta do seu computador. Depois usamos o comando <code>git push</code> para enviar nossos arquivos.
-
-## Clonando um repositório do Github
-
-Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando <code>git clone https://github.com/seuusername/suapasta.git</code>. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permissão, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
-
-E se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos usar o comando <code>git pull</code>.
-
-### Criando páginas no Github
-
-Agora nossa pasta já existe no Github e queremos criar uma página dela usando o serviço do Github Pages. Como essa será nossa primeira página, podemos criá-la apenas dando a nossa pasta o nome de seunome.github.io
-
-### Ramificando páginas
-
-O Git tem um recurso maravilhoso chamado Branch, ramo em português. Vamos voltar a pensar no Git como um fotógrafo de alterações! Imagine, agora, que nossas fotografias são frutos de uma árvore e que podem crescer por vários ramos diferentes. Podemos escolher quais ramos queremos que cresçam e podemos dar nomes a eles.
-
-Vamos criar um ramo chamado gh-pages onde crescerão nossos frutinhos, ops! nossas páginas. Usamos o comando ``git checkout -b gh-pages`` para criar um ramo e mudar para ele ao mesmo tempo, então criamos ou mudamos nossos arquivos como queremos, damos commit, depois damos push para subir ele ao Github.
-
-Agora podemos acessar no navegador seunome.github.io/suapasta e tchanrann! nossa página já está online!
+```html 
+<figure>
+  <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="Logo do Programa VaiNaWeb">
+</figure>
+```
+É possvel adicionar uma legenda ao elemento `<figure>`, com o elemento `<figcaption>`. O `<figcaption>` pode aparecer na parte superior, inferior ou em qualquer lugar dentro do elemento `<figure>` mas deve aparecer somente uma vez. Quando é usado, o elemento `<figcaption>` servirá como legenda para todo o conteúdo no elemento `<figure>`. Exemplo:
+    
+```html     
+<figure>
+  <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="Logo do Programa VaiNaWeb">
+  <figcaption>Logo do Programa VaiNaWeb.</figcaption>
+</figure>
+```
