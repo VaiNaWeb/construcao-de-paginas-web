@@ -18,7 +18,7 @@ Neste módulo nossos estudantes são capacitados para a criação de páginas se
 
 Todo o conteúdo de apoio criado ao decorrer das aulas é aberto e pode ser acompanhado aqui. Se você é estudante matriculado no programa, confira o [cronograma oficial das aulas](https://docs.google.com/document/d/105rl_wwvvyoIO2EDXPLd5T1HeKxWszM4iZIN91lvt5g/edit?usp=sharing). 
 
-Nesse repositório, você deve encontrar o conteúdo referente ao gitbook sobre HTML e CSS. :sparkles:
+Nesse repositório, você deve encontrar o conteúdo referente ao [gitbook](https://vainaweb.gitbooks.io/primeiros-passos-web) sobre HTML e CSS. :sparkles:
 
 * [01 - Informação muda tudo](aulas/01/aula.md)
 * [02 - Conheça a história do primeiro computador](aulas/02/aula.md)
