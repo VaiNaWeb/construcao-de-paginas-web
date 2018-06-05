@@ -1,10 +1,29 @@
-# Conhecendo o terminal do Linux
+# Conhecendo a linha de comando
 
 Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos filmes e séries. Algo que o cinema não mostra, é que elas são bem simples, e podem ser usadas para diversas coisas, desde criar um novo arquivo na área de trabalho, e até mesmo colocar um site ou aplicação online.
 
 Essa famosa telinha preta, que é chamada de linha de comando, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
 
 Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los!
+
+Vamos aprender alguns comandos, eles mudam um pouco de sistema operacional para sistema operacional. Durante essa aula vamos focar nos comandos do Linux. Isso porque nos computadores dos polos onde o VnW acontece escolhemos usar esse sistema. 
+
+Mas se você usa Windows em casa pode pesquisar os comandos equivalentes, ou se preferir, você pode usar o [Git Bash](https://git-scm.com/) mas nem todos os comandos podem funcionar. Para começar, abra o terminal digite o seguinte comando:
+```
+whoami
+```
+O computador acabou de apresentar seu nome de usuário! Legal, não é?
+
+
+Seria legal saber em que pasta estamos agora. É recomendável que você sempre saiba disso. Digite o seguinte comando e aperte o enter:
+
+```
+pwd
+```
+Se preferir, você pode também se localizar vendo quais arquivos estão dentro da pasta. Você pode descobrir isso usando o comando:
+```
+ls
+```
 
 ## Primeiros comandos
 
