@@ -1,8 +1,6 @@
 # Contribuindo no VaiNaWeb
 
-Antes de tudo, queremos que saiba que é com grande alegria que te agradecemos por abraçar nossa missão. :tada:
-
-O VaiNaWeb é um projeto inteiramente Open Source e aqui estão algumas diretrizes que você deve seguir se deseja tornar-se colaborador.
+Antes de tudo, queremos que saiba que é com grande alegria que te agradecemos por abraçar nossa missão. :tada: Aqui estão algumas diretrizes que você deve seguir se deseja tornar-se colaborador.
 
 ## O que eu deveria saber antes de começar?
 
@@ -12,7 +10,7 @@ O Vai na Web é um programa de iniciativa do Precisa Ser em parceria com organiz
 
 Sabemos que existe muito potencial expressivo, profissional e criativo a ser revelado em regiões de precariedade social. Em busca de descobrir e expandir talentos inexplorados, o Vai na Web procura despertar os jovens para as possibilidades trazidas pela tecnologia. 
 
-Com os avanços na área de tecnologia da informação, torna-se cada vez mais imprescindível o acesso e o aprendizado das técnicas para uso, contribuição e domínio das ferramentas em desenvolvimento web. 
+Com os avanços na área de tecnologia da informação, torna-se cada vez mais imprescindível o acesso e o aprendizado das técnicas para uso, contribuição e domínio das ferramentas em desenvolvimento de novas tecnologias. 
 
 Encontramos neste programa a oportunidade de incentivar a auto descoberta desses jovens para uma jornada de desenvolvimento pessoal e sucesso profissional.
 
