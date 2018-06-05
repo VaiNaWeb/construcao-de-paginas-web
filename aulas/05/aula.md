@@ -4,7 +4,7 @@ Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos
 
 Essa famosa telinha preta, que é chamada de linha de comando, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
 
-Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los!
+Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los! Para aproveitar melhor esssa e outras aulas, é recomendado que você escreva os comandos ao invés de copia-los, dessa forma você vai lembrar deles depois.
 
 Vamos aprender alguns comandos, eles mudam um pouco de sistema operacional para sistema operacional. Durante essa aula vamos focar nos comandos do Linux. Isso porque nos computadores dos polos onde o VnW acontece escolhemos usar esse sistema. 
 
@@ -30,12 +30,22 @@ ls
 ```
 ## Navegando entre pastas
 
-Uma coisa bem legal que você pode fazer agora é aprender a navegar entre pastas! Eu não tenho certeza de quais pastas você tem aí em seu computador, então vamos criar uma nova. Digite o seguinte comando:
+Uma coisa bem legal que você pode fazer agora é aprender a navegar entre pastas! Eu não tenho certeza de quais pastas você tem aí em seu computador, então vamos criar uma nova chamada teste. Digite o seguinte comando:
 ```
 mkdir teste
 ```
-
-
+Para ter certeza de que a pasta foi criada você pode usar o ls de novamente.
+```
+ls
+```
+Se a pasta foi criada, agora você pode entrar dentro dela usando o seguinte comando:
+```
+cd teste
+```
+Legal! Você conseguiu entrar dentro dela. Que tal agora voltar? Você pode fazer isso usando o comando:
+```
+cd ..
+```
 
 ## Alguns comandos
 
