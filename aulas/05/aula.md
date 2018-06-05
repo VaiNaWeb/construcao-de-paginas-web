@@ -8,14 +8,18 @@ Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos 
 
 Vamos aprender alguns comandos, eles mudam um pouco de sistema operacional para sistema operacional. Durante essa aula vamos focar nos comandos do Linux. Isso porque nos computadores dos polos onde o VnW acontece escolhemos usar esse sistema. 
 
-Mas se você usa Windows em casa pode pesquisar os comandos equivalentes, ou se preferir, você pode usar o [Git Bash](https://git-scm.com/) mas nem todos os comandos podem funcionar. Para começar, abra o terminal digite o seguinte comando:
+Mas se você usa Windows em casa pode pesquisar os comandos equivalentes, ou se preferir, você pode usar o [Git Bash](https://git-scm.com/) mas nem todos os comandos podem funcionar. 
+
+## Primeiros comandos
+
+Para começar, abra o terminal digite o seguinte comando:
 ```
 whoami
 ```
 O computador acabou de apresentar seu nome de usuário! Legal, não é?
 
 
-Seria legal saber em que pasta estamos agora. É recomendável que você sempre saiba disso. Digite o seguinte comando e aperte o enter:
+Seria legal saber em que pasta estamos agora. É recomendável que você sempre saiba essa informaço! Se você não souber, é só usar o comando. Digite o seguinte comando e aperte o enter:
 
 ```
 pwd
@@ -24,8 +28,16 @@ Se preferir, você pode também se localizar vendo quais arquivos estão dentro 
 ```
 ls
 ```
+## Navegando entre pastas
 
-## Primeiros comandos
+Uma coisa bem legal que você pode fazer agora é aprender a navegar entre pastas! Eu não tenho certeza de quais pastas você tem aí em seu computador, então vamos criar uma nova. Digite o seguinte comando:
+```
+mkdir teste
+```
+
+
+
+## Alguns comandos
 
 Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o computador, criar arquivos, remover arquivos, e mais um monte de outras coisas. Há alguns bem básicos que podem nos ajudar muito em nossas tarefas enquanto desenvolvedor. Vamos conhecer alguns:
 
