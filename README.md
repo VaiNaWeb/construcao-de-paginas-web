@@ -16,7 +16,9 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 Neste módulo nossos estudantes são capacitados para a criação de páginas semânticas, reponsivas, e acessíveis, usando as tecnologias mais modernas do mercado e melhores práticas no **desenvolvimento web**. :rocket:
 
-Todo o conteúdo de apoio criado ao decorrer das aulas é aberto e pode ser acompanhado aqui. Esse é apenas o mapa de conteúdos de apoio. Se você é estudante matriculado no programa, confira o [cronograma oficial das aulas](https://docs.google.com/document/d/105rl_wwvvyoIO2EDXPLd5T1HeKxWszM4iZIN91lvt5g/edit?usp=sharing). :sparkles:
+Todo o conteúdo de apoio criado ao decorrer das aulas é aberto e pode ser acompanhado aqui. Se você é estudante matriculado no programa, confira o [cronograma oficial das aulas](https://docs.google.com/document/d/105rl_wwvvyoIO2EDXPLd5T1HeKxWszM4iZIN91lvt5g/edit?usp=sharing). 
+
+Nesse repositório, você deve encontrar o conteúdo referente ao gitbook sobre HTML e CSS. :sparkles:
 
 * [01 - Informação muda tudo](aulas/01/aula.md)
 * [02 - Conheça a história do primeiro computador](aulas/02/aula.md)
