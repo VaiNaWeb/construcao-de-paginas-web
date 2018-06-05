@@ -10,6 +10,7 @@ Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos 
 
 Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o computador, criar arquivos, remover arquivos, e mais um monte de outras coisas. Há alguns bem básicos que podem nos ajudar muito em nossas tarefas enquanto desenvolvedor. Vamos conhecer alguns:
 
+<code>whoami</code>: Mostra o nome do usuário<br>
 <code>man</code>: Usado para mostrar o manual de um outro comando<br>
 <code>sudo</code>: Deve ser usado com cuidado. Ele dá permissões de administrador<br>
 <code>ls</code>: Lista os arquivos do diretório<br>
