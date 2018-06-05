@@ -47,7 +47,7 @@ Legal! Você conseguiu entrar dentro dela. Que tal agora voltar? Você pode faze
 cd ..
 ```
 
-## Alguns comandos
+## Mais alguns comandos
 
 Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o computador, criar arquivos, remover arquivos, e mais um monte de outras coisas. Há alguns bem básicos que podem nos ajudar muito em nossas tarefas enquanto desenvolvedor. Vamos conhecer alguns:
 
