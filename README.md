@@ -40,4 +40,4 @@ Nesse repositório, você deve encontrar o conteúdo referente ao gitbook sobre 
 * [18 - Transições e Animações com CSS](aulas/18/aula.md)
 * [19 - Criando páginas acessíveis](aulas/19/aula.md)
 
-Se você deseja contribuir com o nosso material de apoio, sugerimos que você leia o nosso [guia de contribuição](CONTRIBUTING.md) e também o [código de conduta](CODE_OF_CONDUCT.md).
+Se você deseja contribuir com o nosso material de apoio, sugerimos que você leia o nosso [guia de contribuição](CONTRIBUTING.md) e também o nosso [código de conduta](CODE_OF_CONDUCT.md).
