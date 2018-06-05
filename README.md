@@ -16,6 +16,8 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 
 Neste módulo nossos estudantes são capacitados para a criação de páginas semânticas, reponsivas, e acessíveis, usando as tecnologias mais modernas do mercado e melhores práticas no **desenvolvimento web**. :rocket:
 
+Se você deseja contribuir com o nosso material de apoio, sugerimos que você leia o nosso [guia de contribuição](CONTRIBUTING.md) e também o [código de conduta](CODE_OF_CONDUCT.md).
+
 Todo o conteúdo de apoio criado ao decorrer das aulas é aberto e pode ser acompanhado aqui. Se você é estudante matriculado no programa, confira o [cronograma oficial das aulas](https://docs.google.com/document/d/105rl_wwvvyoIO2EDXPLd5T1HeKxWszM4iZIN91lvt5g/edit?usp=sharing). 
 
 Nesse repositório, você deve encontrar o conteúdo referente ao gitbook sobre HTML e CSS. :sparkles:
