@@ -42,7 +42,11 @@ Se a pasta foi criada, agora você pode entrar dentro dela usando o seguinte com
 ```
 cd teste
 ```
-Legal! Você conseguiu entrar dentro dela. Que tal agora voltar? Você pode fazer isso usando o comando:
+Legal! Você conseguiu entrar dentro dela. E se quisermos também criar um novo arquivo em nossa pasta nova? Vamos criar um chamado texto.txt usando o comando toach:
+```
+touch texto.txt
+```
+Que tal agora voltar? Você pode fazer isso usando o comando:
 ```
 cd ..
 ```
