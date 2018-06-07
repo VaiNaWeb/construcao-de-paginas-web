@@ -1,190 +1,126 @@
-# As cores na web
+# Introdução ao modelo flexível de caixas
 
-Aprenderemos como colocar cores na web. Há alguns [sistemas de cores](https://tableless.com.br/sobre-cor-e-webdesign/) que precisamos conhecer para entender como adiciona-las em nossas folhas de estilo.
+Existe um conjunto de propriedades em CSS criado com o objetivo de tornar mais flexível o alinhamento e espaçamento de caixas, chamamos esse conjunto de Flexbox.
 
-## RGB
+O Flexbox nos dá o poder de determinar melhor a altura das nossas seções, centralizar nosso conteúdo, dividir nossas colunas, ou seja, nos permite montar layouts de forma mais flexível, e claro, mais prática.
 
-Monitores são pretos e iluminados por vários pontinhos de luz. Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor. A cor RGB É formada por três pares de números, vermelho, verde e azul, formados por três dígitos. Quanto mais alto o número mais clara é a cor.
+## Ahh as caixas...
+
+Desde o início das nossas aulas, estamos nos referindo aos elementos como caixas dentro de caixas. Para entender Flexbox, precisamos compreender que alguns elementos podem ser vistos como caixas, ou containers, e outros como itens desses containers.
+
+Para começar a usar essas propriedades, adicionamos ao elemento container a propriedade <code>display</code> e atribuimos a ela o valor <code>flex</code>.
+
 ```css
-p {
-    color: rgb(0, 0, 255);
+.container {
+	display: flex;
 }
 ```
-Eventualmente podemos precisar alterar a opacidade da cor, deixando ela mais transparente ou mais opaca. Para isso, podemos usar um quarto número, que representa o canal alpha da cor.
+## Linhas e colunas
+
+Com o flexbox é fácil criar linhas ou colunas, usamos a propriedade <code>flex-direction</code>. Como valor podemos usar <code>row</code>, <code>row-reverse</code>, <code>column</code>, e <code>column-reverse</code>. Row alinha os elementos de forma horizontal, ou seja, em linha. 
+
+<code>row</code>: Os itens são posicionados na mesma direção padrão da página.<br>
+<code>row-reverse</code>: Os itens são posicionados na direção inversa ao padrão da página.<br>
+<code>column</code>: Os itens são posicionados de cima para baixo.<br>
+<code>column-reverse</code>: Os itens são posicionados de baixo para cima.<br>
+
 ```css
-p {
-    color: rgb(0, 0, 255, 0.5);
+.container {
+	display: flex;
+	flex-direction: row;
 }
 ```
-## Hexadecimais
+## Distribuição de espaço
 
-Compostos por uma combinação de três conjuntos de pares formados a partir de número e letras de A a F. Quanto mais alto o número mais clara é a cor.
+Podemos definir também a distribuição de espaços entre um elemento e outro. Para isso usamos a propriedade <code>justify-content</code>. Essa propriedade aceita os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>space-between</code>, <code>space-around</code>. 
 
-Cada par é responsável por uma cor, assim como o RGB, Vermelho, verde e azul. Ou seja #ff0000 é o vermelho, e o #00ff00 é o verde e #0000ff é o azul.
+<code>flex-start:</code> Os itens são alinhados à esquerda do container.<br>
+<code>flex-end:</code> Os itens são alinhados à direita do container.<br>
+<code>center:</code> Os itens são alinhados no centro do container.<br>
+<code>space-between</code>: Os itens são alinhados com distância igual entre eles.<br>
+<code>space-around</code>: Os itens são alinhados com distância igual em torno deles.<br>
+
 ```css
-p {
-    color: #ff0000;
-}
-```
-## Ferramentas legais
-
-http://lokeshdhakar.com/projects/color-thief/<br>
-http://moviesincolor.com/<br>
-https://color.adobe.com/pt/create/color-wheel/<br>
-https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF<br>
-
-# Tipografia
-
-Temos muitas propriedades oferecidas pelo CSS para trabalhar com as palavras, elas se encaixam em duas categorias: propriedades baseadas em fontes e propriedades baseadas em texto. A maioria dessas propriedades será precedida com fonte, entenda a fonte como o arquivo da letra, e texto que são as palavras de fato. Vamos conhecer algumas!
-
-## Font Family 
-
-A propriedade font-family é usada para declarar qual tipo de letra devem ser usadas para exibir texto. O valor da propriedade font-family pode conter vários nomes de fontes, todos separados por vírgulas.
-
-Funciona assim, primeira fonte declarada, a partir da esquerda, é a escolha principal da fonte. Caso a primeira fonte não esteja disponível, as fontes alternativas são declaradas depois dela em ordem de preferência da esquerda para a direita.
-```css
-p {
-  font-family: Helvetica, Arial, sans-serif;
-}
-```
-## Font Size
-
-A propriedade font-size nos permite definir o tamanho do texto usando alguns valores. Assim como quando falamos em dinheiro precisamos citar a moeda, quando definimos o valor de um font-size usamos algumas unidades de medida, por exemplo: pixels, em, porcentagens, pontos, etc. Exemplo com pixel:
-```css
-p {
-  font-size: 16px;
+.container {
+	display: flex;
+	justify-content: flex-start;
 }
 ```
 
-## Font Style
+## Espalhando elementos em linhas
 
-A propriedade font-style aceita quatro valores de palavras-chave: normal, italic, oblique e inherit. Destes quatro, os mais utilizados são o itálico, que define o texto para o itálico, e o normal que como o próprio nome sugere, retorna o texto ao seu estilo normal. Exemplo:
-```css
-p {
-  font-style: italic;
-}
-```
-## Font Variant
+Eventualmente nossos elementos podem ocupar uma única linha em um container. Outras vezes podemos achar melhor que os elementos possam ser espalhados em linhas adicionais. Definimos esse comportamento usando a propriedade <code>flex-wrap</code>. Podemos usar os valores <code>nowrap</code>, <code>wrap</code>, ou <code>wrap-reverse</code>.
 
-A propriedade font-variant aceita três valores:  normal, small-caps, e inherit. Os valores mais comuns são normal e small-caps. Exemplo:
-```css
-p {
-  font-variant: small-caps;
-}
-```
-## Font Weight 
+<code>nowrap</code>: Todos os itens são apertados em uma única linha.<br>
+<code>wrap:</code> Os itens são separados em linhas adicionais.<br>
+<code>wrap-reverse:</code> Os itens são separados em linhas adicionais em reverso.<br>
 
-Podemos definir um texto em negrito ou alterar o peso específico de um tipo de letra. Para esses casos, usaremos a propriedade font-weight. A propriedade font-weight aceita valores de palavra-chave ou numéricos.
-
-Os valores mais usados são o normal e o bold para mudar o texto do normal para o negrito. Podemos usar também um valor numérico para mais variações. Exemplo:
 ```css
-p {
-  font-weight: bold;
-}
-```
-Exemplo usando valor numérico:
-```css
-p {
-  font-weight: 800;
-}
-```
-## Line Height
-
-A propriedade line-height é responsável por modificar a distância entre duas linhas de texto declaramos usando a propriedade de altura da linha. Exemplo:
-```css
-p {
-  height: 26px;
-  line-height: 26px;
-}
-```
-## Text Align
-
-Essa propriedade modifica o alinhamento de uma frase em relação a uma página. Ela aceita os valores left, right, center, e justify. Exemplo:
-```css
-p {
-  text-align: center;
+.container {
+	display: flex;
+	flex-wrap: wrap;
 }
 ```
 
-## Text Transform
+## Alinhando itens
 
-Enquanto a propriedade font-variant procura uma variante alternativa de um tipo de letra, a propriedade text-transform alterará o texto. A propriedade text-transform aceita cinco valores: none, capitalize, uppercase, lowercase, e inherit. 
+Podemos definir o alinhamento dos elementos em relação à altura da página ou container. Usamos a propriedade <code>align-items</code>, que pode receber os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, e <code>stretch</code>.
 
-Um caso de uso muito comum: se um texto precisa escrito em letras maiúsculas não é recomendando sempre escreve-lo no HTML assim,  melhor usar o CSS para isso. Exemplo:
+<code>flex-start:</code> Os itens são alinhados na parte de cima do container.<br>
+<code>flex-end:</code> Os itens são alinhados na parte de baixo do container.<br>
+<code>center:</code> Os itens são alinhados no centro vertical do container.<br>
+<code>baseline:</code> Os itens são alinhados na linha da base do container.<br>
+<code>stretch:</code> Os itens são alinhados para preencher o container.<br>
+
 ```css
-p {
-  text-transform: uppercase;
+.container {
+	display: flex;
+	align-items: center;
 }
 ```
 
-## Usando fontes seguras
+## Alinhando multiplas linhas
 
-Existem algumas fontes que são comuns em todos os computadores, tablets, smartphones e outros dispositivos compatíveis com os navegadores na web. Como eles foram instalados em todos os dispositivos, podemos usar essas fontes livremente em nossos sites, sabendo que não importa qual dispositivo esteja navegando em nosso site, a fonte irá aparecer corretamente. Exemplos de fontes seguras:
+Em containers com múltiplas linhas podemos usar o <code>align-content</code>. Enquanto align-items determina como as linhas são alinhadas dentro do container como um todo, align-content determina como múltiplas linhas devem ser espaçadas uma das outras. Essa propriedade pode receber os seguintes valores:
 
-- Arial
-- Courier New, Courier
-- Garamond
-- Georgia
-- Lucida Sans Lucida Grande, Lucida
-- Palatino Linotype
-- Tahoma
-- Times New Roman
-- Verdana
-
-## Carregando novas fontes
-
-Quando não queremos usar as fontes que vêm por padrão em todos os computadores, podemos também carregar novas fontes e usa-las em nossa página. Existem dois caminhos mais conhecidos para fazer isso, o mais simples, é usando recursos como o [Google Fonts](https://fonts.google.com/).
-
-O Google Fonts é uma biblioteca de fontes licenciadas livres, que nos permite escolher e usar convenientemente as fontes por meio do CSS. Basta escolher a fonte, e o próprio Google Fonts já nos sugere um link com instruções para que possamos importar essa fonte e depois basta selecionar a fonte CSS. 
-
-Podemos importar através do HTML:
-
-```html
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-</head>
-```
-Ou podemos importar através do CSS
+<code>flex-start</code>: As linhas são agrupadas no topo do container.<br>
+<code>flex-end</code>: As linhas são agrupadas no fundo do container.<br>
+<code>center</code>: As linhas são agrupadas no centro vertical do container.<br>
+<code>space-between</code>: As linhas são posicionadas com espaço igual entre elas.<br>
+<code>space-around</code>: As linhas são posicionadas com espaço igual em torno delas.<br>
+<code>stretch</code>: As linhas são esticadas para preencher o container.<br>
 
 ```css
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
-```
-Depois basta selecionarmos a fonte onde queremos usa-la:
-
-```css
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
-
-body {
-  font-family: 'Abril Fatface', cursive;
+.container {
+	display: flex;
+	align-content: center;
 }
 ```
-Uma outra forma um pouco mais complexa mas eventualmente necessária é carregando uma fonte adicionado o próprio arquivo em nosso projeto. 
 
-Usamos o @font-face para identificar o nome da nossa fonte, através da propriedade font-family, bem como a fonte de nossa fonte através do arquivo, usando a propriedade src. A partir daí, podemos usar essa fonte incluindo seu nome dentro como valor em uma font-family, como já aprendemos anteriormente.
+## Mudando a ordem dos itens
+
+Se quisermos mudar a ordem do item podemos adicionar a propriedade <code>order</code> no item. 
 
 ```css
-@font-face {
-  font-family: 'Exemplo';
-  src: url('Exemplo') format("woff");
-}
-
-body {
-  font-family: 'Exemplo';
+.item {
+	display: flex;
+	order: 1;
 }
 ```
-É recomendável nesse caso, adicionarmos vários formatos diferentes de fontes, pois há navegadores que suportam uns e outros não, isso pode trazer uma dor de cabeça. Existem algumas ferramentas que nos ajudam nessa conversão, como a [transfonter](https://transfonter.org/) por exemplo.
+
+## Alinhando um item
+
+Quando necessário, se precisarmos alterar o alinhamento de um item, podemos usar a propriedade <code>align-self</code> então ele pode mudar o comportamento de alinhamento dele mesmo. Assim como align-items, essa propriedade pode receber os valores <code>flex-start</code>, <code>flex-end</code>, <code>center</code>, <code>baseline</code>, e <code>stretch</code>.
+
+<code>flex-start:</code> O item é alinhado na parte de cima do container.<br>
+<code>flex-end:</code> O item é alinhado na parte de baixo do container.<br>
+<code>center:</code> O item é alinhado no centro vertical do container.<br>
+<code>baseline:</code> O item é alinhado na linha da base do container.<br>
+<code>stretch:</code> O item é alinhado para preencher o container.<br>
 
 ```css
-@font-face {
-	font-family: 'Exemplo';
-	src: url('Exemplo.eot');
-	src: url('Exemplo.eot?#iefix') format('embedded-opentype'),
-		 url('Exemplo.woff2') format('woff2'),
-		 url('Exemplo.woff') format('woff'),
-		 url('Exemplo.ttf') format('truetype');
-}
-
-body {
-  font-family: 'Exemplo';
+.item {
+	display: flex;
+	align-self: center;
 }
 ```

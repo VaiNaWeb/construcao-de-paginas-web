@@ -1,22 +1,29 @@
-<!-- Aula 11 - Introdução ao modelo flexível de caixas -->
+<!-- Aula 13 - Posicionamento de elementos com CSS -->
 
-# Desafio01: Descrevendo um filme
-Nesse desafio vamos escolher um filme e criar todo o conteúdo da nossa página sobre ele. Sigam a seguinte estrutura:
+# Desafio01: Criando uma casinha
+Vamos criar uma casinha para fixar o que estudamos com position.
 
 1. Crie um documento HTML com a estrutura básica completa
-2. Crie um header, com um nav
-3. Crie uma lista não ordenada dentro da nav com 3 itens
-4. Adicione as propriedades do Flexbox para centralizar os elementos e deixar a lista em linha
-5. Adicione uma cor, um padding, e position fixed no topo
-6. Crie um main com quatro sections
-7. Em cada section adicione um parágrafo
-8. Adicione um background de sua preferência em cada section
-9. Adicione um padding com o valor de sua preferência nas sections
-10. Adicione uma borda sólida, com uma largura, e cor de sua preferência em cada uma das sections
+2. Crie um main com uma section
+3. Essa section vai ser a nossa tela de pintura
+4. Adicione uma altura, largura, cor no background, e position relative na section
+5. Dentro da section crie uma div com uma classe chamada casa
+6. Adicione uma largura, altura, cor no background, e position absolute na casa
+7. Adicione novas formas com cores, tamanhos, formatos, classes diferentes para criar portas, janelas, o que vocês quiserem!
+8. Adicione uma forma com uma largura que ocupe a tela inteira, uma altura menor, e cores, em uma classe chamada rio
+9. Adicione position fixed em nosso rio e faça com com ele fique fixado ao bottom da nossa página
 
-# Desafio02: Evoluindo minha página
+# Desafio02: Criando um monstrinho
+Vamos criar um monstrinho com formas em CSS
 
-1. Clone seu projeto em sua máquina novamente
-2. Adicione uma nova section
-3. Adicione a essa section um título de nível dois e seis divs com uma altura, cor e largura
-4. Use as propriedades do Flexbox para estilizar a página
+1. Crie um documento HTML com a estrutura básica completa
+2. Crie um main com uma section
+3. Essa section vai ser a nossa tela de pintura
+4. Adicione uma altura, largura, cor no background, e position relative da section
+5. Dentro da section crie uma div com uma classe chamada monstro
+6. Adicione uma largura, altura, cor no background, e position absolute no monstro
+7. Adicione border-radius para arredondar o corpo do monstrinho e posicione ele com top, left, right ou bottom
+8. Adicione uma nova div com uma classe olho dentro da div monstro, ou seja, a div olho é filha da div monstro
+9. Adicione uma lagura, altura, cor no background, position absolute e posicione a div olho com top, left, right ou bottom
+10. Adicione uma nova div com a classe iris dentro da div olho, ou seja, a div iris  filha da div olho
+11. Adicione uma largura, altura, cor no background, position, absolute, e posicione a div iris com top, left, right ou bottom

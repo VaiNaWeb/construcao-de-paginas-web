@@ -1,177 +1,205 @@
-# HTML Semântico
+# Construindo formulários
 
-Há elementos no HTML que conhecemos como elementos de caixa, ou containers. Usamos elas normalmente para agrupar nossos elementos. Houve uma época em que construíamos essas caixas simplesmente com uma tag chamada `<div>`, e ainda usamos ela eventualmente.
+Usamos formulários para capturar informações dos usuários e processar solicitações. Através de controles ou campos, os formulários podem solicitar uma pequena quantidade de informações, como um campo de buscas do Google faz, por exemplo.
 
-Com a chegada do HTML5, ganhamos algumas tags com significado semântico, e passamos a usar não somente `div`. Isso foi muito  importante para os navegadores e usuários, consequentemente isso facilitou também a nossa vida enquanto desenvolvedor. Agora temos uma tag `<header>` para cabeçalho, uma tag `<footer>` para rodapé e mais algumas:
+Precisamos saber como criar formulários para adquirir a entrada do usuário. Por enquanto, vamos discutir como usar o HTML para marcar um formulário, quais elementos usar para capturar diferentes tipos de dados. 
 
-`<section>` Define uma seção<br>
-`<nav>` Define um menu com links de navegação<br>
-`<article>` Pode definir um artigo, um comentário enviado pelo usuário etc<br>
-`<aside>` Define um conteúdo reservado dentro página.<br>
-`<header>` Define o cabeçalho de uma página ou seção.<br>
-`<footer>` Define o rodapé de uma página ou seção. <br>
-`<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.<br>
+Não nos aprofundaremos em como as informações de um formulário são processadas e tratadas ainda. O processamento de formulários é um tópico mais profundo, vamos aprender sobre isso nos próximos módulos.
 
-![asset](01.png)
+## Criando um Formulário
 
-Existem seis níveis diferentes de títulos: `H1` é o mais importante,` h6` é o menos importante. Em HTML, o texto para cabeçalhos é escrito dentro dos elementos de título: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` ou `<h6>`.
-
-Exemplo:
-
+Para adicionar um formulário a uma página, usaremos o elemento form:
 ```html
-<h1>Eu sou o título mais importante!</h1>
-<h2>Eu sou um pouco menos importante</h2>
-<h3>Eu sou um pouco menos importante</h3>
-<h4>Eu sou um pouco menos importante</h4>
-<h5>Eu sou um pouco menos importante</h5>
-<h6>Eu sou o menos importante</h6>
+<form>
+  ...
+</form>
 ```
 
-<h1>Eu sou o título mais importante!</h1>
-<h2>Eu sou um pouco menos importante</h2>
-<h3>Eu sou um pouco menos importante</h3>
-<h4>Eu sou um pouco menos importante</h4>
-<h5>Eu sou um pouco menos importante</h5>
-<h6>Eu sou o menos importante</h6>
+## Input
 
-# Evoluindo minha página com mais HTML
+Um dos elementos principais usados para obter uma entrada do usuário é o elemento input. Esse elemento usa o atributo type para definir qual tipo de informação deve ser capturada pelo input. O valor de atributo de tipo mais popular é o texto.
 
-## Conectando páginas
-
-Sabemos que nossos sites são um conjunto de páginas conectadas, ou linkadas, umas às outras. Agora vamos compreender melhor como isso acontece. Quando vamos construir um site, precisamos organizar bem nossos arquivos; vamos fazer isso através de pastas.
-
-## Criando links
-
-Na internet, temos várias e várias páginas conectadas umas às outras. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas. 
-
-Criar links em nossa página pode ser muito útil, vamos agora aprender a criá-los. Qualquer elemento que aparece entre a abertura e o fechamento de tags <a> é a parte que será um link clicável na página. Exemplo:
-
+Além do atributo type, é a melhor prática dar um elemento de <input> também um atributo name, que serve para dar o nome desse controle, isso é útil, pois assim enviamos junto com o dado o lugar de onde veio esse dado para o servidor.
 ```html
-<p>Esse é um exemplo de palavra <a href="http://www.vainaweb.com.br"> clicável </a>.</p>
+<input type="text" name="cidade">
+```
+Além do text podemos usar os seguintes types:
+- color
+- date
+- datetime
+- email
+- month
+- number
+- range
+- search
+- tel
+- time
+- url
+- week
+
+## Textarea
+
+Outro elemento que é usado para capturar texto é o elemento textarea. Diferente do input, esse elemento pode aceitar textos maiores, ideal para quando queremos receber um texto com mais de uma linha. Ele aceita apenas um tipo de valor, o atributo name.
+```html
+<textarea name="comentario">Deixe aqui seu comentário</textarea>
 ```
 
-Qualquer coisa mesmo, não somente textos. Nós podemos deixar imagens clicáveis também!
+## Radio Buttons
 
+Permitem que os usurios façam uma escolha rápida de uma pequena lista de opções. Os botões de rádio permitem aos usuários selecionar apenas uma opção.
+
+Parar cria-lo, usamos o input, e adicionamos o type radio. É necessário que todos os botões do conjunto tenham o mesmo name, assim sabemos que todos fazem parte do mesmo.
+
+Com botões de rádio, um usuário faz uma seleção de múltipla escolha. Assim, temos que definir o valor de entrada. Usando o atributo de value, podemos definir um valor específico para cada elemento input.
+
+É possível também pré-selecionar um botão de opção para o usuário, podemos usar o atributo checked.
 ```html
-<a href="http://www.vainaweb.com.br">
-    <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo">
-</a>
+<input type="radio" name="dia" value="Segunda" checked> Segunda
+<input type="radio" name="dia" value="Sábado"> Sábado
+<input type="radio" name="dia" value="Domingo"> Domingo
 ```
 
-## Listando coisas
+## Check Boxes
 
-Existem três tipos de listas: as ordenadas, as não ordenadas e as de definições.
-
-### Ordenadas
-
-Assim como o nome parece sugerir, são listas em que a ordem dos itens importa, e eles podem ser enumerados.
-
+Usam os mesmos atributos e padrões do radio buttons, mas para usa-lo mudamos o valor do type para checkbox. Com o checkbox, os usuários podem selecionar vários valores.
 ```html
-<ol>
-    <li>Caneta</li>
-    <li>Lápis</li>
-    <li>Borracha</li>
-    <li>Tesoura</li>
-    <li>Papel</li>
-</ol>
+<input type="checkbox" name="dia" value="Segunda" checked> Segunda
+<input type="checkbox" name="dia" value="Sábado"> Sábado
+<input type="checkbox" name="dia" value="Domingo"> Domingo
 ```
 
-<ol>
-    <li>Caneta</li>
-    <li>Lápis</li>
-    <li>Borracha</li>
-    <li>Tesoura</li>
-    <li>Papel</li>
-</ol>
+## Drop-Down Lists
 
-### Não ordenadas
+Uma maneira ótima para pertmir aos usuários selecionar uma opção em uma lista. Para cria-la usaramos os elementos select e option. O elemento select envolve todas as opções, e cada opção é marcada usando o elemento option.
 
-Nesta, os itens não são enumerados e podem estar acompanhados apenas de um símbolo.
+Usamos o atributo name dentro de selected, e o atributo value em cada option que estão dentro de select. O atributo value em cada elemento option corresponde ao atributo name no elemento select.
 
+Cada elemento da lista fica em um option. Ao invés de checked, para pré-selecionar uma opção usamos o selected como atributo na opção que queremos fazer isso.
 ```html
-<ul>
-    <li>Caneta</li>
-    <li>Lápis</li>
-    <li>Borracha</li>
-    <li>Tesoura</li>
-    <li>Papel</li>
-</ul>
-```
-<ul>
-    <li>Caneta</li>
-    <li>Lápis</li>
-    <li>Borracha</li>
-    <li>Tesoura</li>
-    <li>Papel</li>
-</ul>
-
-### De definição
-
-Neste tipo de lista, os itens são definidos.
-
-```html
-<dl>
-    <dt>Caneta</dt>
-        <dd>Azul, com tinta</dd>
-    <dt>Lápis</dt>
-        <dd>De madeira</dd>
-</dl>
+<select name="dia">
+  <option value="Segunda" selected>Segunda</option>
+  <option value="Sábado">Sábado</option>
+  <option value="Domingo">Domingo</option>
+</select>
 ```
 
-<dl>
-    <dt>Caneta</dt>
-        <dd>Azul, com tinta</dd>
-    <dt>Lápis</dt>
-        <dd>De madeira</dd>
-</dl>
+## Form Buttons
 
-## Criando tabelas
+Os usuários clicam no botão enviar para processar dados depois de preencher um formulário. O botão enviar é criado usando o elemento input com um valor de atributo de tipo de envio. O atributo de valor é usado para especificar o texto que aparece no botão.
+```html
+<input type="submit" name="enviar" value="Enviar">
+```
 
-Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada célula de dados será uma Table Data, ou `<td>` podemos, se nececessário, adicionar o atributo rowspan, que vai criar uma expansão de linha nas células. Podemos também usar o atributo colspan e teremos uma expansão de coluna nas células.
+O elemento button executa da mesma maneira que o elemento input com o valor de atributo de tipo de submit; mas ele também inclui tags de abertura e fechamento, que podem conter outros elementos. Por padrão, o elemento button atua como se tivesse um valor de atributo de tipo de envio.
+
+Em vez de usar o atributo value para controlar o texto dentro do botão submit, o texto que aparece entre as tags de abertura e de fechamento do elemento button aparecerá.
+```html
+<button name="enviar">
+  <strong>Enviar mensagem</strong>
+</button>
+```
+
+## File Input
+
+Para permitir que os usuários adicionem um arquivo a um formulário, como anexar um documento a um e-mail, por exemplo, usamos o valor do arquivo para o atributo type.
+```html
+<input type="file" name="file">
+```
+
+## Label
+
+Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acessível para todos os usuários e tecnologias assistivas, muito úteis para garantir acessibilidade. Criado usando o elemento label, os labels devem incluir um texto que descreva as entradas ou controles aos quais eles pertencem.
+
+Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento <label> para trazer foco para o controle de formulário apropriado.
+```html
+<label for="usuario">Username</label>
+<input type="text" name="usuario" id="usuario">
+```
+O elemento <label> também pode envolver controles de formulário, como botões de opção ou caixas de seleção. Nesse caso não precisamos usar os atributos for e id.
+```html
+<label>
+  <input type="radio" name="dia" value="Segunda" checked> Segunda
+</label>
+<label>
+  <input type="radio" name="dia" value="Sábado"> Sábado
+</label>
+<label>
+  <input type="radio" name="dia" value="Domingo"> Domingo
+</label>
+```
+  
+## Fieldset
+
+Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seções organizadas. Assim como uma section, fieldset é um elemento de nível de bloco que envolve elementos relacionados dentro de um form, para melhor organização.
+```html
+<fieldset>
+  <label>
+    Usuário
+    <input type="text" name="usuario">
+  </label>
+  <label>
+    Senha
+    <input type="text" name="senha">
+  </label>
+</fieldset>
+```
+## Legend
+
+Legend funciona como um título para o fieldset, ele pode envolver uma descrição dos controles do fieldset.
+```html
+<fieldset>
+  <legend>Login</legend>
+  <label>
+    Username
+    <input type="text" name="username">
+  </label>
+  <label>
+    Password
+    <input type="text" name="password">
+  </label>
+</fieldset>
+```
+
+## Mais alguns atributos
+
+Há ainda muitos atributos úteis que não vimos ainda, por agora, veremos mais alguns dos mais usados.
+
+Para desabilitar um campo por exemplo, usamos o atributo disabled:
 
 ```html
-<table>
-  <tr>
-    <th>Nome</th>
-    <th>Sobre</th>
-  </tr>
-  <tr>
-    <td>Maria</td>
-    <td>Gosta de cachorros</td>
-  </tr>
-  <tr>
-    <td>Rosa</td>
-    <td>Solta pipa com os irmãos</td>
-  </tr>
-  <tr>
-    <td>João</td>
-    <td>Adora gatos</td>
-  </tr>
-  <tr>
-    <td>Ana</td>
-    <td>Gosta de árvores</td>
-  </tr>    
-</table>
+<label>
+  Username
+  <input type="text" name="usuario" disabled>
+</label>
 ```
-<table>
-  <tr>
-    <th>Nome</th>
-    <th>Sobre</th>
-  </tr>
-  <tr>
-    <td>Maria</td>
-    <td>Gosta de cachorros</td>
-  </tr>
-  <tr>
-    <td>Rosa</td>
-    <td>Solta pipa com os irmãos</td>
-  </tr>
-  <tr>
-    <td>João</td>
-    <td>Adora gatos</td>
-  </tr>
-  <tr>
-    <td>Ana</td>
-    <td>Gosta de árvores</td>
-  </tr>    
-</table>
+Para mostrar uma descrição do controle dentro do próprio campo input usamos o placeholder:
+```html
+<label>
+  Email
+  <input type="email" name="email" placeholder="nome@exemplo.com">
+</label>
+```
+
+Para tornar o preenchimento do campo como obrigatório usamos o required:
+```html
+<label>
+  Email
+  <input type="email" name="email" required>
+</label>
+```
+Outros atributos interessantes que você deveria pesquisar e ler mais sobre:
+- accept
+- autocomplete
+- autofocus
+- formaction
+- formenctype
+- formmethod
+- formnovalidate
+- formtarget
+- max
+- maxlength
+- min
+- pattern
+- readonly
+- selectionDirection
+- step

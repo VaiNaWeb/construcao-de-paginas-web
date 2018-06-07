@@ -1,95 +1,142 @@
-# Adicionando Áudio, Imagens, Vídeos
-    
-Quando tudo começou a web era formada principalmente por textos simples, mas essa não é mais a nossa realidade. Navegando na internet encontramos muitos tipos de conteúdo diferentes, além de textos, incluimos em nossas páginas imagens, músicas, vídeos, e até mesmo conteúdo de outras páginas da web.
+# Introdução CSS
 
-Hoje, podemos usar livremente imagens, áudio, vídeo e iframes sabendo que esse conteúdo, nossos navegadores modernos oferecem suporte a todas essas coisas muito bem.
+Vamos descobrir como deixar as páginas cheias de estilo. CSS significa folhas de estilo em cascasta. Imaginem uma cachoeira enorme, cheia de pedras, e muita água linda e refrescante caindo em cascata. Assim acontece em nosso navegador, nossos códigos estão em cascata.
 
-## Adicionando imagens
+É importante saber que o CSS não trabalha sozinho, precisamos usa-lo com o HTML. Funciona exatamente assim: selecionamos os elementos do HTML que queremos estilizar e, então, algum seletor CSS define como, onde e quando colocar esses estilos.
 
-Para incluir imagens em nossa página, precisamos mencioná-las através do elemento `<img>` e adicionar um caminho para a imagem que queremos. Dentro da tag de abertura deste elemento, adicionaremos um atributo que especifica onde obter a imagem que queremos incluir. 
+## Adicionando ao documento
 
-Atributos são informações que podemos acrescentar a elementos que ajudam a realizar atividades específicas; vamos aprender mais  sobre eles no decorrer do curso.
+Podemos adicionar a CSS em nossa página HTML de três formas:
 
-Um elemento `<img>` sempre terá um atributo src e um alt. Note, nesse exemplo usamos uma URL com a imagem que queremos mostrar dentro do src. O atributo alt é serve para mostrar uma descrição da imagem, isso é importante para manter acessibilidade.
-
-Ah! Um elemento `<img>` é um daqueles elementos especiais que não precisam de tag de fechamento. Exemplo:
-
+### Em linha, usando o atributo style
 ```html
-<img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo do vai na web">
+<p style="color: #f05a20;">Vai na Web</p>
 ```
 
-## Adicionando áudio
-
-Para adicionar arquivos de áudio usamos o elemento `<audio>`. Assim como acontece com o elemento `<img>`, o elemento `<audio>` aceita um URL de origem especificado pelo atributo src. Ao contrário do elemento `<img>`, o elemento `<audio>` precisa das tags de abertura e de fechamento.
-
+### Direto na Head
 ```html
-<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls="controls"></audio>
+<head>
+	<style>
+		p { color: #f05a20; }
+	</style>
+</head>
+<body>
+	<p>Vai na Web</p>
+</body>
 ```
 
-Vários outros atributos podem acompanhar o atributo src no elemento `<audio>`. Os mais populares incluem reprodução automática, controles, loop e pré-carregamento.
+### Externamente
 
-Os atributos de reprodução automática, controles e loop são atributos booleanos. Booleanos retornam true ou false, em HTML, se um atributo booleano estiver presente ele já significa true e retorna a funcionalidade. Logo, não precisamos atribuir valores, basta adiciona-lo. 
-
-Por padrão, o elemento `<audio>` não é exibido em uma página. Se o atributo de reprodução automática estiver presente no elemento `<audio>`, nada aparecerá na página, mas o arquivo de áudio será executado automaticamente após o carregamento. Exemplo:
-    
+Dessa forma, criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e utilizá-lo. Lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja, .css, no final.
 ```html
-<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls="controls" autoplay></audio>
+<head>
+	<title>Vai na Web</title>
+	<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+    <p>Vai na Web</p>
+</body>
 ```
 
-Um outro atributo booleano que pode ser usado também é o download, veja um exemplo usando ele em um link:
+## Sintaxe
 
-```html
-<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls>
-  <a href="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" download>Baixar</a> arquivo de áudio.
-</audio>
+Precisamos compreender a sintaxe que a linguagem usa. Pensar na sintaxe de uma linguagem significa pensar nas relações formais que unem as partes constituintes da sentença, criando uma estrutura. Ou seja, trata-se de pensar na estrutura através da qual ela é escrita.
+```css
+seletor {
+	propriedade: valor;
+}
 ```
 
-## Adicionando vídeo
+Assim podemos fazer com que nossa página fique muito legal. Podemos alterar as cores, tamanhos, formas e até adicionar animações! Nas próximas aulas, vamos conhecer melhor essas e outras propriedades e valores.
 
-Para adicionar vídeo usamos o elemento `<video>`. Os mesmos atributos src, reprodução automática, controles, loop, que funcionam no áudio funcionam no vídeo também.
+## Principais seletores
 
-É recomendado incluir sempre o atributo booleano dos controles, a menos que haja uma boa razão para não permitir que os usuários comecem, parem ou reproduzam o vídeo.
+Precisamos dizer ao CSS qual elemento queremos selecionar e adicionar a ele os estilos que desejamos. Mas, para isso, devemos entender sobre os [seletores](https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048).
 
-Como os vídeos ocupam espaço na página, não faz mal especificar suas dimensões, o que é mais comumente feito com propriedades de largura e altura em CSS. Especificar um tamanho, como as imagens, ajuda o navegador a renderizar vídeos mais rapidamente e permite usar o espaço certo para que o vídeo seja exibido.
+### Elemento
 
-Uma propriedade também interessante de colocar é o type, que indica qual o tipo do arquivo que você está querendo mostrar, ele funciona no áudio e também no vídeo.
-
-```html
-<video src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4" autoplay loop width="426" height="240">
-</video>
-```
-Em muitas páginas, como no Youtube, as pesssoas preferem mostrar uma imagem de fundo ao vídeo, podemos adicionar essa imagem usando o atributo poster e como valor a URL da imagem que queremos mostrar.
-
-```html
-<video src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4" poster="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/imgfallback.jpg
-" width="426" height="240" controls>
-</video>
+Podemos dar estilo diretamente ao próprio elemento do HTML.
+```css
+p {
+	color: #f05a20;
+}
 ```
 
-## Adicionando iframes
+### Id 
 
-Podemos incorporar outra página HTML em nossa página. Isso é feito usando o elemento `<iframe>`. O elemento `<iframe>` aceita o URL de outra página HTML dentro do valor do atributo src.
-    
-Muitas páginas usam o elemento `<iframe>` para incorporar mídia em uma página de um site externo, como Google Maps, YouTube e alguns outros. Exemplo usando o Google Maps:
-    
-```html 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4405739120457!2d-43.287196449289794!3d-22.860177841883633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c7b48e047c7%3A0x75e759ff43f554c9!2sEDUCAP!5e0!3m2!1spt-BR!2sbr!4v1480440475641" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+Ou podemos adicionar um ID ao elemento. É legal de ser usado em elementos que não se repetem na página.
+```css
+#sobre {
+	color: #f05a20;
+}
 ```
 
-## Figuras e legendas
+### Classe
 
-Usamos o elemento `<figure>` para envolver algum conteúdo autônomo, muitas vezes na forma de mídia, como imagens, vídeos, ilustrações, etc. Mais de um item de conteúdo, como imagens múltiplas ou vídeos, pode estar contido no elemento `<figure>` de cada vez.
+Podemos, ainda, adicionar uma classe ao elemento. Muito útil para as que se repetem ao longo da página.
+```css
+.sobre {
+	color: #f05a20;
+}
+```
 
-```html 
-<figure>
-  <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="Logo do Programa VaiNaWeb">
-</figure>
+## Fluindo na Cascata
+
+Dependendo da posição em que o CSS esteja sendo chamado na página o código tem uma certa prioridade na hora de ser exibido pelo navegador. Como nas pedras da cachoeira, a água flui  melhor em alguns lugares do que em outros. Esse é um conceito que vai ser muito importante futuramente.
+
+Quem tem maior prioridade sobrescreve que tem menor. A prioridade na cascata de acordo com a forma que chamamos o código na página é a seguinte:
+
+Usando important! > Em linha > Direto na Head > Externamente
+
+Explicando melhor, em algum momento vamos estudar o que esse important faz, por agora, entendam somente que se um estilo estiver usando ele, ele tem maior prioridade, depois dele o estilo que está em linha tem uma prioridade maior, e assim por diante.
+
+Dependendo da posição dentro de um arquivo essa prioridade muda também. O navegador lê nossa página de baixo para cima, no exemplo a seguir, ambos elementos estão sendo selecionados usando mesmo recurso, nesse caso as classes, mas o que está em baixo tem maior prioridade que o de cima. 
+
+Logo, quando houver a mesma propriedade, o valor da que tem maior prioridade é exibido, sobrescrevendo a de cima.
+```css
+.paragrafo {
+  background-color: red;
+}
+
+.paragrafo {
+  background-color: gray;
+}
 ```
-É possvel adicionar uma legenda ao elemento `<figure>`, com o elemento `<figcaption>`. O `<figcaption>` pode aparecer na parte superior, inferior ou em qualquer lugar dentro do elemento `<figure>` mas deve aparecer somente uma vez. Quando é usado, o elemento `<figcaption>` servirá como legenda para todo o conteúdo no elemento `<figure>`. Exemplo:
-    
-```html     
-<figure>
-  <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="Logo do Programa VaiNaWeb">
-  <figcaption>Logo do Programa VaiNaWeb.</figcaption>
-</figure>
+
+Quando as propriedades forem diferentes, elas simplesmente ficam combinadas. Ambas são mostradas. Exemplo:
+```css
+.paragrafo {
+  background-color: red;
+}
+
+.paragrafo {
+  padding: 20px;
+  margin: 20px;
+}
 ```
+O navegador entende assim:
+```css
+.paragrafo {
+  background-color: red;
+  padding: 20px;
+  margin: 20px;
+}
+```
+Os seletores também têm prioridades diferentes. A clase que tiver important! tem maior prioridade, seguida dela, o ID tem maior prioridade, depois a classe, e por último o próprio elemento. Exemplo:
+
+```css
+#vermelho {
+  background-color: red;
+}
+
+.cinza {
+  background-color: gray; 
+}
+
+p {
+  background-color: blue !important;
+  color: white;
+  padding: 5px;
+}
+```
+Faça alguns testes! O que acontece se você apagar o !important do elemento parágrafo?
