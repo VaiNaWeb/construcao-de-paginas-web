@@ -94,6 +94,14 @@ Agora que a nossa pasta já sabe para onde ela deve ir, vamos pedir que ela vá!
 git push origin master
 ```
 
+No primeiro push precisamos especificar o apelido do remote, e a branch que enviaremos. O Remote é o endereço do repositório, por padrão chamamos ele de origin, mas você pode adicionar novos remotes com outros apelidos depois. A primeira branch por padrão chamamos de master, vamos aprender o que são elas em outras aulas.
+
+Nos próximos commits que você desejar enviar, não precisa necessariamente dizer essas informações, a não ser que elas tenham mudado. Basta usar o push assim:
+
+```
+git push
+``` 
+
 ## Clonando um repositório do Github
 
 Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando <code>git clone https://github.com/seuusername/suapasta.git</code>. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permissão, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
