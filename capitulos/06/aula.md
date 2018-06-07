@@ -52,12 +52,6 @@ Você pode alterar o comentário do commit escrevendo outra frase dentro das asp
 git commit -m "parabénss, mais um commit!"
 ```
 
-Existem vários outros comandos que podemos aprender, você pode ver uma lista com a descrição de mais alguns usando o comando help:
-
-```
-git help
-```
-
 Uma das vantagens em poder guardar esses momentos, digo, commits é que se a gente precisar é possível desfazer as mudanças que fizemos e então o repositório fica igual ao ultimo commit que criamos. Para isso, ao invés de usar o git add, usamos o git checkout:
 
 ```
@@ -71,6 +65,12 @@ git reset HEAD nomedoarquivo
 ```
 
 Agora é só usar o git checkout novamente, e prontinho, alterações desfeitas!
+
+Existem vários outros comandos que podemos aprender, você pode ver uma lista com a descrição de mais alguns usando o comando help:
+
+```
+git help
+```
 
 # Github
 
