@@ -1,205 +1,95 @@
-# Construindo formulários
+# Adicionando Áudio, Imagens, Vídeos
+    
+Quando tudo começou a web era formada principalmente por textos simples, mas essa não é mais a nossa realidade. Navegando na internet encontramos muitos tipos de conteúdo diferentes, além de textos, incluimos em nossas páginas imagens, músicas, vídeos, e até mesmo conteúdo de outras páginas da web.
 
-Usamos formulários para capturar informações dos usuários e processar solicitações. Através de controles ou campos, os formulários podem solicitar uma pequena quantidade de informações, como um campo de buscas do Google faz, por exemplo.
+Hoje, podemos usar livremente imagens, áudio, vídeo e iframes sabendo que esse conteúdo, nossos navegadores modernos oferecem suporte a todas essas coisas muito bem.
 
-Precisamos saber como criar formulários para adquirir a entrada do usuário. Por enquanto, vamos discutir como usar o HTML para marcar um formulário, quais elementos usar para capturar diferentes tipos de dados. 
+## Adicionando imagens
 
-Não nos aprofundaremos em como as informações de um formulário são processadas e tratadas ainda. O processamento de formulários é um tópico mais profundo, vamos aprender sobre isso nos próximos módulos.
+Para incluir imagens em nossa página, precisamos mencioná-las através do elemento `<img>` e adicionar um caminho para a imagem que queremos. Dentro da tag de abertura deste elemento, adicionaremos um atributo que especifica onde obter a imagem que queremos incluir. 
 
-## Criando um Formulário
+Atributos são informações que podemos acrescentar a elementos que ajudam a realizar atividades específicas; vamos aprender mais  sobre eles no decorrer do curso.
 
-Para adicionar um formulário a uma página, usaremos o elemento form:
-```html
-<form>
-  ...
-</form>
-```
+Um elemento `<img>` sempre terá um atributo src e um alt. Note, nesse exemplo usamos uma URL com a imagem que queremos mostrar dentro do src. O atributo alt é serve para mostrar uma descrição da imagem, isso é importante para manter acessibilidade.
 
-## Input
-
-Um dos elementos principais usados para obter uma entrada do usuário é o elemento input. Esse elemento usa o atributo type para definir qual tipo de informação deve ser capturada pelo input. O valor de atributo de tipo mais popular é o texto.
-
-Além do atributo type, é a melhor prática dar um elemento de <input> também um atributo name, que serve para dar o nome desse controle, isso é útil, pois assim enviamos junto com o dado o lugar de onde veio esse dado para o servidor.
-```html
-<input type="text" name="cidade">
-```
-Além do text podemos usar os seguintes types:
-- color
-- date
-- datetime
-- email
-- month
-- number
-- range
-- search
-- tel
-- time
-- url
-- week
-
-## Textarea
-
-Outro elemento que é usado para capturar texto é o elemento textarea. Diferente do input, esse elemento pode aceitar textos maiores, ideal para quando queremos receber um texto com mais de uma linha. Ele aceita apenas um tipo de valor, o atributo name.
-```html
-<textarea name="comentario">Deixe aqui seu comentário</textarea>
-```
-
-## Radio Buttons
-
-Permitem que os usurios façam uma escolha rápida de uma pequena lista de opções. Os botões de rádio permitem aos usuários selecionar apenas uma opção.
-
-Parar cria-lo, usamos o input, e adicionamos o type radio. É necessário que todos os botões do conjunto tenham o mesmo name, assim sabemos que todos fazem parte do mesmo.
-
-Com botões de rádio, um usuário faz uma seleção de múltipla escolha. Assim, temos que definir o valor de entrada. Usando o atributo de value, podemos definir um valor específico para cada elemento input.
-
-É possível também pré-selecionar um botão de opção para o usuário, podemos usar o atributo checked.
-```html
-<input type="radio" name="dia" value="Segunda" checked> Segunda
-<input type="radio" name="dia" value="Sábado"> Sábado
-<input type="radio" name="dia" value="Domingo"> Domingo
-```
-
-## Check Boxes
-
-Usam os mesmos atributos e padrões do radio buttons, mas para usa-lo mudamos o valor do type para checkbox. Com o checkbox, os usuários podem selecionar vários valores.
-```html
-<input type="checkbox" name="dia" value="Segunda" checked> Segunda
-<input type="checkbox" name="dia" value="Sábado"> Sábado
-<input type="checkbox" name="dia" value="Domingo"> Domingo
-```
-
-## Drop-Down Lists
-
-Uma maneira ótima para pertmir aos usuários selecionar uma opção em uma lista. Para cria-la usaramos os elementos select e option. O elemento select envolve todas as opções, e cada opção é marcada usando o elemento option.
-
-Usamos o atributo name dentro de selected, e o atributo value em cada option que estão dentro de select. O atributo value em cada elemento option corresponde ao atributo name no elemento select.
-
-Cada elemento da lista fica em um option. Ao invés de checked, para pré-selecionar uma opção usamos o selected como atributo na opção que queremos fazer isso.
-```html
-<select name="dia">
-  <option value="Segunda" selected>Segunda</option>
-  <option value="Sábado">Sábado</option>
-  <option value="Domingo">Domingo</option>
-</select>
-```
-
-## Form Buttons
-
-Os usuários clicam no botão enviar para processar dados depois de preencher um formulário. O botão enviar é criado usando o elemento input com um valor de atributo de tipo de envio. O atributo de valor é usado para especificar o texto que aparece no botão.
-```html
-<input type="submit" name="enviar" value="Enviar">
-```
-
-O elemento button executa da mesma maneira que o elemento input com o valor de atributo de tipo de submit; mas ele também inclui tags de abertura e fechamento, que podem conter outros elementos. Por padrão, o elemento button atua como se tivesse um valor de atributo de tipo de envio.
-
-Em vez de usar o atributo value para controlar o texto dentro do botão submit, o texto que aparece entre as tags de abertura e de fechamento do elemento button aparecerá.
-```html
-<button name="enviar">
-  <strong>Enviar mensagem</strong>
-</button>
-```
-
-## File Input
-
-Para permitir que os usuários adicionem um arquivo a um formulário, como anexar um documento a um e-mail, por exemplo, usamos o valor do arquivo para o atributo type.
-```html
-<input type="file" name="file">
-```
-
-## Label
-
-Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acessível para todos os usuários e tecnologias assistivas, muito úteis para garantir acessibilidade. Criado usando o elemento label, os labels devem incluir um texto que descreva as entradas ou controles aos quais eles pertencem.
-
-Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento <label> para trazer foco para o controle de formulário apropriado.
-```html
-<label for="usuario">Username</label>
-<input type="text" name="usuario" id="usuario">
-```
-O elemento <label> também pode envolver controles de formulário, como botões de opção ou caixas de seleção. Nesse caso não precisamos usar os atributos for e id.
-```html
-<label>
-  <input type="radio" name="dia" value="Segunda" checked> Segunda
-</label>
-<label>
-  <input type="radio" name="dia" value="Sábado"> Sábado
-</label>
-<label>
-  <input type="radio" name="dia" value="Domingo"> Domingo
-</label>
-```
-  
-## Fieldset
-
-Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seções organizadas. Assim como uma section, fieldset é um elemento de nível de bloco que envolve elementos relacionados dentro de um form, para melhor organização.
-```html
-<fieldset>
-  <label>
-    Usuário
-    <input type="text" name="usuario">
-  </label>
-  <label>
-    Senha
-    <input type="text" name="senha">
-  </label>
-</fieldset>
-```
-## Legend
-
-Legend funciona como um título para o fieldset, ele pode envolver uma descrição dos controles do fieldset.
-```html
-<fieldset>
-  <legend>Login</legend>
-  <label>
-    Username
-    <input type="text" name="username">
-  </label>
-  <label>
-    Password
-    <input type="text" name="password">
-  </label>
-</fieldset>
-```
-
-## Mais alguns atributos
-
-Há ainda muitos atributos úteis que não vimos ainda, por agora, veremos mais alguns dos mais usados.
-
-Para desabilitar um campo por exemplo, usamos o atributo disabled:
+Ah! Um elemento `<img>` é um daqueles elementos especiais que não precisam de tag de fechamento. Exemplo:
 
 ```html
-<label>
-  Username
-  <input type="text" name="usuario" disabled>
-</label>
-```
-Para mostrar uma descrição do controle dentro do próprio campo input usamos o placeholder:
-```html
-<label>
-  Email
-  <input type="email" name="email" placeholder="nome@exemplo.com">
-</label>
+<img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo do vai na web">
 ```
 
-Para tornar o preenchimento do campo como obrigatório usamos o required:
+## Adicionando áudio
+
+Para adicionar arquivos de áudio usamos o elemento `<audio>`. Assim como acontece com o elemento `<img>`, o elemento `<audio>` aceita um URL de origem especificado pelo atributo src. Ao contrário do elemento `<img>`, o elemento `<audio>` precisa das tags de abertura e de fechamento.
+
 ```html
-<label>
-  Email
-  <input type="email" name="email" required>
-</label>
+<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls="controls"></audio>
 ```
-Outros atributos interessantes que você deveria pesquisar e ler mais sobre:
-- accept
-- autocomplete
-- autofocus
-- formaction
-- formenctype
-- formmethod
-- formnovalidate
-- formtarget
-- max
-- maxlength
-- min
-- pattern
-- readonly
-- selectionDirection
-- step
+
+Vários outros atributos podem acompanhar o atributo src no elemento `<audio>`. Os mais populares incluem reprodução automática, controles, loop e pré-carregamento.
+
+Os atributos de reprodução automática, controles e loop são atributos booleanos. Booleanos retornam true ou false, em HTML, se um atributo booleano estiver presente ele já significa true e retorna a funcionalidade. Logo, não precisamos atribuir valores, basta adiciona-lo. 
+
+Por padrão, o elemento `<audio>` não é exibido em uma página. Se o atributo de reprodução automática estiver presente no elemento `<audio>`, nada aparecerá na página, mas o arquivo de áudio será executado automaticamente após o carregamento. Exemplo:
+    
+```html
+<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls="controls" autoplay></audio>
+```
+
+Um outro atributo booleano que pode ser usado também é o download, veja um exemplo usando ele em um link:
+
+```html
+<audio src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" controls>
+  <a href="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/Sour_Tennessee_Red_Sting.mp3" download>Baixar</a> arquivo de áudio.
+</audio>
+```
+
+## Adicionando vídeo
+
+Para adicionar vídeo usamos o elemento `<video>`. Os mesmos atributos src, reprodução automática, controles, loop, que funcionam no áudio funcionam no vídeo também.
+
+É recomendado incluir sempre o atributo booleano dos controles, a menos que haja uma boa razão para não permitir que os usuários comecem, parem ou reproduzam o vídeo.
+
+Como os vídeos ocupam espaço na página, não faz mal especificar suas dimensões, o que é mais comumente feito com propriedades de largura e altura em CSS. Especificar um tamanho, como as imagens, ajuda o navegador a renderizar vídeos mais rapidamente e permite usar o espaço certo para que o vídeo seja exibido.
+
+Uma propriedade também interessante de colocar é o type, que indica qual o tipo do arquivo que você está querendo mostrar, ele funciona no áudio e também no vídeo.
+
+```html
+<video src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4" autoplay loop width="426" height="240">
+</video>
+```
+Em muitas páginas, como no Youtube, as pesssoas preferem mostrar uma imagem de fundo ao vídeo, podemos adicionar essa imagem usando o atributo poster e como valor a URL da imagem que queremos mostrar.
+
+```html
+<video src="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/vnwcpx.mp4" type="video/mp4" poster="https://raw.githubusercontent.com/VaiNaWeb/primeiros-passos-na-web/master/aulas/aula06/assets/imgfallback.jpg
+" width="426" height="240" controls>
+</video>
+```
+
+## Adicionando iframes
+
+Podemos incorporar outra página HTML em nossa página. Isso é feito usando o elemento `<iframe>`. O elemento `<iframe>` aceita o URL de outra página HTML dentro do valor do atributo src.
+    
+Muitas páginas usam o elemento `<iframe>` para incorporar mídia em uma página de um site externo, como Google Maps, YouTube e alguns outros. Exemplo usando o Google Maps:
+    
+```html 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.4405739120457!2d-43.287196449289794!3d-22.860177841883633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997c7b48e047c7%3A0x75e759ff43f554c9!2sEDUCAP!5e0!3m2!1spt-BR!2sbr!4v1480440475641" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+```
+
+## Figuras e legendas
+
+Usamos o elemento `<figure>` para envolver algum conteúdo autônomo, muitas vezes na forma de mídia, como imagens, vídeos, ilustrações, etc. Mais de um item de conteúdo, como imagens múltiplas ou vídeos, pode estar contido no elemento `<figure>` de cada vez.
+
+```html 
+<figure>
+  <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="Logo do Programa VaiNaWeb">
+</figure>
+```
+É possvel adicionar uma legenda ao elemento `<figure>`, com o elemento `<figcaption>`. O `<figcaption>` pode aparecer na parte superior, inferior ou em qualquer lugar dentro do elemento `<figure>` mas deve aparecer somente uma vez. Quando é usado, o elemento `<figcaption>` servirá como legenda para todo o conteúdo no elemento `<figure>`. Exemplo:
+    
+```html     
+<figure>
+  <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="Logo do Programa VaiNaWeb">
+  <figcaption>Logo do Programa VaiNaWeb.</figcaption>
+</figure>
+```
