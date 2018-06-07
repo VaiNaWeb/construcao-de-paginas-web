@@ -114,22 +114,18 @@ git clone https://github.com/seuusername/suapasta.git
 
 ## Atualizando um repositório
 
-Se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos baixar os novos commits que estão lá, atualizando a nossa pasta com o seguinte comando:
+Se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos baixar para a nossa máquina os novos commits que estão lá, atualizando a nossa pasta com o seguinte comando:
 
 ```
 git pull
 ```
 
-### Criando páginas no Github
+## Publicando uma página com o Github Pages
 
-Agora nossa pasta já existe no Github e queremos criar uma página dela usando o serviço do Github Pages. Como essa será nossa primeira página, podemos criá-la apenas dando a nossa pasta o nome de seunome.github.io
+Finalmente, vamos colocar nossa primeira página online! Crie um novo repositório no Github chamado seunome.github.io
 
-### Ramificando páginas
+Depois você pode clonar essa pasta em seu computador e criar o arquivo HTML da sua página. Feito isso, use o git add, git commit, e depois git push para subir esse arquivo para o Github.
 
-O Git tem um recurso maravilhoso chamado Branch, ramo em português. Vamos voltar a pensar no Git como um fotógrafo de alterações! Imagine, agora, que nossas fotografias são frutos de uma árvore e que podem crescer por vários ramos diferentes. Podemos escolher quais ramos queremos que cresçam e podemos dar nomes a eles.
+Vá no seu repositório no Github, acesse a aba settings, lá estão as configurações do seu repositório, desça a página até a seção Github Pages. Lá tem um botão com None, clique nele e altere de None para master branch e clique em save para salvar.
 
-Vamos criar um ramo chamado gh-pages onde crescerão nossos frutinhos, ops! nossas páginas. Usamos o comando ``git checkout -b gh-pages`` para criar um ramo e mudar para ele ao mesmo tempo, então criamos ou mudamos nossos arquivos como queremos, damos commit, depois damos push para subir ele ao Github.
-
-Agora podemos acessar no navegador seunome.github.io/suapasta e tchanrann! nossa página já está online!
-
-Então já podemos usar o [Github Pages](https://tableless.com.br/criando-paginas-web-para-seus-repositorios-com-o-github-pages/) para colocar nossa página online. Ele é um serviço oferecido pelo Github, que permite a criação de páginas na web a partir de projetos que foram armazenados nele.
+Aguarde alguns minutos, e tchanrammm! Sua página já está online e pode ser acessada no navegador usando o link seunome.github.io
