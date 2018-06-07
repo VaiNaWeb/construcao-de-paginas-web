@@ -2,7 +2,7 @@
 
 Vamos colocar nossa primeira página online, e para isso vamos usar Git, o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que são cada uma dessas ferramentas e como elas funcionam.
 
-Antes de tudo, precisamos [versionar](http://rogerdudler.github.io/git-guide/index.pt_BR.html) nossos arquivos com o Git. Um sistema de controle de versão e gerenciamento de código fonte. Foi desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje muito usado em diferentes projetos digitais no mundo inteiro.
+O Git é um sistema de controle de versão e gerenciamento de código fonte. Foi desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje muito usado em diferentes projetos digitais no mundo inteiro.
 
 Cada projeto que o Git acompanha é um repositório com um histórico completo e habilidade total de acompanhamento das revisões. Vamos aprender algumas instruções para acompanhar essas revisões.
 
@@ -80,6 +80,8 @@ O Github é uma plataforma social através da qual milhares de pessoas constroem
 
 Queremos que nossos arquivos sejam armazenados não somente em nosso computador, mas também no Github. Vamos usar alguns comandos do Git para nos ajudar nessa missão.
 
+## Subindo um repositório para o Github
+
 Nossa pasta já existe no computador, mas dentro do Github ainda não, certo? Então, vamos abrir o site do github, criar uma conta, e lá criar um repositório vazio para nosso projeto.
 
 O projeto da sua máquina precisa conversar com o projeto que está lá no Github, para isso, um precisa saber quem é o outro. Vamos voltar ao terminal e dentro da nossa pasta usar um comando que diz o endereço para onde ela deve ir. Lembre de copiar esse endereço lá no Github. Exemplo:
@@ -104,9 +106,19 @@ git push
 
 ## Clonando um repositório do Github
 
-Se um diretório já existe no Github, e queremos clonar ele em nosso computador, podemos usar o comando <code>git clone https://github.com/seuusername/suapasta.git</code>. Só isso, e se essa pasta pertence a nós mesmos ou o dono dela nos deu permissão, podemos simplesmente começar a modificar esses arquivos, commitar, e subir novamente nossos arquivos usando o `git push`.
+Se um diretório já existe no Github, mas ainda não em nossa máquina, podemos clonar ele em nosso computador, para isso usamos o seguinte comando:
 
-Se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos usar o comando <code>git pull</code>.
+```
+git clone https://github.com/seuusername/suapasta.git
+```
+
+## Atualizando um repositório
+
+Se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos baixar os novos commits que estão lá, atualizando a nossa pasta com o seguinte comando:
+
+```
+git pull
+```
 
 ### Criando páginas no Github
 
