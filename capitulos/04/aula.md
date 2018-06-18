@@ -1,4 +1,4 @@
-# Introdução HTML
+# Estruturando páginas com HTML
 
 O HTML usa um conjunto predefinido de elementos para identificar os diversos tipos de conteúdo. Os elementos contém uma ou mais tags que abrangem ou expressam um determinado conteúdo. Cada tag funciona como uma etiqueta que diz ao navegador qual elemento está escrito ali e como ele deve interpretá-lo. Por isso, cada tag tem seu significado e deve ser usada corretamente.
 

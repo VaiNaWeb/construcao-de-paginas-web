@@ -23,7 +23,7 @@ Nesse repositório, você deve encontrar o conteúdo referente ao [gitbook](http
 * [01 - Informação muda tudo](capitulos/01)
 * [02 - Conheça a história do primeiro computador](capitulos/02)
 * [03 - Entenda como nos comunicamos através da internet](capitulos/03)
-* [04 - Introdução HTML](capitulos/04)
+* [04 - Estruturando páginas com HTML](capitulos/04)
 * [05 - Conheça e entenda como usar a linha de comando](capitulos/05)
 * [06 - Introdução aos comandos do Git](capitulos/06)
 * [07 - HTML Semântico](capitulos/07)
