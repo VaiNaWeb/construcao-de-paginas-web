@@ -48,3 +48,9 @@ background-image: linear-gradient( 45deg, white, black );
 ## Unidades de duração
 - s - segundo: 1s;
 - ms - milissegundo: 1/1000s;
+
+``` css
+div {
+     transition: background-color 1s;
+}
+```
