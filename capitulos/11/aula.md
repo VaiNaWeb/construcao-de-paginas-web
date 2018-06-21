@@ -1,6 +1,6 @@
 # As unidades de medidas CSS 
 
-Há várias unidades de medidas que podemos usar em nossas página. Não existe uma unidade mais correta que a outra, existem unidades diferentes que podem ser usadas em determinado contexto ou situação de forma mais adequada. Não se preocupe, você vai conhecendo eles e descobrindo quais usar.
+Há várias unidades de medidas que podemos usar em nossas página. Não existe uma unidade mais correta que a outra, existem unidades diferentes que podem ser usadas em determinado contexto ou situação de forma mais adequada. Não se preocupe, você vai conhecendo eles e descobrindo quais usar. Por enquanto, vamos conhecer as mais usadas!
  
 Há medidas absolutas, que são medidas fixas, e que usamos em comparação geralmente ao próprio hardware, essas são indicadas quando você sabe em que aparelhos a sua página vai ser exibida, o que não é muito comum. Há também medidas de distância relativas, que são medidas calculadas em relação a uma outra unidade de medida. Usar unidades de medidas relativas é mais apropriado para se obter ajustes em diferentes tipos de mídia.
 
