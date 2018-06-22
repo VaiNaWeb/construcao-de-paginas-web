@@ -8,3 +8,7 @@
 
 1. Encontre imagens com 4 coisas que você ama
 2. Use as propriedades que você aprendeu para fazer com que cada uma dessas imagens ocupe metade da largura da tela, e metade da altura da tela
+
+## Volte duas casas
+
+É hora de voltar! Encontre projetos antigos que você fez durante o módulo e aplique as novas unidades que você aprendeu hoje.
