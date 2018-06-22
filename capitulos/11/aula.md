@@ -25,7 +25,7 @@ hr { width: 14pt; }
 - vmin: a menor medida entre vw e vh
 - vmax: a maior medida entre vw e vh
 
-Exemplo de texto usadno em:
+Exemplo de texto usando em:
 
 ``` css
 div { margin: 1.5em; } 
