@@ -1,6 +1,4 @@
-<!-- Aula 11 - Introdução ao modelo flexível de caixas -->
-
-# Desafio01: Descrevendo um filme
+## Descrevendo um filme
 Nesse desafio vamos escolher um filme e criar todo o conteúdo da nossa página sobre ele. Sigam a seguinte estrutura:
 
 1. Crie um documento HTML com a estrutura básica completa
@@ -14,7 +12,7 @@ Nesse desafio vamos escolher um filme e criar todo o conteúdo da nossa página 
 9. Adicione um padding com o valor de sua preferência nas sections
 10. Adicione uma borda sólida, com uma largura, e cor de sua preferência em cada uma das sections
 
-# Desafio02: Evoluindo minha página
+## Evoluindo minha página
 
 1. Clone seu projeto em sua máquina novamente
 2. Adicione uma nova section
