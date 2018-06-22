@@ -17,21 +17,27 @@ hr { width: 14pt; }
 ```
 
 ## Medidas de distância relativas
-- em: em relação ao tamanho da fonte do elemento no qual a unidade é declarada;
-- rem: em relação ao tamanho da fonte do elemento raiz do documento.
-- %: em relação ao tamanho disponível no viewport
-- vw: 1% da largura da viewport;
-- vh: 1% da altura da viewport;
-- vmin: a menor medida entre vw e vh;
-- vmax: a maior medida entre vw e vh.
+- em: em relação ao tamanho da fonte do elemento no qual a unidade é declarada
+- rem: em relação ao tamanho da fonte do elemento raiz do documento
+- %: em relação ao tamanho disponível na tela
+- vw: largura da tela
+- vh: altura da tela
+- vmin: a menor medida entre vw e vh
+- vmax: a maior medida entre vw e vh
+
+Exemplo de texto usadno em:
 
 ``` css
 div { margin: 1.5em; } 
 ```
 
+Exemplo de altura ocupando a tela inteira:
+
 ``` css
-.classe { padding: 90%; }
+div { height: 100vh; }
 ```
+
+Exemplo de largura ocupando metade da tela:
 
 ``` css
 div { width: 50vw; }
