@@ -107,3 +107,10 @@ Para tornar o sua página web acessível basta seguir as seguintes regras:
     Você pode validar a sua página web com uma [**Extensão**](https://goo.gl/Y2bEwC) ou com programas automatizados como o [*CynthiaSays*](http://www.cynthiasays.com/) ou o [*Wave*](http://wave.webaim.org/).
 
 Para saber mais sobre essas convenções da W3C basta acessar a [*Documentação da WCAG*](https://www.w3.org/Translations/WCAG20-pt-br/).
+
+
+<!-- Acessibilidade: forma de dar autonomia (não precisar pedir ajuda) para quem tem mobilidade reduzida ou possui deficiência.
+Segundo o IBGE, em 2010, 8,3% da população brasileira apresentava pelo menos um tipo de deficiência severa, sendo a mais comum a deficiecia visual.
+Pesquisar sobre a WCCAG e sua definição e suas recomendações.
+Falar dos 4 principios da acessibilidade web
+-->
