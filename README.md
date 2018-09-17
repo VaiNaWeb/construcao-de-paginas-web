@@ -11,6 +11,7 @@ Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gra
 ## Pre-requisitos
 * Força de vontade :sparkles:
 * Um computador com acesso à internet, ou não
+* Qualquer editor de textos, ou editor de códigos, sugerimos o SublimeText ou scratchpad.io
 
 ## Material de apoio
 
