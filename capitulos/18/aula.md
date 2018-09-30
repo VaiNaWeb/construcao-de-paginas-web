@@ -6,7 +6,7 @@ A acessibilidade pode ser definida como como uma forma de dar autonomia para tod
 
 Na construção de uma aplicação ou um site, é importante pensar que todas as pessoas que farão uso, possam ter acesso aos mesmos conteúdos, a mesma facilidade de uso e por fim, a mesma satisfação. A acessibilidade não deve ser encarada como um bônus ou deixada para ser pensada depois que o site já estiver pronto, ela precisa estar em primeiro plano para fornecer oportunidades iguais para pessoas com capacidades diferentes e inseridas em diversos contextos, isso inclui também idosos, pessoas que possuem menor capacidade de velocidade na internet ou até mesmo tornar uma experiência boa para aqueles que nunca tiveram contato com a internet.
 
-Mas existem tantas pessoas assim que precisam ser levadas em conta? Bom, segundo o [Censo de 2010 do IBGE](http://www.pessoacomdeficiencia.gov.br/app/sites/default/files/publicacoes/cartilha-censo-2010-pessoas-com-deficienciareduzido.pdf): 23,9% da população total, têm pelo menos algum tipo de deficiência – visual, auditiva, motora e mental ou intelectual.
+Mas existem tantas pessoas assim que precisam ser levadas em conta? Bom, segundo o [Censo de 2010 do IBGE](http://www.pessoacomdeficiencia.gov.br/app/sites/default/files/publicacoes/cartilha-censo-2010-pessoas-com-deficienciareduzido.pdf): 23,9% da população total, têm pelo menos algum tipo de deficiência – visual, auditiva, motora e intelectual.
 
 Atualmente a acessibilidade web é obrigatória por lei ou regulamentos. A W3C criou o WAI (Web Accessibility Initiative) em 1997, e tem como grande objetivo padronizar os componentes para que seja lidos pelos softwares e promover a acessibilidade na Web.
 
@@ -107,6 +107,31 @@ Para tornar a sua página web acessível basta seguir as seguintes regras:
 - Não utilizar captchas.
 
     Nem todos os CAPTCHAS possuem acessibilidade, então crie formas de verificar se o usuário não é um bot, quem sabe uma conta matemática?
+    
+- Imagens decorativas.
+
+    A ideia é que as imagens decorativas sejam ignoradas pelo leitor de tela, então essas imagens devem ser inseridas pelo CSS. É possível inserir dessa forma:
+    
+    HTML
+    ```html
+	<span class="icon-social"></span>
+	<a href="#">Meu Facebook!</a>
+    ```
+    CSS
+    ```css
+    .icon-social {
+        background-image: url(../img/icone_facebook.png);
+    }
+      
+    ```
+As imagens inseridas por CSS **não deverão ter o alt** para que possam ser ignoradas pelo leitor.
+
+
+- Imagens com textos.
+
+	Quando há uma imagem com textos que informam e passam alguma mensagem importante, não é bom limitar apenas para aqueles que não utilizam leitores de tela. 
+	
+	Também, não uma imagem com texto como botão, faça um botão manual com o HTML e CSS, para que seja lido pelo leitor de tela e o usuário entenda o que o botão faz e se deseja clicar nele, caso não seja possível, não esqueça de descrever com  atributo **alt** o que o link significa. Seja claro com a frase de um botão, tomando cuidado para não deixar vago demais.
 
 - Não force a atualização da página.
 
@@ -119,6 +144,15 @@ Para tornar a sua página web acessível basta seguir as seguintes regras:
 - Valide a sua Página Web.
 
     Você pode validar a sua página web com uma [**Extensão**](https://goo.gl/Y2bEwC) ou com programas automatizados como o [*CynthiaSays*](http://www.cynthiasays.com/) ou o [*Wave*](http://wave.webaim.org/).
+
+
+O W3C também criou o documento WCAG 2.0 com recomendações para a web, ele está estruturado em *quatro princípios*:
+
+1. **Perceptível** - a informação e os componentes da interface do usuário têm de ser apresentados aos usuários em formas que eles possam perceber.
+2. **Operável** - os componentes de interface de usuário e a navegação têm de ser operáveis. 
+3. **Compreensível** - a informação e a operação da interface de usuário têm de ser compreensíveis. 
+4. **Robusto** - o conteúdo tem de ser robusto o suficiente para poder ser interpretado de forma concisa por diversos agentes do usuário, incluindo recursos de tecnologia assistiva.
+
 
 Para saber mais sobre essas convenções da W3C basta acessar a [*Documentação da WCAG*](https://www.w3.org/Translations/WCAG20-pt-br/).
 
