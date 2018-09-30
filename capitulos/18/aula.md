@@ -110,21 +110,22 @@ Para tornar a sua página web acessível basta seguir as seguintes regras:
     
 - Imagens decorativas.
 
-    A ideia é que as imagens decorativas sejam ignoradas pelo leitor de tela, então essas imagens devem ser inseridas pelo CSS. É possível inserir dessa forma:
+    A ideia é que as imagens decorativas sejam ignoradas pelo leitor de tela, então essas imagens devem ser inseridas pelo CSS e **não deverão ter o alt** para que possam ser ignoradas pelo leitor.
+    
+    É possível inserir dessa forma:
     
     HTML
     ```html
-	<span class="icon-social"></span>
+	<span class="icone-social"></span>
 	<a href="#">Meu Facebook!</a>
     ```
     CSS
     ```css
-    .icon-social {
+    .icone-social {
         background-image: url(../img/icone_facebook.png);
     }
       
     ```
-As imagens inseridas por CSS **não deverão ter o alt** para que possam ser ignoradas pelo leitor.
 
 
 - Imagens com textos.
