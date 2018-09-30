@@ -1,6 +1,6 @@
 # Criando páginas acessíveis
 
-Geralmente quando criamos um site não pensamos em detalhes pequenos que são mega importante. Ter uma página web acessível significa fornecer oportunidades iguais para pessoas com necessidades especiais, além de incluir-las na sociedade. 
+Geralmente quando criamos um site não pensamos em detalhes pequenos que são mega importante. Ter uma página web acessível significa fornecer oportunidades iguais para pessoas com necessidades especiais, além de incluí-las na sociedade. 
 
 A acessibilidade pode ser definida como como uma forma de dar autonomia para todos aqueles que possuem algum tipo de mobilidade reduzida ou deficiência. Garantindo que essas pessoas possam realizar atividades sem precisar pedir ajuda. 
 
