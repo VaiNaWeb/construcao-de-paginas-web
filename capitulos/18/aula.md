@@ -127,12 +127,11 @@ Para tornar a sua página web acessível basta seguir as seguintes regras:
       
     ```
 
-
 - Imagens com textos.
 
 	Quando há uma imagem com textos que informam e passam alguma mensagem importante, não é bom limitar apenas para aqueles que não utilizam leitores de tela. 
 	
-	Também, não uma imagem com texto como botão, faça um botão manual com o HTML e CSS, para que seja lido pelo leitor de tela e o usuário entenda o que o botão faz e se deseja clicar nele, caso não seja possível, não esqueça de descrever com  atributo **alt** o que o link significa. Seja claro com a frase de um botão, tomando cuidado para não deixar vago demais.
+	Também, não use uma imagem com texto como botão, faça um botão manual com o HTML e CSS, para que seja lido pelo leitor de tela e o usuário entenda o que o botão faz e se deseja clicar nele, caso não seja possível, não esqueça de descrever com  atributo **alt** o que o link significa. Seja claro com a frase de um botão, tomando cuidado para não deixar vago demais.
 
 - Não force a atualização da página.
 
