@@ -14,6 +14,6 @@ E se houvesse um lugar onde poderíamos ter acesso à maior parte dessa informa�
 
 Essa suposição começou na mente de um grande cientista chamado Tim-Berns-Lee, em 1989. Ele pensou em uma rede em que poderíamos 'linkar' informações e torná-las disponíveis a qualquer tempo, em qualquer parte, a qualquer pessoa. Uma rede aberta, que funcionasse como um repositório de todos os conhecimentos da humanidade. Um espaço de diversidade onde poderíamos aprender, ajudar e revelar nossos talentos. Onde empresas, organizações, pessoas, todos seriam parte dela. Todos seriam ela. Essa é a internet, nosso cérebro coletivo. E isso muda tudo.
 
-Em 2014, 40% dos habitantes de nosso planeta já acessavam e faziam parte da internet. Trabalham, estudam, se divertem, fazem negócios, conversam. Vivem nesse mundo digital.
+Em 2014, 40% da população mundial já acessava e fazia parte da internet. Hoje, as pessoas trabalham, estudam, se divertem, fazem negócios e conversam. Vivem nesse mundo digital.
 
 Vamos fazer parte dessa jornada? Aprender como também tomar este espaço e criar páginas que possam ser acessíveis a qualquer lugar do planeta? A colocar nossos conhecimentos, ver e ser visto e mostrar que sim, a informação é capaz de mudar tudo. Nossos conhecimentos, nossas carreiras, nossas famílias, nossa comunidade e nossas vidas.
