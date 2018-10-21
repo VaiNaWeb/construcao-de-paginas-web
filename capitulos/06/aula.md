@@ -8,7 +8,7 @@ Cada projeto que o Git acompanha é um repositório com um histórico completo e
 
 ## Primeiros comandos
 
-Podemos pensar no Git como um fotografo de nossas alterações. Ele fica fotografando as alterações que acontecem dentro da nossa pasta, para nos dar o poder de criar versões de nossos arquivos. Mas como ele faz isso? Bom... Vamos aprender na prática como isso acontece! Weeee!
+Podemos pensar no Git como um fotógrafo de nossas alterações. Ele fica fotografando as alterações que acontecem dentro da nossa pasta, para nos dar o poder de criar versões de nossos arquivos. Mas como ele faz isso? Bom... Vamos aprender na prática como isso acontece! Weeee!
 
 Antes de tudo, precisamos inicializar o repositório git em nossa pasta. Só precisamos fazer esse passo uma vez por projeto. Para fazer isso, tenha certeza de que você está dentro da pasta que você quer inicializar e digite o comando:
 

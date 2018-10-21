@@ -19,7 +19,7 @@ whoami
 O computador acabou de apresentar seu nome de usuário! Legal, não é?
 
 
-Seria legal saber em que pasta estamos agora. É recomendável que você sempre saiba essa informaço! Se você não souber, é só usar o comando. Digite o seguinte comando e aperte o enter:
+Seria legal saber em que pasta estamos agora. É recomendável que você sempre saiba essa informaçao! Se você não souber, é só usar o comando. Digite o seguinte comando e aperte o enter:
 
 ```
 pwd
@@ -42,7 +42,7 @@ Se a pasta foi criada, agora você pode entrar dentro dela usando o seguinte com
 ```
 cd teste
 ```
-Legal! Você conseguiu entrar dentro dela. E se quisermos também criar um novo arquivo em nossa pasta nova? Vamos criar um chamado texto.txt usando o comando toach:
+Legal! Você conseguiu entrar dentro dela. E se quisermos também criar um novo arquivo em nossa pasta nova? Vamos criar um chamado texto.txt usando o comando touch:
 ```
 touch texto.txt
 ```
