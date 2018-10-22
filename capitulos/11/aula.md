@@ -5,8 +5,12 @@ Existem várias unidades de medidas que podemos usar em nossas página. Não exi
 Há medidas absolutas, que são medidas fixas, e que usamos em comparação geralmente ao próprio hardware, essas são indicadas quando você sabe em que aparelhos a sua página vai ser exibida, o que não é muito comum. Há também medidas de distância relativas, que são medidas calculadas em relação a uma outra unidade de medida. Usar unidades de medidas relativas é mais apropriado para se obter ajustes em diferentes tipos de mídia.
 
 ## Medidas de distância absolutas
-- pt - point: 1/72in;
-- px - pixel: 1/96in;
+- cm - centimeters(centímetros);
+- mm - millimeters(milímetros);
+- in - inches(polegadas) (1in = 96px = 2.54cm);
+- px - pixels (1px = 1/96th of 1in);
+- pt - points(pontos (1pt = 1/72 of 1in);
+- pc - picas(paica) (1pc = 12 pt);
 
 ``` css
 p { font-size: 14px; }
@@ -45,7 +49,9 @@ div { width: 50vw; }
 
 ## Unidades para ângulos
 - deg - grau: um círculo tem 360deg;
+- rad - radiano: um círculo tem 2𝛑rad;
 - turn - volta: um círculo tem 1turn;
+
 
 ``` css
 background-image: linear-gradient( 45deg, white, black );
