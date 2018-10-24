@@ -2,11 +2,15 @@
 
 O **Vai Na Web** é um programa de educação em tecnologias digitais avançadas que busca democratizar o ensino e aprendizado de tecnologia e ajudar na emancipação dos nossos jovens nos desafios da nova era digital.
 
-## Sobre as aulas
+## Informação muda tudo
 
-São idealizadas, planejadas e executadas por pessoas que sabem que a informação precisa ser acessível. Vamos fortalecer a autonomia de criação e a capacidade profissional juntos, através de aulas que transmitem técnica e desenvolvimento socioemocional.
+E se houvesse um lugar onde poderíamos ter acesso à maior parte dessa informação do planeta, pulando de um lugar a outro, quase na velocidade da luz, assim como nosso cérebro? E se nesse "cérebro coletivo", o mais inteligente do mundo, pudéssemos aprender e pensar junto aos maiores poetas, artistas e cientistas que existem e já existiram? E se eu pudesse ser um neurônio desse cérebro, recebendo o que o mundo todo tem de melhor e enviando aquilo que mais sei? Se esse lugar não quisesse saber quem eu sou e me aceitasse automaticamente, sem perguntar?
 
-Todo o conteúdo do curso possui uma linguagem clara. As aulas são pensadas gradativamente, com base em como os alunos de cada turma se sentem, de forma que cada aula, resumo, ou outro material seja realmente empático.
+Essa suposição começou na mente de um grande cientista chamado Tim-Berns-Lee, em 1989. Ele pensou em uma rede em que poderíamos 'linkar' informações e torná-las disponíveis a qualquer tempo, em qualquer parte, a qualquer pessoa. Uma rede aberta, que funcionasse como um repositório de todos os conhecimentos da humanidade. Um espaço de diversidade onde poderíamos aprender, ajudar e revelar nossos talentos. Onde empresas, organizações, pessoas, todos seriam parte dela. Todos seriam ela. Essa é a internet, nosso cérebro coletivo. E isso muda tudo.
+
+Em 2014, 40% da população mundial já acessava e fazia parte da internet. Hoje, as pessoas trabalham, estudam, se divertem, fazem negócios e conversam. Vivem nesse mundo digital.
+
+Vamos fazer parte dessa jornada? Aprender como também tomar este espaço e criar páginas que possam ser acessíveis a qualquer lugar do planeta? A colocar nossos conhecimentos, ver e ser visto e mostrar que sim, a informação é capaz de mudar tudo. Nossos conhecimentos, nossas carreiras, nossas famílias, nossa comunidade e nossas vidas.
 
 ## Pre-requisitos
 * Força de vontade :sparkles:
