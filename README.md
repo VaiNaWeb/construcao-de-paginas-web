@@ -15,9 +15,10 @@ Vamos fazer parte dessa jornada? Aprender como também tomar este espaço e cria
 ## Pre-requisitos
 * Força de vontade :sparkles:
 * Um computador com acesso à internet, ou não
+* Um navegador web de sua preferência
 * Qualquer editor de textos, ou editor de códigos, sugerimos o SublimeText ou scratchpad.io
 
-## Material de apoio
+## Construção de páginas web
 
 Neste módulo nossos estudantes são capacitados para a criação de páginas semânticas, reponsivas, e acessíveis, usando as tecnologias mais modernas do mercado e melhores práticas no **desenvolvimento web**. :rocket:
 
