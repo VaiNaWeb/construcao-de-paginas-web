@@ -4,13 +4,13 @@ O **Vai Na Web** é um programa de educação em tecnologias digitais avançadas
 
 ## Informação muda tudo
 
-E se houvesse um lugar onde poderíamos ter acesso à maior parte dessa informação do planeta, pulando de um lugar a outro, quase na velocidade da luz, assim como nosso cérebro? E se nesse "cérebro coletivo", o mais inteligente do mundo, pudéssemos aprender e pensar junto aos maiores poetas, artistas e cientistas que existem e já existiram? E se eu pudesse ser um neurônio desse cérebro, recebendo o que o mundo todo tem de melhor e enviando aquilo que mais sei? Se esse lugar não quisesse saber quem eu sou e me aceitasse automaticamente, sem perguntar?
+E se houvesse um lugar onde poderíamos ter acesso à maior parte da informação do planeta, pulando de um lugar a outro, quase na velocidade da luz, assim como nosso cérebro? E se nesse "cérebro coletivo", o mais inteligente do mundo, pudéssemos aprender e pensar junto aos maiores poetas, artistas e cientistas que existem e já existiram? **E se eu pudesse ser um neurônio desse cérebro, recebendo o que o mundo todo tem de melhor e enviando aquilo que mais sei? Se esse lugar não quisesse saber quem eu sou e me aceitasse automaticamente**, sem perguntar?
 
-Essa suposição começou na mente de um grande cientista chamado Tim-Berns-Lee, em 1989. Ele pensou em uma rede em que poderíamos conectar informações e torná-las disponíveis a qualquer tempo, em qualquer parte, a qualquer pessoa. Uma rede aberta, que funcionasse como um repositório de todos os conhecimentos da humanidade. Um espaço de diversidade onde poderíamos aprender, ajudar e revelar nossos talentos. Onde empresas, organizações, pessoas, todos seriam parte dela. Todos seriam ela. Essa é a internet, nosso cérebro coletivo. E isso muda tudo.
+Essa suposição começou na mente de um grande cientista chamado Tim-Berns-Lee, em 1989. Ele pensou em uma rede em que poderíamos conectar informações e torná-las disponíveis a qualquer tempo, em qualquer parte, a qualquer pessoa. **Uma rede aberta, que funcionasse como um repositório de todos os conhecimentos da humanidade.** Um espaço de diversidade onde poderíamos aprender, ajudar e revelar nossos talentos. Onde empresas, organizações, pessoas, todos seriam parte dela. Todos seriam ela. Essa é a internet, nosso cérebro coletivo. E isso muda tudo.
 
 Em 2014, 40% da população mundial já acessava e fazia parte da internet. Hoje, as pessoas trabalham, estudam, se divertem, fazem negócios e conversam. Vivem nesse mundo digital.
 
-Vamos fazer parte dessa jornada? Aprender como também tomar este espaço e criar páginas que possam ser acessíveis a qualquer lugar do planeta? A colocar nossos conhecimentos, ver e ser visto e mostrar que sim, a informação é capaz de mudar tudo. Nossos conhecimentos, nossas carreiras, nossas famílias, nossa comunidade e nossas vidas.
+Vamos fazer parte dessa jornada? Aprender como também tomar este espaço e criar páginas que possam ser acessíveis a qualquer lugar do planeta? A colocar nossos conhecimentos, ver e ser visto e mostrar que sim, a **informação é capaz de mudar tudo**. Nossos conhecimentos, nossas carreiras, nossas famílias, nossa comunidade e nossas vidas.
 
 ## Pre-requisitos
 * Força de vontade :sparkles:
