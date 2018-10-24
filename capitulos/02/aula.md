@@ -4,7 +4,7 @@ Por definição, um computador é basicamente uma máquina capaz de efetuar cál
 
 Aproximadamente 2000 a.C existia o Ábaco, um tipo de computador em que se pode ver claramente a soma nos fios.
 
-Em 1642 Blaise Pascal inventou a primeira calculadora mecânica. A calculadora transferia os números da coluna de unidades para a coluna de dezenas por um dispositivo. Pascal chamou sua invenção dae Pascalina.
+Em 1642 Blaise Pascal inventou a primeira calculadora mecânica. A calculadora transferia os números da coluna de unidades para a coluna de dezenas por um dispositivo. Pascal chamou sua invenção de Pascalina.
 
 Mais tarde, em 1822, Charles Babbage apresentou o primeiro modelo de uma máquina capaz de fazer cálculos necessários para elaborar uma tabela de logaritmos. Algum tempo depois Babbage e Ada Lovelace, iniciaram um projeto mais ambicioso para construir uma máquina analítica. Essa máquina foi projetada para calcular valores de funções matemáticas bem mais complexas.
 
