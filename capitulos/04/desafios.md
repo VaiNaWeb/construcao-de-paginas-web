@@ -20,9 +20,6 @@
 4. Pesquise três imagens que representam três coisas ou pessoas que você ama
 5. Adicione as três imagens, uma em cada seção
 6. Adicione, dentro de cada seção, um parágrafo que fala sobre essas coisas
- 
-Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula03/aula.md), e/ou o [resumo](../aula03/resumo.md) dela.
-
 
 #Desafio 04: Aprendendo a hierarquia de títulos
 	1. Crie uma nova página com uma estrutura básica completa
@@ -31,3 +28,8 @@ Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a
 	4. Crie hierarquia de títulos do H1 ao H6 dentro da 1 section criada
 	5. Criar 1 título e 2 sub títulos na 2 section
 	6. Criar 1 título, 1 sub título e 2 paragrafos dentro do sub título na 3 section
+ 
+Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula03/aula.md), e/ou o [resumo](../aula03/resumo.md) dela.
+
+
+
