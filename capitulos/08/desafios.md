@@ -15,7 +15,7 @@
 # Desafio 2: Evoluindo meu formulário, Matrícula 
 
 1. Crie uma página com a estrutura básica completa
-2. Adicione um main
+2. Adicione um main.
 3. Adicione, um form dentro do main.
 4. Adicione, dentro do form, um label contendo a palavra Nome
 5. Adicione, abaixo do label, um input com name nome
