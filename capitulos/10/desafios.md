@@ -13,7 +13,25 @@ Recorde algumas lembranças boas de sua infância! O que você sente saudade? o 
 9. Crie uma página de CSS e adicione o link em sua página HTML
 10. Adicione estilos à classe, e outros estilos para cada ID em seu CSS.
 
-# Desafio 02: Reinventando o instagram
+# Desafio 02: Meu Primeiro Perfil
+
+1. Crie uma página com a estrutura básica completa
+2. Adicione um header contendo um título.
+3. Estilize o Header.
+4. Adicione um main com uma section.
+5. Adicione uma imagem, um título e um parágrafo contando sobre você dentro da section.
+6. Adicione uma classe na imagem, no título e no parágrafo.
+7. Crie uma página de CSS e adicione o link em sua página HTML.
+8. Altere o tamanho da imagem.
+9. Estilize o título e o parágrafo dando cor e tamanho.
+10. Adicione uma cor ao background da sua página
+11. Adicione um footer.
+12. Adicione um parágrafo dizendo “criado por…” dentro do footer.
+
+E aí, bora colocar esse perfil Online?
+
+
+# Desafio 03: Reinventando o instagram
 Vamos construir nosso próprio mini instagram
 
 1. Crie uma página com a estrutura básica completa
