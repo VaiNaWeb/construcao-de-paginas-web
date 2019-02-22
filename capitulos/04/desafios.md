@@ -24,23 +24,23 @@
 # Desafio 04: Aprendendo a hierarquia de títulos
 1. Crie uma nova página com uma estrutura básica completa
 2. Adicione uma main  
-3. Adicione 3 sections dentro da main
-4. Crie hierarquia de títulos do H1 ao H6 dentro da 1 section criada
-5. Criar 1 título e 2 sub títulos na 2 section
-6. Criar 1 título, 1 sub título e 2 paragrafos dentro do sub título na 3 section
+3. Adicione três sections dentro da main
+4. Crie hierarquia de títulos do H1 ao H6 dentro da primeira section criada
+5. Criar um título e dois sub títulos na segunda section
+6. Criar um título, um sub título e dois paragrafos dentro do sub título na terceira section.
  
  
-# Desafio 04: Favela
+# Desafio 05: Favela
 1. Crie uma nova página com uma estrutura básica completa 
 2. Adicione um header com um titulo e subtitulo.
 3. Adicione um main.
-4. Adicione 7 section dentro da main.
-5. Em cada section, adicione um titulo e 3 divs.
+4. Adicione sete section dentro da main.
+5. Em cada section, adicione um titulo e três divs.
 6. Em cada div, adicione um titulo e um paragrafo.
-7. Dentro de cada paragrafo, coloque 3 quebras de linhas.
-8. Adicione um footer com 2 divs.
-9. Dentro de cada div, adicione 1 titulo, 1 subtitulo e 1 paragrafo.
-10. Adcione 2 imagens com uma legenda no final do footer.
+7. Dentro de cada paragrafo, coloque três quebras de linhas.
+8. Adicione um footer com duas divs.
+9. Dentro de cada div, adicione um titulo, um subtitulo e um paragrafo.
+10. Adcione duas imagens com uma legenda no final do footer.
 
 
 
