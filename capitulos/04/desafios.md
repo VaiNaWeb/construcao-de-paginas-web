@@ -29,6 +29,22 @@
 5. Criar 1 título e 2 sub títulos na 2 section
 6. Criar 1 título, 1 sub título e 2 paragrafos dentro do sub título na 3 section
  
+ 
+# Desafio 04: Favela
+1. Crie uma nova página com uma estrutura básica completa 
+2. Adicione um header com um titulo e subtitulo.
+3. Adicione um main.
+4. Adicione 7 section dentro da main.
+5. Em cada section, adicione um titulo e 3 divs.
+6. Em cada div, adicione um titulo e um paragrafo.
+7. Dentro de cada paragrafo, coloque 3 quebras de linhas.
+8. Adicione um footer com 2 divs.
+9. Dentro de cada div, adicione 1 titulo, 1 subtitulo e 1 paragrafo.
+10. Adcione 2 imagens com uma legenda no final do footer.
+
+
+
+
 Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula03/aula.md), e/ou o [resumo](../aula03/resumo.md) dela.
 
 
