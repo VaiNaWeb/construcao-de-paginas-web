@@ -1,6 +1,6 @@
 # Table of contents
 
-* [VaiNaWeb](README.md)
+* [Informação muda tudo](README.md)
 * [Capítulos](capitulos/README.md)
   * [09](capitulos/09/README.md)
     * [desafios](capitulos/09/desafios.md)
