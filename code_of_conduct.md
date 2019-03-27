@@ -1,4 +1,4 @@
-# Código de Conduta para Colaboradores
+# Código de Conduta
 
 ## Nossa promessa
 

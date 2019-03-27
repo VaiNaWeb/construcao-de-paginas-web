@@ -49,6 +49,6 @@
   * [08](capitulos/08/README.md)
     * [Construindo formulários](capitulos/08/aula.md)
     * [desafios](capitulos/08/desafios.md)
-* [Código de Conduta para Colaboradores](code_of_conduct.md)
+* [Código de Conduta](code_of_conduct.md)
 * [Contribuindo no VaiNaWeb](contributing.md)
 
