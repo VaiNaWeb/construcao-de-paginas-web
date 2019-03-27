@@ -2,7 +2,7 @@
 
 E se houvesse um lugar onde poderíamos ter acesso à maior parte da informação do planeta, pulando de um lugar a outro, quase na velocidade da luz, assim como nosso cérebro? E se fosse possível aprender e pensar junto aos maiores poetas, artistas e cientistas que existem e já existiram? Se esse lugar não quisesse saber quem eu sou e me aceitasse automaticamente, sem perguntar?
 
-Essas foram as suposições que começaram na mente de um grande cientista chamado Tim Berners-Lee, em 1989. Ele pensou em uma rede em que poderíamos conectar informações e torná-las disponíveis a qualquer tempo, em qualquer parte, a qualquer pessoa. Uma rede aberta, que funciona como um repositório de todos os conhecimentos da humanidade**.**
+Essas foram as suposições que começaram na mente de um grande cientista chamado Tim Berners-Lee, em 1989. Ele pensou em uma rede em que poderíamos conectar informações e torná-las disponíveis a qualquer tempo, em qualquer parte, a qualquer pessoa. Uma rede aberta, que funciona como um repositório de todos os conhecimentos da humanidade.
 
 Aprender como também tomar este espaço e criar páginas que possam ser acessíveis a qualquer lugar do planeta, colocar nossos conhecimentos, ver e ser visto e mostrar que sim, a informação é capaz de mudar tudo. Nossos conhecimentos, nossas carreiras, nossas famílias, nossa comunidade e nossas vidas.
 
