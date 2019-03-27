@@ -17,7 +17,7 @@ Exemplos de comportamentos que contribuem para criar um ambiente positivo inclue
 Exemplos de comportamentos inaceitáveis por parte dos participantes incluem:
 
 * Uso de linguagem ou imagens de conotação ou apelo sexuais e comportamentos de sugiram transgressão considerada libidinosa ou abusiva
-* Comentários insultuosos e/ou depreciativos e ataques pessoais ou políticos (*Trolling*)
+* Comentários insultuosos e/ou depreciativos e ataques pessoais ou políticos \(_Trolling_\)
 * Assédio público ou privado
 * Publicar informação pessoal de outros sem permissão explícita, como, por exemplo, um endereço eletrônico ou residencial
 * Qualquer outra forma de conduta que seja considerada naturalmente inapropriada para um ambiente profissional
@@ -30,7 +30,7 @@ Os administradores do projeto têm o direito e a responsabilidade de remover, ed
 
 ## Escopo
 
-Este Código de Conduta aplica-se dentro dos espaços do projeto ou qualquer espaço público onde alguém represente o mesmo ou a sua comunidade. Exemplos de representação do projeto ou comunidade incluem usar um endereço de email oficial do  Vai na Web, fazer posts através de uma conta de mídia social oficial, ou estar sob a designação de representante em evento online ou offline. A representação de um projeto pode ser ainda definida e esclarecida pelos administradores do projeto.
+Este Código de Conduta aplica-se dentro dos espaços do projeto ou qualquer espaço público onde alguém represente o mesmo ou a sua comunidade. Exemplos de representação do projeto ou comunidade incluem usar um endereço de email oficial do Vai na Web, fazer posts através de uma conta de mídia social oficial, ou estar sob a designação de representante em evento online ou offline. A representação de um projeto pode ser ainda definida e esclarecida pelos administradores do projeto.
 
 ## Aplicação
 
@@ -40,6 +40,5 @@ Administradores do projeto que não sigam ou venham a romper o Código de Condut
 
 ## Atribuição
 
-Este Código de Conduta é adaptado do [Contributor Covenant](http://contributor-covenant.org),
-versão 1.4, disponível em [http://contributor-covenant.org/version/1/4/pt_br/](http://contributor-covenant.org/version/1/4/pt_br/)
-;;
+Este Código de Conduta é adaptado do [Contributor Covenant](http://contributor-covenant.org), versão 1.4, disponível em [http://contributor-covenant.org/version/1/4/pt\_br/](http://contributor-covenant.org/version/1/4/pt_br/) ;;
+

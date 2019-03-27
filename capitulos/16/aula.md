@@ -4,24 +4,25 @@ Muita coisa aconteceu desde o surgimento da internet, e nossa experiência com a
 
 Não somente no computador, hoje sabemos que é possível nos conectar usando uma infinidade de aparelhos diferentes, televisão, videogame, celular, etc. E estamos conectados também nos mais diferentes lugares, seja na padaria, na escola, ou em casa. A web está em todos os lugares!
 
-É nosso dever e desafio enquanto desenvolvedores web, criar páginas que possibilitem que essas experiências aconteçam da melhor forma possível. Há muitas coisas que podemos fazer para garantir que isso aconteça, uma delas, é criar páginas que sejam exibidas de forma correta nos mais diferentes dispositivos, assim nasceu o conceito de [Design responsivo](https://brasil.uxdesign.cc/o-que-%C3%A9-responsive-web-design-ab292eb616b7#.oin348i9x).
+É nosso dever e desafio enquanto desenvolvedores web, criar páginas que possibilitem que essas experiências aconteçam da melhor forma possível. Há muitas coisas que podemos fazer para garantir que isso aconteça, uma delas, é criar páginas que sejam exibidas de forma correta nos mais diferentes dispositivos, assim nasceu o conceito de [Design responsivo](https://brasil.uxdesign.cc/o-que-é-responsive-web-design-ab292eb616b7#.oin348i9x).
 
 Dizemos que uma página é responsiva, quando os elementos dela se adaptam automaticamente à tela do dispositivo no qual ela está sendo visualizada. Na prática, há algumas técnicas que usamos para que esse comportamento aconteça.
 
-Antes de tudo, precisamos dizer ao navegador que a escala inicial da nossa página é equivalente ao tamanho do dispositivo. Adicionamos a seguinte linha ao <code>head</code>:
+Antes de tudo, precisamos dizer ao navegador que a escala inicial da nossa página é equivalente ao tamanho do dispositivo. Adicionamos a seguinte linha ao `head`:
 
-```html
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```markup
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
-Nós já aprendemos Flexbox, então todo o resto acaba por ficar mais simples a partir daqui. Isso porque o Flexbox é muito legal para tornar nosso layout flexível, isso porque flexibilidade e fluidez fazem parte do que queremos atingir com o design responsivo. Ao invés de ficar usando pixels, nós também podemos usar unidades de medida flexíveis, você pode ler mais sobre isso nesse [link](http://www.maujor.com/tutorial/unidades-de-medidas-css.php). 
+
+Nós já aprendemos Flexbox, então todo o resto acaba por ficar mais simples a partir daqui. Isso porque o Flexbox é muito legal para tornar nosso layout flexível, isso porque flexibilidade e fluidez fazem parte do que queremos atingir com o design responsivo. Ao invés de ficar usando pixels, nós também podemos usar unidades de medida flexíveis, você pode ler mais sobre isso nesse [link](http://www.maujor.com/tutorial/unidades-de-medidas-css.php).
 
 Também muito importantes para tornar nossas páginas responsivas são as media queries. Usamos elas basicamente para criar modificações na página para que ela se adapte de acordo com uma medida. Nós podemos dizer por exemplo que se uma página tem até 640px de largura o background dela deve mudar sua cor.
 
 ```css
 @media (max-width: 640px) {
-	body {
-		background: tomato;
-	}
+    body {
+        background: tomato;
+    }
 }
 ```
 
@@ -35,11 +36,13 @@ Se optarmos por seguir o conceito de mobile-first, assumimos que o CSS atual foi
 
 ```css
 @media (min-width: 640px) {
-	body {
-		background: tomato;
-	}
+    body {
+        background: tomato;
+    }
 }
 ```
+
 Nesse exemplo, a tela só ficará vermelha em dispositivos com telas a partir de 640px de largura. Basicamente, enquanto no desktop-first pensamos em modificações para telas menores, no mobile-first pensamos em maiores.
 
 De acordo com cada centário, podemos considerar muitas coisas, e pensando nessas coisas usar as melhores técnicas para criar a experiência de navegação que queremos.
+

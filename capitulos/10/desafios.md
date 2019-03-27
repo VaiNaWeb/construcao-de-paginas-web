@@ -1,5 +1,7 @@
-<!-- Aula 07 - Descobrindo o poder dos estilos com CSS -->
-# Desafio 01: Relembrando molecagem
+# desafios
+
+## Desafio 01: Relembrando molecagem
+
 Recorde algumas lembranças boas de sua infância! O que você sente saudade? o que gostava de fazer? Do que mais você gostava de brincar? Vamos construir uma página para contar essas histórias e iniciar nosso aprendizado com CSS.
 
 1. Crie uma página com a estrutura básica completa
@@ -13,7 +15,7 @@ Recorde algumas lembranças boas de sua infância! O que você sente saudade? o 
 9. Crie uma página de CSS e adicione o link em sua página HTML
 10. Adicione estilos à classe, e outros estilos para cada ID em seu CSS.
 
-# Desafio 02: Meu Primeiro Perfil
+## Desafio 02: Meu Primeiro Perfil
 
 1. Crie uma página com a estrutura básica completa
 2. Adicione um header contendo um título.
@@ -30,8 +32,8 @@ Recorde algumas lembranças boas de sua infância! O que você sente saudade? o 
 
 E aí, bora colocar esse perfil Online?
 
+## Desafio 03: Reinventando o instagram
 
-# Desafio 03: Reinventando o instagram
 Vamos construir nosso próprio mini instagram
 
 1. Crie uma página com a estrutura básica completa
@@ -44,4 +46,5 @@ Vamos construir nosso próprio mini instagram
 8. Adicione uma cor ao header da página
 9. Adicione uma cor em sua section
 
-Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](../aula05/aula.md), e/ou o [resumo](../aula05/resumo.md) dela.
+Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](https://github.com/VaiNaWeb/primeiros-passos-na-web/tree/d0d8fdf57d9f4b35685e902319e14fddd29a48a5/capitulos/aula05/aula.md), e/ou o [resumo](https://github.com/VaiNaWeb/primeiros-passos-na-web/tree/d0d8fdf57d9f4b35685e902319e14fddd29a48a5/capitulos/aula05/resumo.md) dela.
+

@@ -1,6 +1,5 @@
-<!-- Aula 08 - Modelo de caixa com CSS -->
-
 # Desafio 01: Organizando a malinha do coração
+
 Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e organizar com CSS.
 
 1. Crie um documento HTML com a estrutura básica completa

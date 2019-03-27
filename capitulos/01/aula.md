@@ -17,3 +17,4 @@ Essa suposição começou na mente de um grande cientista chamado Tim-Berns-Lee,
 Em 2014, 40% da população mundial já acessava e fazia parte da internet. Hoje, as pessoas trabalham, estudam, se divertem, fazem negócios e conversam. Vivem nesse mundo digital.
 
 Vamos fazer parte dessa jornada? Aprender como também tomar este espaço e criar páginas que possam ser acessíveis a qualquer lugar do planeta? A colocar nossos conhecimentos, ver e ser visto e mostrar que sim, a informação é capaz de mudar tudo. Nossos conhecimentos, nossas carreiras, nossas famílias, nossa comunidade e nossas vidas.
+

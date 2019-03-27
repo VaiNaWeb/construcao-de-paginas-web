@@ -9,29 +9,32 @@ Vamos descobrir como deixar as páginas cheias de estilo. CSS significa folhas d
 Podemos adicionar a CSS em nossa página HTML de três formas:
 
 ### Em linha, usando o atributo style
-```html
+
+```markup
 <p style="color: #f05a20;">Vai na Web</p>
 ```
 
 ### Direto na Head
-```html
+
+```markup
 <head>
-	<style>
-		p { color: #f05a20; }
-	</style>
+    <style>
+        p { color: #f05a20; }
+    </style>
 </head>
 <body>
-	<p>Vai na Web</p>
+    <p>Vai na Web</p>
 </body>
 ```
 
 ### Externamente
 
 Dessa forma, criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` do html. Ah! chamamos nosso arquivo de estilos.css, mas você pode criar um arquivo com o nome que quiser e utilizá-lo. Lembre-se de colocar junto ao nome do arquivo a extensão dele, ou seja, .css, no final.
-```html
+
+```markup
 <head>
-	<title>Vai na Web</title>
-	<link rel="stylesheet" href="estilos.css" />
+    <title>Vai na Web</title>
+    <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
     <p>Vai na Web</p>
@@ -41,9 +44,10 @@ Dessa forma, criamos um arquivo chamado estilos.css, e o aplicamos no `<head>` d
 ## Sintaxe
 
 Precisamos compreender a sintaxe que a linguagem usa. Pensar na sintaxe de uma linguagem significa pensar nas relações formais que unem as partes constituintes da sentença, criando uma estrutura. Ou seja, trata-se de pensar na estrutura através da qual ela é escrita.
+
 ```css
 seletor {
-	propriedade: valor;
+    propriedade: valor;
 }
 ```
 
@@ -56,43 +60,47 @@ Precisamos dizer ao CSS qual elemento queremos selecionar e adicionar a ele os e
 ### Elemento
 
 Podemos dar estilo diretamente ao próprio elemento do HTML.
+
 ```css
 p {
-	color: #f05a20;
+    color: #f05a20;
 }
 ```
 
-### Id 
+### Id
 
 Ou podemos adicionar um ID ao elemento. É legal de ser usado em elementos que não se repetem na página.
+
 ```css
 #sobre {
-	color: #f05a20;
+    color: #f05a20;
 }
 ```
 
 ### Classe
 
 Podemos, ainda, adicionar uma classe ao elemento. Muito útil para as que se repetem ao longo da página.
+
 ```css
 .sobre {
-	color: #f05a20;
+    color: #f05a20;
 }
 ```
 
 ## Fluindo na Cascata
 
-Dependendo da posição em que o CSS esteja sendo chamado na página o código tem uma certa prioridade na hora de ser exibido pelo navegador. Como nas pedras da cachoeira, a água flui  melhor em alguns lugares do que em outros. Esse é um conceito que vai ser muito importante futuramente.
+Dependendo da posição em que o CSS esteja sendo chamado na página o código tem uma certa prioridade na hora de ser exibido pelo navegador. Como nas pedras da cachoeira, a água flui melhor em alguns lugares do que em outros. Esse é um conceito que vai ser muito importante futuramente.
 
 Quem tem maior prioridade sobrescreve que tem menor. A prioridade na cascata de acordo com a forma que chamamos o código na página é a seguinte:
 
-Usando important! > Em linha > Direto na Head > Externamente
+Usando important! &gt; Em linha &gt; Direto na Head &gt; Externamente
 
 Explicando melhor, em algum momento vamos estudar o que esse important faz, por agora, entendam somente que se um estilo estiver usando ele, ele tem maior prioridade, depois dele o estilo que está em linha tem uma prioridade maior, e assim por diante.
 
-Dependendo da posição dentro de um arquivo essa prioridade muda também. O navegador lê nossa página de baixo para cima, no exemplo a seguir, ambos elementos estão sendo selecionados usando mesmo recurso, nesse caso as classes, mas o que está em baixo tem maior prioridade que o de cima. 
+Dependendo da posição dentro de um arquivo essa prioridade muda também. O navegador lê nossa página de baixo para cima, no exemplo a seguir, ambos elementos estão sendo selecionados usando mesmo recurso, nesse caso as classes, mas o que está em baixo tem maior prioridade que o de cima.
 
 Logo, quando houver a mesma propriedade, o valor da que tem maior prioridade é exibido, sobrescrevendo a de cima.
+
 ```css
 .paragrafo {
   background-color: red;
@@ -104,6 +112,7 @@ Logo, quando houver a mesma propriedade, o valor da que tem maior prioridade é 
 ```
 
 Quando as propriedades forem diferentes, elas simplesmente ficam combinadas. Ambas são mostradas. Exemplo:
+
 ```css
 .paragrafo {
   background-color: red;
@@ -114,7 +123,9 @@ Quando as propriedades forem diferentes, elas simplesmente ficam combinadas. Amb
   margin: 20px;
 }
 ```
+
 O navegador entende assim:
+
 ```css
 .paragrafo {
   background-color: red;
@@ -122,6 +133,7 @@ O navegador entende assim:
   margin: 20px;
 }
 ```
+
 Os seletores também têm prioridades diferentes. A clase que tiver important! tem maior prioridade, seguida dela, o ID tem maior prioridade, depois a classe, e por último o próprio elemento. Exemplo:
 
 ```css
@@ -139,4 +151,6 @@ p {
   padding: 5px;
 }
 ```
+
 Faça alguns testes! O que acontece se você apagar o !important do elemento parágrafo?
+
