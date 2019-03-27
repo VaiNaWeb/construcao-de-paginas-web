@@ -2,8 +2,8 @@
 
 * [Informação muda tudo](README.md)
 * [Comece por aqui](capitulos/README.md)
-  * [1 - Informação muda tudo](capitulos/informacao-muda-tudo/README.md)
-    * [Informação muda tudo](capitulos/informacao-muda-tudo/aula.md)
+  * [1 - Informação muda tudo](capitulos/aula/README.md)
+    * [Informação muda tudo](capitulos/aula/aula.md)
   * [2 - Conheça a história do primeiro computador](capitulos/conheca-a-historia-do-primeiro-computador/README.md)
     * [Conheça a história do primeiro computador](capitulos/conheca-a-historia-do-primeiro-computador/aula.md)
   * [3 - Como nos comunicamos através da internet](capitulos/como-nos-comunicamos-atraves-da-internet/README.md)
