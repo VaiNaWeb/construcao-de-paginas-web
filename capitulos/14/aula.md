@@ -1,5 +1,6 @@
 # Introdução ao modelo flexível de caixas
 
+  
 Existe um conjunto de propriedades em CSS criado com o objetivo de tornar mais flexível o alinhamento e espaçamento de caixas, chamamos esse conjunto de Flexbox.
 
 O Flexbox nos dá o poder de determinar melhor a altura das nossas seções, centralizar nosso conteúdo, dividir nossas colunas, ou seja, nos permite montar layouts de forma mais flexível, e claro, mais prática.
