@@ -14,8 +14,6 @@ Um servidor é um computador especial que contém arquivos de páginas da web. S
 
 Por isso, um site que você escreve no seu computador não pode ser visto por outras pessoas em um computador diferente até que você o hospede em um servidor.
 
-![asset](../../.gitbook/assets/02.png)
-
 ## Como páginas da web são construídas
 
 No final dos anos 80 um físico chamado Tim Berners-Lee, começou a idealizar como cientistas poderiam compartilhar documentos através da rede.
@@ -23,8 +21,6 @@ No final dos anos 80 um físico chamado Tim Berners-Lee, começou a idealizar co
 Em 1990 Tim sugeriu um padrão para construção de documentos com hipertextos e logo nasceu a Linguagem de Marcação de Hipertexto, a HTML, que evoluiu muito até chegar em sua versão atual.
 
 Você pode imaginar um site como um grande livro, em que páginas e mais páginas são ligadas umas às outras, e, no decorrer dos capítulos, podemos colocar atalhos para outras páginas. Diferentemente do exemplo do livro, não precisamos folhear um site, já que tudo está ao alcance de um clique. Assim como o conteúdo de um livro, nossos sites contém textos, mas eles são organizados através de elementos em HTML, que vamos aprender e que os nossos navegadores já conhecem muito bem.
-
-![asset](../../.gitbook/assets/01%20%281%29.png)
 
 ### HTML estrutura páginas
 
@@ -37,6 +33,4 @@ Até então, as páginas já tinham uma estrutura e podiam ser acessadas, mas as
 ### JS cria interações
 
 Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi criada a linguagem Javascript, que tem variadas funções, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor, por exemplo, e atividades bem mais complexas que vamos conhecer em breve.
-
-![asset](../../.gitbook/assets/03.png)
 

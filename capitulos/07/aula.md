@@ -12,10 +12,7 @@ Com a chegada do HTML5, ganhamos algumas tags com significado semântico, e pass
  `<aside>` Define um conteúdo reservado dentro página.  
  `<header>` Define o cabeçalho de uma página ou seção.  
  `<footer>` Define o rodapé de uma página ou seção.   
- `<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.  
-
-
-![asset](../../.gitbook/assets/01.png)
+ `<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.
 
 Na dúvida sobre qual elemento de caixa usar, você deve pensar sobre qual o sentido ou significado dessa caixa em sua página. Exemplo: uma caixa que representa um menu, deve ser definida por um nav. Uma caixa que não representa nenhum sentido, mas prercisa ser usada mesmo assim, deveria ser uma div.
 
