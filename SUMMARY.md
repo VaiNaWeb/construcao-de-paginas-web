@@ -32,9 +32,9 @@
     * [Construindo formulários](capitulos/08-construindo-formularios/aula.md)
     * [Desafios](capitulos/08-construindo-formularios/desafios.md)
   
-  * [09 - Adicionando Áudio, Imagens, Vídeos](capitulos/9-adicionando-audio-imagens-videos/README.md)
+  * [09 - Adicionando Áudio, Imagens, Vídeos](capitulos/09-adicionando-audio-imagens-videos/README.md)
     * [Desafios](capitulos/09-adicionando-audio-imagens-videos/desafios.md)
-    * [Adicionando Áudio, Imagens, Vídeos](capitulos/9-adicionando-audio-imagens-videos/aula.md)
+    * [Adicionando Áudio, Imagens, Vídeos](capitulos/09-adicionando-audio-imagens-videos/aula.md)
   
   * [10 - Introdução CSS](capitulos/10-introducao-css/README.md)
     * [Introdução CSS](capitulos/10-introducao-css/aula.md)
