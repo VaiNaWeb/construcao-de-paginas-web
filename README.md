@@ -1,4 +1,4 @@
-# Informação muda tudo
+# Construção de páginas web
 
 E se houvesse um lugar onde poderíamos ter acesso à maior parte da informação do planeta, pulando de um lugar a outro, quase na velocidade da luz, assim como nosso cérebro? E se fosse possível aprender e pensar junto aos maiores poetas, artistas e cientistas que existem e já existiram? Se esse lugar não quisesse saber quem eu sou e me aceitasse automaticamente, sem perguntar?
 

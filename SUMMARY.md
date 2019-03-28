@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Informação muda tudo](README.md)
+* [Construção de páginas web](README.md)
 * [Comece por aqui](capitulos/README.md)
   * [01 - Informação muda tudo](capitulos/01-informacao-muda-tudo/README.md)
     * [Informação muda tudo](capitulos/01-informacao-muda-tudo/aula.md)
