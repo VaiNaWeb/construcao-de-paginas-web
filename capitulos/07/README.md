@@ -1,4 +1,4 @@
-# 7 - HTML Semântico
+# 7 - Páginas semânticas
 
 {% page-ref page="aula.md" %}
 
