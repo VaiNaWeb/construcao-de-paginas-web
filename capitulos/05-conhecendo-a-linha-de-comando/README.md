@@ -1,6 +1,6 @@
-# 5 - Conhecendo a linha de comando
-
-{% page-ref page="aula.md" %}
+# 05 - Conhecendo a linha de comando
 
 {% page-ref page="desafios.md" %}
+
+{% page-ref page="aula.md" %}
 

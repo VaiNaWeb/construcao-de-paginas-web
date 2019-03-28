@@ -7,12 +7,12 @@ Há elementos no HTML que conhecemos como elementos de caixa, ou containers. Usa
 Com a chegada do HTML5, ganhamos algumas tags com significado semântico, e passamos a usar não somente `div`. Isso foi muito importante para os navegadores e usuários, consequentemente isso facilitou também a nossa vida enquanto desenvolvedor. Agora temos uma tag `<header>` para cabeçalho, uma tag `<footer>` para rodapé e mais algumas:
 
 `<section>` Define uma seção  
- `<nav>` Define um menu com links de navegação  
- `<article>` Pode definir um artigo, um comentário enviado pelo usuário etc  
- `<aside>` Define um conteúdo reservado dentro página.  
- `<header>` Define o cabeçalho de uma página ou seção.  
- `<footer>` Define o rodapé de uma página ou seção.   
- `<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.
+`<nav>` Define um menu com links de navegação  
+`<article>` Pode definir um artigo, um comentário enviado pelo usuário etc  
+`<aside>` Define um conteúdo reservado dentro página.  
+`<header>` Define o cabeçalho de uma página ou seção.  
+`<footer>` Define o rodapé de uma página ou seção.  
+`<main>` Define o conteúdo principal ou importante no documento. Deve existir apenas um.
 
 Na dúvida sobre qual elemento de caixa usar, você deve pensar sobre qual o sentido ou significado dessa caixa em sua página. Exemplo: uma caixa que representa um menu, deve ser definida por um nav. Uma caixa que não representa nenhum sentido, mas prercisa ser usada mesmo assim, deveria ser uma div.
 
@@ -51,7 +51,7 @@ Sabemos que nossos sites são um conjunto de páginas conectadas, ou linkadas, u
 
 Na internet, temos várias e várias páginas conectadas umas às outras. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas.
 
-Criar links em nossa página pode ser muito útil, vamos agora aprender a criá-los. Qualquer elemento que aparece entre a abertura e o fechamento de tags  é a parte que será um link clicável na página. Exemplo:
+Criar links em nossa página pode ser muito útil, vamos agora aprender a criá-los. Qualquer elemento que aparece entre a abertura e o fechamento de tags é a parte que será um link clicável na página. Exemplo:
 
 ```markup
 <p>Esse é um exemplo de palavra <a href="http://www.vainaweb.com.br"> clicável </a>.</p>

@@ -121,14 +121,14 @@ Para permitir que os usuários adicionem um arquivo a um formulário, como anexa
 
 Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acessível para todos os usuários e tecnologias assistivas, muito úteis para garantir acessibilidade. Criado usando o elemento label, os labels devem incluir um texto que descreva as entradas ou controles aos quais eles pertencem.
 
-Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento  para trazer foco para o controle de formulário apropriado.
+Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento para trazer foco para o controle de formulário apropriado.
 
 ```markup
 <label for="usuario">Username</label>
 <input type="text" name="usuario" id="usuario">
 ```
 
-O elemento  também pode envolver controles de formulário, como botões de opção ou caixas de seleção. Nesse caso não precisamos usar os atributos for e id.
+O elemento também pode envolver controles de formulário, como botões de opção ou caixas de seleção. Nesse caso não precisamos usar os atributos for e id.
 
 ```markup
 <label>

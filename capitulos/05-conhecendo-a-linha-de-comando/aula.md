@@ -69,18 +69,17 @@ cd ..
 Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o computador, criar arquivos, remover arquivos, e mais um monte de outras coisas. Há alguns bem básicos que podem nos ajudar muito em nossas tarefas enquanto desenvolvedor. Vamos conhecer alguns:
 
 `whoami`: Mostra o nome do usuário  
- `man`: Usado para mostrar o manual de um outro comando  
- `sudo`: Deve ser usado com cuidado. Ele dá permissões de administrador  
- `ls`: Lista os arquivos do diretório  
- `pwd`: Mostra o diretório atual  
- `cd`: Usado para mudar de diretório  
- `cp`: Copia um arquivo ou diretório  
- `mv`: Usado para mover um arquivo ou renomea-lo  
- `mkdir`: Cria uma nova pasta  
- `touch`: Cria um novo arquivo  
- `more`: Lê um arquivo de texto  
- `grep`: Lê e faz uma busca por palavras dentro de um arquivo  
- `clear`: Limpa a tela  
- `exit`: Fecha o terminal  
-
+`man`: Usado para mostrar o manual de um outro comando  
+`sudo`: Deve ser usado com cuidado. Ele dá permissões de administrador  
+`ls`: Lista os arquivos do diretório  
+`pwd`: Mostra o diretório atual  
+`cd`: Usado para mudar de diretório  
+`cp`: Copia um arquivo ou diretório  
+`mv`: Usado para mover um arquivo ou renomea-lo  
+`mkdir`: Cria uma nova pasta  
+`touch`: Cria um novo arquivo  
+`more`: Lê um arquivo de texto  
+`grep`: Lê e faz uma busca por palavras dentro de um arquivo  
+`clear`: Limpa a tela  
+`exit`: Fecha o terminal
 

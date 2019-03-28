@@ -9,5 +9,3 @@
 5. Faça um Formulário acessível.
 6. Passe o seu HTML em um validador de Acessibilidade.
 
-
-

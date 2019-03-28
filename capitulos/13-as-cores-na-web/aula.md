@@ -37,10 +37,9 @@ p {
 ### Ferramentas legais
 
 [http://lokeshdhakar.com/projects/color-thief/](http://lokeshdhakar.com/projects/color-thief/)  
- [http://moviesincolor.com/](http://moviesincolor.com/)  
- [https://color.adobe.com/pt/create/color-wheel/](https://color.adobe.com/pt/create/color-wheel/)  
- [https://www.w3schools.com/colors/colors\_picker.asp?colorhex=F0F8FF](https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF)  
-
+[http://moviesincolor.com/](http://moviesincolor.com/)  
+[https://color.adobe.com/pt/create/color-wheel/](https://color.adobe.com/pt/create/color-wheel/)  
+[https://www.w3schools.com/colors/colors\_picker.asp?colorhex=F0F8FF](https://www.w3schools.com/colors/colors_picker.asp?colorhex=F0F8FF)
 
 ## Tipografia
 

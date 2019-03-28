@@ -1,8 +1,6 @@
-# 7 - Páginas semânticas
-
-{% page-ref page="aula.md" %}
+# 07 - Páginas semânticas
 
 {% page-ref page="desafios.md" %}
 
-
+{% page-ref page="aula.md" %}
 

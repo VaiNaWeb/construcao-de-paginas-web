@@ -25,7 +25,7 @@
 11. Adicione, abaixo do label, um input com name idade
 12. Adicione, abaixo do input, um label contendo a palavra Data de nascimento.
 
-    13 Adicione, abaixo do label, um input com name  Data de nascimento.
+    13 Adicione, abaixo do label, um input com name Data de nascimento.
 
     14.Adicione, abaixo do input, um label contendo a palavra Telefone.
 
