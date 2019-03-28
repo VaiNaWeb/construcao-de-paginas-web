@@ -1,2 +1,0 @@
-# Páginas semânticas
-
