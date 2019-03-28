@@ -13,7 +13,7 @@ Neste módulo você aprenderá a criar páginas semânticas, responsivas, e aces
 * Força de vontade :sparkles:
 * Um computador com acesso à internet, ou não
 * Um navegador web de sua preferência
-* Qualquer editor de textos, ou editor de códigos, sugerimos o SublimeText ou o Scratchpad.io.
+* Qualquer editor de textos, ou editor de códigos, sugerimos o SublimeText ou o Scratchpad.io
 
 ### Sobre os materiais de apoio
 
