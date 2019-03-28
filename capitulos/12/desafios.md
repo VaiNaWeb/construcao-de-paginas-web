@@ -1,4 +1,6 @@
-# Desafio 01: Organizando a malinha do coração
+# Desafios
+
+## Desafio 01: Organizando a malinha do coração
 
 Vamos pensar em coisas bonitas que guardamos no coração, escolher algumas, e organizar com CSS.
 
