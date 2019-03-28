@@ -46,9 +46,9 @@
   * [16 - Criando páginas para múltiplos dispositivos](capitulos/criando-paginas-para-multiplos-dispositivos/README.md)
     * [Criando páginas para múltiplos dispositivos](capitulos/criando-paginas-para-multiplos-dispositivos/aula.md)
     * [Desafios](capitulos/criando-paginas-para-multiplos-dispositivos/desafios.md)
-  * [17 - Criando páginas acessíveis](capitulos/criando-paginas-acessiveis/README.md)
-    * [Criando páginas acessíveis](capitulos/criando-paginas-acessiveis/aula.md)
-    * [Desafios](capitulos/criando-paginas-acessiveis/desafios.md)
+  * [17 - Criando páginas acessíveis](capitulos/17-criando-paginas-acessiveis/README.md)
+    * [Criando páginas acessíveis](capitulos/17-criando-paginas-acessiveis/aula.md)
+    * [Desafios](capitulos/17-criando-paginas-acessiveis/desafios.md)
 * [Código de Conduta](code_of_conduct.md)
 * [Contribuindo no VaiNaWeb](contributing.md)
 
