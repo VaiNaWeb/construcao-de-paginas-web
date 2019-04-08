@@ -4,7 +4,9 @@ Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos
 
 Essa famosa telinha preta, que é chamada de linha de comando, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
 
-Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los! Para aproveitar melhor esssa e outras aulas, é recomendado que você escreva os comandos ao invés de copia-los, dessa forma você vai lembrar deles depois.
+Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los!
+
+Para aproveitar melhor essa e outras aulas, é recomendado que você escreva os comandos ao invés de copia-los, dessa forma você vai lembrar deles depois.
 
 Vamos aprender alguns comandos, eles mudam um pouco de sistema operacional para sistema operacional. Durante essa aula vamos focar nos comandos do Linux. Isso porque nos computadores dos polos onde o VnW acontece escolhemos usar esse sistema.
 
@@ -75,7 +77,7 @@ Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o compu
 `pwd`: Mostra o diretório atual  
 `cd`: Usado para mudar de diretório  
 `cp`: Copia um arquivo ou diretório  
-`mv`: Usado para mover um arquivo ou renomea-lo  
+`mv`: Usado para mover um arquivo ou renomeá-lo  
 `mkdir`: Cria uma nova pasta  
 `touch`: Cria um novo arquivo  
 `more`: Lê um arquivo de texto  

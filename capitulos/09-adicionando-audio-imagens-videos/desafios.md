@@ -10,7 +10,7 @@
 6. Ainda dentro da 2 section crie um paragrafo contando o amor pelo seu time
 7. Adicione uma imagem, um vídeo e um link direcionando para a página do seu time.
 
-## Desafio 01: Viajando para ...
+## Viajando para ...
 
 1. Crie uma página com a estrutura básica completa
 2. Adicione um main

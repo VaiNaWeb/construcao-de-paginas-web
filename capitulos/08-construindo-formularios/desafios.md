@@ -1,6 +1,6 @@
 # Desafios
 
-## Desafio01: Construindo um formulário
+## Construindo um formulário
 
 1. Crie uma página com a estrutura básica completa
 2. Adicione um form
@@ -10,7 +10,7 @@
 6. Adicione, abaixo do label, um input com `name` email
 7. Adicione um form button com `value` Enviar
 
-## Desafio 2: Evoluindo meu formulário, Matrícula
+## Evoluindo meu formulário, Matrícula
 
 1. Crie uma página com a estrutura básica completa
 2. Adicione um main.
