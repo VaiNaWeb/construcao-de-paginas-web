@@ -46,5 +46,3 @@
 9. Dentro de cada div, adicione um titulo, um subtitulo e um paragrafo.
 10. Adcione duas imagens com uma legenda no final do footer.
 
-Não lembra de algum conteúdo da aula? Sinta-se à vontade para ler novamente a [aula](https://github.com/VaiNaWeb/primeiros-passos-na-web/tree/d0d8fdf57d9f4b35685e902319e14fddd29a48a5/capitulos/aula03/aula.md), e/ou o [resumo](https://github.com/VaiNaWeb/primeiros-passos-na-web/tree/d0d8fdf57d9f4b35685e902319e14fddd29a48a5/capitulos/aula03/resumo.md) dela.
-

@@ -1,6 +1,6 @@
 # Desafios
 
-## Desafio01: Versionando uma música!
+## Desafio 01: Versionando uma música!
 
 1. Crie uma pasta
 2. Crie um arquivo de texto chamado musica.txt
@@ -13,7 +13,7 @@
 9. Ainda no terminal, peça ao git que salve essa alteração, e deixe nela mais um comentário
 10. Pergunte ao Git quais alterações foram gravadas
 
-## Desafio02: Minha página na web
+## Desafio 02: Minha página na web
 
 1. Crie uma conta no Github
 2. Crie uma pasta no seu computador chamada seunome.github.io
@@ -27,7 +27,7 @@
 10. Ainda no terminal, digite o camando para subir as alterações do seu computador para o Github
 11. Acesse o endereço seunome.github.io pelo seu navegador
 
-## Desafio03: Minha página web ramificada.
+## Desafio 03: Minha página web ramificada.
 
 1. Crie um novo branch na pasta do projeto em seu computador
 
@@ -81,7 +81,7 @@
 
 Podemos utilizar as ramificações quando queremos trabalhar com algum colega e não queremos alterar código juntos. Existem alguns problemas em trabalhar em ramificações, quando utilizar o comando _git merge_ podemos ter alguns conflitos,
 
-## Desafio04: Trabalhando com colega, resolvendo conflitos
+## Desafio 04: Trabalhando com colega, resolvendo conflitos
 
 Não temos nenhum complexo de identidade, mas aqui iremos nos passar por duas pessoas, a primeira é você e a segunda é seu colega lhe ajudando com o código da sua página.
 
@@ -215,7 +215,7 @@ Para apresentar o conflito o git inseri no arquivo que contém o conflito os seg
 
 8. Entre na página seu-projeto.github.io para vizualizar as mudanças.
 
-## Desafio05: Começando uma nova linha de trabalho
+## Desafio 05: Começando uma nova linha de trabalho
 
 A ideia deste desafio é utilizar o comando "cherry-pick", que permite você trabalhar a partir de um determinado commit específico de seu ambiente local. Para auxiliá-lo no entendimento, você pode realizar um breve estudo vendo este conteúdo aqui: [https://www.youtube.com/watch?v=CUpk6F2eNs0](https://www.youtube.com/watch?v=CUpk6F2eNs0)
 
@@ -223,6 +223,4 @@ A ideia deste desafio é utilizar o comando "cherry-pick", que permite você tra
 2. Crie uma nova branch com o nome "new\_work\_branch"
 3. Na nova branch, especifique que você deseja trabalhar a partir do conteúdo do seu terceiro commit realizado \(criado no passo 1\)
 4. Verifique no log do GIT como está seu ambiente de trabalho, para o completo entendimento do comando cherry-pick
-
-Não lembra dos principais comandos do git? Sinta-se à vontade para ler novamente a aula, e/ou o resumo dela.
 
