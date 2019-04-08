@@ -20,7 +20,9 @@ No final dos anos 80 um físico chamado Tim Berners-Lee, começou a idealizar co
 
 Em 1990 Tim sugeriu um padrão para construção de documentos com hipertextos e logo nasceu a Linguagem de Marcação de Hipertexto, a HTML, que evoluiu muito até chegar em sua versão atual.
 
-Você pode imaginar um site como um grande livro, em que páginas e mais páginas são ligadas umas às outras, e, no decorrer dos capítulos, podemos colocar atalhos para outras páginas. Diferentemente do exemplo do livro, não precisamos folhear um site, já que tudo está ao alcance de um clique. Assim como o conteúdo de um livro, nossos sites contém textos, mas eles são organizados através de elementos em HTML, que vamos aprender e que os nossos navegadores já conhecem muito bem.
+Você pode imaginar um site como um grande livro, em que páginas e mais páginas são ligadas umas às outras, e, no decorrer dos capítulos, podemos colocar atalhos para outras páginas. Diferentemente do exemplo do livro, não precisamos folhear um site, já que tudo está ao alcance de um clique.
+
+Assim como o conteúdo de um livro, nossos sites contém textos, mas eles são organizados através de elementos em HTML, que vamos aprender e que os nossos navegadores já conhecem muito bem.
 
 ### HTML estrutura páginas
 
