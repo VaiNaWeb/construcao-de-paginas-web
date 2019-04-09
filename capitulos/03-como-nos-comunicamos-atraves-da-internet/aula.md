@@ -1,5 +1,7 @@
 # Como nos comunicamos através da internet
 
+### Introdução
+
 O conteúdo de um site é organizado dentro de um conjunto especial de regras que os computadores entendem. Funciona como falar em uma linguagem secreta, codificada.
 
 Quando dois ou mais computadores estão conectados à internet, eles podem conversar uns com os outros. Há uma forma de comunicação envolvida que os computadores entendem muito bem.
@@ -14,7 +16,7 @@ Um servidor é um computador especial que contém arquivos de páginas da web. S
 
 Por isso, um site que você escreve no seu computador não pode ser visto por outras pessoas em um computador diferente até que você o hospede em um servidor.
 
-## Como páginas da web são construídas
+### Como páginas da web são construídas
 
 No final dos anos 80 um físico chamado Tim Berners-Lee, começou a idealizar como cientistas poderiam compartilhar documentos através da rede.
 
