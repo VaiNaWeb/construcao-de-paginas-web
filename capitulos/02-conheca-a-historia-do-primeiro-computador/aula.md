@@ -20,5 +20,5 @@ Algum tempo depois, em 1946, na Universidade da Pensilvânia, finalmente foi con
 
 O ENIAC pesava 27 toneladas, ocupava praticamente uma sala inteira, e era programado através de milhares de interruptores, podendo cada um deles assumir o valor 1 ou 0, o interruptor estava ligado ou desligado, e para programa-lo era necessário uma grande quantidade de pessoas que percorriam as longas filas de interruptores dando ao ENIAC as instruções necessárias para computar, ou seja, fazer cálculos.
 
-Imaginem como seria voltar no tempo, e contar para as pessoas que hoje nós carregamos no bolso um computador? Você pode não pensar no celular como um computador, mas a funcionalidade dele é ativada por vários computadores trabalhando juntos. Certamente ao ouvir sobre isso as pessoas daquela época em que você pensou ficariam no mínimo impressionadas.
+Imagine como seria voltar no tempo, e contar para as pessoas que hoje nós carregamos no bolso um computador? Você pode não pensar no celular como um computador, mas a funcionalidade dele é ativada por vários computadores trabalhando juntos. Certamente ao ouvir sobre isso as pessoas daquela época em que você pensou ficariam no mínimo impressionadas.
 
