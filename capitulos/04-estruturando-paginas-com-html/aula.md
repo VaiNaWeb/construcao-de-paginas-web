@@ -1,10 +1,12 @@
 # Estruturando páginas
 
-Para estruturar páginas a linguagem HTML usa um conjunto predefinido de regras para identificar os diversos tipos de conteúdos
+### Introdução
+
+Para estruturar páginas a linguagem HTML usa um conjunto predefinido de regras para identificar os diversos tipos de conteúdos. Usamos as Tags para criar marcações que dizem aos navegadores quais elementos estão presentes na página e como devem ser interpretados.
 
 ### Criando marcações
 
-Usamos as Tags para criar marcações que dizem aos navegadores quais elementos estão presentes na página e como devem ser interpretados. Cada tag precisa começar com o sinal de menor &lt; e terminar com o sinal de maior &gt;. 
+Uma tag precisa começar com o sinal de menor &lt; e terminar com o sinal de maior &gt;. 
 
 Exemplo:
 

@@ -1,18 +1,20 @@
 # Conhecendo a linha de comando
 
+### Introdução
+
 Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos filmes e séries. Algo que o cinema não mostra, é que elas são bem simples, e podem ser usadas para diversas coisas, desde criar um novo arquivo na área de trabalho, e até mesmo colocar um site ou aplicação online.
 
-Essa famosa telinha preta, que é chamada de linha de comando, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
+Essa famosa tela preta, que é chamada de **linha de comando**, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
 
-Graças às maravilhosas e amigáveis interfaces que foram criadas para usarmos nos computadores, perdemos a necessidade de usar o terminal no nosso dia-a-dia. Mas dominar alguns comandos dessa telinha pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los!
+Dominar alguns comandos dessa tela pode ajudar muito em nossa jornada na programação, e é por isso que vamos começar a aprende-los!
 
 Para aproveitar melhor essa e outras aulas, é recomendado que você escreva os comandos ao invés de copia-los, dessa forma você vai lembrar deles depois.
 
 Vamos aprender alguns comandos, eles mudam um pouco de sistema operacional para sistema operacional. Durante essa aula vamos focar nos comandos do Linux. Isso porque nos computadores dos polos onde o VnW acontece escolhemos usar esse sistema.
 
-Mas se você usa Windows em casa pode pesquisar os comandos equivalentes, ou se preferir, você pode usar o [Git Bash](https://git-scm.com/) mas nem todos os comandos podem funcionar.
+Mas se você usa Windows em casa pode pesquisar os comandos equivalentes, ou se preferir, você pode instalar o [Git Bash](https://git-scm.com/) mas nem todos os comandos podem funcionar.
 
-## Primeiros comandos
+### Primeiros comandos
 
 Para começar, abra o terminal digite o seguinte comando:
 
@@ -34,7 +36,7 @@ Se preferir, você pode também se localizar vendo quais arquivos estão dentro 
 ls
 ```
 
-## Navegando entre pastas
+### Navegando entre pastas
 
 Uma coisa bem legal que você pode fazer agora é aprender a navegar entre pastas! Eu não tenho certeza de quais pastas você tem aí em seu computador, então vamos criar uma nova chamada teste. Digite o seguinte comando:
 
@@ -66,7 +68,7 @@ Que tal agora voltar? Você pode fazer isso usando o comando:
 cd ..
 ```
 
-## Mais alguns comandos
+### Mais alguns comandos
 
 Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o computador, criar arquivos, remover arquivos, e mais um monte de outras coisas. Há alguns bem básicos que podem nos ajudar muito em nossas tarefas enquanto desenvolvedor. Vamos conhecer alguns:
 
