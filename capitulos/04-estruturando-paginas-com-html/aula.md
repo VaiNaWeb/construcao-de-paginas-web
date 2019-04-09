@@ -1,8 +1,18 @@
-# Estruturando páginas com HTML
+# Estruturando páginas
 
-O HTML usa um conjunto predefinido de elementos para identificar os diversos tipos de conteúdo. Os elementos contém uma ou mais tags que abrangem ou expressam um determinado conteúdo. Cada tag funciona como uma etiqueta que diz ao navegador qual elemento está escrito ali e como ele deve interpretá-lo. Por isso, cada tag tem seu significado e deve ser usada corretamente.
+Para estruturar páginas a linguagem HTML usa um conjunto predefinido de regras para identificar os diversos tipos de conteúdos
 
-Cada tag começa com o sinal de menor &lt; e termina com o sinal de maior &gt;. Certifique-se de sempre fechar cada tag, pois, embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não é.
+### Criando marcações
+
+Usamos as Tags para criar marcações que dizem aos navegadores quais elementos estão presentes na página e como devem ser interpretados. Cada tag precisa começar com o sinal de menor &lt; e terminar com o sinal de maior &gt;. 
+
+Exemplo:
+
+```markup
+<p>
+```
+
+Embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não é. Logo, ao criar uma tag para abrir uma marcação precisamos também adicionar uma para fecha-la. Para criar uma tag de fechamento, usamos um sinal de barra / depois do sinal de maior. 
 
 Exemplo:
 

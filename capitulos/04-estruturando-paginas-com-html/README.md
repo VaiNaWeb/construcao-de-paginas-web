@@ -1,4 +1,4 @@
-# 04 - Estruturando páginas com HTML
+# 04 - Estruturando páginas
 
 {% page-ref page="aula.md" %}
 
