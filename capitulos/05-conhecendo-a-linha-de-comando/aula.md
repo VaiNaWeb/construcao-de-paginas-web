@@ -24,13 +24,13 @@ whoami
 
 O computador acabou de apresentar seu nome de usuário! Legal, não é?
 
-Seria legal saber em que pasta estamos agora. É recomendável que você sempre saiba essa informaçao! Se você não souber, é só usar o comando. Digite o seguinte comando e aperte o enter:
+Seria legal saber em que pasta estamos agora. É recomendável que você sempre saiba essa informação! Se você não souber, é só usar o comando. Digite o seguinte comando e aperte o enter:
 
 ```text
 pwd
 ```
 
-Se preferir, você pode também se localizar vendo quais arquivos estão dentro da pasta. Você pode descobrir isso usando o comando:
+Se preferir, você pode também se localizar vendo quais arquivos estão dentro da pasta. Você pode descobrir isso usando o comando para listar arquivos:
 
 ```text
 ls
@@ -44,7 +44,7 @@ Uma coisa bem legal que você pode fazer agora é aprender a navegar entre pasta
 mkdir teste
 ```
 
-Para ter certeza de que a pasta foi criada você pode usar o ls de novamente.
+Para ter certeza de que a pasta foi criada você pode usar o ls novamente.
 
 ```text
 ls
