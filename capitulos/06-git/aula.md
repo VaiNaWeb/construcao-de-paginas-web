@@ -6,21 +6,21 @@ Vamos colocar nossa primeira página online, e para isso vamos usar Git, o Githu
 
 ### Primeiros comandos com Git
 
-O Git é um sistema de controle de versão e gerenciamento de código fonte desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje usado em diferentes projetos digitais no mundo inteiro.
+O Git é um sistema de controle de versão e gerenciamento de código fonte desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux.
 
-Podemos pensar no Git como um fotógrafo de nossas alterações. Ele fica registrando as mudanças feitas em um ou mais arquivos ao longo do tempo para nos dar o poder de criar versões de nossos projetos.
+Podemos pensar no Git como um fotógrafo de nossas alterações. Ele fica registrando as mudanças feitas em um ou mais arquivos ao longo do tempo. Mas como ele faz isso? Bom... Vamos aprender na prática como isso acontece!
 
-Mas como ele faz isso? Bom... Vamos aprender na prática como isso acontece!
+Cada diretório de trabalho do Git tem seu histórico completo e habilidade total de acompanhamento das revisões.
 
-Antes de tudo, precisamos inicializar o repositório git em nossa pasta. Só precisamos fazer esse passo uma vez por projeto. Para fazer isso, tenha certeza de que você está dentro da pasta que você quer inicializar e digite o comando:
+Antes de tudo, precisamos inicializar o Git em nosso projeto. Isso precisa ser feito apenas uma vez no projeto. Precisamos fazer esse passo uma vez por projeto. Navegue até a pasta que você quer começar a rastrear, tenha certeza de que você está dentro da pasta certa e digite o comando:
 
 ```text
 git init
 ```
 
-Agora o Git está pronto para controlar as alterações de todos os arquivos e pastas no projeto.
+Se você está versionando uma pasta que já tem arquivos dentro dela, ele vai entender que todos esses arquivos fazem parte da sua primeira alteração.
 
-Se você está versionando uma pasta que já tem arquivos dentro dela, ele vai entender que todos esses arquivos fazem parte da sua primeira alteração. Se você está versionando uma pasta vazia, sugerimos que você crie dentro dela um novo arquivo em branco, esse arquivo vai ser a sua primeira alteração.
+Se você está versionando uma pasta vazia, sugerimos que você crie dentro dela um novo arquivo em branco, esse arquivo vai ser a sua primeira alteração. Ou simplesmente dê inicio ao seu projeto real.
 
 Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. Para isso, vamos pedir que ele marque isso como se colocasse um post-it no conjunto de mudanças que fizemos. Fazendo isso estamos solicitando ao git para guardar esse estado de nosso repositório. É como salvar o momento de um jogo no videogame e poder voltar nele ou só lembrar dele depois, sabe?
 
@@ -73,4 +73,11 @@ Existem vários outros comandos que podemos aprender, você pode ver uma lista c
 ```text
 git help
 ```
+
+### Referências
+
+[https://git-scm.com/](https://git-scm.com/)  
+[https://pt.wikipedia.org/wiki/Git](https://pt.wikipedia.org/wiki/Git)  
+[https://guides.github.com/introduction/git-handbook/](https://guides.github.com/introduction/git-handbook/)  
+[https://github.github.com/training-kit/downloads/pt\_BR/github-git-cheat-sheet/](https://github.github.com/training-kit/downloads/pt_BR/github-git-cheat-sheet/)
 

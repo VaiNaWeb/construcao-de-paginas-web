@@ -1,6 +1,6 @@
 # Trabalhando com repositórios remotos
 
-## Github
+### Introdução
 
 O GitHub é uma rede social através da qual milhares de pessoas constroem códigos, e podem compartilhar conhecimento, de forma colaborativa, aberta e gratuita.
 
@@ -57,4 +57,8 @@ Depois você pode clonar essa pasta em seu computador e criar o arquivo HTML da 
 Vá no seu repositório no Github, acesse a aba settings, lá estão as configurações do seu repositório, desça a página até a seção Github Pages. Lá tem um botão com None, clique nele e altere de None para master branch e clique em save para salvar.
 
 Aguarde alguns minutos, e tchanrammm! Sua página já está online e pode ser acessada no navegador usando o link seunome.github.io
+
+### Referências
+
+[https://guides.github.com/](https://guides.github.com/)
 
