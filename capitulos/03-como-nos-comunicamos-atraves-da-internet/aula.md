@@ -30,11 +30,17 @@ Assim como o conteúdo de um livro, nossos sites contém textos, mas eles são o
 
 A HTML é a linguagem base de uma página da web. É ela quem determina a estrutura das nossas páginas, que podem conter textos, imagens, vídeos e dar vida a tantos sites fantásticos que conhecemos hoje. Um documento em HTML é composto por uma estrutura formada de TAGS, que são marcações para identificar os diversos tipos de conteúdos e ainda organizá-los de forma semântica.
 
-### CSS estiliza
+### CSS adiciona estilos
 
 Até então, as páginas já tinham uma estrutura e podiam ser acessadas, mas as pessoas começaram a pensar em como torná-las mais amigáveis e estéticamente harmôniosas e isso era algo muito difícil de se fazer somente com HTML. Algum tempo depois, em 1996, nasceu o CSS, a Folha de Estilos em Cascata \(Cascating Style Sheets\), que veio para deixar as nossas páginas literalmente cheias de estilo!
 
 ### JS cria interações
 
 Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi criada a linguagem Javascript, que tem variadas funções, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor, por exemplo, e atividades bem mais complexas que vamos conhecer em breve.
+
+### Referências
+
+[https://developer.mozilla.org/en-US/docs/Learn/Getting\_started\_with\_the\_web/How\_the\_Web\_works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)  
+[https://www.youtube.com/watch?v=Dxcc6ycZ73M](https://www.youtube.com/watch?v=Dxcc6ycZ73M)  
+[http://internetfundamentals.com/](http://internetfundamentals.com/)
 
