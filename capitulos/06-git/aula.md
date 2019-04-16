@@ -10,49 +10,55 @@ O Git é um sistema de controle de versão e gerenciamento de código fonte dese
 
 Podemos pensar no Git como um fotógrafo de nossas alterações. Ele fica registrando as mudanças feitas em um ou mais arquivos ao longo do tempo. Mas como ele faz isso? Bom... Vamos aprender na prática como isso acontece!
 
-Cada diretório de trabalho do Git tem seu histórico completo e habilidade total de acompanhamento das revisões.
-
 Antes de tudo, precisamos inicializar o Git em nosso projeto. Isso precisa ser feito apenas uma vez no projeto. Precisamos fazer esse passo uma vez por projeto. Navegue até a pasta que você quer começar a rastrear, tenha certeza de que você está dentro da pasta certa e digite o comando:
 
 ```text
 git init
 ```
 
-Se você está versionando uma pasta que já tem arquivos dentro dela, ele vai entender que todos esses arquivos fazem parte da sua primeira alteração.
+### Entendendo o fluxo de trabalho
 
-Se você está versionando uma pasta vazia, sugerimos que você crie dentro dela um novo arquivo em branco, esse arquivo vai ser a sua primeira alteração. Ou simplesmente dê inicio ao seu projeto real.
+![Ilustra&#xE7;&#xE3;o sobre o fluxo de trabalho do Git](../../.gitbook/assets/stash.png)
 
-Agora, ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. Para isso, vamos pedir que ele marque isso como se colocasse um post-it no conjunto de mudanças que fizemos. Fazendo isso estamos solicitando ao git para guardar esse estado de nosso repositório. É como salvar o momento de um jogo no videogame e poder voltar nele ou só lembrar dele depois, sabe?
+* Quando você modifica seus arquivos, você está fazendo isso em seu **diretório de trabalho**.
+* Depois você pode selecionar quais arquivos deseja lançar nesta nova versão, adicionando eles em sua **área de preparação**, ou index/stage
+* Por último, a partir das mudanças armazenadas na área de preparação você pode salvar permanentemente esse momento na história do projeto criando um **commit**
 
-Mas antes de guardar, é sempre bom ter certeza de qual estado é esse que estamos falando. Quais arquivos foram alterados? Para checar isso, vamos usar uma instrução para que o git nos informe quais são. Usamos o seguinte comando:
+### Criando commits
+
+Ainda pensando no git como um fotógrafo de nossas alterações, precisamos dizer a ele quais fotografias queremos que ele nos lembre. É como salvar o momento de um jogo no videogame e poder voltar nele ou só lembrar dele depois.
+
+Antes de tudo, você pode revisar as modificações que foram feitas. Para ver quais arquivos foram alterados, podemos usar uma instrução para que o git nos informe quais são. Precisamos checar o status do nosso **diretório de trabalho** Usamos o seguinte comando:
 
 ```text
 git status
 ```
 
-Agora já sabemos quais arquivos foram alterados! Supondo que esse é mesmo o momento da história do nosso repositório que queremos guardar, usamos agora o seguinte comando para guardar as alterações de um arquivo:
+Para visualizar exatamente quais mudanças são essas usamos o seguinte comando:
+
+```text
+git diff
+```
+
+Agora já sabemos quais arquivos foram alterados! Supondo que esse é mesmo o momento da história do nosso repositório que queremos guardar na **área de preparação**, usamos agora o seguinte comando para guardar as alterações de um arquivo:
 
 ```text
 git add nomedoarquivo
 ```
 
-Se você tiver alterado mais de um arquivo, e não quiser digitar esse comando para cada um deles, você pode usar \* ou . ao invés de especificar os nomes deles. Exemplo:
+Se você feito mudanças em mais de um arquivo, e não quiser digitar esse comando para cada um deles, você pode usar \* ou . ao invés de especificar os nomes deles. Exemplo:
 
 ```text
 git add *
 ```
 
-Dai então podemos fazer mais alterações e adicionar a esse momento usando de novo o git add, ou podemos querer guardar esse momento exato, sem novas alterações. Para isso, vamos criar um commit, o commit é o nome que damos a esses momentos guardados na história do repositório. Cada momento deve ter uma descrição sobre ele também. Para isso usamos o comando:
+Agora podemos criar um **commit** para gravar esse momento atual da área de preparação na história do repositório. Cada momento deve ter uma descrição sobre ele também. Para isso usamos o comando:
 
 ```text
 git commit -m "oi! eu sou o seu primeiro commit!"
 ```
 
-Você pode alterar o comentário do commit escrevendo outra frase dentro das aspas. Que tal fazer novas alterações e criar mais um commit? Crie um novo arquivo em branco ou altere o conteúdo de arquivos existentes. Depois você pode usar o git add novamente, não esqueça disso, e daí então criar mais um commit com um novo comentário para guardar esse novo momento. Exemplo:
-
-```text
-git commit -m "parabénss, mais um commit!"
-```
+### Desfazendo mudanças
 
 Uma das vantagens em poder guardar esses momentos, digo, commits é que se a gente precisar é possível desfazer as mudanças que fizemos e então o repositório fica igual ao ultimo commit que criamos. Para isso, ao invés de usar o git add, usamos o git checkout:
 
