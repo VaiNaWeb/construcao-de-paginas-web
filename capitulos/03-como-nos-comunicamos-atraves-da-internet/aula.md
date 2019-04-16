@@ -2,11 +2,13 @@
 
 ### Introdução
 
-O conteúdo de um site é organizado dentro de um conjunto especial de regras que os computadores entendem. Funciona como falar em uma linguagem secreta, codificada.
+Você já se perguntou o que acontece quando você digita um endereço de uma página em um navegador?
 
 Quando dois ou mais computadores estão conectados à internet, eles podem conversar uns com os outros. Há uma forma de comunicação envolvida que os computadores entendem muito bem.
 
-Você já se perguntou o que acontece quando você digita um endereço de uma página em um navegador?
+O conteúdo de um site é organizado dentro de um conjunto especial de regras que os computadores entendem. Funciona como falar em uma linguagem secreta, codificada.
+
+### Entendendo como a navegação funciona
 
 Quando queremos visitar um site, pedimos ao navegador para acessar nossa página, o servidor nos envia uma cópia dos arquivos dessa página para que ela possa ser interpretada através do navegador.
 
@@ -44,5 +46,6 @@ Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi cri
 [The history of human - Resilient Web Design, by Jeremy Keith](https://resilientwebdesign.com/chapter1/#nformation%20Management%3A%20A%20proposal%0Aby%20Tim%20Berners-Lee)  
 [Como a internet funciona](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)  
 [O que é a Internet?](https://www.youtube.com/watch?v=Dxcc6ycZ73M)  
-[Fundamentos da Internet](http://internetfundamentals.com/)
+[Fundamentos da Internet](http://internetfundamentals.com/)  
+[A gigante rede de computadores](https://marksheet.io/internet.html)
 
