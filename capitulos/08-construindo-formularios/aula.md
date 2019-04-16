@@ -124,7 +124,7 @@ Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acess
 Podemos incluir um atributo for, o valor dele deve ser o mesmo que o valor do atributo id no controle de formulário ao qual esse label corresponde. A correspondência dos valores de atributo for e id atribui os dois elementos, permitindo aos usuários clicar no elemento para trazer foco para o controle de formulário apropriado.
 
 ```markup
-<label for="usuario">Username</label>
+<label for="usuario">Usuário</label>
 <input type="text" name="usuario" id="usuario">
 ```
 
