@@ -90,7 +90,7 @@ git push origin nome_da_branch
 
 ### Referências
 
-[https://guides.github.com/](https://guides.github.com/)  
-[https://rogerdudler.github.io/git-guide/index.pt\_BR.html](https://rogerdudler.github.io/git-guide/index.pt_BR.html)  
-[https://tutorial.djangogirls.org/pt/deploy/](https://tutorial.djangogirls.org/pt/deploy/)
+[Guides by GitHub](https://guides.github.com/)  
+[GitHub sem complicação, by Roger Dudler](https://rogerdudler.github.io/git-guide/index.pt_BR.html)  
+[Tutorial by Django Girls](https://tutorial.djangogirls.org/pt/deploy/)
 
