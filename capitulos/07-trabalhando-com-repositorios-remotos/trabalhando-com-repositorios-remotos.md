@@ -10,6 +10,8 @@ Queremos que nossos arquivos sejam armazenados não somente em nosso computador,
 
 ### Subindo um repositório para o Github
 
+![Figura sobre fluxo de trabalho com reposit&#xF3;rios remotos](../../.gitbook/assets/remoto.png)
+
 Nossa pasta já existe no computador, mas dentro do Github ainda não, certo? Então, vamos abrir o site do github, criar uma conta, e lá criar um repositório vazio para nosso projeto.
 
 O projeto da sua máquina precisa conversar com o projeto que está lá no Github, para isso, um precisa saber quem é o outro. Vamos voltar ao terminal e dentro da nossa pasta usar um comando que diz o endereço para onde ela deve ir. Lembre de copiar esse endereço lá no Github. Exemplo:
