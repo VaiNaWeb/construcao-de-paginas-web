@@ -34,6 +34,8 @@ Imaginar a cena das caixas já pode ter sido confuso para muita gente, assim com
 </section>
 ```
 
+### Estrutura básica
+
 Há algumas tags principais que compõem uma página padrão. Toda página na web tem uma tag html, head e body. A tag `html` indica elementos em html, dentro dela temos `<head>`, que significa cabeça, e `<body>`, que significa corpo.
 
 Fazendo uma analogia ao corpo humano, na cabeça temos as coisas que não vemos, coisas que pensamos e que são importantes para nosso funcionamento. Mas as coisas do nosso corpo são as partes de nós que podem ser vistas. Assim é no HTML, as coisas que ficam na `head` são importantes, mas não são vistas diretamente no navegador, o nosso conteúdo precisa ser visto, então ele deve ficar na `body`.
@@ -52,4 +54,9 @@ Um exemplo de elemento importante mas não precisa ser visto diretamente na pág
 ```
 
 Há vários elementos diferentes, continue conhecendo mais alguns!
+
+### Referências
+
+[HTML Atributes by Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)  
+[MarketSheet.io](https://marksheet.io/)
 
