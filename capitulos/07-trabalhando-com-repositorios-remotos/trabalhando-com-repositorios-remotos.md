@@ -58,7 +58,37 @@ Vá no seu repositório no Github, acesse a aba settings, lá estão as configur
 
 Aguarde alguns minutos, e tchanrammm! Sua página já está online e pode ser acessada no navegador usando o link seunome.github.io
 
+### Trabalhando com Branchs
+
+Uma boa forma de organizar seu fluxo de trabalho é separando seu projeto em branchs ou ramificações. O Branch master é o branch criado por padrão, quando você cria um repositório. Você pode criar novas ramificações a partir dela!
+
+Para criar um novo branch use o seguinte comando:
+
+```text
+git checkout -b nome_da_branch
+```
+
+Se você usar o comando git status, vai perceber que você não só criou uma nova branch como está usando ela agora. Você pode  retornar para a branch master se quiser usando o comando:
+
+```text
+git checkout master
+```
+
+Se por alguma razão você quiser deletar uma branch pode usar o comando:
+
+```text
+git branch -d nome_da_branch
+```
+
+Você pode subir essa branch para o seu repositório remoto usando:
+
+```text
+git push origin nome_da_branch
+```
+
 ### Referências
 
-[https://guides.github.com/](https://guides.github.com/)
+[https://guides.github.com/](https://guides.github.com/)  
+[https://rogerdudler.github.io/git-guide/index.pt\_BR.html](https://rogerdudler.github.io/git-guide/index.pt_BR.html)  
+[https://tutorial.djangogirls.org/pt/deploy/](https://tutorial.djangogirls.org/pt/deploy/)
 
