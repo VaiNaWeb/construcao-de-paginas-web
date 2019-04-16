@@ -4,13 +4,13 @@
 
 Vamos colocar nossa primeira página online, e para isso vamos usar Git, o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que são cada uma dessas ferramentas e como elas funcionam.
 
-O Git é um sistema de controle de versão e gerenciamento de código fonte. Foi desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje muito usado em diferentes projetos digitais no mundo inteiro.
+### Primeiros comandos com Git
 
-Cada projeto que o Git acompanha é um repositório com um histórico completo e habilidade total de acompanhamento das revisões. Vamos aprender algumas instruções para acompanhar essas revisões.
+O Git é um sistema de controle de versão e gerenciamento de código fonte desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux, e é ainda hoje usado em diferentes projetos digitais no mundo inteiro.
 
-### Primeiros comandos com git
+Podemos pensar no Git como um fotógrafo de nossas alterações. Ele fica registrando as mudanças feitas em um ou mais arquivos ao longo do tempo para nos dar o poder de criar versões de nossos projetos.
 
-Podemos pensar no Git como um fotógrafo de nossas alterações. Ele fica rastreando as alterações que acontecem dentro da nossa pasta, para nos dar o poder de criar versões de nossos arquivos. Mas como ele faz isso? Bom... Vamos aprender na prática como isso acontece! Weeee!
+Mas como ele faz isso? Bom... Vamos aprender na prática como isso acontece!
 
 Antes de tudo, precisamos inicializar o repositório git em nossa pasta. Só precisamos fazer esse passo uma vez por projeto. Para fazer isso, tenha certeza de que você está dentro da pasta que você quer inicializar e digite o comando:
 
@@ -18,7 +18,7 @@ Antes de tudo, precisamos inicializar o repositório git em nossa pasta. Só pre
 git init
 ```
 
-Prontinho, o Git está pronto para nos ajudar a controlar as alterações para todos os arquivos e pastas neste diretório em que solicitamos.
+Agora o Git está pronto para controlar as alterações de todos os arquivos e pastas no projeto.
 
 Se você está versionando uma pasta que já tem arquivos dentro dela, ele vai entender que todos esses arquivos fazem parte da sua primeira alteração. Se você está versionando uma pasta vazia, sugerimos que você crie dentro dela um novo arquivo em branco, esse arquivo vai ser a sua primeira alteração.
 

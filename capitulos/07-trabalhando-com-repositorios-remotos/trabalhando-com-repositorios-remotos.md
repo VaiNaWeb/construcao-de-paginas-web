@@ -2,7 +2,7 @@
 
 ## Github
 
-O Github é uma plataforma social através da qual milhares de pessoas constroem códigos, entre outras coisas, de forma colaborativa, aberta e gratuita.
+O GitHub é uma rede social através da qual milhares de pessoas constroem códigos, e podem compartilhar conhecimento, de forma colaborativa, aberta e gratuita.
 
 > "O Github, é na verdade uma rede social ou uma fábrica social de software, que desenvolve e promove milhares de códigos fontes pré armazenados, para as mais diversas finalidades." Wikipedia
 
