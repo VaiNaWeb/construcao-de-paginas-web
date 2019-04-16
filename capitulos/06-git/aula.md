@@ -74,6 +74,8 @@ git reset HEAD nomedoarquivo
 
 Agora é só usar o git checkout novamente, e prontinho, alterações desfeitas!
 
+### Aprendendo novos comandos
+
 Existem vários outros comandos que podemos aprender, você pode ver uma lista com a descrição de mais alguns usando o comando help:
 
 ```text
