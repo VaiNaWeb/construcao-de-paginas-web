@@ -46,7 +46,7 @@ Agora já sabemos quais arquivos foram alterados! Supondo que esse é mesmo o mo
 git add nomedoarquivo
 ```
 
-Se você feito mudanças em mais de um arquivo, e não quiser digitar esse comando para cada um deles, você pode usar \* ou . ao invés de especificar os nomes deles. Exemplo:
+Se você fez mudanças em mais de um arquivo, e não quiser digitar esse comando para cada um deles, você pode ~~~~usar \* ou . ao invés de especificar os nomes deles. Exemplo:
 
 ```text
 git add *
