@@ -1,4 +1,4 @@
-# 08 - Páginas semânticas
+# 07 - Páginas semânticas
 
 {% page-ref page="aula.md" %}
 

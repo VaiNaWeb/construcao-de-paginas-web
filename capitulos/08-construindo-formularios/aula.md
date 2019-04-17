@@ -1,12 +1,14 @@
 # Construindo formulários
 
+### Introdução
+
 Usamos formulários para receber dados e processar solicitações. Através de controles ou campos, os formulários podem solicitar uma pequena quantidade de informações, como um campo de buscas do Google faz, por exemplo.
 
 Precisamos saber como criar formulários para adquirir a entrada do usuário. Por enquanto, vamos discutir como usar o HTML para marcar um formulário, quais elementos usar para capturar diferentes tipos de dados.
 
 Não nos aprofundaremos em como as informações de um formulário são processadas e tratadas ainda. O processamento de formulários é um tópico mais profundo, vamos aprender sobre isso nos próximos módulos.
 
-## Criando um Formulário
+### Criando um Formulário
 
 Para adicionar um formulário a uma página, usaremos o elemento form:
 
@@ -16,7 +18,7 @@ Para adicionar um formulário a uma página, usaremos o elemento form:
 </form>
 ```
 
-## Input
+### Input
 
 Um dos elementos principais usados para obter uma entrada do usuário é o elemento input. Esse elemento usa o atributo type para definir qual tipo de informação deve ser capturada pelo input. O valor de atributo de tipo mais popular é o texto.
 
@@ -41,7 +43,7 @@ Além do text podemos usar os seguintes types:
 * url
 * week
 
-## Textarea
+### Textarea
 
 Outro elemento que é usado para capturar texto é o elemento textarea. Diferente do input, esse elemento pode aceitar textos maiores, ideal para quando queremos receber um texto com mais de uma linha. Ele aceita apenas um tipo de valor, o atributo name.
 
@@ -49,7 +51,7 @@ Outro elemento que é usado para capturar texto é o elemento textarea. Diferent
 <textarea name="comentario">Deixe aqui seu comentário</textarea>
 ```
 
-## Radio Buttons
+### Radio Buttons
 
 Permitem que os usurios façam uma escolha rápida de uma pequena lista de opções. Os botões de rádio permitem aos usuários selecionar apenas uma opção.
 
@@ -65,7 +67,7 @@ Com botões de rádio, um usuário faz uma seleção de múltipla escolha. Assim
 <input type="radio" name="dia" value="Domingo"> Domingo
 ```
 
-## Check Boxes
+### Check Boxes
 
 Usam os mesmos atributos e padrões do radio buttons, mas para usa-lo mudamos o valor do type para checkbox. Com o checkbox, os usuários podem selecionar vários valores.
 
@@ -75,9 +77,9 @@ Usam os mesmos atributos e padrões do radio buttons, mas para usa-lo mudamos o 
 <input type="checkbox" name="dia" value="Domingo"> Domingo
 ```
 
-## Drop-Down Lists
+### Drop-Down Lists
 
-Uma maneira ótima para pertmir aos usuários selecionar uma opção em uma lista. Para cria-la usaramos os elementos select e option. O elemento select envolve todas as opções, e cada opção é marcada usando o elemento option.
+Uma maneira ótima para permitir aos usuários selecionar uma opção em uma lista. Para cria-la usamos os elementos select e option. O elemento select envolve todas as opções, e cada opção é marcada usando o elemento option.
 
 Usamos o atributo name dentro de selected, e o atributo value em cada option que estão dentro de select. O atributo value em cada elemento option corresponde ao atributo name no elemento select.
 
@@ -91,7 +93,7 @@ Cada elemento da lista fica em um option. Ao invés de checked, para pré-seleci
 </select>
 ```
 
-## Form Buttons
+### Form Buttons
 
 Os usuários clicam no botão enviar para processar dados depois de preencher um formulário. O botão enviar é criado usando o elemento input com um valor de atributo de tipo de envio. O atributo de valor é usado para especificar o texto que aparece no botão.
 
@@ -109,7 +111,7 @@ Em vez de usar o atributo value para controlar o texto dentro do botão submit, 
 </button>
 ```
 
-## File Input
+### File Input
 
 Para permitir que os usuários adicionem um arquivo a um formulário, como anexar um documento a um e-mail, por exemplo, usamos o valor do arquivo para o atributo type.
 
@@ -117,7 +119,7 @@ Para permitir que os usuários adicionem um arquivo a um formulário, como anexa
 <input type="file" name="file">
 ```
 
-## Label
+### Label
 
 Os labels fornecem legendas ou títulos, vinculando-os e criando uma forma acessível para todos os usuários e tecnologias assistivas, muito úteis para garantir acessibilidade. Criado usando o elemento label, os labels devem incluir um texto que descreva as entradas ou controles aos quais eles pertencem.
 
@@ -142,7 +144,7 @@ O elemento também pode envolver controles de formulário, como botões de opç�
 </label>
 ```
 
-## Fieldset
+### Fieldset
 
 Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seções organizadas. Assim como uma section, fieldset é um elemento de nível de bloco que envolve elementos relacionados dentro de um form, para melhor organização.
 
@@ -159,7 +161,7 @@ Usamos Fieldsets para agrupar os controles de formulário e os rótulos em seç�
 </fieldset>
 ```
 
-## Legend
+### Legend
 
 Legend funciona como um título para o fieldset, ele pode envolver uma descrição dos controles do fieldset.
 
@@ -177,7 +179,7 @@ Legend funciona como um título para o fieldset, ele pode envolver uma descriç�
 </fieldset>
 ```
 
-## Mais alguns atributos
+### Mais alguns atributos
 
 Há ainda muitos atributos úteis que não vimos ainda, por agora, veremos mais alguns dos mais usados.
 
