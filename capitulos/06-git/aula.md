@@ -84,8 +84,8 @@ git help
 
 ### Referências
 
-[Página oficial da plataforma](https://git-scm.com/)  
-[Wikipedia](https://pt.wikipedia.org/wiki/Git)  
-[Git Handbook by GitHub](https://guides.github.com/introduction/git-handbook/)  
-[Folha de consultas do Git by Github](https://github.github.com/training-kit/downloads/pt_BR/github-git-cheat-sheet/)
+* [Página oficial da plataforma](https://git-scm.com/)
+* [Git Handbook by GitHub](https://guides.github.com/introduction/git-handbook/)
+* [Folha de consultas do Git by Github](https://github.github.com/training-kit/downloads/pt_BR/github-git-cheat-sheet/)
+* [Wikipedia](https://pt.wikipedia.org/wiki/Git)
 

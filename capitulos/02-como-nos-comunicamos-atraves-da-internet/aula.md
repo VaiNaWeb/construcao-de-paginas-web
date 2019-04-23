@@ -42,10 +42,10 @@ Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi cri
 
 ### Referências
 
-[Information Management: A proposal, by Tim Berners-Lee](https://www.w3.org/History/1989/proposal.html)  
-[The history of human - Resilient Web Design, by Jeremy Keith](https://resilientwebdesign.com/chapter1/#nformation%20Management%3A%20A%20proposal%0Aby%20Tim%20Berners-Lee)  
-[Como a internet funciona](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)  
-[O que é a Internet?](https://www.youtube.com/watch?v=Dxcc6ycZ73M)  
-[Fundamentos da Internet](http://internetfundamentals.com/)  
-[A gigante rede de computadores](https://marksheet.io/internet.html)
+* [Information Management: A proposal, by Tim Berners-Lee](https://www.w3.org/History/1989/proposal.html)
+* [The history of human - Resilient Web Design, by Jeremy Keith](https://resilientwebdesign.com/chapter1/#nformation%20Management%3A%20A%20proposal%0Aby%20Tim%20Berners-Lee)
+* [Como a internet funciona](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+* [O que é a Internet?](https://www.youtube.com/watch?v=Dxcc6ycZ73M)
+* [Fundamentos da Internet](http://internetfundamentals.com/)
+* [A gigante rede de computadores](https://marksheet.io/internet.html)
 

@@ -230,6 +230,6 @@ Outros atributos interessantes que você deveria pesquisar e ler mais sobre:
 
 ### Referências
 
-[Interneting is hard](https://internetingishard.com/html-and-css/forms/)  
-[Forms by Mozilla](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
+* [Interneting is hard](https://internetingishard.com/html-and-css/forms/)
+* [Forms by Mozilla](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
 
