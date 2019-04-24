@@ -1,10 +1,12 @@
 # Introdução ao modelo flexível de caixas
 
+## Introdução
+
 Existe um conjunto de propriedades em CSS criado com o objetivo de tornar mais flexível o alinhamento e espaçamento de caixas, chamamos esse conjunto de Flexbox.
 
 O Flexbox nos dá o poder de determinar melhor a altura das nossas seções, centralizar nosso conteúdo, dividir nossas colunas, ou seja, nos permite montar layouts de forma mais flexível, e claro, mais prática.
 
-## Ahh as caixas...
+### Ahh as caixas...
 
 Desde o início das nossas aulas, estamos nos referindo aos elementos como caixas dentro de caixas. Para entender Flexbox, precisamos compreender que alguns elementos podem ser vistos como caixas, ou containers, e outros como itens desses containers.
 
@@ -16,7 +18,7 @@ Para começar a usar essas propriedades, adicionamos ao elemento container a pro
 }
 ```
 
-## Linhas e colunas
+### Linhas e colunas
 
 Com o flexbox é fácil criar linhas ou colunas, usamos a propriedade `flex-direction`. Como valor podemos usar `row`, `row-reverse`, `column`, e `column-reverse`. Row alinha os elementos de forma horizontal, ou seja, em linha.
 
@@ -32,7 +34,7 @@ Com o flexbox é fácil criar linhas ou colunas, usamos a propriedade `flex-dire
 }
 ```
 
-## Distribuição de espaço
+### Distribuição de espaço
 
 Podemos definir também a distribuição de espaços entre um elemento e outro. Para isso usamos a propriedade `justify-content`. Essa propriedade aceita os valores `flex-start`, `flex-end`, `center`, `space-between`, `space-around`.
 
@@ -49,7 +51,7 @@ Podemos definir também a distribuição de espaços entre um elemento e outro. 
 }
 ```
 
-## Espalhando elementos em linhas
+### Espalhando elementos em linhas
 
 Eventualmente nossos elementos podem ocupar uma única linha em um container. Outras vezes podemos achar melhor que os elementos possam ser espalhados em linhas adicionais. Definimos esse comportamento usando a propriedade `flex-wrap`. Podemos usar os valores `nowrap`, `wrap`, ou `wrap-reverse`.
 
@@ -64,7 +66,7 @@ Eventualmente nossos elementos podem ocupar uma única linha em um container. Ou
 }
 ```
 
-## Alinhando itens
+### Alinhando itens
 
 Podemos definir o alinhamento dos elementos em relação à altura da página ou container. Usamos a propriedade `align-items`, que pode receber os valores `flex-start`, `flex-end`, `center`, `baseline`, e `stretch`.
 
@@ -81,7 +83,7 @@ Podemos definir o alinhamento dos elementos em relação à altura da página ou
 }
 ```
 
-## Alinhando multiplas linhas
+### Alinhando múltiplas linhas
 
 Em containers com múltiplas linhas podemos usar o `align-content`. Enquanto align-items determina como as linhas são alinhadas dentro do container como um todo, align-content determina como múltiplas linhas devem ser espaçadas uma das outras. Essa propriedade pode receber os seguintes valores:
 
@@ -99,7 +101,7 @@ Em containers com múltiplas linhas podemos usar o `align-content`. Enquanto ali
 }
 ```
 
-## Mudando a ordem dos itens
+### Mudando a ordem dos itens
 
 Se quisermos mudar a ordem do item podemos adicionar a propriedade `order` no item.
 
@@ -110,7 +112,7 @@ Se quisermos mudar a ordem do item podemos adicionar a propriedade `order` no it
 }
 ```
 
-## Alinhando um item
+### Alinhando um item
 
 Quando necessário, se precisarmos alterar o alinhamento de um item, podemos usar a propriedade `align-self` então ele pode mudar o comportamento de alinhamento dele mesmo. Assim como align-items, essa propriedade pode receber os valores `flex-start`, `flex-end`, `center`, `baseline`, e `stretch`.
 

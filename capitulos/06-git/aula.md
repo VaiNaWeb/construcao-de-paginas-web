@@ -1,6 +1,6 @@
 # Começando com Git
 
-### Introdução
+## Introdução
 
 Vamos colocar nossa primeira página online, e para isso vamos usar Git, o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que são cada uma dessas ferramentas e como elas funcionam.
 

@@ -1,12 +1,18 @@
-# Introdução CSS
+---
+description: Vamos descobrir como deixar as páginas cheias de estilo
+---
 
-Vamos descobrir como deixar as páginas cheias de estilo. CSS significa folhas de estilo em cascasta. Imaginem uma cachoeira enorme, cheia de pedras, e muita água linda e refrescante caindo em cascata. Assim acontece em nosso navegador, nossos códigos estão em cascata.
+# Começando com CSS
 
-É importante saber que o CSS não trabalha sozinho, precisamos usa-lo com o HTML. Funciona exatamente assim: selecionamos os elementos do HTML que queremos estilizar e, então, algum seletor CSS define como, onde e quando colocar esses estilos.
+## Introdução
 
-## Adicionando ao documento
+Imagine uma cachoeira enorme, cheia de pedras, e muita água linda e refrescante caindo em cascata. Assim acontece em nosso navegador, nossos estilos estão em cascata.
 
-Podemos adicionar a CSS em nossa página HTML de três formas:
+As folhas de estilo em cascata, ou CSS, são os códigos responsáveis por estilizar as nossas páginas em HTML. O CSS funciona junto com o HTML. Acontece mais ou menos assim: selecionamos os elementos do HTML que queremos estilizar e, então, o CSS define como, onde e quando colocar esses estilos.
+
+### Adicionando ao documento
+
+Para adicionar CSS em uma página precisamos importa-lo. Podemos fazer isso de três formas:
 
 ### Em linha, usando o atributo style
 

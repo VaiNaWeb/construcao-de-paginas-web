@@ -1,6 +1,6 @@
 # Trabalhando com repositórios remotos
 
-### Introdução
+## Introdução
 
 O GitHub é uma rede social através da qual milhares de pessoas constroem códigos, e podem compartilhar conhecimento, de forma colaborativa, aberta e gratuita.
 

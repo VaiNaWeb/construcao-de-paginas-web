@@ -1,6 +1,6 @@
 # Como nos comunicamos através da internet
 
-### Introdução
+## Introdução
 
 Você já se perguntou o que acontece quando você digita um endereço de uma página em um navegador?
 

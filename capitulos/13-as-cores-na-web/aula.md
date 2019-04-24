@@ -1,6 +1,6 @@
 # As cores na web
 
-## As cores na web
+### Introdução
 
 Aprenderemos como colocar cores na web. Há alguns [sistemas de cores](https://tableless.com.br/sobre-cor-e-webdesign/) que precisamos conhecer para entender como adiciona-las em nossas folhas de estilo.
 

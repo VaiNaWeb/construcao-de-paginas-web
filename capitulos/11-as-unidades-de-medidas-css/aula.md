@@ -1,6 +1,6 @@
 # As unidades de medidas CSS
 
-### Introdução
+## Introdução
 
 Existem várias unidades de medidas que podemos usar em nossas páginas. Não existe uma unidade mais correta que a outra, existem unidades diferentes que podem ser usadas em determinado contexto ou situação de forma mais adequada. Não se preocupe,  aos poucos você vai descobrindo quais usar. Por enquanto, vamos conhecer as mais usadas!
 

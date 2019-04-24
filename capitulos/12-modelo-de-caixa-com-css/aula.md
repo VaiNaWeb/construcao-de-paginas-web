@@ -1,5 +1,7 @@
 # Modelo de caixa com CSS
 
+## Introdução
+
 Continuando as analogias sobre nossos elementos serem caixas, agora imaginem que eles são realmente caixinhas retangulares. Como se em cada um deles houvesse um retângulo invisível.
 
 Em nossas páginas, nós podemos determinar o tamanho, a altura, o preenchimento, o espaçamento, e até as cores dessas caixas. Assim criamos interessantes e belíssimas composições visuais para sites.
@@ -38,7 +40,7 @@ Temos também a propriedade `border`, que pode servir para aplicar estilo às bo
 }
 ```
 
-## Comportamento de bloco
+### Comportamento de bloco
 
 Há caixas que se comportam em forma de bloco e há caixas que se comportam em forma de linha. Cada elemento já tem esse comportamento definido por padrão, mas podemos alterá-lo também. Basta alterar os valores da propriedade display com `inline`, ou `block`.
 
@@ -66,7 +68,7 @@ div {
 }
 ```
 
-## Modelo de caixa
+### Modelo de caixa
 
 No modelo de caixa, o valor padrão é o content-box, isso quer dizer que se não alterarmos, ele é o valor que aparece em todos os elementos. O tamanho de um elemento começa com as propriedades de largura e altura e, em seguida, quaisquer valores de preenchimento, borda ou margem são somados a partir daí.
 
