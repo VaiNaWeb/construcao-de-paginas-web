@@ -55,6 +55,45 @@ Um exemplo de elemento importante mas não precisa ser visto diretamente na pág
 
 Há vários elementos diferentes, continue conhecendo mais alguns!
 
+### Criando títulos
+
+Existem seis níveis diferentes de títulos para usar em uma imagem. O título `H1` é o mais importante,`h6` é o menos importante. 
+
+Exemplo:
+
+```markup
+<h1>Eu sou o título mais importante!</h1>
+<h2>Eu sou um pouco menos importante</h2>
+<h3>Eu sou um pouco menos importante</h3>
+<h4>Eu sou um pouco menos importante</h4>
+<h5>Eu sou um pouco menos importante</h5>
+<h6>Eu sou o menos importante</h6>
+```
+
+
+
+### Conectando páginas
+
+Sabemos que nossos sites são conjuntos de páginas conectadas, ou lincadas, umas às outras. Agora vamos compreender melhor como isso acontece. Quando vamos construir um site, precisamos organizar bem nossos arquivos; vamos fazer isso através de pastas.
+
+### Criando links
+
+Na internet, temos várias e várias páginas conectadas umas às outras. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas.
+
+Criar links em nossa página pode ser muito útil, vamos agora aprender a criá-los. Qualquer elemento que aparece entre a abertura e o fechamento de tags é a parte que será um link clicável na página. Exemplo:
+
+```markup
+<p>Esse é um exemplo de palavra <a href="http://www.vainaweb.com.br"> clicável </a>.</p>
+```
+
+Qualquer coisa mesmo, não somente textos. Nós podemos deixar imagens clicáveis também!
+
+```markup
+<a href="http://www.vainaweb.com.br">
+    <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo">
+</a>
+```
+
 ### Referências
 
 * [HTML Atributes by Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)

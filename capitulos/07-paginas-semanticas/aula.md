@@ -16,54 +16,7 @@ Com a chegada do HTML5, ganhamos algumas tags com significado semântico, e pass
 
 Na dúvida sobre qual elemento de caixa usar, você deve pensar sobre qual o sentido ou significado dessa caixa em sua página. Exemplo: uma caixa que representa um menu, deve ser definida por um nav. Uma caixa que não representa nenhum sentido, mas precisa ser usada mesmo assim, deveria ser uma div.
 
-Existem seis níveis diferentes de títulos: `H1` é o mais importante,`h6` é o menos importante. Em HTML, o texto para cabeçalhos é escrito dentro dos elementos de título: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` ou `<h6>`.
-
-Exemplo:
-
-```markup
-<h1>Eu sou o título mais importante!</h1>
-<h2>Eu sou um pouco menos importante</h2>
-<h3>Eu sou um pouco menos importante</h3>
-<h4>Eu sou um pouco menos importante</h4>
-<h5>Eu sou um pouco menos importante</h5>
-<h6>Eu sou o menos importante</h6>
-```
-
-Eu sou o título mais importante!
-
-Eu sou um pouco menos importante
-
-Eu sou um pouco menos importante
-
-Eu sou um pouco menos importante
-
-Eu sou um pouco menos importante
-
-Eu sou o menos importante
-
 ## Evoluindo minha página com mais HTML
-
-### Conectando páginas
-
-Sabemos que nossos sites são um conjunto de páginas conectadas, ou lincadas, umas às outras. Agora vamos compreender melhor como isso acontece. Quando vamos construir um site, precisamos organizar bem nossos arquivos; vamos fazer isso através de pastas.
-
-### Criando links
-
-Na internet, temos várias e várias páginas conectadas umas às outras. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas.
-
-Criar links em nossa página pode ser muito útil, vamos agora aprender a criá-los. Qualquer elemento que aparece entre a abertura e o fechamento de tags é a parte que será um link clicável na página. Exemplo:
-
-```markup
-<p>Esse é um exemplo de palavra <a href="http://www.vainaweb.com.br"> clicável </a>.</p>
-```
-
-Qualquer coisa mesmo, não somente textos. Nós podemos deixar imagens clicáveis também!
-
-```markup
-<a href="http://www.vainaweb.com.br">
-    <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo">
-</a>
-```
 
 ### Listando coisas
 
