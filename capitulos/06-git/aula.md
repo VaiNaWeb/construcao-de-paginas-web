@@ -88,4 +88,6 @@ git help
 * [Git Handbook by GitHub](https://guides.github.com/introduction/git-handbook/)
 * [Folha de consultas do Git by Github](https://github.github.com/training-kit/downloads/pt_BR/github-git-cheat-sheet/)
 * [Wikipedia](https://pt.wikipedia.org/wiki/Git)
+* [Visualizando Git](http://git-school.github.io/visualizing-git/)
+* [Git handbook by Github](https://guides.github.com/introduction/git-handbook/)
 

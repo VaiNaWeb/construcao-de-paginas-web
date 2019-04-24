@@ -57,6 +57,6 @@ Há vários elementos diferentes, continue conhecendo mais alguns!
 
 ### Referências
 
-[HTML Atributes by Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)  
-[MarketSheet.io](https://marksheet.io/)
+* [HTML Atributes by Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+* [MarketSheet.io](https://marksheet.io/)
 

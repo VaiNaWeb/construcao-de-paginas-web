@@ -51,4 +51,5 @@
     * [Desafios](capitulos/18-criando-paginas-acessiveis/desafios.md)
 * [Código de Conduta](code_of_conduct.md)
 * [Contribuindo no VaiNaWeb](contributing.md)
+* [Como aproveitar melhor esse conteúdo](como-aproveitar-melhor-esse-conteudo.md)
 

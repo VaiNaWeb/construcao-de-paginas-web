@@ -45,7 +45,7 @@ Eu sou o menos importante
 
 ### Conectando páginas
 
-Sabemos que nossos sites são um conjunto de páginas conectadas, ou linkadas, umas às outras. Agora vamos compreender melhor como isso acontece. Quando vamos construir um site, precisamos organizar bem nossos arquivos; vamos fazer isso através de pastas.
+Sabemos que nossos sites são um conjunto de páginas conectadas, ou lincadas, umas às outras. Agora vamos compreender melhor como isso acontece. Quando vamos construir um site, precisamos organizar bem nossos arquivos; vamos fazer isso através de pastas.
 
 ### Criando links
 
