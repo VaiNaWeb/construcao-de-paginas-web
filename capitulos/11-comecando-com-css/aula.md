@@ -160,3 +160,7 @@ p {
 
 Faça alguns testes! O que acontece se você apagar o !important do elemento parágrafo?
 
+### Referências
+
+[CSS Reference, by Codrops](https://tympanus.net/codrops/css_reference/)
+
