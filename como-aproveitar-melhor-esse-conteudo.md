@@ -8,13 +8,15 @@ description: Práticas que recomendamos
 
 Entenda como aproveitar melhor esse conteúdo através de algumas práticas reconhecidas para aprender programação.
 
-### Aprenda por desafios
+### Aprenda por exemplos
 
-### Aprenda programando em par
+Não fique preso somente ao nosso conteúdo, encontre mais fontes com demonstrações e exemplos. Ao final de cada seção indicamos algumas referências muito interessantes, aproveite todas elas.
 
 ### Aprenda quebrando coisas
 
-### Aprenda por exemplos
+### Aprenda por desafios
+
+### Aprenda programando em par
 
 
 
