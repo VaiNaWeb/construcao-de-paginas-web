@@ -12,7 +12,7 @@
   * [Conhecendo a linha de comando](capitulos/conhecendo-a-linha-de-comando/README.md)
     * [Conhecendo a linha de comando](capitulos/conhecendo-a-linha-de-comando/aula.md)
     * [Desafios](capitulos/conhecendo-a-linha-de-comando/desafios.md)
-  * [Git](capitulos/git/README.md)
+  * [Começando com Git](capitulos/git/README.md)
     * [Começando com Git](capitulos/git/aula.md)
     * [Desafios](capitulos/git/desafios.md)
   * [Trabalhando com repositórios remotos](capitulos/trabalhando-com-repositorios-remotos/README.md)

@@ -1,4 +1,4 @@
-# Git
+# Começando com Git
 
 {% page-ref page="aula.md" %}
 
