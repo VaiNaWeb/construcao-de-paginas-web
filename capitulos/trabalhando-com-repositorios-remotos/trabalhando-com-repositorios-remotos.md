@@ -60,7 +60,7 @@ Vá no seu repositório no Github, acesse a aba settings, lá estão as configur
 
 Aguarde alguns minutos, e tchanrammm! Sua página já está online e pode ser acessada no navegador usando o link seunome.github.io
 
-### Trabalhando com Branchs
+### Trabalhando com ramificações
 
 Uma boa forma de organizar seu fluxo de trabalho é separando seu projeto em branchs ou ramificações. O Branch master é o branch criado por padrão, quando você cria um repositório. Você pode criar novas ramificações a partir dela!
 
