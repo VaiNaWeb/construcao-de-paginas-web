@@ -6,6 +6,8 @@
     * [Informação muda tudo](capitulos/informacao-muda-tudo/aula.md)
   * [Como nos comunicamos através da internet](capitulos/como-nos-comunicamos-atraves-da-internet/README.md)
     * [Como nos comunicamos através da internet](capitulos/como-nos-comunicamos-atraves-da-internet/aula.md)
+  * [Primeiras marcações](capitulos/primeiras-marcacoes/README.md)
+    * [Primeiras marcações](capitulos/primeiras-marcacoes/primeiras-marcacoes.md)
   * [Estruturando páginas](capitulos/estruturando-paginas-com-html/README.md)
     * [Estruturando páginas](capitulos/estruturando-paginas-com-html/aula.md)
     * [Desafios](capitulos/estruturando-paginas-com-html/desafios.md)

@@ -2,35 +2,7 @@
 
 ### Introdução
 
-Para estruturar páginas a linguagem HTML usa um conjunto predefinido de regras para identificar os diversos tipos de conteúdos. Usamos as Tags para criar marcações que dizem aos navegadores quais elementos estão presentes na página e como devem ser interpretados.
-
-### Criando marcações
-
-Uma tag precisa começar com o sinal de menor &lt; e terminar com o sinal de maior &gt;. Exemplo:
-
-```markup
-<p>
-```
-
-Embora algumas tags especiais sejam fechadas por padrão, a maior parte delas não é. Logo, ao criar uma tag para abrir uma marcação precisamos também adicionar uma para fecha-la. Para criar uma tag de fechamento, usamos um sinal de barra / depois do sinal de maior. 
-
-Exemplo:
-
-```markup
-<p>Olá, eu sou um parágrafo.</p>
-```
-
-As tags devem dizer exatamente o que é o conteúdo entre sua tag de abertura e fechamento. Devemos marcar com as tags quais partes do conteúdo são parágrafos, títulos, listas, etc, chamamos isso de Semântica.
-
-Nossa estrutura HTML contém vários elementos diferentes e, como vimos anteriormente, alguns elementos até estão dentro de outros elementos, como se guardássemos uma caixa dentro de outra caixa e dentro dela colocássemos outra caixa, e outra caixa... Confuso, não é?
-
-Imaginar a cena das caixas já pode ter sido confuso para muita gente, assim como para o navegador diante de elementos dispostos dessa forma. Para que isso não aconteça, nós aninhamos nossos elementos, ou seja, usamos esses espaçamentos nas linhas para indicar que um elemento está dentro de outro. Exemplo:
-
-```markup
-<section>
-    <p>Olá, eu sou um parágrafo.</p> 
-</section>
-```
+Agora que já sabemos como criar marcações e entendemos como elas funcionam, vamos aprender novas marcações para criar a estrutura completa de uma página.
 
 ### Estrutura básica
 
@@ -53,38 +25,100 @@ Um exemplo de elemento importante mas não precisa ser visto diretamente na pág
 
 Há vários elementos diferentes, continue conhecendo mais alguns!
 
-### Criando títulos
+### Elementos aninhados
 
-Existem seis níveis diferentes de títulos para usar em uma imagem. O título `H1` é o mais importante,`h6` é o menos importante. 
+Nossa estrutura HTML contém vários elementos diferentes e alguns elementos até estão dentro de outros elementos, como se guardássemos uma caixa dentro de outra caixa e dentro dela colocássemos outra caixa, e outra caixa... Confuso, não é?
 
-Exemplo:
-
-```markup
-<h1>Eu sou o título mais importante!</h1>
-<h2>Eu sou um pouco menos importante</h2>
-<h3>Eu sou um pouco menos importante</h3>
-<h4>Eu sou um pouco menos importante</h4>
-<h5>Eu sou um pouco menos importante</h5>
-<h6>Eu sou o menos importante</h6>
-```
-
-### Conectando páginas
-
-Sabemos que nossos sites são conjuntos de páginas conectadas, ou lincadas, umas às outras. Agora vamos compreender melhor como isso acontece. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas. 
-
-Qualquer elemento que aparece entre a abertura e o fechamento de tags é a parte que será um link clicável na página. Exemplo:
+Imaginar a cena das caixas já pode ter sido confuso para muita gente, assim como para o navegador diante de elementos dispostos dessa forma. Para que isso não aconteça, nós aninhamos nossos elementos, ou seja, usamos esses espaçamentos nas linhas para indicar que um elemento está dentro de outro. Exemplo:
 
 ```markup
-<p>Esse é um exemplo de palavra <a href="http://www.vainaweb.com.br"> clicável </a>.</p>
+<section>
+    <p>Olá, eu sou um parágrafo.</p> 
+</section>
 ```
 
-Qualquer coisa mesmo, não somente textos. Nós podemos deixar imagens clicáveis também!
+### Listando coisas
+
+#### Listas Ordenadas
+
+Assim como o nome parece sugerir, são listas em que a ordem dos itens importa, e eles podem ser enumerados.
 
 ```markup
-<a href="http://www.vainaweb.com.br">
-    <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo">
-</a>
+<ol>
+    <li>Caneta</li>
+    <li>Lápis</li>
+    <li>Borracha</li>
+    <li>Tesoura</li>
+    <li>Papel</li>
+</ol>
 ```
+
+1. Caneta
+2. Lápis
+3. Borracha
+4. Tesoura
+5. Papel
+
+#### Listas não ordenadas
+
+Nesta, os itens não são enumerados e podem estar acompanhados apenas de um símbolo.
+
+```markup
+<ul>
+    <li>Caneta</li>
+    <li>Lápis</li>
+    <li>Borracha</li>
+    <li>Tesoura</li>
+    <li>Papel</li>
+</ul>
+```
+
+* Caneta
+* Lápis
+* Borracha
+* Tesoura
+* Papel
+
+### Criando tabelas
+
+Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada célula de dados será uma Table Data, ou `<td>` podemos, se nececessário, adicionar o atributo rowspan, que vai criar uma expansão de linha nas células. Podemos também usar o atributo colspan e teremos uma expansão de coluna nas células.
+
+```markup
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Sobre</th>
+    <th>Cidade</th>
+  </tr>
+  <tr>
+    <td>Maria</td>
+    <td>Gosta de cachorros</td>
+    <td>Rio de Janeiro</td>
+  </tr>
+  <tr>
+    <td>Rosa</td>
+    <td>Solta pipa com os irmãos</td>
+    <td>Brasília</td>
+  </tr>
+  <tr>
+    <td>João</td>
+    <td>Adora gatos</td>
+    <td>Recife</td>
+  </tr>
+  <tr>
+    <td>Ana</td>
+    <td>Gosta de árvores</td>
+    <td>São Paulo</td>
+  </tr>    
+</table>
+```
+
+| Nome | Sobre | Cidade |
+| :--- | :--- | :--- |
+| Maria | Gosta de cachorros | Rio de Janeiro |
+| Rosa | Solta pipa com os irmãos | Brasília |
+| João | Adora gatos | Recife |
+| Ana | Gosta de árvores | São Paulo |
 
 ### Referências
 
