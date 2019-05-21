@@ -72,3 +72,10 @@ div {
 }
 ```
 
+### Referências
+
+[https://css-tricks.com/the-lengths-of-css/](https://css-tricks.com/the-lengths-of-css/)  
+[https://css-tricks.com/fun-viewport-units/](https://css-tricks.com/fun-viewport-units/)
+
+
+

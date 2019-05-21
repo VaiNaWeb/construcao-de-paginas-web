@@ -1,6 +1,6 @@
 # Modelo de caixa com CSS
 
-## Introdução
+### Introdução
 
 Continuando as analogias sobre nossos elementos serem caixas, agora imaginem que eles são realmente caixinhas retangulares. Como se em cada um deles houvesse um retângulo invisível.
 
@@ -89,4 +89,9 @@ div {
 Se adicionarmos uma margem, esses valores precisarão ser adicionados para calcular o tamanho total da caixa. Não importa qual valor de propriedade de dimensionamento de caixa seja usado, quaisquer valores de margem precisarão ser adicionados para calcular o tamanho completo do elemento.
 
 Testem, testem e testem! Explorem sem medo todas as propriedades e valores que foram vistos hoje. Aproveitem todas as possibilidades que eles podem criar. Na dúvida, sintam-se à vontade para usar o inspetor do navegador e ter uma melhor visualização do comportamento dos seus estilos.
+
+### Referências
+
+[CSS: From Zero to Hero](https://dev.to/aspittel/css-from-zero-to-hero-3o16)  
+[Box Model by Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
 
