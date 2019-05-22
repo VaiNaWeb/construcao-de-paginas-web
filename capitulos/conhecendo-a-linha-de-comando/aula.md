@@ -87,3 +87,8 @@ Há muitos comandos úteis, que podem fazer muitas coisas, como desligar o compu
 `clear`: Limpa a tela  
 `exit`: Fecha o terminal
 
+### Referências
+
+[Help ubuntu](https://help.ubuntu.com/kubuntu/desktopguide/pt_BR/terminals.html)  
+[Intro to command line](https://tutorial.djangogirls.org/pt/intro_to_command_line/)
+
