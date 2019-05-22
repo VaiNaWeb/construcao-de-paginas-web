@@ -48,5 +48,4 @@ Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi cri
 * [O que é a Internet?](https://www.youtube.com/watch?v=Dxcc6ycZ73M)
 * [Fundamentos da Internet](http://internetfundamentals.com/)
 * [A gigante rede de computadores](https://marksheet.io/internet.html)
-* [Apresentação dessa aula em slides](https://slides.com/vainaweb/como-nos-comunicamos-atraves-da-internet)
 

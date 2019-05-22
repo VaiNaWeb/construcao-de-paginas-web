@@ -70,5 +70,11 @@ Exemplo:
 <h6>Eu sou o menos importante</h6>
 ```
 
+### Referências
 
+* [Fundamentos do texto em HTML - Mozilla](https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Introducao_ao_HTML/Fundamentos_textuais_HTML)
+* [MarketSheet.io](https://marksheet.io/)
+* [O que está na head? - Mozilla](https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Introducao_ao_HTML/The_head_metadata_in_HTML)
+* [HTML Atributes - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+* [HTML Elements - Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 

@@ -101,10 +101,3 @@ Criamos uma tabela com a tag `<table>` uma linha de Table Row, ou `<tr>`. Cada c
 | João | Adora gatos | Recife |
 | Ana | Gosta de árvores | São Paulo |
 
-### Referências
-
-* [HTML Atributes - Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
-* [O que está na head? - Mozilla](https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Introducao_ao_HTML/The_head_metadata_in_HTML)
-* [Fundamentos do texto em HTML - Mozilla](https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Introducao_ao_HTML/Fundamentos_textuais_HTML)
-* [MarketSheet.io](https://marksheet.io/)
-
