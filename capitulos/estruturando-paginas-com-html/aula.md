@@ -2,46 +2,29 @@
 
 ### Introdução
 
-Agora que já sabemos como criar marcações e entendemos como elas funcionam, vamos aprender novas marcações para criar a estrutura completa de uma página.
+Agora que já sabemos como criar marcações e entendemos como elas funcionam, vamos aprender novas marcações para criar páginas mais completas.
 
-### Estrutura básica
+### Conectando páginas
 
-Há algumas tags principais que compõem uma página padrão. Toda página na web tem uma tag html, head e body. A tag `html` indica elementos em html, dentro dela temos `<head>`, que significa cabeça, e `<body>`, que significa corpo.
+Sabemos que nossos sites são conjuntos de páginas conectadas, ou lincadas, umas às outras. Agora vamos compreender melhor como isso acontece. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas. 
 
-Fazendo uma analogia ao corpo humano, na cabeça temos as coisas que não vemos, coisas que pensamos e que são importantes para nosso funcionamento. Mas as coisas do nosso corpo são as partes de nós que podem ser vistas. Assim é no HTML, as coisas que ficam na `head` são importantes, mas não são exibidas no navegador quando a página é carregada.  A parte que queremos exibir e o nosso conteúdo que deve ficar na `body`.
-
-Um exemplo de elemento importante mas não precisa ser visto diretamente na página é o `title`. Veremos outros no decorrer deste módulo.
+Qualquer elemento que aparece entre a abertura e o fechamento de tags é a parte que será um link clicável na página. Exemplo:
 
 ```markup
-<html>
-    <head>
-        <title>Título</title>
-    </head>
-    <body>
-        <p>Olá mundo!</p>
-    </body>
-</html>
+<p>Esse é um exemplo de palavra <a href="http://www.vainaweb.com.br"> clicável </a>.</p>
 ```
 
-Há vários elementos diferentes, continue conhecendo mais alguns!
-
-### Elementos aninhados
-
-Nossa estrutura HTML contém vários elementos diferentes e alguns elementos até estão dentro de outros elementos, como se guardássemos uma caixa dentro de outra caixa e dentro dela colocássemos outra caixa, e outra caixa... Confuso, não é?
-
-Imaginar a cena das caixas já pode ter sido confuso para muita gente, assim como para o navegador diante de elementos dispostos dessa forma. Para que isso não aconteça, nós aninhamos nossos elementos, ou seja, usamos esses espaçamentos nas linhas para indicar que um elemento está dentro de outro. Exemplo:
+Qualquer coisa mesmo, não somente textos. Nós podemos deixar imagens clicáveis também!
 
 ```markup
-<section>
-    <p>Olá, eu sou um parágrafo.</p> 
-</section>
+<a href="http://www.vainaweb.com.br">
+    <img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo">
+</a>
 ```
 
 ### Listando coisas
 
-#### Listas Ordenadas
-
-Assim como o nome parece sugerir, são listas em que a ordem dos itens importa, e eles podem ser enumerados.
+Listas ordenadas, assim como o nome parece sugerir, são listas em que a ordem dos itens importa, e eles podem ser enumerados.
 
 ```markup
 <ol>
@@ -59,9 +42,7 @@ Assim como o nome parece sugerir, são listas em que a ordem dos itens importa, 
 4. Tesoura
 5. Papel
 
-#### Listas não ordenadas
-
-Nesta, os itens não são enumerados e podem estar acompanhados apenas de um símbolo.
+Listas não ordenadas não enumeram os itens e podem estar acompanhados apenas de um símbolo.
 
 ```markup
 <ul>
