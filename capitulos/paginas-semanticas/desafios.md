@@ -24,7 +24,7 @@
 
 ### Desafio 03: Guia turístico
 
-Já conhecemos a estrutura do HTML muito bem e o escrevemos de forma bem semântica. Agora vamos exercitar o que aprendemos. Criaremos um guia turístico. Escolha uma cidade de sua preferência e vamos começar a codificar!
+Criaremos um guia turístico. Escolha uma cidade de sua preferência e vamos começar a codificar!
 
 1. Crie uma página com a estrutura básica completa
 2. Adicione um header

@@ -1,6 +1,6 @@
 # Páginas semânticas
 
-## Introdução
+### Introdução
 
 Há elementos no HTML que conhecemos como elementos de caixa, ou containers, que podem ser usados para agrupar elementos. Houve uma época em que construíamos essas caixas simplesmente com uma tag chamada `<div>`, e ainda usamos ela eventualmente para caixas que não carregam um sentido.
 
