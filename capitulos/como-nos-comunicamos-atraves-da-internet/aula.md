@@ -8,7 +8,7 @@ Quando dois ou mais computadores estão conectados à internet, eles podem conve
 
 O conteúdo de um site é organizado dentro de um conjunto especial de regras que os computadores entendem. Funciona como falar em uma linguagem secreta, codificada.
 
-![](../../.gitbook/assets/1.png)
+![](../../.gitbook/assets/1%20%281%29.png)
 
 ### Entendendo como a navegação funciona
 
@@ -30,7 +30,7 @@ Você pode imaginar um site como um grande livro, em que páginas e mais página
 
 Assim como o conteúdo de um livro, nossos sites contém textos, mas eles são organizados através de elementos em HTML, que vamos aprender e que os nossos navegadores já conhecem muito bem.
 
-![](../../.gitbook/assets/3.png)
+![](../../.gitbook/assets/3%20%281%29.png)
 
 ### HTML estrutura páginas
 

@@ -4,6 +4,8 @@
 
 Vamos colocar nossa primeira página online, e para isso vamos usar Git, o Github e seu serviço Github Pages como nossa ferramenta. Mas antes, precisamos compreender o que são cada uma dessas ferramentas e como elas funcionam.
 
+![](../../.gitbook/assets/1.png)
+
 ### Primeiros comandos
 
 O Git é um sistema de controle de versão e gerenciamento de código fonte desenvolvido por Linus Torvalds, criado inicialmente para o desenvolvimento do Kernel Linux.
@@ -18,11 +20,11 @@ git init
 
 ### Entendendo o fluxo de trabalho
 
-![Ilustra&#xE7;&#xE3;o sobre o fluxo de trabalho do Git](../../.gitbook/assets/stash.png)
-
 * Quando você modifica seus arquivos, você está fazendo isso em seu **diretório de trabalho**.
 * Depois você pode selecionar quais arquivos deseja lançar nesta nova versão, adicionando eles em sua **área de preparação**, ou index/stage
 * Por último, a partir das mudanças armazenadas na área de preparação você pode salvar permanentemente esse momento na história do projeto criando um **commit**
+
+![](../../.gitbook/assets/2%20%281%29.png)
 
 ### Criando commits
 
@@ -75,6 +77,8 @@ git reset HEAD nomedoarquivo
 Agora é só usar o git checkout novamente, e prontinho, alterações desfeitas!
 
 ### Aprendendo novos comandos
+
+![](../../.gitbook/assets/3.png)
 
 Existem vários outros comandos que podemos aprender, você pode ver uma lista com a descrição de mais alguns usando o comando help:
 
