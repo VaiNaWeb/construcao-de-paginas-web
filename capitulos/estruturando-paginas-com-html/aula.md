@@ -6,6 +6,8 @@ Agora que já sabemos como criar marcações e entendemos como elas funcionam, v
 
 ### Conectando páginas
 
+![](../../.gitbook/assets/captura-de-tela-de-2019-05-23-11-57-28.png)
+
 Sabemos que nossos sites são conjuntos de páginas conectadas, ou lincadas, umas às outras. Agora vamos compreender melhor como isso acontece. A criação do hiperlink foi uma das responsáveis por tornar a web tão maravilhosa como ela é. Foi assim que conseguimos começar a facilmente conectar páginas. 
 
 Qualquer elemento que aparece entre a abertura e o fechamento de tags é a parte que será um link clicável na página. Exemplo:
@@ -23,6 +25,8 @@ Qualquer coisa mesmo, não somente textos. Nós podemos deixar imagens clicávei
 ```
 
 ### Listando coisas
+
+![](../../.gitbook/assets/captura-de-tela-de-2019-05-23-12-01-09.png)
 
 Listas ordenadas, assim como o nome parece sugerir, são listas em que a ordem dos itens importa, e eles podem ser enumerados.
 
