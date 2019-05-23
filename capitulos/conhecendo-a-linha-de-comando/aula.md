@@ -2,7 +2,9 @@
 
 ### Introdução
 
-Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos filmes e séries. Algo que o cinema não mostra, é que elas são bem simples, e podem ser usadas para diversas coisas, desde criar um novo arquivo na área de trabalho, e até mesmo colocar um site ou aplicação online.
+Vamos conhecer finalmente a famosa telinha preta que vemos os hackers usando nos filmes e séries. Algo que o cinema não mostra, é que elas são bem simples, e podem ser usadas para diversas coisas, como criar um novo arquivo, e até mesmo colocar um site ou aplicação online.
+
+![](../../.gitbook/assets/aaaaaa.png)
 
 Essa famosa tela preta, que é chamada de **linha de comando**, cmd, prompt, console, terminal... ufa! ou interface de linha de comando, é um aplicativo baseado em texto para visualização, manipulação e manuseio de arquivos em seu computador.
 
