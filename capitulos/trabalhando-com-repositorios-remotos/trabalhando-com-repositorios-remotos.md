@@ -8,9 +8,9 @@ O GitHub é uma rede social através da qual milhares de pessoas constroem códi
 
 Queremos que nossos arquivos sejam armazenados não somente em nosso computador, mas também no Github. Vamos usar alguns comandos do Git para nos ajudar nessa missão.
 
-### Subindo um repositório para o Github
+![](../../.gitbook/assets/captura-de-tela-de-2019-05-23-10-19-22.png)
 
-![Figura sobre fluxo de trabalho com reposit&#xF3;rios remotos](../../.gitbook/assets/remoto.png)
+### Subindo um repositório para o Github
 
 Nossa pasta já existe no computador, mas dentro do Github ainda não, certo? Então, vamos abrir o site do github, criar uma conta, e lá criar um repositório vazio para nosso projeto.
 
@@ -25,6 +25,8 @@ Agora que a nossa pasta já sabe para onde ela deve ir, vamos pedir que ela vá!
 ```text
 git push origin master
 ```
+
+![](../../.gitbook/assets/captura-de-tela-de-2019-05-23-10-19-14.png)
 
 No primeiro push precisamos especificar o apelido do remote, e a branch que enviaremos. O Remote é o endereço do repositório, por padrão chamamos ele de origin, mas você pode adicionar novos remotes com outros apelidos depois. A primeira branch por padrão chamamos de master, vamos aprender o que são elas em outras aulas.
 
@@ -46,6 +48,8 @@ git clone https://github.com/seuusername/suapasta.git
 
 Se a pasta já existe no computador, e também no Github, mas a pasta do computador está desatualizada, podemos baixar para a nossa máquina os novos commits que estão lá, atualizando a nossa pasta com o seguinte comando:
 
+![](../../.gitbook/assets/captura-de-tela-de-2019-05-23-10-19-19.png)
+
 ```text
 git pull
 ```
@@ -63,6 +67,8 @@ Aguarde alguns minutos, e tchanrammm! Sua página já está online e pode ser ac
 ### Trabalhando com ramificações
 
 Uma boa forma de organizar seu fluxo de trabalho é separando seu projeto em branchs ou ramificações. O Branch master é o branch criado por padrão, quando você cria um repositório. Você pode criar novas ramificações a partir dela!
+
+![](../../.gitbook/assets/captura-de-tela-de-2019-05-23-10-19-27.png)
 
 Para criar um novo branch use o seguinte comando:
 
@@ -87,6 +93,8 @@ Você pode subir essa branch para o seu repositório remoto usando:
 ```text
 git push origin nome_da_branch
 ```
+
+![](../../.gitbook/assets/captura-de-tela-de-2019-05-23-10-19-24.png)
 
 ### Referências
 
