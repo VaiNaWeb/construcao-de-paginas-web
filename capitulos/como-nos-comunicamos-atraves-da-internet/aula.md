@@ -8,6 +8,8 @@ Quando dois ou mais computadores estão conectados à internet, eles podem conve
 
 O conteúdo de um site é organizado dentro de um conjunto especial de regras que os computadores entendem. Funciona como falar em uma linguagem secreta, codificada.
 
+![](../../.gitbook/assets/1.png)
+
 ### Entendendo como a navegação funciona
 
 Quando queremos visitar um site, pedimos ao navegador para acessar nossa página, o servidor nos envia uma cópia dos arquivos dessa página para que ela possa ser interpretada através do navegador.
@@ -28,6 +30,8 @@ Você pode imaginar um site como um grande livro, em que páginas e mais página
 
 Assim como o conteúdo de um livro, nossos sites contém textos, mas eles são organizados através de elementos em HTML, que vamos aprender e que os nossos navegadores já conhecem muito bem.
 
+![](../../.gitbook/assets/3.png)
+
 ### HTML estrutura páginas
 
 HTML é a linguagem base de uma página da web. É ela quem determina a estrutura das nossas páginas, que podem conter textos, imagens, vídeos e dar vida a tantos sites fantásticos que conhecemos hoje. Um documento em HTML é composto por uma estrutura formada por marcações para identificar os diversos tipos de conteúdos e organizá-los de forma semântica.
@@ -39,6 +43,8 @@ Algum tempo depois, em 1996, nasceu o CSS, a Folha de Estilos em Cascata, que ve
 ### Javascript cria interações
 
 Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi criada a linguagem Javascript, que tem variadas funções, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor, por exemplo, e atividades bem mais complexas que vamos conhecer em breve.
+
+![](../../.gitbook/assets/4.png)
 
 ### Referências
 

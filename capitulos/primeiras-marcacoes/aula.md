@@ -26,6 +26,8 @@ As tags devem dizer exatamente o que é o conteúdo entre sua tag de abertura e 
 
 Há algumas tags principais que compõem uma página padrão. Toda página na web tem uma tag html, head e body. A tag `html` indica elementos em html, dentro dela temos `<head>`, que significa cabeça, e `<body>`, que significa corpo.
 
+![](../../.gitbook/assets/6.png)
+
 Fazendo uma analogia ao corpo humano, na cabeça temos as coisas que não vemos, coisas que pensamos e que são importantes para nosso funcionamento. Mas as coisas do nosso corpo são as partes de nós que podem ser vistas. Assim é no HTML, as coisas que ficam na `head` são importantes, mas não são exibidas no navegador quando a página é carregada.  A parte que queremos exibir e o nosso conteúdo que deve ficar na `body`.
 
 Um exemplo de elemento importante mas não precisa ser visto diretamente na página é o `title`. Veremos outros no decorrer deste módulo.
