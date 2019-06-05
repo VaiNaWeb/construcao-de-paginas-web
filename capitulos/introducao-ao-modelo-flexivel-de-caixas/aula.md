@@ -129,3 +129,10 @@ Quando necessário, se precisarmos alterar o alinhamento de um item, podemos usa
 }
 ```
 
+### Referências
+
+[A field guide to flexbox guide](https://jonibologna.com/assets/flexboxfieldguide.pdf)  
+[CSS-Tricks Complete Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)  
+[Flexbox Froggy](http://flexboxfroggy.com/)  
+[Gif guide](https://www.freecodecamp.org/news/an-animated-guide-to-flexbox-d280cf6afc35/)
+
