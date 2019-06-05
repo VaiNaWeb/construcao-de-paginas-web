@@ -2,7 +2,7 @@
 
 Nosso universo é feito de matéria, energia e informação. Ao olhar para o espaço e para a infinidade de estrelas em suas diversas grandezas, temos uma sensação de paz e de que tudo está em uma ordem infinita. Os dias amanhecem, as noites chegam, as estrelas nascem, brilham e se apagam, asteroides viajam por aí e planetas orbitam. Mas por que, dentro da grandeza do universo que somos capazes de observar, mesmo com os telescópios e lentes mais potentes, ainda não fomos capazes de encontrar vida inteligente em outros lugares? Por que, de certa maneira, somos capazes de explicar em um parágrafo o que observamos do universo fora de nosso planeta?
 
-![](../../.gitbook/assets/2.png)
+![](../../.gitbook/assets/2%20%281%29.png)
 
 Olhe ao seu redor. Veja quanta diversidade. Pense nas histórias de vida de cada um que está aqui e dos que não estão. Pense na trajetória que cada elemento dessa sala teve para chegar até aqui. Quantas revoluções, ideias, alegrias, dores... Quanta história em apenas uma sala. Você conseguiria contar em apenas um parágrafo todo o passado e presente do que está aqui?
 

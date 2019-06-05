@@ -24,7 +24,7 @@ git init
 * Depois você pode selecionar quais arquivos deseja lançar nesta nova versão, adicionando eles em sua **área de preparação**, ou index/stage
 * Por último, a partir das mudanças armazenadas na área de preparação você pode salvar permanentemente esse momento na história do projeto criando um **commit**
 
-![](../../.gitbook/assets/2%20%281%29.png)
+![](../../.gitbook/assets/2%20%282%29.png)
 
 ### Criando commits
 

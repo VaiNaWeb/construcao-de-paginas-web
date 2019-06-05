@@ -4,7 +4,7 @@ E se houvesse um lugar onde poderíamos ter acesso à maior parte da informaçã
 
 E se fosse possível aprender e pensar junto aos maiores poetas, artistas e cientistas que existem e já existiram? Se esse lugar não quisesse saber quem eu sou e me aceitasse automaticamente, sem perguntar?
 
-![](.gitbook/assets/2.png)
+![](.gitbook/assets/2%20%281%29.png)
 
 Essas foram as suposições que começaram na mente de um grande cientista chamado Tim Berners-Lee, em 1989. Ele pensou em uma rede em que poderíamos conectar informações e torná-las disponíveis a qualquer tempo, em qualquer parte, a qualquer pessoa. Uma rede aberta, que funciona como um repositório de todos os conhecimentos da humanidade.
 

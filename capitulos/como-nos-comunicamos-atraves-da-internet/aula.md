@@ -44,7 +44,7 @@ Algum tempo depois, em 1996, nasceu o CSS, a Folha de Estilos em Cascata, que ve
 
 Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi criada a linguagem Javascript, que tem variadas funções, como validar valores de um formulário para garantir que são aceitáveis antes de serem enviados ao servidor, por exemplo, e atividades bem mais complexas que vamos conhecer em breve.
 
-![](../../.gitbook/assets/4.png)
+![](../../.gitbook/assets/4%20%281%29.png)
 
 ### Referências
 
