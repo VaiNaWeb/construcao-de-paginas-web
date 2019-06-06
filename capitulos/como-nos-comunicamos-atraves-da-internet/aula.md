@@ -54,4 +54,5 @@ Tudo continuou evoluindo maravilhosamente rápido e, algum tempo depois, foi cri
 * [O que é a Internet?](https://www.youtube.com/watch?v=Dxcc6ycZ73M)
 * [Fundamentos da Internet](http://internetfundamentals.com/)
 * [A gigante rede de computadores](https://marksheet.io/internet.html)
+* [Javascript e o navegador](https://github.com/braziljs/eloquente-javascript/blob/master/chapters/12-javascript-e-o-navegador.md)
 
