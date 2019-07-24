@@ -2,8 +2,6 @@
 
 Pela definição da W3C, acessibilidade significa que sites, ferramentas e tecnologias são projetadas e desenvolvidas para que todas as pessoas possam usá-las. Se espera todos possam: perceber, entender, navegar e interagir com a Web e contribuir para a Web.
 
-Na construção de uma aplicação ou um site, é importante pensar que todas as pessoas que farão uso, possam ter acesso aos mesmos conteúdos, a mesma facilidade de uso, incluindo as pessoas com capacidades diferentes e inseridas em diversos contextos, como idosos, pessoas que possuem menor capacidade de velocidade na internet ou até mesmo tornar uma experiência boa para aqueles que nunca tiveram contato com a internet.
-
 ### Porque se preocupar com acessibilidade
 
 Antes de tudo, você deveria se preocupar com isso como um exercício de humanidade. As pessoas com deficiência lidam com muitos desafios diariamente. Se eles estão entre seus clientes ou usuários, permitir que eles interajam com seu aplicativo da web é o mínimo que você precisa fazer.

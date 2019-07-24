@@ -4,7 +4,7 @@
 
 Já aprendemos sobre tamanho, preenchimento, espaçamento e mais algumas propriedades que influem em nossas caixas, agora vamos aprender como posiciona-las.
 
-Em CSS temos a propriedade position, que pode receber alguns valores diferentes, cada um com seu comportamento. O valor padrão dessa propriedade, e que podemos mudar, é o static. Podemos usar os valores static, absolute, relative e fixed.
+A propriedade position pode receber alguns valores diferentes, cada um com seu comportamento. O valor padrão dessa propriedade, e que podemos mudar, é o static. Podemos usar os valores static, absolute, relative e fixed.
 
 ### Static
 
