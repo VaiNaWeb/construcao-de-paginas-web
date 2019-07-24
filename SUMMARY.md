@@ -52,7 +52,7 @@
     * [Criando páginas para múltiplos dispositivos](capitulos/criando-paginas-para-multiplos-dispositivos/aula.md)
     * [Desafios](capitulos/criando-paginas-para-multiplos-dispositivos/desafios.md)
   * [Criando páginas acessíveis](capitulos/criando-paginas-acessiveis/README.md)
-    * [Criando páginas acessíveis](capitulos/criando-paginas-acessiveis/aula.md)
+    * [Acessibilidade](capitulos/criando-paginas-acessiveis/aula.md)
     * [Desafios](capitulos/criando-paginas-acessiveis/desafios.md)
 * [Código de Conduta](code_of_conduct.md)
 * [Contribuindo no VaiNaWeb](contributing.md)

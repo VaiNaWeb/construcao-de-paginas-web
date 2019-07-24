@@ -1,14 +1,22 @@
-# Criando páginas acessíveis
+# Acessibilidade
 
-Geralmente quando criamos um site não pensamos em detalhes pequenos que são mega importante. Ter uma página web acessível significa fornecer oportunidades iguais para pessoas com necessidades especiais, além de incluí-las na sociedade.
+Pela definição da W3C, acessibilidade significa que sites, ferramentas e tecnologias são projetadas e desenvolvidas para que todas as pessoas possam usá-las. Se espera todos possam: perceber, entender, navegar e interagir com a Web e contribuir para a Web.
 
-A acessibilidade pode ser definida como como uma forma de dar autonomia para todos aqueles que possuem algum tipo de mobilidade reduzida ou deficiência. Garantindo que essas pessoas possam realizar atividades sem precisar pedir ajuda.
+Na construção de uma aplicação ou um site, é importante pensar que todas as pessoas que farão uso, possam ter acesso aos mesmos conteúdos, a mesma facilidade de uso e por fim, a mesma satisfação. 
 
-Na construção de uma aplicação ou um site, é importante pensar que todas as pessoas que farão uso, possam ter acesso aos mesmos conteúdos, a mesma facilidade de uso e por fim, a mesma satisfação. A acessibilidade não deve ser encarada como um bônus ou deixada para ser pensada depois que o site já estiver pronto, ela precisa estar em primeiro plano para fornecer oportunidades iguais para pessoas com capacidades diferentes e inseridas em diversos contextos, isso inclui também idosos, pessoas que possuem menor capacidade de velocidade na internet ou até mesmo tornar uma experiência boa para aqueles que nunca tiveram contato com a internet.
+A acessibilidade não deve ser encarada como um bônus ou deixada para ser pensada depois que o site já estiver pronto, ela precisa estar em primeiro plano para fornecer oportunidades iguais para pessoas com capacidades diferentes e inseridas em diversos contextos, isso inclui também idosos, pessoas que possuem menor capacidade de velocidade na internet ou até mesmo tornar uma experiência boa para aqueles que nunca tiveram contato com a internet.
 
-Mas existem tantas pessoas assim que precisam ser levadas em conta? Bom, segundo o [Censo de 2010 do IBGE](http://www.pessoacomdeficiencia.gov.br/app/sites/default/files/publicacoes/cartilha-censo-2010-pessoas-com-deficienciareduzido.pdf): 23,9% da população total, têm pelo menos algum tipo de deficiência – visual, auditiva, motora e intelectual.
+### Porque se preocupar com acessibilidade
 
-Atualmente a acessibilidade web é obrigatória por lei ou regulamentos. A W3C criou o WAI \(Web Accessibility Initiative\) em 1997, e tem como grande objetivo padronizar os componentes para que seja lidos pelos softwares e promover a acessibilidade na Web.
+Antes de tudo, você deveria se preocupar com isso como um exercício de humanidade. As pessoas com deficiência lidam com muitos desafios diariamente. Se eles estão entre seus clientes ou usuários, permitir que eles interajam com seu aplicativo da web é o mínimo que você precisa fazer.
+
+Há dados de que **1 bilhão de pessoas em todo o mundo** e **20% de todos os usuários de internet** tenham alguma forma de deficiência.
+
+No Brasil, segundo o [Censo de 2010 do IBGE](https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/20551-pessoas-com-deficiencia.html), quase 46 milhões de brasileiros, cerca de **24% da população**, declarou ter pelo menos um tipo de deficiência – visual, auditiva, motora e intelectual.
+
+A legislação atual em todo o mundo está se movendo em uma direção onde a acessibilidade está se tornando uma característica obrigatória da web.
+
+### Recomendações
 
 Na [cartilha de acessibilidade na Web](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html) da W3C, se diz: _"Para a maioria das pessoas, a tecnologia torna a vida mais fácil. Para uma pessoa com necessidades especiais, a tecnologia torna as coisas possíveis."_ A ideia a ser passada é que essas pessoas já são limitadas no ambiente físico por não possuírem acesso a recursos que em sua maioria estão indisponíveis, então há aqui uma chance de mudar essa realidade para muitos, apenas com a atenção de buscar que tipos de usuários existem e fazer algumas mudanças para que possam não só desfrutar da internet em condições melhores, mas como também contribuir com ela, com suas experiências e seus conhecimentos.
 
