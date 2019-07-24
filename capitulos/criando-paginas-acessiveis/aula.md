@@ -16,13 +16,6 @@ A legislação atual em todo o mundo está se movendo em uma direção onde a ac
 
 Na [cartilha de acessibilidade na Web](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html) da W3C, se diz: _"_Para a maioria das pessoas, a tecnologia torna a vida mais fácil. Para uma pessoa com necessidades especiais, a tecnologia torna as coisas possíveis." A ideia a ser passada é que essas pessoas já são limitadas no ambiente físico por não possuírem acesso a recursos que em sua maioria estão indisponíveis, então há aqui uma chance de mudar essa realidade para muitos, apenas com a atenção de buscar que tipos de usuários existem e fazer algumas mudanças para que possam não só desfrutar da internet em condições melhores, mas como também contribuir com ela, com suas experiências e seus conhecimentos.
 
-O W3C também criou o documento WCAG 2.0 com recomendações para a web, ele está estruturado em quatro princípios:
-
-1. **Perceptível** - a informação e os componentes da interface do usuário têm de ser apresentados aos usuários em formas que eles possam perceber.
-2. **Operável** - os componentes de interface de usuário e a navegação têm de ser operáveis. 
-3. **Compreensível** - a informação e a operação da interface de usuário têm de ser compreensíveis. 
-4. **Robusto** - o conteúdo tem de ser robusto o suficiente para poder ser interpretado de forma concisa por diversos agentes do usuário, incluindo recursos de tecnologia assistiva.
-
 #### Respeite os Elementos do HTML
 
 Um site com uma boa estruturação, ou seja, com uma boa semântica é lido perfeitamente pelos os softwares de acessibilidade. Você pode adicionar atributos aos elementos para ajudar o usuário a saber o que está acontecendo ali. Exemplos**:**
