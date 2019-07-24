@@ -140,16 +140,13 @@ Também, não use uma imagem com texto como botão, faça um botão manual com o
 
 Não é uma boa ideia colocar um temporizador na página para que ela atualize após um tempo, pois pode causar confusão para uma pessoa com deficiência visual, já que utilizam leitores de tela.
 
-* Adicione uma Ferramente de Libras ao seu Site.
-
-  A seguinte [**ferramenta**](http://www.prodeaf.net) é capaz de traduzir os textos e áudio \(apenas em portugês\) do seu site para Libras.
-
-* Valide a sua Página Web.
-
-  Você pode validar a sua página web com uma [**Extensão**](https://goo.gl/Y2bEwC) ou com programas automatizados como o [_CynthiaSays_](http://www.cynthiasays.com/) ou o [_Wave_](http://wave.webaim.org/).
+* Adicione uma Ferramente de Libras ao seu Site. A seguinte [**ferramenta**](http://www.prodeaf.net) é capaz de traduzir os textos e áudio \(apenas em português\) do seu site para Libras.
+* Valide a sua Página Web. Você pode validar a sua página web com uma [**Extensão**](https://goo.gl/Y2bEwC) ou com programas automatizados como o [_CynthiaSays_](http://www.cynthiasays.com/) ou o [_Wave_](http://wave.webaim.org/).
 
 ### Referências
 
 \*\*\*\*[Documentação da WCAG](https://www.w3.org/Translations/WCAG20-pt-br/)  
-[Cartilha de acessibilidade na Web](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html) 
+[Cartilha de acessibilidade na Web](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html)   
+[A11y project](https://a11yproject.com/)  
+[Curso de acessibilidade da Google](https://eu.udacity.com/course/web-accessibility--ud891)
 
