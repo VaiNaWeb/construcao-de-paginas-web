@@ -18,15 +18,18 @@ A legislação atual em todo o mundo está se movendo em uma direção onde a ac
 
 ### Recomendações
 
-Na [cartilha de acessibilidade na Web](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html) da W3C, se diz: _"Para a maioria das pessoas, a tecnologia torna a vida mais fácil. Para uma pessoa com necessidades especiais, a tecnologia torna as coisas possíveis."_ A ideia a ser passada é que essas pessoas já são limitadas no ambiente físico por não possuírem acesso a recursos que em sua maioria estão indisponíveis, então há aqui uma chance de mudar essa realidade para muitos, apenas com a atenção de buscar que tipos de usuários existem e fazer algumas mudanças para que possam não só desfrutar da internet em condições melhores, mas como também contribuir com ela, com suas experiências e seus conhecimentos.
+Na [cartilha de acessibilidade na Web](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html) da W3C, se diz: _"_Para a maioria das pessoas, a tecnologia torna a vida mais fácil. Para uma pessoa com necessidades especiais, a tecnologia torna as coisas possíveis." A ideia a ser passada é que essas pessoas já são limitadas no ambiente físico por não possuírem acesso a recursos que em sua maioria estão indisponíveis, então há aqui uma chance de mudar essa realidade para muitos, apenas com a atenção de buscar que tipos de usuários existem e fazer algumas mudanças para que possam não só desfrutar da internet em condições melhores, mas como também contribuir com ela, com suas experiências e seus conhecimentos.
 
-Para tornar a sua página web acessível basta seguir as seguintes regras:
+O W3C também criou o documento WCAG 2.0 com recomendações para a web, ele está estruturado em quatro princípios:
 
-### Respeite os Elementos do HTML
+1. **Perceptível** - a informação e os componentes da interface do usuário têm de ser apresentados aos usuários em formas que eles possam perceber.
+2. **Operável** - os componentes de interface de usuário e a navegação têm de ser operáveis. 
+3. **Compreensível** - a informação e a operação da interface de usuário têm de ser compreensíveis. 
+4. **Robusto** - o conteúdo tem de ser robusto o suficiente para poder ser interpretado de forma concisa por diversos agentes do usuário, incluindo recursos de tecnologia assistiva.
 
-Um site com uma boa estruturação, ou seja, com uma boa semântica é lido perfeitamente pelos os softwares de acessibilidade. Você pode adicionar atributos aos elementos para ajudar o usuário a saber o que está acontecendo ali.
+#### Respeite os Elementos do HTML
 
-**Exemplos:**
+Um site com uma boa estruturação, ou seja, com uma boa semântica é lido perfeitamente pelos os softwares de acessibilidade. Você pode adicionar atributos aos elementos para ajudar o usuário a saber o que está acontecendo ali. Exemplos**:**
 
 * Para navegar pela página com o botão Tab:
 
@@ -45,7 +48,7 @@ Um site com uma boa estruturação, ou seja, com uma boa semântica é lido perf
 
   Lembrando que para um elemento ser considerado focalizável deve satisfazer todas as seguintes condições: 1. Possuir a propriedade tabindex definida. 2. Estar renderizado na página. 3. Não ser um elemento inerte. 4. Não estar desabilitado \(propriedade disabled\).
 
-### Tabelas acessíveis:
+#### Tabelas acessíveis:
 
 ```markup
   <table>
@@ -71,7 +74,7 @@ Um site com uma boa estruturação, ou seja, com uma boa semântica é lido perf
 
 O **Caption** tem como objetivo dizer sobre o que a tabela se trata. Quando você atribui ao scope um **row** ou **col**, você indica o que é Coluna e o que é Linha.
 
-### Imagens acessíveis:
+#### Imagens acessíveis:
 
 ```markup
   <img src="coelho.png" alt="Imagem de Coelho, sentado comendo uma Cenoura">
@@ -79,7 +82,7 @@ O **Caption** tem como objetivo dizer sobre o que a tabela se trata. Quando voc�
 
 A função do alt é transcrever a imagem para o usuário.
 
-### Indicando os campos em um Formulário:
+#### Indicando os campos em um Formulário:
 
 ```markup
   <div>
@@ -90,7 +93,7 @@ A função do alt é transcrever a imagem para o usuário.
 
 O label é associado ao input, então fica fácil de indicar o que é solicitado no campo.
 
-### Deixe os Links descritivos para o destino remetido:
+#### Deixe os Links descritivos para o destino remetido:
 
 ```markup
 <a href="paginainicial.html" title="Ir para Página inicial">Página Inicial</a>
@@ -100,7 +103,7 @@ O atributo title é ótimo para dar uma descrição ao seu link. Essa descriçã
 
 Perceba que tudo que foi apresentado acima, são apenas boas práticas e um HTML bem estruturado. Para saber se seu HTML está acessível basta usar um [Validador de HTML](https://achecker.ca/checker/index.php).
 
-### Manipulando o CSS de forma correta.
+#### Manipulando o CSS de forma correta.
 
 É possível mudar o tamanho das fontes e das cores de um site utilizando o CSS. Um dos cuidados especiais que temos que ter com o css é o **Espaçamento entre as letras** e os constrates de cores.
 
@@ -108,7 +111,7 @@ Devemos tomar alguns cuidados ao criar o design de um site, temos que pensar mui
 
 Você pode testar se as cores do seu site estão com os contrates condizentes com as regras do W3C. A [**ferramenta**](http://www.checkmycolours.com/) para realizar essa verificação é apenas para sites que já estejam publicados.
 
-### Imagens decorativas.
+#### Imagens decorativas.
 
 A ideia é que as imagens decorativas sejam ignoradas pelo leitor de tela, então essas imagens devem ser inseridas pelo CSS e **não deverão ter o alt** para que possam ser ignoradas pelo leitor.
 
@@ -129,13 +132,13 @@ CSS
   }
 ```
 
-### Imagens com textos.
+#### Imagens com textos.
 
 Quando há uma imagem com textos que informam e passam alguma mensagem importante, não é bom limitar apenas para aqueles que não utilizam leitores de tela.
 
 Também, não use uma imagem com texto como botão, faça um botão manual com o HTML e CSS, para que seja lido pelo leitor de tela e o usuário entenda o que o botão faz e se deseja clicar nele, caso não seja possível, não esqueça de descrever com atributo **alt** o que o link significa. Seja claro com a frase de um botão, tomando cuidado para não deixar vago demais.
 
-### Não force a atualização da página.
+#### Não force a atualização da página.
 
 Não é uma boa ideia colocar um temporizador na página para que ela atualize após um tempo, pois pode causar confusão para uma pessoa com deficiência visual, já que utilizam leitores de tela.
 
@@ -147,12 +150,8 @@ Não é uma boa ideia colocar um temporizador na página para que ela atualize a
 
   Você pode validar a sua página web com uma [**Extensão**](https://goo.gl/Y2bEwC) ou com programas automatizados como o [_CynthiaSays_](http://www.cynthiasays.com/) ou o [_Wave_](http://wave.webaim.org/).
 
-O W3C também criou o documento WCAG 2.0 com recomendações para a web, ele está estruturado em _quatro princípios_:
+### Referências
 
-1. **Perceptível** - a informação e os componentes da interface do usuário têm de ser apresentados aos usuários em formas que eles possam perceber.
-2. **Operável** - os componentes de interface de usuário e a navegação têm de ser operáveis. 
-3. **Compreensível** - a informação e a operação da interface de usuário têm de ser compreensíveis. 
-4. **Robusto** - o conteúdo tem de ser robusto o suficiente para poder ser interpretado de forma concisa por diversos agentes do usuário, incluindo recursos de tecnologia assistiva.
-
-Para saber mais sobre essas convenções da W3C basta acessar a [_Documentação da WCAG_](https://www.w3.org/Translations/WCAG20-pt-br/).
+\*\*\*\*[Documentação da WCAG](https://www.w3.org/Translations/WCAG20-pt-br/)  
+[Cartilha de acessibilidade na Web](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html) 
 
