@@ -12,9 +12,7 @@ No Brasil, segundo o [Censo de 2010 do IBGE](https://educa.ibge.gov.br/jovens/co
 
 Além disso a legislação atual em todo o mundo está se movendo em uma direção onde a acessibilidade está se tornando uma característica obrigatória da web.
 
-### Recomendações
-
-#### Respeite a semântica do HTML
+### Respeite a semântica do HTML
 
 Um site com uma boa estruturação, ou seja, com uma boa semântica é lido perfeitamente pelos os softwares de acessibilidade. Você pode adicionar atributos aos elementos para ajudar o usuário a saber o que está acontecendo ali. Exemplos**:**
 
@@ -32,7 +30,7 @@ Para navegar pela página com o botão Tab:
 * Caso ele receba um número **inteiro** e **ordenado** \(ex: 1,2\) essa será a ordem o qual ele seguirá, e por final a última forma de utilização é atribuindo o valor **zero**, neste caso a ordem a ser selecionada será definida pelo o DOM.
 * Lembrando que para um elemento ser considerado focalizável deve satisfazer todas as seguintes condições: 1. Possuir a propriedade tabindex definida. 2. Estar renderizado na página. 3. Não ser um elemento inerte. 4. Não estar desabilitado \(propriedade disabled\).
 
-#### Tabelas acessíveis:
+### Tabelas acessíveis:
 
 ```markup
   <table>
@@ -58,7 +56,7 @@ Para navegar pela página com o botão Tab:
 
 O **Caption** tem como objetivo dizer sobre o que a tabela se trata. Quando você atribui ao scope um **row** ou **col**, você indica o que é Coluna e o que é Linha.
 
-#### Imagens acessíveis:
+### Imagens acessíveis:
 
 ```markup
   <img src="coelho.png" alt="Imagem de Coelho, sentado comendo uma Cenoura">
@@ -66,7 +64,7 @@ O **Caption** tem como objetivo dizer sobre o que a tabela se trata. Quando voc�
 
 A função do alt é transcrever a imagem para o usuário.
 
-#### Indicando os campos em um Formulário:
+### Indicando os campos em um Formulário:
 
 ```markup
   <div>
@@ -77,7 +75,7 @@ A função do alt é transcrever a imagem para o usuário.
 
 O label é associado ao input, então fica fácil de indicar o que é solicitado no campo.
 
-#### Deixe os Links descritivos para o destino remetido:
+### Deixe os Links descritivos para o destino remetido:
 
 ```markup
 <a href="paginainicial.html" title="Ir para Página inicial">Página Inicial</a>
@@ -87,7 +85,7 @@ O atributo title é ótimo para dar uma descrição ao seu link. Essa descriçã
 
 Perceba que tudo que foi apresentado acima, são apenas boas práticas e um HTML bem estruturado. Para saber se seu HTML está acessível basta usar um [Validador de HTML](https://achecker.ca/checker/index.php).
 
-#### Manipulando o CSS de forma correta.
+### Manipulando o CSS de forma correta.
 
 É possível mudar o tamanho das fontes e das cores de um site utilizando o CSS. Um dos cuidados especiais que temos que ter com o css é o **Espaçamento entre as letras** e os constrates de cores.
 
@@ -95,7 +93,7 @@ Devemos tomar alguns cuidados ao criar o design de um site, temos que pensar mui
 
 Você pode testar se as cores do seu site estão com os contrates condizentes com as regras do W3C. A [**ferramenta**](http://www.checkmycolours.com/) para realizar essa verificação é apenas para sites que já estejam publicados.
 
-#### Imagens decorativas.
+### Imagens decorativas.
 
 A ideia é que as imagens decorativas sejam ignoradas pelo leitor de tela, então essas imagens devem ser inseridas pelo CSS e **não deverão ter o alt** para que possam ser ignoradas pelo leitor.
 
@@ -112,16 +110,15 @@ A ideia é que as imagens decorativas sejam ignoradas pelo leitor de tela, entã
   }
 ```
 
-#### Imagens com textos.
+### Imagens com textos.
 
 Quando há uma imagem com textos que informam e passam alguma mensagem importante, não é bom limitar apenas para aqueles que não utilizam leitores de tela.
 
 Também, não use uma imagem com texto como botão, faça um botão manual com o HTML e CSS, para que seja lido pelo leitor de tela e o usuário entenda o que o botão faz e se deseja clicar nele, caso não seja possível, não esqueça de descrever com atributo **alt** o que o link significa. Seja claro com a frase de um botão, tomando cuidado para não deixar vago demais.
 
-#### Não force a atualização da página.
+### Outras recomendações
 
-Não é uma boa ideia colocar um temporizador na página para que ela atualize após um tempo, pois pode causar confusão para uma pessoa com deficiência visual, já que utilizam leitores de tela.
-
+* Não é uma boa ideia colocar um temporizador na página para que ela atualize após um tempo, pois pode causar confusão para uma pessoa com deficiência visual, já que utilizam leitores de tela.
 * Adicione uma Ferramente de Libras ao seu Site. A seguinte [**ferramenta**](http://www.prodeaf.net) é capaz de traduzir os textos e áudio \(apenas em português\) do seu site para Libras.
 * Valide a sua Página Web. Você pode validar a sua página web com uma [**Extensão**](https://goo.gl/Y2bEwC) ou com programas automatizados como o [_CynthiaSays_](http://www.cynthiasays.com/) ou o [_Wave_](http://wave.webaim.org/).
 
