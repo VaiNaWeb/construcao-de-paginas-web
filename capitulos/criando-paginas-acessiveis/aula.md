@@ -4,38 +4,33 @@ Pela definição da W3C, acessibilidade significa que sites, ferramentas e tecno
 
 ### Porque se preocupar com acessibilidade
 
-Antes de tudo, você deveria se preocupar com isso como um exercício de humanidade. As pessoas com deficiência lidam com muitos desafios diariamente. Se eles estão entre seus clientes ou usuários, permitir que eles interajam com seu aplicativo da web é o mínimo que você precisa fazer.
+Antes de tudo, você deveria se preocupar com isso como um exercício de humanidade. As pessoas com deficiência lidam com muitos desafios diariamente. Se elas estão entre seus clientes ou usuários, permitir que eles interajam com seu aplicativo da web é o mínimo que você precisa fazer.
 
 Há dados de que **1 bilhão de pessoas em todo o mundo** e **20% de todos os usuários de internet** tenham alguma forma de deficiência.
 
 No Brasil, segundo o [Censo de 2010 do IBGE](https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/20551-pessoas-com-deficiencia.html), quase 46 milhões de brasileiros, cerca de **24% da população**, declarou ter pelo menos um tipo de deficiência – visual, auditiva, motora e intelectual.
 
-A legislação atual em todo o mundo está se movendo em uma direção onde a acessibilidade está se tornando uma característica obrigatória da web.
+Além disso a legislação atual em todo o mundo está se movendo em uma direção onde a acessibilidade está se tornando uma característica obrigatória da web.
 
 ### Recomendações
 
-Na [cartilha de acessibilidade na Web](http://www.w3c.br/pub/Materiais/PublicacoesW3C/cartilha-w3cbr-acessibilidade-web-fasciculo-I.html) da W3C, se diz: _"_Para a maioria das pessoas, a tecnologia torna a vida mais fácil. Para uma pessoa com necessidades especiais, a tecnologia torna as coisas possíveis." A ideia a ser passada é que essas pessoas já são limitadas no ambiente físico por não possuírem acesso a recursos que em sua maioria estão indisponíveis, então há aqui uma chance de mudar essa realidade para muitos, apenas com a atenção de buscar que tipos de usuários existem e fazer algumas mudanças para que possam não só desfrutar da internet em condições melhores, mas como também contribuir com ela, com suas experiências e seus conhecimentos.
-
-#### Respeite os Elementos do HTML
+#### Respeite a semântica do HTML
 
 Um site com uma boa estruturação, ou seja, com uma boa semântica é lido perfeitamente pelos os softwares de acessibilidade. Você pode adicionar atributos aos elementos para ajudar o usuário a saber o que está acontecendo ali. Exemplos**:**
 
-* Para navegar pela página com o botão Tab:
+Para navegar pela página com o botão Tab:
 
-  ```markup
-    <div tabindex="0">Div 1</div>
-    <div tabindex="1">Div 2</div>
-    <div tabindex="2">Div 3</div>
-    <div tabindex="-1">Div Não-Acessível</div>
-  ```
+```markup
+  <div tabindex="0">Div 1</div>
+  <div tabindex="1">Div 2</div>
+  <div tabindex="2">Div 3</div>
+  <div tabindex="-1">Div Não-Acessível</div>
+```
 
-  A função do tabindex é definir como um elemento deve se comportar durante a navegação através do teclado. Ele pode receber os seguintes valores.
-
-  Caso ele receba um valor **negativo** \(ex: -1\) ele não poderá ser acessado pela a tecla Tab.
-
-  Caso ele receba um número **inteiro** e **ordenado** \(ex: 1,2\) essa será a ordem o qual ele seguirá, e por final a última forma de utilização é atribuindo o valor **zero**, neste caso a ordem a ser selecionada será definida pelo o DOM.
-
-  Lembrando que para um elemento ser considerado focalizável deve satisfazer todas as seguintes condições: 1. Possuir a propriedade tabindex definida. 2. Estar renderizado na página. 3. Não ser um elemento inerte. 4. Não estar desabilitado \(propriedade disabled\).
+* A função do tabindex é definir como um elemento deve se comportar durante a navegação através do teclado. Ele pode receber os seguintes valores.
+* Caso ele receba um valor **negativo** \(ex: -1\) ele não poderá ser acessado pela a tecla Tab.
+* Caso ele receba um número **inteiro** e **ordenado** \(ex: 1,2\) essa será a ordem o qual ele seguirá, e por final a última forma de utilização é atribuindo o valor **zero**, neste caso a ordem a ser selecionada será definida pelo o DOM.
+* Lembrando que para um elemento ser considerado focalizável deve satisfazer todas as seguintes condições: 1. Possuir a propriedade tabindex definida. 2. Estar renderizado na página. 3. Não ser um elemento inerte. 4. Não estar desabilitado \(propriedade disabled\).
 
 #### Tabelas acessíveis:
 
@@ -106,14 +101,10 @@ A ideia é que as imagens decorativas sejam ignoradas pelo leitor de tela, entã
 
 É possível inserir dessa forma:
 
-HTML
-
 ```markup
   <span class="icone-social"></span>
   <a href="#">Meu Facebook!</a>
 ```
-
-CSS
 
 ```css
   .icone-social {
