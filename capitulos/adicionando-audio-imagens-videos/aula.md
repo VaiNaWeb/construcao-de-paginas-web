@@ -14,11 +14,13 @@ Atributos são informações que podemos acrescentar a elementos que ajudam a re
 
 Um elemento `<img>` sempre terá um atributo src e um alt. Note, nesse exemplo usamos uma URL com a imagem que queremos mostrar dentro do src. O atributo alt é serve para mostrar uma descrição da imagem, isso é importante para manter acessibilidade.
 
-Ah! Um elemento `<img>` é um daqueles elementos especiais que não precisam de tag de fechamento. Exemplo:
+Além do src e alt, pode-se adicionar o atributo longdesc. Nesse caso, usuários de leitor de tela terão a possibilidade de acessar uma página com uma descrição mais longa e detalhada sobre o elemento não-textual. Exemplo:
 
 ```markup
-<img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo do vai na web">
+<img src="http://www.vainaweb.com.br/img/vainaweb.svg" alt="logo do vai na web" longdesc="vainawebDesc.html">
 ```
+
+Ah! Note que o elemento `<img>` é um daqueles elementos especiais que não precisam de tag de fechamento.
 
 ### Adicionando áudio
 
