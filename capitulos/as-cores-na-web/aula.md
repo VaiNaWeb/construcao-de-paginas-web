@@ -6,7 +6,7 @@ Aprenderemos como colocar cores na web. Há alguns [sistemas de cores](https://t
 
 ### RGB
 
-Monitores são pretos e iluminados por vários pontinhos de luz. Vamos somando pontinhos vermelhos, verdes, e azuis até chegar na cor. A cor RGB É formada por três pares de números, vermelho, verde e azul, formados por três dígitos. Quanto mais alto o número mais clara é a cor.
+Monitores são pretos e iluminados por vários pontinhos de luz: pixels. Vamos somando pontinhos vermelhos, verdes e azuis até chegar na cor desejada. A cor RGB é formada por um conjunto de três números de três dígitos; cada número refere-se a uma das cores base do sistema (vermelho, verde e azul). Quanto mais alto o número mais clara é a cor.
 
 ```css
 p {
@@ -14,7 +14,7 @@ p {
 }
 ```
 
-Eventualmente podemos precisar alterar a opacidade da cor, deixando ela mais transparente ou mais opaca. Para isso, podemos usar um quarto número, que representa o canal alpha da cor.
+Eventualmente, podemos precisar alterar a opacidade da cor, deixando ela mais transparente (próximo de 0) ou mais opaca (próoximo de 1). Para isso, usa-se um quarto número, que representa o canal alpha da cor.
 
 ```css
 p {
