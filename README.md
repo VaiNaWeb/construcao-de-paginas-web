@@ -17,7 +17,7 @@ Neste módulo você aprenderá a criar páginas semânticas, responsivas, e aces
 * Força de vontade :sparkles:
 * Um computador com acesso à internet, ou não
 * Um navegador web de sua preferência
-* Qualquer editor de textos, ou editor de códigos, sugerimos o SublimeText ou o Scratchpad.io
+* Qualquer editor de textos, ou editor de códigos, sugerimos o SublimeText ou o Scratchpad.io. O editor Atom é uma boa escolha pra quem está iniciando, pois oferece uma interface simples e de fácil entendimento. Esse editor nos permite modificar de maneira fácil nosso ambiente de desenvolvimento instalando somente o que quisermos :)
 
 ### Sobre os materiais de apoio
 
@@ -25,4 +25,3 @@ Neste módulo você aprenderá a criar páginas semânticas, responsivas, e aces
 * Se você é estudante matriculado no programa, solicite o cronograma oficial de aulas
 * Se você deseja contribuir com o nosso material de apoio, sugerimos que você leia o nosso [guia de contribuição](contributing.md)
 * Todas as pessoas envolvidas no programa devem seguir o nosso [código de conduta](code_of_conduct.md)
-
