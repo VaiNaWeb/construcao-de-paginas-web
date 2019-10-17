@@ -48,7 +48,12 @@ p {
 ```
 
 #### Pontos
-
+Pontos são, tradicionalmente, usados em mídia impressa. Um ponto é aproximadamente 352mm. Os pontos são muito parecidos com pixels, pois são unidades de tamanho fixo e não podem ser redimensionados.
+```css
+p {
+  font-size: 12pt;
+}
+```
 
 ### Font Style
 
