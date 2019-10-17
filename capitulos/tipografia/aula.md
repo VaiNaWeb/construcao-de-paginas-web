@@ -204,3 +204,7 @@ body {
 }
 ```
 
+
+### Referências
+
+* [CSS Font-Size: em vs. px vs. pt vs. percent by KYLE](https://kyleschaeffer.com/css-font-size-em-vs-px-vs-pt-vs-percent)
