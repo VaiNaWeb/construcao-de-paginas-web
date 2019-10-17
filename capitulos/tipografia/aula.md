@@ -35,7 +35,7 @@ p {
 EM é uma unidade escalável para ser usada em documentos web. Um EM é equivalente ao tamanho da fonte atual, ou seja, se o tamanho da fonte do documento é 12pt, 1em é igual a 12pt. EMs são escaláveis por natureza, entao 2em seriam equivalentes a 24pt, 5em seriam iguais a 60pt, etc. EM está se tornando bem popular em documentos online devido à escalabilidade e à sua natureza amigável para dispositivos móveis.
 ```css
 p {
-  font-size: 16px;
+  font-size: 1em;
 }
 ```
 
@@ -43,7 +43,7 @@ p {
 A unidade porcentagem é muito parecida com a unidade EM, exceto por algumas diferenças fundamentais. Primeiramente, o tamanho da fonte atual é igual a 100% (ou seja, 12pt é equivalente a 100%). Ao usar a unidade de porcentagem, seu texto permanece totalmente escalável para dispositivos móveis e para acessibilidade. Exemplo:
 ```css
 p {
-  font-size: 16px;
+  font-size: 100%;
 }
 ```
 
