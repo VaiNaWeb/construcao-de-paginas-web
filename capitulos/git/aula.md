@@ -76,6 +76,22 @@ git reset HEAD nomedoarquivo
 
 Agora é só usar o git checkout novamente, e prontinho, alterações desfeitas!
 
+### "Escondendo" modificações
+
+Se você fez modificações e quer colocá-las de lado por um tempo e voltar ao original, usamos o seguinte comando:
+
+```text
+git stash
+```
+
+Para recuperas essas modificações salvas, basta usar:
+
+```text
+git stash pop
+```
+
+Mas lembre: o pop sempre traz a ultima modificação salva!
+
 ### Aprendendo novos comandos
 
 ![](../../.gitbook/assets/3.png)
