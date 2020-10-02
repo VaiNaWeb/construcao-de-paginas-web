@@ -72,6 +72,26 @@ Exemplo:
 <h6>Eu sou o menos importante</h6>
 ```
 
+### Principais Elementos
+
+Para finalizar este capítulo segue alguns dos principais elemento do `HTML`, bem como suas aplicações. 
+
+Exemplo:
+
+```markup
+    - <p> -> Parágrafos.
+    - <h1> a <h6> -> Títulos.
+    - <span> -> Trechos de texto a serem destacados.
+    - <div> -> Divisões da página.
+    - <img> -> Definição de imagens.
+    - <table> <tr> <td> -> Definição de tabelas, linhas e colunas.
+    - <ul> <li> -> Listas e itens de lista.
+    - <strong> e <em> -> Ênfase no texto.
+    - <a> -> Âncoras (links).
+
+```
+
+
 ### Referências
 
 * [Fundamentos do texto em HTML - Mozilla](https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Introducao_ao_HTML/Fundamentos_textuais_HTML)
