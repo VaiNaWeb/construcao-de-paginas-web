@@ -34,6 +34,12 @@ p {
 }
 ```
 
+### Poemos utilizar as duas formas, conforme a imagem abaixo:
+
+![RGB e Hexadecimal](https://informaticanaweb.files.wordpress.com/2006/12/img-01.jpg)
+
+
+
 ### Referências
 
 [http://lokeshdhakar.com/projects/color-thief/](http://lokeshdhakar.com/projects/color-thief/)  
